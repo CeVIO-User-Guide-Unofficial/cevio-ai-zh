@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://nachtgeistw.github.io'
-baseurl:          '/CeVIO-User-Guide-Unofficial'
+url:              'https://cevio-user-guide-unofficial.github.io'
+baseurl:          '/CeVIO-AI'
 rss:              RSS
 
 toc:
