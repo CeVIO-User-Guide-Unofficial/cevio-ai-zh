@@ -6,4 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+GitHub: [NachtgeistW (夜轮_NachtgeistW)](https://github.com/NachtgeistW)
+
+哔哩哔哩：[夜輪風超絶技巧変奏曲](https://space.bilibili.com/2138390911)
+
+Twitter：[夜輪風超絶技巧変奏曲](https://twitter.com/Yorin_NW)

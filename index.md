@@ -2,6 +2,11 @@
 layout: home
 ---
 
+![header](assets/images/header_image_title_2.jpg)
+
+非官方的 CeVIO AI 用户指南中文版翻译。
+
+<!-- 
 Make Jelly site have a GitBook look!
 
 ## Demo
@@ -110,4 +115,4 @@ Copyright 2019 Tao He.
 [5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
 [6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
 [7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
+[8]: https://www.cnzz.com/ -->
