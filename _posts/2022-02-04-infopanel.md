@@ -5,10 +5,6 @@ date: 2022-05-06
 category: operation
 layout: post
 ---
-译自 CeVIO 官网。本文为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
-
-中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](https://github.com/VOICeVIO/CeVIO.CN)。在此感谢。
-
 原文：[CeVIO AI ユーザーズガイド ┃ インフォパネル](https://cevio.jp/guide/cevio_ai/operation/infopanel/)
 
 ---
@@ -17,7 +13,7 @@ layout: post
 
 ### 时间轴光标位置
 
-ポジションカーソルの位置 / Time of Cursor Position
+*ポジションカーソルの位置 / Time of Cursor Position*
 
 显示光标在时间轴上的位置。
 
@@ -31,7 +27,7 @@ layout: post
 
 ### 光标处的曲速
 
-テンポ / Tempo of Cursor Position
+*テンポ / Tempo of Cursor Position*
 
 显示光标当前所在位置的曲速。单击可以修改。
 
@@ -43,7 +39,7 @@ layout: post
 
 ### 拍子
 
-拍子 / Time Signature of Cursor Position
+*拍子 / Time Signature of Cursor Position*
 
 显示光标当前所在位置的拍子。单击可以修改。
 
@@ -55,7 +51,7 @@ layout: post
 
 ### 音符量化
 
-クオンタイズ / Quantize
+*クオンタイズ / Quantize*
 
 显示当前的量化设定。单击可以修改。
 
@@ -80,7 +76,7 @@ layout: post
 
 **不推荐用音符和音符间细小的空隙表示促音（っ），或用音符来表达发声的时机。**
 
-**将促音包含在歌词中，在 TMG 页面调整发声的时机，会得到更好的歌声。**
+**将促音包含在歌词中，在 时间页面调整发声的时机，会得到更好的歌声。**
 
 （译者注：意思就是：保留促音，不要拆音。
 
