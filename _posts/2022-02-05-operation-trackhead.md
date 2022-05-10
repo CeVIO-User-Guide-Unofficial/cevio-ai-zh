@@ -1,8 +1,8 @@
 ---
-title: 【基本操作】音频轨道
+title: 基本操作 | 音频轨道
 author: 夜輪風超絶技巧変奏曲
 date: 2022-05-06
-category: CeVIO AI
+category: operation
 layout: post
 ---
 译自 CeVIO 官网。本文为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
