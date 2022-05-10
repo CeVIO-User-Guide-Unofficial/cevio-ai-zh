@@ -9,7 +9,7 @@ layout: post
 
 ---
 
-![adjust tool](../assets/images/2.7.1.jpg)
+![adjust tool](../assets/images/2.7.1.png)
 
 切换歌唱轨道的调整模式。
 
