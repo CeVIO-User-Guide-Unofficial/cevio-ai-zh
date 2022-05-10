@@ -9,7 +9,7 @@ layout: post
 
 ---
 
-![info panel](../assets/images/2.4.1.jpg)
+![info panel](../assets/images/2.4.1.png)
 
 ### 时间轴光标位置
 

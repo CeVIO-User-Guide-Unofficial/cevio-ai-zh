@@ -9,7 +9,7 @@ layout: post
 
 ---
 
-![name of each part](../assets/images/002_w.jpg)
+![name of each part](../assets/images/2.1.1.png)
 
 ## 标尺
 

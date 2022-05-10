@@ -13,7 +13,7 @@ layout: post
 
 ---
 
-![走带](../assets/images/2.3.1.jpg)
+![走带](../assets/images/2.3.1.png)
 
 ### 回开头
 
@@ -79,4 +79,4 @@ layout: post
 
 往左或右拖动能让光标自动往该方向移动。如果在拖动的同时按下 <kbd>Alt</kbd> 键，则光标会自动吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
 
-![光标](../assets/images/2.3.2.jpg)
+![光标](../assets/images/2.3.2.png)

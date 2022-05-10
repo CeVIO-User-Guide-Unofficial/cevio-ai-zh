@@ -9,7 +9,7 @@ layout: post
 
 ---
 
-![track head](../assets/images/2.5.1.jpg)
+![track head](../assets/images/2.5.1.png)
 
 ### 音轨名
 
