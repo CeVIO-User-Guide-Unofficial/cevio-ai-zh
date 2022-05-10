@@ -5,8 +5,6 @@ date: 2022-05-06
 category: operation
 layout: post
 ---
-译自 CeVIO 官网。本文为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
-
 原文：[CeVIO AI ユーザーズガイド ┃ 各部の名前](https://cevio.jp/guide/cevio_ai/operation/)
 
 ---
