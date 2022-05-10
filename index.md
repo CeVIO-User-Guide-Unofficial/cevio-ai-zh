@@ -6,6 +6,18 @@ layout: home
 
 非官方的 CeVIO AI 用户指南中文版翻译。
 
+页面包含一些只有在电脑端才能显示的效果，推荐使用电脑浏览。
+
+## 操作
+
+按 <kbd>S</kbd> 可以收起 / 展开侧边栏。
+
+按 <kbd>←</kbd> 和 <kbd>→</kbd> 可以跳至上一页 / 下一页。
+
+按 <kbd>↑</kbd> 和 <kbd>↓</kbd> 可以上下滚动页面。
+
+左上角可以切换字体和显示样式。
+
 <!-- 
 Make Jelly site have a GitBook look!
 

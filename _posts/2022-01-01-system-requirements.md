@@ -5,8 +5,6 @@ date: 2022-05-06
 category: firstguide
 layout: post
 ---
-译自 CeVIO 官网。本文为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
-
 原文：[CeVIO AI ユーザーズガイド ┃ 動作環境](https://cevio.jp/guide/cevio_ai/firstguide/system_requirements/)
 
 ---
@@ -61,4 +59,4 @@ Windows 11 / 10 / 8.1 （64 位日语或英语）[^1]
 ---
 
 [^1]: 中文操作系统也可以正常使用
-[^2]: 实际情况是在另一台设备上激活时前一台设备的激活会自动失效
+[^2]: 实际情况是在另一台设备上激活时前一台设备的激活会自动失效。

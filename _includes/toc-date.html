@@ -25,6 +25,7 @@
                     {% assign reversed_posts = site[collection.label] | reverse %}
 
                     {% for post in reversed_posts %}
+                    <!-- <p>{{ page.category }}</p> -->
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
@@ -45,11 +46,11 @@
                 {% endif %}
             {% endfor %}
 
-            <li>
+            <!-- <li>
                 <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
                     Fork it Now!
                 </a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 </div>
