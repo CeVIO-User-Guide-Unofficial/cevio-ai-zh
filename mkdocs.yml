@@ -81,9 +81,3 @@ markdown_extensions:
   - tables
   - toc:
       toc_depth: 6
-
-# Plugins
-plugins:
-  - git-revision-date
-  - git-revision-date-localized
-  
