@@ -380,7 +380,7 @@ layout: post
 
 ### 长段文本输入
 
-*文のまとめ入力 / enter Text Collectively*
+*文のまとめ入力 / Enter Text Collectively*
 
 对于那种一口气输入到一行里十分费时费力的长句子，可以用这个功能一次性输入。
 
