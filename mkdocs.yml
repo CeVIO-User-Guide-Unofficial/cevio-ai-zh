@@ -1,0 +1,89 @@
+site_name: CeVIO AI 用户指南中文版
+site_description: 非官方的 CeVIO AI 用户指南中文版翻译
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - intro/change-log.md
+    - intro/about.md
+    - intro/contact.md
+  - 入门:
+    - firstguide/system_requirements.md
+    - firstguide/install.md
+  - 基本操作:
+    - operation/operation.md
+    - operation/menu.md
+    - operation/transport.md
+    - operation/infopanel.md
+    - operation/trackhead.md
+    - operation/edittool.md
+    - operation/adjusttool.md
+  - 谈话:
+    - talktrack/tutorial_talk.md
+    - talktrack/talktrack.md
+    - talktrack/talk_01.md
+    - talktrack/talk_04.md
+
+# Theme
+theme:
+  name: material
+  features:
+    - content.tooltips
+    - header.autohide
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+  icon:
+    repo: fontawesome/brands/github
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/CeVIO_st
+      name: CeVIO on Twitter
+
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
+repo_name: CUGU/CeVIO-AI
+
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - toc:
+      toc_depth: 6
+
+# Plugins
+plugins:
+  - git-revision-date
+  - git-revision-date-localized
+  
