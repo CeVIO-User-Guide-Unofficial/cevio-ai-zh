@@ -35,6 +35,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - navigation.instant
+    - navigation.top
   icon:
     repo: fontawesome/brands/github
   language: zh
@@ -82,3 +84,8 @@ markdown_extensions:
   - tables
   - toc:
       toc_depth: 6
+
+plugins:
+  - git-revision-date
+  - git-revision-date-localized:
+      type: date
