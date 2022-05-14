@@ -19,12 +19,26 @@ nav:
     - operation/trackhead.md
     - operation/edittool.md
     - operation/adjusttool.md
-  - 谈话:
+  - 谈话轨道的操作:
     - talktrack/tutorial_talk.md
     - talktrack/talktrack.md
     - talktrack/talk_01.md
     - talktrack/longsentence.md
     - talktrack/talk_04.md
+  - 歌唱轨道的操作:
+    - songtrack/tutorial_song.md
+  - 音频轨道的操作:
+    - audio/audio.md
+  - 选项:
+    - option/option.md
+  - 快捷键:
+    - shortcutkey/shortcutkey.md
+  - 外部调用接口:
+    - interface/interface.md
+  - FAQ和已知问题:
+    - faq/faq.md
+    - faq/known_bugs.md
+
 
 # Theme
 theme:
