@@ -1,7 +1,3 @@
-*[ライセンス認証]: Activate Product License / 序列号认证
-*[ライセンスキーのご案内]: 许可证密钥信息
-*[ライセンスキーを表示]: 显示许可证密钥
-*[ゲーム&PCソフトダウンロードライブラリ]: 游戏和 PC 软件下载库
 *[「按音轨建立文件夹，按序号命名文件」]: トラック毎にフォルダと通し番号を分ける / Separate folders and numbers for each track
 *[「插入注音记号」]: 読み指定カッコの挿入 /
 *[「长段文本输入」]: 文のまとめ入力 / Enter Text Collectively

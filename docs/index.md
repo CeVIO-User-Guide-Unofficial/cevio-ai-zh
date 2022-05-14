@@ -24,6 +24,10 @@ layout: home
 
 ++enter++：打开搜索结果所在的页面
 
+## 免责声明
+
+> お客様が当サイトからリンクが張られている第三者のウェブサイト、または当サイトへリンクを張っている第三者のウェブサイトから取得された各種情報のご利用によって生じたいかなる損害についても責任を負いません。
+
 <!-- # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

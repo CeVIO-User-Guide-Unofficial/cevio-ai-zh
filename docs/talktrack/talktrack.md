@@ -1,5 +1,5 @@
 ---
-title: 谈话轨道
+title: 读说轨道
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post

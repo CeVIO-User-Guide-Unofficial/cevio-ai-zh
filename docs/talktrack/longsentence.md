@@ -4,7 +4,7 @@ author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ セリフの入力と編集](https://cevio.jp/guide/cevio_ai/talktrack/talk_01/)
+原文：[CeVIO AI ユーザーズガイド ┃ 文のまとめ入力](https://cevio.jp/guide/cevio_ai/talktrack/longsentence/)
 
 ---
 当你想一次性输入一组句子而不是一次输入一行时，或者当你想在选定的行上插入一个句子时，「长段文本输入」选项就很有用了。
