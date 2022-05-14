@@ -19,11 +19,12 @@ nav:
     - operation/trackhead.md
     - operation/edittool.md
     - operation/adjusttool.md
-  - 谈话轨道的操作:
+  - 读说轨道的操作:
     - talktrack/tutorial_talk.md
     - talktrack/talktrack.md
     - talktrack/talk_01.md
     - talktrack/longsentence.md
+    - talktrack/talk_02.md
     - talktrack/talk_04.md
   - 歌唱轨道的操作:
     - songtrack/tutorial_song.md
@@ -49,6 +50,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - navigation.instant
+    - navigation.top
   icon:
     repo: fontawesome/brands/github
   language: zh
@@ -96,3 +99,9 @@ markdown_extensions:
   - tables
   - toc:
       toc_depth: 6
+
+plugins:
+  - git-revision-date
+  - git-revision-date-localized:
+      type: date
+  - search
