@@ -36,6 +36,8 @@ nav:
     - shortcutkey/shortcutkey.md
   - 外部调用接口:
     - interface/interface.md
+    - interface/com.md
+    - interface/dotnet.md
   - FAQ和已知问题:
     - faq/faq.md
     - faq/known_bugs.md
@@ -46,6 +48,7 @@ theme:
   name: material
   features:
     - content.tooltips
+    - content.code.annotate
     - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
@@ -96,6 +99,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - tables
   - toc:
       toc_depth: 6
