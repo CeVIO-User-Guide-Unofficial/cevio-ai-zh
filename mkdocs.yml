@@ -25,9 +25,26 @@ nav:
     - talktrack/talk_01.md
     - talktrack/longsentence.md
     - talktrack/talk_02.md
+    - talktrack/talk_05.md
+    - talktrack/phoneme.md
+    - talktrack/phoneme_english.md
+    - talktrack/talk_06.md
+    - talktrack/talk_01_english.md
+    - talktrack/phrasececlip.md
+    - talktrack/search.md
     - talktrack/talk_04.md
   - 歌唱轨道的操作:
     - songtrack/tutorial_song.md
+    - songtrack/songtrack.md
+    - songtrack/songtrack_copy.md
+    - songtrack/song_02.md
+    - songtrack/song_04.md
+    - songtrack/song_04_english.md
+    - songtrack/song_03.md
+    - songtrack/song_05.md
+    - songtrack/song_07.md
+    - songtrack/song_06.md
+    - songtrack/fileimport.md
   - 音频轨道的操作:
     - audio/audio.md
   - 选项:

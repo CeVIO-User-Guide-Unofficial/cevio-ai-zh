@@ -12,7 +12,7 @@ layout: post
     译者注：
     
     - 理解本章节的内容需要一定的编程知识。
-    - 在阅读 API 前，请仔细地阅读本页面末尾的注意事项。
+    - 在使用 API 前，请仔细地阅读本页面末尾的注意事项。
 
 可以通过外部软件调用读说引擎的文本转语音功能。
 
@@ -39,9 +39,10 @@ CeVIO AI 可与 64 位的软件链接，也能用作 Windows 10 的「讲述人�
 !!! info "在项目中使用"
     - 支持使用以下 SAPI XML TTS 标记的参数规范。
       
-      `<pitch>` `<volume>` `<rate>` `<silence>`
+        `<pitch>` `<volume>` `<rate>` `<silence>`
 
-      `pitch`、`volume`、`rate` 只支持用标签括起来的格式（不支持在句子中说明）。
+        `pitch`、`volume`、`rate` 只支持用标签括起来的格式（不支持在句子中说明）。
+
     - 支持 SAPI5 的 `Volume` 属性和 `Rate` 属性。
 
 ## 用作 COM 组件
