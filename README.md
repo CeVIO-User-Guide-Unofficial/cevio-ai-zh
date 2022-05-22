@@ -1,5 +1,5 @@
 
-![header](intro/images/header_image_title.jpg)
+![header](docs/intro/images/header_image_title.jpg)
 
 非官方的 CeVIO AI 用户指南中文版翻译。
 
