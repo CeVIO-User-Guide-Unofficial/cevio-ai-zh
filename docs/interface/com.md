@@ -9,7 +9,7 @@ layout: post
 ---
 C++ 和 VBScript 等程序的接口。
 
-可以使用专用 API 精细地控制感情、状态等。
+可以使用专用 API 精细地控制情绪、状态等。
 
 ## API 规范
 
@@ -33,7 +33,7 @@ interface ITalker2V40
     // 获取或设置音色（0～100）。
 
     ITalkerComponentArray2 Components { get; }
-    // 获取当前角色的感情参数。
+    // 获取当前角色的情绪参数。
     // 备注：
     // 　内容会随着角色变化。
     // 　例1『さとうささら』→ "普通", "元気", "怒り", "哀しみ"
@@ -101,7 +101,7 @@ interface ITalker2V40
     // 　输出格式为采样率 48kHz，比特率 16bit，单声道。
 }
 
-// 表示角色的感情参数图的对象。
+// 表示角色的情绪参数图的对象。
 interface ITalkerComponentArray2
 {
     int Length { get; }
@@ -127,17 +127,17 @@ interface ITalkerComponentArray2
     // 　复制完毕的数组的索引。
 }
 
-// 感情参数的单位对象。
+// 情绪参数的单位对象。
 interface ITalkerComponent2
 {
     string Id { get; }
     // 获取标识符。
 
     string Name { get; }
-    // 获取感情的名字。（文本编码为Unicode）
+    // 获取情绪的名字。（文本编码为Unicode）
 
     uint Value { get; set; }
-    // 获取或设置感情的值（0～100）。
+    // 获取或设置情绪的值（0～100）。
 }
 
 // 表示播放状态的对象。
