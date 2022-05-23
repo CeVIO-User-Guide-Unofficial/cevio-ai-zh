@@ -1,5 +1,5 @@
 ---
-title: 速度 / 拍子 / 调号 / 强弱记号
+title: 曲速 / 拍子 / 调号 / 强弱记号
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
