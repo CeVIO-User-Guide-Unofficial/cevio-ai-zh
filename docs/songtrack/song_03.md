@@ -8,6 +8,3 @@ layout: post
 
 ---
 
-
-
---8<-- "includes/abbreviations.md"
