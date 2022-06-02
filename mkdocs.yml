@@ -112,9 +112,10 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - meta
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.snippets
