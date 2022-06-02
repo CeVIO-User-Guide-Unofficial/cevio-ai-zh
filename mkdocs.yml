@@ -49,6 +49,7 @@ nav:
     - audio/audio.md
   - 选项:
     - option/option.md
+    - option/characterimage.md
   - 快捷键:
     - shortcutkey/shortcutkey.md
   - 外部调用接口:
