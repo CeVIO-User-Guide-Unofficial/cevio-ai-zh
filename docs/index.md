@@ -6,7 +6,7 @@ layout: home
 
 非官方的 CeVIO AI 用户指南中文版翻译。
 
-## 操作
+## 快捷键
 
 `全局`
 
@@ -29,16 +29,20 @@ layout: home
 指南中将会大量出现四种 admonitions。它们的作用如下：
 
 !!! hint
-    该 admonition 用于给出建议或提示。这些提示大部分由 CeVIO 官方给出，通常它们都会让 CeVIO 更易使用。
+    该 admonition 用于给出建议或提示。
+    
+    这些提示大部分由 CeVIO 官方给出，其余由译者给出。通常它们都会让 CeVIO 更易使用。
 
 !!! info
-    该 admonition 用于提供信息。这些信息绝大部分由 CeVIO 官方给出，涉及到 CeVIO 的特性与设置，推荐仔细阅读。
+    该 admonition 用于提供信息。
+    
+    这些信息由 CeVIO 官方给出，涉及到 CeVIO 的特性与设置，推荐仔细阅读。
 
 !!! example
     该 admonition 用于举例说明。
 
-!!! warning
-    该 admonition 用于标注警告信息。
+!!! caution
+    该 admonition 用于标注警告或需要特别留意的信息。
 
 ## 免责声明
 
