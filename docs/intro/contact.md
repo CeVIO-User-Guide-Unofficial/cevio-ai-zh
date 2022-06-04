@@ -1,19 +1,11 @@
 ---
 title: 联络
-author: 夜輪風超絶技巧変奏曲
-date: 2022-02-05
-category: Jekyll
+category: Basic Info
 layout: post
 ---
 
-## 维护者
+若对本项目有任何疑问、意见或建议，请在 [Discussions](https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI/discussions) 页开启新话题。
 
-（请尽量在微博或Twitter使用私信的方式联系）
+你可以通过 [Issues](https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI/issues/new) 报告项目中出现的任何问题。
 
-GitHub: [NachtgeistW (夜轮_NachtgeistW)](https://github.com/NachtgeistW)
-
-微博：[夜轮_Nightwheel](https://weibo.com/u/7312904644)
-
-哔哩哔哩：[夜輪風超絶技巧変奏曲](https://space.bilibili.com/2138390911)
-
-Twitter：[夜輪風超絶技巧変奏曲](https://twitter.com/Yorin_NW)
+若需要进一步联络，请发送邮件至 nachtgeistw@protonmail.com。
