@@ -218,26 +218,26 @@ enum HostCloseMode
         {
             static void Main(string[] args)
             {
-                // 【CeVIO AI】起動
+                // 启动【CeVIO AI】
                 ServiceControl2.StartHost(false);
 
-                // Talkerインスタンス生成
+                // 生成Talker实例
                 Talker2 talker = new Talker2();
 
-                // キャスト設定
+                // 设定角色
                 talker.Cast = "さとうささら";
 
-                // （例）音量設定
+                // （例）设定音量
                 talker.Volume = 100;
 
-                // （例）抑揚設定
+                // （例）设定语调
                 talker.ToneScale = 100;
 
-                // （例）再生
+                // （例）播放
                 SpeakingState2 state = talker.Speak("こんにちは");
                 state.Wait();
 
-                // （例）音素データをトレース出力
+                // （例）音素数据的跟踪输出
                 PhonemeData2[] phonemes = talker.GetPhonemes("はじめまして");
                 foreach (var phoneme in phonemes)
                 {
@@ -247,7 +247,7 @@ enum HostCloseMode
                         " " + phoneme.EndTime);
                 }
 
-                // 【CeVIO AI】終了
+                // 关闭【CeVIO AI】
                 ServiceControl2.CloseHost();
             }
         }

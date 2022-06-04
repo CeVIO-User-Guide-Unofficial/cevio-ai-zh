@@ -12,7 +12,8 @@ layout: post
 
 在菜单栏中的「音轨」或在轨道上右键单击选择「添加语音轨道」，可以添加至多 32 个音轨。
 
-![talk track](images/3.2.1.png)
+![talk track](images/talktrack_1.png#only-light)
+![talk track](images/talktrack_1_dark.png#only-dark)
 
 ### 试听
 

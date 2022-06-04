@@ -8,7 +8,7 @@ layout: post
 
 ---
 
-![menu](images/2.2.1.png)
+![menu](images/menu_1.png)
 
 !!! hint
     如果你不理解菜单里的某个选项是做什么用的，试试将鼠标长时间停留在那个选项上。

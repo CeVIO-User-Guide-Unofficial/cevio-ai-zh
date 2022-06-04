@@ -13,11 +13,11 @@ layout: post
 
 浏览器等来自外部的文本也可以复制并粘贴其中，导入长文更为便捷。
 
-![invoke Enter Text Collectively](images/3.4.1.png)
+![invoke Enter Text Collectively](images/longsentence_1.png)
 
 在时间轴上通过右键菜单调出「长段文本输入」时，句子将插入到鼠标点击或是光标所在的地方。
 
-![invoke Enter Text Collectively on Timeline](images/3.4.2.png)
+![invoke Enter Text Collectively on Timeline](images/longsentence_2.png)
 
 ### 配音角色
 
@@ -49,7 +49,7 @@ layout: post
 
 !!! hint "状态和情绪"
 
-    选中行的状态（音量、语速、音高、银色、语调）和情绪会应用到台词中。
+    选中行的状态（音量、语速、音高、音色、语调）和情绪会应用到台词中。
 
     预先设好参数或预设，再输入文本，便可以轻松为它们批量设置。
     

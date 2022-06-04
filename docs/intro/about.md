@@ -12,6 +12,8 @@ CeVIO 操作页面的中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](ht
 
 本网站托管于 GitHub，使用 [GitHub Pages](https://pages.github.com/) 发布，使用的主题为 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)。
 
+由于 CeVIO 官方做说明时使用的声库为佐藤莎莎拉，但译者只购买了 IA 与 OИE 的声库，因此部分原显示为莎莎拉的图片会被 IA 和 OИE 代替。
+
 ---
 
 <p style="text-align:center">献给在遥远异星歌唱咏叹调的精灵们。</p>

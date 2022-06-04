@@ -10,7 +10,8 @@ layout: post
 
 在调整页面里可以对歌声的发声时间、音高等参数（值）做更细致的调整。
 
-![adjust tool](images/song_07_1.png)
+![adjust tool](images/song_07_1.png#only-light)
+![adjust tool](images/song_07_1_dark.png#only-dark)
 
 ### 调整值的叠加显示
 
