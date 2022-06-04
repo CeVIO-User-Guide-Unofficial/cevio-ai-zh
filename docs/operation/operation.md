@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![name of each part](images/2.1.1.png)
+![name of each part](images/operation_1.png#only-light)
+![name of each part](images/operation_1_dark.png#only-dark)
 
 ## 标尺
 
@@ -36,7 +37,7 @@ layout: post
 
     以 IA 和 OИE 的 CeVIO AI 系列为例。新手包包含声库和对应编辑器的激活码，例如， OИE Talk 新手包包含了 OИE 读说声库和 CeVIO 读说编辑器，共两个激活码。
 
-    ![IA & ONE's CeVIO Series](images/2.1.2.png)
+    ![IA & ONE's CeVIO Series](images/operation_2.png)
 
     - 若只购入了 OИE Talk Voice 单体，由于缺少激活 CeVIO 编辑器的激活码，读说功能和歌唱功能均不可用。
     - 若只购入了 OИE Talk 新手包，则读说功能可正常使用，歌唱功能不可用。在此基础上：

@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![adjust tool](images/2.7.1.png)
+![adjust tool](images/adjusttool_1.png#only-light)
+![adjust tool](images/adjusttool_1_dark.png#only-dark)
 
 切换歌唱轨道的调整模式。
 
@@ -16,7 +17,7 @@ layout: post
 
 （无法在读说轨道或音频轨道中使用。）
 
-![overlay item](images/2.7.2.png)
+![overlay item](images/adjusttool_2.png)
 
 ### 乐谱编辑
 

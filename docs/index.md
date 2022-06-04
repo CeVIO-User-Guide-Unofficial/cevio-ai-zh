@@ -24,26 +24,24 @@ layout: home
 
     ++enter++：打开搜索结果所在的页面
 
+## 图例
+
+指南中将会大量出现四种 admonitions。它们的作用如下：
+
+!!! hint
+    该 admonition 用于给出建议或提示。这些提示大部分由 CeVIO 官方给出，通常它们都会让 CeVIO 更易使用。
+
+!!! info
+    该 admonition 用于提供信息。这些信息绝大部分由 CeVIO 官方给出，涉及到 CeVIO 的特性与设置，推荐仔细阅读。
+
+!!! example
+    该 admonition 用于举例说明。
+
+!!! warning
+    该 admonition 用于标注警告信息。
+
 ## 免责声明
 
 > お客様が当サイトからリンクが張られている第三者のウェブサイト、または当サイトへリンクを張っている第三者のウェブサイトから取得された各種情報のご利用によって生じたいかなる損害についても責任を負いません。
 >
 > 对于用户使用从本网站链接的第三方网站或与本网站链接的第三方网站获得的信息而引起的任何损失或损害，本站不承担任何责任。
-
-<!-- # Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->

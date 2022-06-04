@@ -17,7 +17,7 @@ layout: post
 
 从台词列表选中一整行时，选择的句子会作为「写作」的范围；输入台词时则是选择范围内的词。
 
-![register word](images/3.10.1.png)
+![register word](images/talk_01_english_1.png)
 
 ### 写作
 
@@ -43,7 +43,7 @@ layout: post
 
 点击列的标题（写作/读作），可以暂时重新排序。
 
-![3.10.2](images/3.10.2.png)
+![talk_01_english_2](images/talk_01_english_2.png)
 
 ### 编辑与删除单词
 

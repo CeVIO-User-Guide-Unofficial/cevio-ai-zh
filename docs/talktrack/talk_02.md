@@ -24,7 +24,7 @@ layout: post
 
 * 在[选项](../../option/option)的「读说设定」里可以修改台词间距离的设置。
 
-![change utterance time](images/3.1.3.png)
+![change utterance time](images/tutorial_talk_3.png)
 
 ## 在台词列表中调整
 
@@ -32,11 +32,11 @@ layout: post
 
 可以在台词列表右键菜单的「面板显示」中设置「开始时间」的显示与否。
 
-![change start time](images/3.5.1.png)
+![change start time](images/talk_02_1.png)
 
 台词列表右键菜单的「移动」可以将选中行按指定的方式移动。
 
-![move](images/3.5.2.png)
+![move](images/talk_02_2.png)
 
 ### 指定目标位置
 
@@ -66,7 +66,7 @@ layout: post
 
     * 如果你想让这条轨道的台词跟其他轨道的台词重叠，请在选项的「读说设置」中关闭「多音轨自动排列」选项。
 
-![Automatic multi-track alignment](images/3.5.3.png)
+![Automatic multi-track alignment](images/talk_02_3.png)
 
 *[「面板显示」]: 表示 / View
 *[「多音轨自动排列」]: マルチトラック自動整列 / Automatic multi-track alignment

@@ -24,6 +24,8 @@ layout: post
 
 对于日语声库，每行台词的文字上限是 200；对于英语声库，上限是 500。
 
+![enter lines](images/tutorial_talk_2.png)
+
 !!! hint "日语台词的输入提示"
 
     发音是由一行台词的整个句子决定的。句末的疑問符（？）或感嘆符（！）也会加入发音的判定中。
@@ -44,7 +46,7 @@ layout: post
   如果选中了文本，会额外插入一个表示注音开始的 `|`。
 - 对于英语声库，会在光标位置的单词末尾插入 `[]`。
 
-![insert ](images/3.1.2.png)
+![insert ](images/talk_01_2.png)
 
 !!! info "输入日语注音"
 
@@ -78,7 +80,7 @@ layout: post
 
 如果想连续输入并播放台词时，请使用此功能。
 
-![Continuous Input](images/3.3.3.png)
+![Continuous Input](images/talk_01_3.png)
 
 - 按 ++enter++ 键结束这一行的编辑，自动移至下一行并进入编辑状态。
 
@@ -92,7 +94,7 @@ layout: post
 
 从「音轨」菜单的「音轨配音角色」或音轨前端的角色设置变更角色，可以同时变更轨道内所有行的角色。
 
-![select cast](images/3.1.4.png)
+![select cast](images/tutorial_talk_4.png)
 
 ## 剪切/复制/粘贴
 
@@ -106,7 +108,7 @@ layout: post
 
 - 也可以从剪贴板中粘贴来自其他软件的文本。
 
-![cut/copy/paste](images/3.3.4.png)
+![cut/copy/paste](images/talk_01_4.png)
 
 ### 只粘贴参数
 
@@ -114,7 +116,7 @@ layout: post
 
 - 与通常的粘贴相同，即使该台词栏为空参数也能够填入。
 
-![only paste parameter](images/3.3.5.png)
+![only paste parameter](images/talk_01_5.png)
 
 ## 选择多行
 
@@ -152,11 +154,11 @@ layout: post
 
 「配音角色、开始时间、结束时间、时长、音轨」中的每一列都可以单独选择是否显示或隐藏。
 
-![view](images/3.3.6.png)
+![view](images/talk_01_6.png)
 
 以下是一个隐藏了角色和音轨，只显示开始时间和长度的例子。
 
-![view setting example](images/3.3.7.png)
+![view setting example](images/talk_01_7.png)
 
 ### 显示别的音轨的台词
 

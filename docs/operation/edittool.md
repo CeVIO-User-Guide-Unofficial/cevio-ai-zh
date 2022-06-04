@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![edit tool](images/2.6.1.png)
+![edit tool](images/edittool_1.png#only-light)
+![edit tool](images/edittool_1_dark.png#only-dark)
 
 切换歌唱轨道的编辑模式。
 
@@ -44,7 +45,7 @@ layout: post
 
 !!! info "连接调整模式"
 
-    ![connection adjustment mode](images/2.6.2.png)
+    ![connection adjustment mode](images/edittool_2.png)
     
     * 按住 ++alt++ 并拖动鼠标时，画笔工具将会画出红色的调整线。此时放开 ++alt++ 键时，画出的红线和原始的参数线将会自动连接，并以此作为新的参数。
     * 按住 ++alt++ 键，会出现一条参考线，它反映的是已调整的参数值。可以依此确认当前的状态。

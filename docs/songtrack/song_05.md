@@ -12,7 +12,8 @@ layout: post
 
 按住 ++ctrl++ 键可以临时切换编辑工具。
 
-![edit tool](images/song_05_1.png)
+![edit tool](images/song_05_1.png#only-light)
+![edit tool](images/song_05_1_dark.png#only-dark)
 
 ## 选择工具
 

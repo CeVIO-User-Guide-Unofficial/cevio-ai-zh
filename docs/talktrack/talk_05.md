@@ -20,7 +20,8 @@ layout: post
 
 在拖动或者滚动鼠标滚轮的时候按住 ++alt++ 键，可以将值同时应用到该轨道内的全部角色上。
 
-![condition controller](images/3.6.1.png)
+![condition controller](images/talk_05_1.png#only-light)
+![condition controller](images/talk_05_1_dark.png#only-dark)
 
 ### 音量
 
@@ -54,21 +55,22 @@ layout: post
 
 ## 情绪的设定
 
-通过拖动元気或怒り（※）等推子，可以以所需的比例混合多种情绪。
+通过拖动 Bright 或 Angry（※）等推子，可以以所需的比例混合多种情绪。
 
 也可以将鼠标光标放在推子上，然后上下滚动鼠标滚轮，来以 1 为单位调整。
 
 在拖动或者滚动鼠标滚轮的时候按住 ++alt++ 键，可以将值同时应用到该轨道内的全部角色上。
 
-![emotion controller](images/3.6.2.png)
+![emotion controller](images/talk_05_2.png#only-light)
+![emotion controller](images/talk_05_2_dark.png#only-dark)
 
-※图为「さとうささら（佐藤莎莎拉）」的情绪。
+※图为「IA」与「OИE」的情绪。
 
 ### 情绪图
 
-情绪图显示情绪合成的百分比。例如，如果元気和怒り都为 1.00[^1]，则百分比为各占 50%。
+情绪图显示情绪合成的百分比。例如，如果 Bright 和 Angry 都为 1.00 / 100（旧版参数），则百分比为各占 50%。
 
-（“元気 1.00 + 怒り 1.00”与“元気 0.50 + 怒り 0.50”效果相同）
+（“Bright 1.00 + Angry 1.00”与“Bright 0.50 + Angry 0.50”效果相同）
 
 也可以拖动情绪图里的推子来直接修改百分比。
 
@@ -80,7 +82,7 @@ layout: post
 
     - IA … Bright, Normal, Strong, Dark
 
-    - 小春六花 … 嬉しい，普通，怒り，哀しみ, 落ち着き
+    - 小春六花 … 嬉しい，普通，怒り，哀しみ，，落ち着き
 
 ## 预设
 
@@ -94,7 +96,7 @@ layout: post
 
 选择（保存），可以将当前的参数设定命名并添加到预设中。
 
-![save preset](images/3.6.3.png)
+![save preset](images/talk_05_3.png)
 
 * 当覆盖已有的预设时，更改会应用到所有使用了该预设的行中。
 
@@ -102,10 +104,8 @@ layout: post
 
 点击预设名字右侧的「×」即可删除预设。
 
-![delete preset](images/3.6.4.png)
+![delete preset](images/talk_05_4.png)
 
 ### 默认的预设
 
 经常使用的预设可以在[选项](../option/option.md)的「读说设定」里设为「默认的预设」，这样它就会变为空白行的预设，方便使用。
-
-[^1]:译者注：原文写的是 100，但上面控制台的数字标的却是 1.00。推测这里沿用了 CS 版的数字但忘记修改了。
