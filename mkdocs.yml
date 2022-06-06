@@ -134,4 +134,5 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       type: date
+      locale: zh
   - search
