@@ -354,6 +354,4 @@ interface IServiceControl2V40
 
     [CeVIO_AI_VbsTest(1.0.1).zip](https://cevio.jp/storage/cevio_ai/CeVIO_AI_VbsTest(1.0.1).zip)
 
-    该压缩包内包含了上面的示例脚本。解压后，请通过 Windows 命令提示符运行。[^1]
-
-[^1]:译者注：<br>1.VBScript 已经冷门到没有语法高亮了，你好惨；<br>2.2202 年了不考虑一下在更 modern 的 Windows Terminal 里跑吗（
+    该压缩包内包含了上面的示例脚本。解压后，请通过 Windows 命令提示符运行。

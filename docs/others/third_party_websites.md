@@ -3,7 +3,7 @@ title: 第三方页面
 category: intro
 layout: post
 ---
-!!! warning
+!!! caution
     本页面不属于 CeVIO 的官方页面。
 
 本页面记录部分与 CeVIO 有关的第三方页面。
