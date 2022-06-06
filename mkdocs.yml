@@ -83,7 +83,7 @@ theme:
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: default
+      scheme: youtube
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
