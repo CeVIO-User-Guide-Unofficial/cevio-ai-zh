@@ -83,7 +83,7 @@ theme:
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: light blue
+      scheme: cevio
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
