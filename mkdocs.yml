@@ -83,12 +83,14 @@ theme:
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: cevio
+      scheme: default
+      primary: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
+      primary: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -134,4 +136,5 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       type: date
+      locale: zh
   - search
