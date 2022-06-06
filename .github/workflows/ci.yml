@@ -4,6 +4,7 @@ on:
     branches:
       - master 
       - main
+      - mkdocs
 jobs:
   deploy:
     runs-on: ubuntu-latest
