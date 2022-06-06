@@ -83,16 +83,12 @@ theme:
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: default
-      primary: blue
-      accent: blue
+      scheme: cevio
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
-      primary: blue
-      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -107,6 +103,9 @@ extra:
 repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
 repo_name: CUGU/CeVIO-AI
 
+# CSS
+extra_css:
+  - css/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -133,7 +132,6 @@ markdown_extensions:
       toc_depth: 6
 
 plugins:
-  - git-revision-date
   - git-revision-date-localized:
       type: date
   - search
