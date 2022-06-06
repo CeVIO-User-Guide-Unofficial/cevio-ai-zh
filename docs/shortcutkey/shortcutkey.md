@@ -304,7 +304,7 @@ layout: post
 
 输入下一个音符的歌词。
 
-++shift+tab++
+### ++shift+tab++
 
 输入上一个音符的台词。
 
