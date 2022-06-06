@@ -13,10 +13,12 @@ layout: post
 - [VOICEROID素材まとめWiki](https://wikiwiki.jp/voirosozai/)
     - 收集与ボイスロイド相关的立绘、Live2D、MMD 等素材。
     - 2022 年 3 月 1 日起收录范围扩大至：
-        - AITalkエンジン系ソフトウェア（VOICEROIDシリーズ、ガイノイドTalk、ウナTalk、かんたんAITalk等）
-        - A.I. VOICEエンジン系ソフトウェア（A.I.VOICE/Juninor）
-        - **CeVIOエンジン系ソフトウェア（CeVIO Talk, CeVIO AI Talk）**
+        - AITalk引擎系软件（VOICEROIDシリーズ、ガイノイドTalk、ウナTalk、かんたんAITalk等）
+        - A.I. VOICE引擎系软件（A.I.VOICE/Juninor）
+        - **CeVIO引擎系软件（CeVIO Talk, CeVIO AI Talk）**
         - VOICEVOX
         - CoeFont(ユーザーアップロードは対象外）
         - COEIROINK
         - Voicepeak
+- [UtaFormatix](https://sdercolin.github.io/utaformatix3/)
+    - 歌声合成软件的工程文件互转网站。
