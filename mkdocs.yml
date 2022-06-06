@@ -83,7 +83,8 @@ theme:
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: light blue
+      scheme: default
+      primary: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
