@@ -11,7 +11,8 @@ layout: post
 
 菜单的「音轨」或者右键点击轨道选择「添加歌唱轨道」，最大可以添加 32 个轨道。
 
-![songtrack](images/songtrack_1.png)
+![songtrack](images/songtrack_1.png#only-light)
+![songtrack](images/songtrack_1_dark.png#only-dark)
 
 ### 光标
 

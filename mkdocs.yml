@@ -6,11 +6,12 @@ nav:
   - 简介:
     - Getting Started: index.md
     - intro/change-log.md
-    - intro/about.md
     - intro/contact.md
+    - intro/about.md
   - 入门:
     - firstguide/system_requirements.md
     - firstguide/install.md
+    - firstguide/install_cn_patch.md
   - 基本操作:
     - operation/operation.md
     - operation/menu.md
@@ -49,6 +50,7 @@ nav:
     - audio/audio.md
   - 选项:
     - option/option.md
+    - option/characterimage.md
   - 快捷键:
     - shortcutkey/shortcutkey.md
   - 外部调用接口:
@@ -58,6 +60,10 @@ nav:
   - FAQ和已知问题:
     - faq/faq.md
     - faq/known_bugs.md
+  - 其他:
+    - others/voices_and_official_websites.md
+    - others/third_party_websites.md
+    - others/emotion_in_song_editor.md
 
 
 # Theme
@@ -107,12 +113,14 @@ markdown_extensions:
   - abbr
   - attr_list
   - admonition
+  - def_list
   - footnotes
   - md_in_html
   - meta
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.snippets

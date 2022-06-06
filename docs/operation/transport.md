@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![走带](images/2.3.1.png)
+![走带](images/transport_1.png#only-light)
+![走带](images/transport_1_dark.png#only-dark)
 
 ### 回开头
 
@@ -74,4 +75,5 @@ layout: post
 
 往左或右拖动能让光标自动往该方向移动。如果在拖动的同时按下 ++alt++ 键，则光标会自动吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
 
-![光标](images/2.3.2.png)
+![光标](images/transport_2.png#only-light)
+![光标](images/transport_2_dark.png#only-dark)

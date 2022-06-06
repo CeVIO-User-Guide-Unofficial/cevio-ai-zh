@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![info panel](images/2.4.1.png)
+![info panel](images/infopanel_1.png#only-light)
+![info panel](images/infopanel_1_dark.png#only-dark)
 
 ### 时间轴光标位置
 
@@ -22,7 +23,7 @@ layout: post
 
 （1 秒等于 1000 微秒。4 分音符的长度是 960 tick。）
 
-![move to position](images/2.4.2.png)
+![move to position](images/infopanel_2.png)
 
 ### 光标处的曲速
 
@@ -34,7 +35,7 @@ layout: post
 
 * 如果想在歌曲中间修改曲速，可以在钢琴卷帘里的标尺栏上添加新的曲速。
 
-![tempo](images/2.4.3.png)
+![tempo](images/infopanel_3.png)
 
 ### 拍子
 
@@ -46,7 +47,7 @@ layout: post
 
 * 如果想在歌曲中间修改拍子，可以在钢琴卷帘里的标尺栏上添加新的拍子。
 
-![time signature](images/2.4.4.png)
+![time signature](images/infopanel_4.png)
 
 ### 音符量化
 
@@ -56,17 +57,17 @@ layout: post
 
 * 该设定控制的是钢琴卷帘内的音符。对读说轨道没有影响。
 
-![quantize](images/2.4.5.png)
+![quantize](images/infopanel_5.png)
 
 !!! info "音符量化是"
 
     假设量化设置为 1/8，则一个小节将等分为八份，音符的开头与结尾将自动吸附到划分后的小节上。
 
-    ![量化设置为 1/8 的情况](images/2.4.6.png)
+    ![量化设置为 1/8 的情况](images/infopanel_6.png)
 
     当量化设置为 1/8（三连音）时，一个小节将被等分为 12 份。音符的位置也会被补正到这 12 个格子的位置上。
 
-    ![量化设置为 1/8（三连音）的情况](images/2.4.7.png)
+    ![量化设置为 1/8（三连音）的情况](images/infopanel_7.png)
 
     如果待插入的音符最短长度为 1/8，推荐将量化设置为 1/8；如果是 1/16 则推荐设置为 1/16。
 

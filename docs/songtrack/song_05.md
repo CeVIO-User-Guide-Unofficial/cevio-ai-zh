@@ -12,7 +12,8 @@ layout: post
 
 按住 ++ctrl++ 键可以临时切换编辑工具。
 
-![edit tool](images/song_05_1.png)
+![edit tool](images/song_05_1.png#only-light)
+![edit tool](images/song_05_1_dark.png#only-dark)
 
 ## 选择工具
 
@@ -28,7 +29,7 @@ layout: post
 
 ### 复制和粘贴时间调整值（TMG）
 
-在复制 TMG 时，也要记住，在音素的五条音素线中，复制的是第多少条。
+在复制 TMG 时，同时会记录五条音素线其中的特定条。
 
 例如，如果复制第三条线，粘贴时它将粘贴到光标后的第三条线上。
 

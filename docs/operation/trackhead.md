@@ -8,7 +8,8 @@ layout: post
 
 ---
 
-![track head](images/2.5.1.png)
+![track head](images/trackhead_1.png#only-light)
+![track head](images/trackhead_1_dark.png#only-dark)
 
 ### 音轨名
 
@@ -74,7 +75,7 @@ layout: post
 
 可以通过时间轴右端的 [+] [-] 按钮，以三种宽度缩放音频轨道。
 
-![track head zoom](images/2.5.2.png)
+![track head zoom](images/trackhead_2.png)
 
 ### 添加音轨按钮、排序音轨按钮
 
@@ -82,7 +83,7 @@ layout: post
 
 通过 [+] 按钮可以直观地从列表里选择角色并添加音轨，并用 [down] [up] 按钮为其排序。
 
-![cast list](images/2.5.3.png)
+![cast list](images/trackhead_3.png)
 
 ### 光标
 
