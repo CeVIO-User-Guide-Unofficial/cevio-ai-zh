@@ -15,7 +15,7 @@ layout: post
 
 点击按钮上面的文字（例如「PIT」）能在当前的调整页面中叠加显示其他页面。
 
-（无法在读说轨道或音频轨道中使用。）
+（无法在语音轨道或音频轨道中使用。）
 
 ![overlay item](images/adjusttool_2.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 读说轨道的说明
+title: 语音轨道的说明
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post

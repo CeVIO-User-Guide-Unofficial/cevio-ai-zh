@@ -14,7 +14,7 @@ C# 等 .NET 程序的接口。
 ## API 规范
 
 ```cs
-// 提供读说功能。
+// 提供语音功能。
 class Talker2
 {
     uint Volume { get; set; }

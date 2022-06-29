@@ -14,7 +14,7 @@ C++ 和 VBScript 等程序的接口。
 ## API 规范
 
 ```cpp
-// 提供读说功能。
+// 提供语音功能。
 interface ITalker2V40
 {
     uint Volume { get; set; }
