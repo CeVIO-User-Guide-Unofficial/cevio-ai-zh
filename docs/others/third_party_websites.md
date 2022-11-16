@@ -1,6 +1,6 @@
 ---
 title: 第三方页面
-category: intro
+category: others
 layout: post
 ---
 !!! caution

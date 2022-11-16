@@ -6,6 +6,7 @@ nav:
   - 简介:
     - Getting Started: index.md
     - intro/change-log.md
+    - intro/change-log_website.md
     - intro/contact.md
     - intro/about.md
   - 入门:
@@ -64,6 +65,8 @@ nav:
     - others/voices_and_official_websites.md
     - others/third_party_websites.md
     - others/emotion_in_song_editor.md
+    - others/revised_license_agreement.md
+    - others/suzuki_tsudumi_song_contest_result.md
 
 
 # Theme
@@ -137,4 +140,5 @@ plugins:
   - git-revision-date-localized:
       type: date
       locale: zh
+      enable_creation_date: true
   - search
