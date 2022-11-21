@@ -24,3 +24,21 @@
   --md-accent-fg-color: hsla(309.2, 65.5%, 72.7%, 1);
   --md-accent-fg-color--transparent: hsla(309.2, 65.5%, 72.7%, 0.1);
 }
+
+/* :root {
+  --md-admonition-icon--new: url('../../../../material/new.svg')
+}
+.md-typeset .admonition.new,
+.md-typeset details.new {
+  border-color: rgb(255, 214, 0);
+}
+.md-typeset .new > .admonition-title,
+.md-typeset .new > summary {
+  background-color: rgba(255, 214, 0, 0.1);
+}
+.md-typeset .new > .admonition-title::before,
+.md-typeset .new > summary::before {
+  background-color: rgb(255, 214, 0);
+  -webkit-mask-image: var(--md-admonition-icon--new);
+          mask-image: var(--md-admonition-icon--new);
+} */
