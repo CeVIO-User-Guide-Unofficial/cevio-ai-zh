@@ -1,37 +1,37 @@
 ---
-title: 各部分的名称
+title: Name of Each Part
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 各部の名前](https://cevio.jp/guide/cevio_ai/operation/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 各部の名前](https://cevio.jp/guide/cevio_ai/operation/)
 
 ---
 
 ![name of each part](images/operation_1.png#only-light)
 ![name of each part](images/operation_1_dark.png#only-dark)
 
-## 标尺
+## Ruler
 
-点击标尺可以将位置光标移动到想开始播放的位置。
+Click on the ruler to move the position Cursor to the position where you want to start playback.
 
-双击标尺可以从被点击的位置进行回放（或在回放过程中停止）。
+Double-click on the ruler to start playback (or stop during playback) from the clicked position.
 
-## 图像显示
+## Image Display
 
-可以从「选项」中选择展示更大的图像或者隐藏图像。
+You can choose to show a larger image or hide the image from ["Options"](../../option/option).
 
-## 音频轨道
+## Audio Track
 
-可以使用 [+] 按钮或「音轨」菜单中的「添加音轨」来添加音轨。
+Audio tracks can be add using the [+] button or "Add Track" in the "Track" menu.
 
-## 语音轨道 / 歌唱轨道
+## Talk Track / Song Track
 
-在 Talk 新手包等只有语音功能有效的环境中，不显示歌唱轨道、调整工具和编辑工具。
+The Song Track, adjustment tools and editing tools will not be displayed in the environment where only the Talk function is activated, such as the Talk Starter Pack.
 
-在 Song 新手包等只有歌唱功能有效的环境中，不显示语音轨道。
+The Talk Track will not be displayed in the environment where only the Song function is activated, such as the Song Starter Pack.
 
-当只有语音或歌唱引擎的一方有效时，如果您购买并激活了另一方的新手包，所有功能都将启用。
+The environment where only one of Talk or Song function is activated will also have full functionality when you purchase and activate the other Starter Pack.
 
 !!! example "译者的举例"
 

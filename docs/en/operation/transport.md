@@ -1,79 +1,63 @@
 ---
-title: 走带
+title: Transport
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ トランスポート](https://cevio.jp/guide/cevio_ai/operation/transport/)
+Original article: [CeVIO AI ユーザーズガイド ┃ トランスポート](https://cevio.jp/guide/cevio_ai/operation/transport/)
 
 ---
 
-![走带](images/transport_1.png#only-light)
-![走带](images/transport_1_dark.png#only-dark)
+![Transport](images/transport_1.png#only-light)
+![Transport](images/transport_1_dark.png#only-dark)
 
-### 回开头
+### Goto Zero
 
-先頭 / Goto Zero
+Move the Cursor to the beginning. If the Start Marker is set, the cursor will move to the Start Marker first and then to the beginning.
 
-将光标移至开头。如果设置了起点标记，则光标会先移至起点标记，再移至开头。
+### Start
 
-### 播放
+Plays all tracks from the position cursor position.
 
-再生 / Start
+(Mute tracks will not be played.)
 
-从当前光标位置播放所有音轨。
+### Stop
 
-（设为静音的音轨不会播放）
+Stop playback. While stopping, it moves in order of playback start position and the beginning of the song by clicking "Stop" again.
 
-### 停止
+### Circle
 
-停止 / Stop
+Enable or disable playback looping.
 
-停止播放。当多次按下停止按钮时，光标会先移至起点标记，再移至开头。
+### Start Marker/End Marker
 
-### 循环
+Set or remove the start/end point of playback looping.
 
-繰り返し / Circle
+The start/end point markers displayed in the ruler can be moved by dragging (hold down the left mouse button). If you hold down the ++alt++ key while dragging, the marker will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
 
-设置循环播放功能的开 / 关。
+### Auto scroll
 
-### 起点标记/终点标记
+Automatically or Manually scroll timeline, speech list, piano roll during playback.
 
-始点マーカー／終点マーカー / Start Marker/End Marker
+### Master Volume
 
-设定 / 撤除循环的起点 / 终点。
+You can adjust the overall volume while maintaining the volume balance between tracks.
 
-在标尺栏上拖动（按下鼠标左键）起点 / 终点标记可以调整它们的位置。如果在拖动的同时按下 ++alt++ 键，则标记会自动吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+Drag the knob left/right or up/down to adjust. Hold down the ++shift++ key while dragging for fine adjustment.
 
-### 播放时自动滚动
+Press ++ctrl++ and left-click the knob to reset it to the default value (0db); double-click the knob to enter the value manually.
 
-自動スクロール / Auto scroll
+Master volume setting affects the listening, playback, and WAV export volume.
 
-设置在播放时是自动滚动时间轴 / 台词列表 / 钢琴卷帘还是手动。
+If the master volume is changed manually, it will be memorised and reflected in new projects.
 
-### 主音量
+\* +6 dB doubles the volume. Excessively high volumes will cause clipping.
 
-マスターボリューム / Master Volume
+### Position Cursor
 
-在保持轨道间音量平衡的同时，可以调整整体音量。
+Click on the ruler to move the cursor to that position.
 
-调整的方法是向上 / 下或向左 / 右拖动旋钮。在拖动的同时按下 ++shift++ 键可以做更细致的调整。
-
-按下 ++ctrl++ 键并左键点击旋钮可以将其重设为默认值（0db）；双击旋钮可以手动输入数值。
-
-主音量的设置会影响试听、播放和 WAV 导出的音量。
-
-如果你手动修改了主音量的设置，它会自动存储并应用到新项目中。
-
-* +6dB 时音量会翻倍。音量设得过高时，会出现削波的情况。
-
-### 光标
-
-ポジションカーソル / Position Cursor
-
-在标尺栏上点击能将光标移至当前位置。
-
-往左或右拖动能让光标自动往该方向移动。如果在拖动的同时按下 ++alt++ 键，则光标会自动吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+Drag it left or right automatically moves the cursor in that direction. If you hold down the ++alt++ key while dragging and moving, the cursor will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
 
 ![光标](images/transport_2.png#only-light)
 ![光标](images/transport_2_dark.png#only-dark)

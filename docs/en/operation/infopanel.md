@@ -1,83 +1,75 @@
 ---
-title: 信息面板
+title: Info Panel
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ インフォパネル](https://cevio.jp/guide/cevio_ai/operation/infopanel/)
+Original article: [CeVIO AI ユーザーズガイド ┃ インフォパネル](https://cevio.jp/guide/cevio_ai/operation/infopanel/)
 
 ---
 
 ![info panel](images/infopanel_1.png#only-light)
 ![info panel](images/infopanel_1_dark.png#only-dark)
 
-### 时间轴光标位置
+### Time of Cursor Position
 
-*ポジションカーソルの位置 / Time of Cursor Position*
+Display the positon of position cursor.
 
-显示光标在时间轴上的位置。
+Left-click to directly enter and move to the position.
 
-鼠标左键单击输入数值可以直接移动光标。
+Right-click to toggle between "Minute: Second: Millisecond" and "Measure: Beat: Tick".
 
-鼠标右键单击可以在「分：秒：微秒」和「小节：拍子：Tick」间切换。
-
-（1 秒等于 1000 微秒。4 分音符的长度是 960 tick。）
+(1 second is 1,000 milliseconds; a quarter note is 960 ticks long.)
 
 ![move to position](images/infopanel_2.png)
 
-### 光标处的曲速
+### Tempo of Cursor Position
 
-*テンポ / Tempo of Cursor Position*
+Show the tempo at the cursor position. Click to change it.
 
-显示光标当前所在位置的曲速。单击可以修改。
+\* Tempo is a common setting for all song tracks. It does not affect the talk track.
 
-* 曲速的设定对全体歌唱轨道起效。对语音轨道没有影响。
-
-* 如果想在歌曲中间修改曲速，可以在钢琴卷帘里的标尺栏上添加新的曲速。
+\* If you want to change the tempo in the middle of a song, add a tempo from the ruler in piano roll .
 
 ![tempo](images/infopanel_3.png)
 
-### 拍子
+### Time Signature of Cursor Position
 
-*拍子 / Time Signature of Cursor Position*
+Show the time signature (beat) at the cursor position. Click to change it.
 
-显示光标当前所在位置的拍子。单击可以修改。
+\* Time signature is a common setting for all song tracks. It does not affect the talk track.
 
-* 拍子的设定对全体歌唱轨道起效。对语音轨道没有影响。
-
-* 如果想在歌曲中间修改拍子，可以在钢琴卷帘里的标尺栏上添加新的拍子。
+\* If you want to change the time signature in the middle of a song, add a time signature from the ruler in piano roll .
 
 ![time signature](images/infopanel_4.png)
 
-### 音符量化
+### Quantize
 
-*クオンタイズ / Quantize*
+Show the current quantize setting. Click to change it.
 
-显示当前的量化设定。单击可以修改。
-
-* 该设定控制的是钢琴卷帘内的音符。对语音轨道没有影响。
+\* This setting controls the notes in the piano roll. It does not affect the talk track.
 
 ![quantize](images/infopanel_5.png)
 
-!!! info "音符量化是"
+!!! info "Quantize is"
 
-    假设量化设置为 1/8，则一个小节将等分为八份，音符的开头与结尾将自动吸附到划分后的小节上。
+    Assume that quantize is set to 1/8, the notes will be corrected to the beginning and end of the eight divisions of a bar. 
 
-    ![量化设置为 1/8 的情况](images/infopanel_6.png)
+    ![quantize is set to 1/8](images/infopanel_6.png)
 
-    当量化设置为 1/8（三连音）时，一个小节将被等分为 12 份。音符的位置也会被补正到这 12 个格子的位置上。
+    If quantize is set to 1/8 (triplets), the notes will be corrected to the position where a bar is divided into 12 sections.
 
-    ![量化设置为 1/8（三连音）的情况](images/infopanel_7.png)
+    ![quantize is set to 1/8 (triplets)](images/infopanel_7.png)
 
-    如果待插入的音符最短长度为 1/8，推荐将量化设置为 1/8；如果是 1/16 则推荐设置为 1/16。
+    If the shortest note you are entering is a 16th note, we recommend setting it to 1/16; if it is an eighth note, we recommend setting it to 1/8.
 
 !!! tip
 
-    **按照原样写谱，能唱出更自然的歌声。**
+    Entering the notes as the original score can get a more naturally voice.
 
-    **不推荐用音符和音符间细小的空隙表示促音（っ），或用音符的位置来表达发声的时机。**
+    It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
 
-    **将促音包含在歌词中，在时间页面调整发声的时机，会得到更好的歌声。**
+    Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
 
     ---
 

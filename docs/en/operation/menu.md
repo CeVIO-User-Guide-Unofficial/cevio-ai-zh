@@ -1,712 +1,500 @@
 ---
-title: 菜单
+title: Menu
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ メニュー](https://cevio.jp/guide/cevio_ai/operation/menu/)
+Original article: [CeVIO AI ユーザーズガイド ┃ メニュー](https://cevio.jp/guide/cevio_ai/operation/menu/)
 
 ---
 
 ![menu](images/menu_1.png)
 
 !!! hint
-    如果你不理解菜单里的某个选项是做什么用的，试试将鼠标长时间停留在那个选项上。
+    If you don't understand what an option in a menu does, try hovering the mouse over that option for a while.
 
-## 文件
+## File
 
-*ファイル / File*
+### New Project
 
-### 新建工程
+Create a new project (including Talk, Song, etc.).
 
-*新規プロジェクト / New Project*
+If any content is being editing, a saving confirm dialog will be displayed.
 
-创建一个新项目（包括语音和歌唱）。
+### Open
 
-如果有正在编辑的内容，会显示保存确认画面。
+Open a saved project file.
 
-### 打开
+If any content is being editing, a saving confirm dialog will be displayed.
 
-*開く/ Open*
+### Open Backup
 
-打开保存的项目文件。
+Open a backup of the project.
 
-如果有正在编辑的内容，会显示保存确认画面。
+Backup file is saved automatically per 5 minutes, and deleted automatically after a week.
 
-### 打开备份
+### Save
 
-*バックアップを開く / Open Backup*
+Overwrite the project file being edited and save it.
 
-打开项目的备份。
+### Save As
 
-备份文件每隔 5 分钟自动保存一次，一周后自动删除。
+Name and save the project file being edited.
 
-### 保存
+Enter a file name and click [Save].
 
-*保存 / Save*
+The extension of the saved file will be `.ccs`.
 
-保存正在编辑的项目。
+### Import
 
-### 另存为
+#### Text File
 
-*名前を付けて保存 / Save As*
+Import lines from a text file onto a Talk Track.
 
-命名并保存正在编辑的项目。
+[Importing lines](../../talktrack/talk_04)
 
-输入一个文件名，然后点击【保存】。
+#### AozoraBunko File
 
-保存的文件后缀是“ccs”。
+Import lines from a AozoraBunko ([青空文庫](https://www.aozora.gr.jp/)) file excluding comment `#...` onto a Talk Track.
 
-### 导入
+#### Subtitle File {#subtitle-file-import}
 
-*インポート / Import*
+Import lines from a SubRip (`.srt`) file or SubViewer (`.sbv`) onto a Talk Track.
 
-#### 导入台词文本
+#### MIDI File {#midi-file-import}
 
-*セリフのテキストの読み込み / Text File*
+Import a standard MIDI file onto a Song Track.
 
-将文本文件的台词导入语音轨道。
+#### MusicXML File {#musicxml-file-import}
 
-[台词的导入](../../talktrack/talk_04)
+Import a MusicXML file onto a Song Track.
 
-#### 从青空文库导入
+[Importing MIDI/MusicXML](../../songtrack/fileimport)
 
-*青空文庫の読み込み / AozoraBunko File*
+#### Audio File
 
-将青空文库的台词文件，除注释 [#...] 以外的文本导入语音轨道。
+Load an external audio file onto a audio track which starts at the current cursor position.
 
-#### 导入字幕文件
+[About the format of audio files](../../songtrack/audio)
 
-*字幕の読み込み / Subtitle File*
+#### Track File {#track-file-import}
 
-将 SubRip (.srt) 和 SubViewer (.sbv) 格式的字幕文件导入语音轨道。
+Load the file saved in [(Export) Track File](#track-file-export).
 
-#### 导入MIDI音轨
+#### Settings File {#setting-file-import}
 
-*MIDIの読み込み / MIDI File*
+Load the saved environment settings.
 
-将标准 MIDI 文件导入歌曲轨道。
+Available import settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" adn "Talk: Speech Clips".
 
-#### 导入MusicXML
+"Talk: User Dictionary" "Talk: Preset" "Talk: Speech Clips" allow you to select the import option of "Replace existing items" or "Merge with existing items".
 
-*MusicXMLの読み込み / MusicXML File*
+### Export
 
-将 MusicXML 文件导入歌曲轨道。
+#### Audio Mixdown
 
-[MIDI／MusicXML的导入](../../songtrack/fileimport)
+Export all the tracks to a stereo WAV (48kHz 16bit) file.
 
-#### 导入音频文件
+#### Audio Files per Each Line
 
-*オーディオファイルの読み込み / Audio File*
+Export selected Talk Track(s) in monaural WAV format for each line.
 
-将外部音频文件加载到以当前光标位置为起点的音频轨道上。
+\* Sample Rate and Bit Depth can be specified in Option.
 
-[关于音频文件的格式](../../songtrack/audio)
+\* If "Separate folders and numbers for each track" is unchecked in "Details", files will not be divided into folders, and the file name numbers will be the serial numbers of all the lines in all the tracks.
 
-#### 导入音轨单位文件
+#### Text File {#text-file-export}
 
-*トラック単位の読み込み / Track File*
+Export the lines of selected Talk Track(s) in comma-delimited text format (CSV).
 
-加载在「导出音轨单位文件」中保存的文件。
+#### Subtitle File {#subtitle-file-export}
 
-#### 导入设置
+Export the lines of selected Talk Track(s) in SubRip (`.srt`) or SubViewer (`.sbv`) format for use in YouTube subtitles, etc.
 
-*設定の読み込み / Settings File*
+#### Audio File of Song
 
-加载已保存的环境设定。
+Export selected Song Track(s) in monaural WAV format.
 
-可选的导入选项有「常规设置」「用户词典」「预置」「台词片段」。
+\* Sample Rate and Bit Depth can be specified in Option.
 
-「用户词典」「预置」「台词片段」可以选择「替换现有内容」或「在现有内容的基础上添加」的导入选项。
+#### MIDI File {#midi-file-export}
 
-### 导出
+Export selected Song Track(s) in MIDI format.
 
-*エクスポート / Export*
+\* When multiple tracks are selected, they will be combined into a file, and the key signature will reflect on the "Conductor Track" detected by the first selected track.
 
-#### 导出WAV音频文件
+#### MusicXML File {#musicxml-file-export}
 
-*ミックスダウンWAV書き出し / Audio Mixdown*
+Export selected Song Track(s) in MusicXML format.
 
-将全部轨道导出为一个 WAV 格式（48kHz 16bit 立体声）的文件。
+#### Track File {#track-file-export}
 
-#### 导出语音部分为WAV文件
+Save the edited contents of selected track(s).
 
-*セリフの連続WAV書き出し / Audio Files per Each Line*
+The saved file can be imported into another project and reused.
 
-将所选语音轨道以 WAV 格式（48kHz 16bit 单声道）导出每一行的内容。
+The extension of the saved file is `.ccst`.
 
-* 如果在「详细」中关闭了「按音轨建立文件夹，按序号命名文件」，文件就不会被划分到文件夹中，文件名号就变成了所有轨道中所有行的序列号。
+#### Settings File {#settings-file-export}
 
-#### 导出台词文本
+Save the current environment settings.
 
-*セリフのテキスト書き出し / Text File*
+Available export settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" adn "Talk: Speech Clips".
 
-将所选语音轨道以用逗号分隔的文本格式导出每一行的内容。
+The extension of the saved file is `.ccsa`.
 
-#### 导出字幕
+### Recent Project
 
-*字幕テキストの書き出し / Subtitle File*
+Select and open a recently used project file.
 
-将所选语音轨道以 SubRip (.srt) 和 SubViewer (.sbv) 格式导出每一行的内容。可以用于 YouTube 的字幕。
+### Quit
 
-#### 导出歌唱部分为WAV文件
+Quit the application.
 
-*ソングのWAV書き出し / Audio File of Song*
+If any content is being editing, a saving confirm dialog will be displayed.
 
-将所选歌唱轨道以 WAV 格式（48kHz 16bit 单声道）导出。
+## Edit
 
-#### 导出MIDI
+### Undo
 
-*MIDIの書き出し / MIDI File*
+Return to the previous state.
 
-将所选歌唱轨道导出为 MIDI 文件。
+### Redo
 
-* 即使选择了多个音轨，它们也会被合并到一个文件中，而调号会反映在由选定的第一个音轨生成的「Conductor Track」中。
+Return to the state before executing "Undo".
 
-#### 导出MusicXML
+### Cut
 
-*MusicXMLの書き出し / MusicXML File*
+Cut the selected line(s) or note(s).
 
-将所选歌唱轨道导出为 MusicXML 文件。
+### Copy
 
-#### 导出音轨单位文件
+Copy the selected line(s) or note(s).
 
-*トラック単位の保存 / Track File*
+### Paste
 
-保存对所选轨道进行的编辑。
+Paste the copied/cut line(s) or note(s) to the position of the position cursor.
 
-保存的文件可以导入到另一个项目并重新使用。
+### Delete
 
-保存文件的后缀是“ccst”。
+Delete the selected line(s) or note(s).
 
-#### 导出设置
+### Select All
 
-*設定の書き出し / Settings File*
+Select all the lines or notes on the current track.
 
-导出当前的环境配置文件。
+## View
 
-可选的导出选项有「常规设置」「用户词典」「预置」「台词片段」。
+### Normal
 
-保存文件的后缀是“ccsa”。
+Default.
 
-### 最近的工程
+### Full Screen
 
-*最近使ったプロジェクト / Recent Project*
+Hide the window title and menu to make the editing window wider.
 
-可以选择最近使用的工程并打开。
+\* Press ++f11++ to quit the full screen.
 
-### 退出
+### Portrait
 
-*終了 / Quit*
+Display character image only. This display mode is suitable for external cooperation, etc.
 
-关闭程序。
+\* Beside Start/Stop, the position cursor movement shortcut keys are also effective during portrait mode.
 
-如果有正在编辑的内容，会显示保存确认画面。
+\* While in portrait mode, you can switch to "Always on Top" by right-clicking.
 
-## 编辑
+## Track
 
-*編集 / Edit*
+### Add Track
 
-### 撤销
+Add a new track below the currently selected track.
 
-*元に戻す / Undo*
+Up to 32 tracks can be created for each talk track, song track and audio track.
 
-回退到之前的工作状态。
+### Duplicate Track
 
-### 重做
+Add a track that duplicates the currently selected track.
 
-*やり直し / Redo*
+### Remove Track
 
-回退到执行「撤销」前的工作状态。
+Delete the currently selected track.
 
-### 剪切
+### Move Track Up
 
-*切り取り / Cut*
+Move the currently selected track up by one track.
 
-切取选择的台词或音符。
+### Move Track Down
 
-### 复制
+Move the currently selected track down by one track.
 
-*コピー / Copy*
+### Clear Track Contents
 
-复制选择的台词或音符。
+Delete all elements of the selected track.
 
-### 粘贴
+### Align Track Element
 
-*貼り付け / Paste*
+Place elements (lines and external audios) at equal intervals on the selected track(s).
 
-在光标当前的位置粘贴复制（剪切）的台词或音符。
+### Freeze Track
 
-### 删除
+Output the audio of the currently selected track to a single file, reducing playback delays and mixing times for multiple tracks. It can also reduce the CPU and memory load during playback, which is useful when too many tracks cause the audio has gaps or when memory is low.
 
-*削除 / Delete*
+\* It will unfreeze automatically once editing the track contents.
 
-删除选择的台词或音符。
+### Mute Track
 
-### 全选
+Mute the currently selected track.
 
-*すべて選択 / Select All*
+### Solo Track
 
-选择当前轨道的所有台词或音符。
+Play the currently selected track only.
 
-## 面板显示
+### Cast
 
-*表示 / View*
+Change the cast for currently selected talk track or song track.
 
-### 标准
+## Talk
 
-*標準 / Normal*
+### Japanese Word Registration
 
-默认的显示。
+Register the reading and accent of the mispronounced word in the user dictionary.
 
-### 全屏
+### Japanese Dictionary Management
 
-*全画面 / Full Screen*
+View the registered words and edit or delete them.
 
-隐藏窗口标题和菜单，使编辑屏幕更宽。
+### Speech Clips
 
-* 若要退出全屏，请按 ++F11++。
+View the registered lines and insert them to a selected line, or delete them from the list.
 
-### 封面
+### Find Text
 
-*コンパクト / Portrait*
+Search lines by keywords. This is useful when you have lots of lines.
 
-只显示角色图。这种显示方式适用于外部调用等。
+### Enter Text Collectively
 
-除了播放/停止，移动位置光标的快捷键在封面显示模式中也有效。
+For those long sentences that are very time-consuming to type into one line at a time, you can use this function to type them at once.
 
-在封面显示模式中，你可以通过右键点击切换到「始终置顶」。
+You can also use it to split lines.
 
-## 音轨
+### Continuous Input
 
-*トラック / Track*
+When this option is turned on, the following features will be enabled to assist in the continuous input of lines.
 
-### 添加音轨
+* Press ++enter++ to end editing on this line, move to the next line and enter editing automatically.
 
-*トラックを追加 / Add Track*
+* Press ++shift+enter++ to end editing on this line, move to the last line and enter editing automatically.
 
-在当前所选音轨下面添加一个新的音轨。
+* Press ++ctrl+enter++ to end editing on this line, ++esc++ to cancel editing, ++enter++ on a blank line to end editing.
 
-最多可以创建 32 个语音轨道、歌唱轨道和音频轨道。
+### Automatic Line Alignment
 
-### 复制音轨
+When this option is turned on, subsequent lines will automatically move backwards and forwards after the line is entered (to maintain spacing).
 
-*トラックを複製 / Duplicate Track*
+When this option is turned off, editing or moving a line does not change the position of other lines.
 
-将当前所选音轨复制为一个新轨道。
+### Add Blank Line
 
-### 删除音轨
+Add 10 blank lines to the end of speech list.
 
-*トラックを削除 / Remove Track*
+### Graph
 
-删除当前所选音轨。
+#### Edit Mode {#edit-mode-talk}
 
-### 上移音轨
+Switch among accent, pitch and volume adjustment modes.
 
-*トラックを上に移動 / Move Track Up*
+#### Overlay Duration Lines
 
-将当前所选音轨向上移动 1 个轨道。
+When this option is turned off, adjustment line of sound length will be hidden.
 
-### 下移音轨
+\* You can still adjust the sound length by dragging the text area above and below the phoneme graph, or scrolling the mouse wheel up and down.
 
-*トラックを下に移動 / Move Track Down*
+#### Phoneme Mode
 
-将当前所选音轨向下移动 1 个轨道。
+When this option is turned on, you can adjust by phoneme units to make a more detailed adjustment.
 
-### 清空音轨的内容
+Even if this option is turned off, you can press and hold ++alt++ to temporarily switch to phoneme mode, then drag with the mouse to adjust the phoneme units.
 
-*トラック内容をクリア / Clear Track Contents*
+#### Reset
 
-将当前所选音轨的内容全部清除。
+All bars in the current adjustment mode will be restored to their pre-adjustment state.
 
-### 设置音轨的内容为等间隔排列
+### Placement of Phoneme Graph
 
-*トラック内容を等間隔に整列 / Align Track Element*
+Change the display position of phoneme graph. You can also choose to hide it.
 
-将当前所选音轨的元素（台词和外部音频）以相等的间隔放置。
+### Other Track Lines
 
-### 冻结音轨
+Select whether or not to display all lines of the talk track in the speech list.
 
-*トラックを固定 / Freeze Track*
+### Column
 
-将当前所选音轨的音频输出到一个文件中，减少播放延迟和多个音轨的混合时间。它还能在播放过程中减少 CPU 和内存的负荷，这在音轨过多导致声音中断或内存不足时很有用。
+Show/hide the columns in speech list.
 
-* 编辑轨道的内容时将会自动解冻。
+## Song
 
-### 使音轨静音
+### Selection / Collectively Selection / Draw / Line / Eraser Tool
 
-*トラックをミュート / Mute Track*
+Toggle between the editing tools.
 
-静音当前音轨。
+[Editing Tool](../edittool)
 
-### 使音轨独奏
+### Quantize
 
-*トラックをソロ / Solo Track*
+Change quantize.
 
-只播放当前音轨的声音。
+[Quantize is](../infopanel#Quantize)
 
-### 音轨配音角色
+### Edit Mode {#edit-mode-song}
 
-*トラックのキャスト / Cast*
+Toggle between the Score editing mode for entering notes and lyrics, and the modes for adjusting timing, volume, pitch and vibrato.
 
-更改当前语音轨道或歌唱轨道的角色。
+You can also disable the vibrato of the selected track.
 
-## 语音
+### Enter Lyrics Collectively
 
-*トーク / Talk*
+Input the lyrics at a time from the currently selected note (or from the beginning if it is not selected).
 
-### 注册单词
+### Enter Lyrics with Phoneme
 
-*単語の登録 / Japanese Word Registration*
+Enter lyrics with phonemic symbol.
 
-将读错的单词的读音和重音登记到词典中。
+When this option is turned on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
 
-### 词典管理
+### Remove Rests
 
-*辞書の管理 / Japanese Dictionary Management*
+Removes tiny gaps (rests) caused by MIDI import, etc.
 
-可以浏览已注册的单词，并对其进行编辑或删除。
+### Insert Measures
 
-### 浏览台词片段
+Insert measures at the specified position and length for the currently selected track or all song tracks.
 
-*セリフクリップ一覧 / Speech Clips*
+You can also append measures to the end by pressing the right scroll button on the scroll bar at the right end of the piano roll; or by pressing ++shift++ + scroll the mouse wheel down.
 
-可以浏览已注册的台词，并将其插入到选定的行中，或从列表中删除。
+### Delete Measures
 
-### 搜索
+Delete measures at the specified position and length for the currently selected track or all song tracks.
 
-*検索 / Find Text*
+### Other Track Notes
 
-通过关键词搜索台词。这在台词行数很多的时候很有用。
+Select whether or not to display all notes of the song tracks in the Score editing screen.
 
-### 长段文本输入
+### Ruler View
 
-*文のまとめ入力 / Enter Text Collectively*
+Select whether or not to display tempo, time signature (beat), key signature and dynamics mark.
 
-对于那种一口气输入到一行里十分费时费力的长句子，可以用这个功能一次性输入。
+### Line View
 
-也可以当台词分割功能使用。
+Select whether or not to display beat lines and quantize lines in piano roll.
 
-### 连续输入台词
+When "Line Display on Adjustment Screen" is turned on, the beat and quantize lines will also displayed on the Adjustment Screen.
 
-*連続でセリフ入力 / Continuous Input*
+### Guide Cursor
 
-开启该选项时，将会启用下列功能以辅助台词的连续输入。
+Select whether or not to display the Quantize guide cursor on the Score editing screen.
 
-* 按 ++enter++ 键结束这一行的编辑，自动移至下一行并进入编辑状态。
+\* The Quantize guide cursor is also displayed on the Score editing screen when using Collectively Selection / Draw / Line Tool.
 
-* 按 ++shift+enter++ 键结束这一行的编辑，自动移至上一行并进入编辑状态。
+## Transport
 
-* 按 ++ctrl+enter++ 键结束这一行的编辑，按 ++esc++ 键撤销编辑，在空白行按 ++enter++ 键结束编辑。
+### Start/Stop
 
-### 自动排列台词
+Play or Pause from the Cursor position.
 
-*セリフの自動整列 / Automatic Line Alignment*
+### Stop
 
-开启该选项时，输入台词后后续的台词会自动前后移动（以维持间距）。
+Stop playback. While stopping, it moves in order of playback start position and the beginning of the song by clicking "Stop" again.
 
-关闭该选项时，台词的编辑与移动不会改变其他台词的位置。
+### Return to Start Position when Stopped
 
-### 添加空白行
+When playback is stopped, return the Corsor to the position where the playback starts.
 
-*空白行の追加 / Add Blank Line*
+### Auto scroll
 
-在台词列表末尾添加 10 行空白行。
+Automatically scroll timeline, speech list, piano roll during playback.
 
-### 音素图
+When this option is turned off, manual scroll will be enable. It can be modified during playback.
 
-*音素グラフ / Phoneme Graph*
+### Circle
 
-#### 调整模式
+Enable or disable playback looping.
 
-*調整モード / Edit Mode*
+### Start Marker
 
-在语调 / 音高 / 音量三个调整模式间切换。
+Set or remove the start point of playback looping.
 
-#### 显示调整线
+### End Marker
 
-*長さのラインを重ねて表示 / Overlay Duration Lines*
+Set or remove the end point of playback looping.
 
-关闭该选项时，音长调节的调整线将隐藏。
+### Goto Zero
 
-* 音长依然可以通过拖拽音素图上下的文本区域来调整，上下滚动鼠标滚轮也可以。
+Move the Cursor to the beginning.
 
-#### 按音素单位调整
+### Goto Start Marker
 
-*音素単位で調整 / Phoneme Mode*
+Move the Cursor to the Start Marker position.
 
-开启该选项时，可以对音素单位做更细致的调整。
+### Goto End Marker
 
-* 即使关闭该选项，也可以按 ++alt++ 暂时切换到以音素为单位显示音素图，然后用鼠标拖动来调整音素单位。
+Move the Cursor to the End Marker position.
 
-#### 恢复默认设置
+### Goto Selected Element
 
-*初期値に戻す / Reset*
+Move the Cursor to the left edge of the current selected line / external audio.
 
-将音素图当前调整模式下的所有长条柱恢复到调整前的状态。
+### Goto Time
 
-### 音素图显示
+Move the Cursor to the specific position.
 
-*音素グラフの配置 / Placement of Phoneme Graph*
+You can enter the position in "Minutes: Seconds" or "Measures: Beats".
 
-变更音素图的显示位置。也可以选择隐藏。
+### Goto Cursor
 
-### 显示别的音轨的台词
+Move to the Cursor position.
 
-*別トラックのセリフを表示 / Other Track Lines*
+This is useful when the position Cursor is lost off-screen.
 
-选择是否要在台词列表里显示所有语音轨道的台词。
+### Timebase
 
-### 选择列
+Toggle seconds/measure display in the toolbar and timeline.
 
-*列の表示 / Column*
+### Vertical Location
 
-修改台词列表里信息列的显示状态。
+Select the display position of the transport (toolbar) from the Top, Center, or Bottom.
 
-## 歌唱
+### Horizontal Location
 
-*ソング / Song*
+Select the display position of the transport (toolbar) from the Left, Center, or Right.
 
-### 选择 / 范围选择 / 画笔 / 直线 / 橡皮擦工具
+## Tool
 
-*選択／まとめ選択／ペン／ライン／消しゴムツール*
+### Options
 
-*Selection / Collectively Selection / Draw / Line / Eraser Tool*
+You can modify environment settings, such as character display and various Talk/Song settings.
 
-切换编辑工具。
+[Options](../../option/option)
 
-[编辑工具](../edittool)
+## Help
 
-### 量化
+### User Manual
 
-*クオンタイズ / Quantize*
+Open this User Manual in the browser. Internet connection is required.
 
-变更量化。
+### CeVIO Official Website
 
-[量化是](../infopanel#音符量化)
+Open CeVIO official website in the browser. Internet connection is required.
 
-### 参数调整
+### Check for Update
 
-*調整モード / Edit Mode*
+Check if there is a new version. Internet connection is required.
 
-在用于输入音符和歌词的乐谱编辑模式和调整时间、音量、音高和颤音的模式间切换。
+### Activate Product License
 
-也可以禁用所选音轨的颤音。
+Enter Product Key to activate product license. Internet connection is required.
 
-### 输入歌词
+You can also check activated products and their Product Keys.
 
-*歌詞のまとめ入力 / enter Lyrics Collectively*
+### About CeVIO AI
 
-一次性从当前选中的音符开始（若未选定的话则从头开始）插入歌词。
-
-### 按音素输入歌词
-
-*音素で歌詞入力 / enter Lyrics with Phoneme*
-
-按音素记号（发音记号）输入歌词。
-
-开启该选项时，输入模式切换为音素输入模式，歌词输入栏的背景会变为蓝灰色。
-
-### 消除短空白
-
-*細かい空白の除去 / Remove Fine Spaces*
-
-删除 MIDI 文件导入等原因导致的小空隙（休止符）。
-
-### 插入小节
-
-*小節の挿入 / Insert Measures*
-
-在指定的位置往所选音轨或全部音轨中插入小节。
-
-也可以通过按住钢琴卷帘底部的滚动条的向右滚动按钮，或通过 ++shift++ + 下鼠标滚轮的方式往末尾追加小节。
-
-### 删除小节
-
-*小節の削除 / Delete Measures*
-
-在指定的位置往所选音轨或全部音轨中删除小节。
-
-### 显示其他音轨的音符
-
-*別トラックの音符表示 / Other Track Notes*
-
-选择是否要在乐谱编辑页面里显示所有歌唱轨道的音符。
-
-### 显示标尺
-
-*ルーラー表示 / Ruler View*
-
-修改曲速、拍子、调号、强弱记号的显示与否。
-
-### 显示网格线
-
-*ライン表示 / Line View*
-
-修改钢琴卷帘内拍子线、量化线的显示与否。
-
-开启「在调整界面也显示网格线」时，调整界面中也会显示网格线。
-
-### 光标指示器
-
-*ガイドカーソル / Guide Cursor*
-
-修改标尺栏内当前鼠标对应量化位置的显示与否。
-
-* 使用范围选择工具 / 画笔工具 / 直线工具时，该量化位置也会出现在乐谱编辑页面中。
-
-## 走带控制
-
-*トランスポート / Transport*
-
-### 播放/停止
-
-*再生／停止 / Start/Stop*
-
-从光标的位置开始播放。
-
-### 停止
-
-*停止 / Stop*
-
-停止播放。停止状态下再次点击会依次回到播放开始位置、歌曲开头。
-
-### 停止时返回开始播放位置
-
-*停止時に開始位置に戻る / Return to Start Position when Stopped*
-
-停止播放时光标返回到播放开始的位置。
-
-### 播放时自动滚动
-
-*再生中の自動スクロール / Auto scroll*
-
-在播放时自动滚动时间轴 / 台词列表 / 钢琴卷帘。
-
-关闭该选项时，将启用手动滚动。该选项能在播放时修改。
-
-### 循环
-
-*繰り返し / Circle*
-
-开启 / 关闭播放的循环设置。
-
-### 起点标记
-
-*始点マーカー / Start Marker*
-
-设置 / 撤除循环的起点。
-
-### 终点标记
-
-*終点マーカー / End Marker*
-
-设置 / 撤除循环的终点。
-
-### 返回开头
-
-*先頭へ移動 / Goto Zero*
-
-使光标移动到开头。
-
-### 移动到起点标记
-
-*始点マーカーへ移動 / Goto Start Marker*
-
-使光标移动到起点标记所在的位置。
-
-### 移动到终点标记
-
-*終点マーカーへ移動 / Goto End Marker*
-
-使光标移动到终点标记所在的位置。
-
-### 移动到选择要素
-
-*選択要素へ移動 / Goto Selected Element*
-
-使光标移动到当前选定台词 / 外部音频的左端。
-
-### 向指定位置移动
-
-*指定位置へ移動 / Goto Time*
-
-使光标移动到指定位置。
-
-可以以「分：秒」或「小节：拍子」的方式输入位置。
-
-### 显示光标
-
-*カーソルへ移動 / Goto Cursor*
-
-显示光标所在的位置。
-
-当找不到画面外的光标位置时很有用。
-
-### 时间基准
-
-*タイムベース / Timebase*
-
-将工具栏 / 时间轴的时间切换为以秒 / 小节为显示单位。
-
-### 走带控制器上下位置
-
-*上下の表示位置 / Vertical Location*
-
-将走带控制器的位置设置为上部 / 中部 / 下部。
-
-### 走带控制器左右位置
-
-*左右の表示位置 / Horizontal Location*
-
-将走带控制器的位置设置为左侧 / 中间 / 右侧。
-
-## 工具
-
-*ツール / Tool*
-
-### 选项
-
-*オプション / Options*
-
-可以改变环境设置，比如角色显示，语音 / 歌唱的各种设置。
-
-[选项](../../option/option)
-
-## 帮助
-
-*ヘルプ / Help*
-
-### 显示联机帮助
-
-*ヘルプの表示 / User Manual*
-
-在浏览器中打开本用户指南。必须连接到网络。
-
-### CeVIO官方网站
-
-*CeVIOオフィシャルサイト / CeVIO Official Website*
-
-在浏览器打开 CeVIO 的官方网站。必须连接到网络。
-
-### 检查更新
-
-*アップデートを確認 / Check for Update*
-
-检查是否有较新的版本。必须连接到网络。
-
-### 序列号认证
-
-*製品を購入 / Activate Product License*
-
-在这里输入序列号以激活许可证。必须连接到网络。
-
-也可以在这里确认已激活的产品和它们的序列号。
-
-### 版本信息
-
-*バージョン情報 / About CeVIO AI*
-
-确认本软件的版本、声库、声音合成引擎的信息。
-
---8<-- "includes/abbreviations.md"
+Check the version of this software, voice and text-to-speech engine information.

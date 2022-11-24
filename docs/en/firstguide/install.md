@@ -1,66 +1,65 @@
 ---
-title: 安装与激活
+title: Install and Activate
 author: 夜輪風超絶技巧変奏曲
 category: firstguide
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ インストールと認証](https://cevio.jp/guide/cevio_ai/firstguide/install/)
+Original article: [CeVIO AI ユーザーズガイド ┃ インストールと認証](https://cevio.jp/guide/cevio_ai/firstguide/install/)
 
 ---
 
-要使用本产品，请连接到互联网，然后按照以下步骤操作。
+To use this product, connect to the Internet, then follow the steps below:
 
-1. 从“[新增功能](https://cevio.jp/guide/cevio_ai/)”页面下载最新版本；
+1. Download the latest version from the "[New Features](https://cevio.jp/guide/cevio_ai/)" page;
 
-2. 双击下载的文件以运行它。安装界面将会弹出，请按照屏幕上的说明继续安装；
+2. Double click the downloaded file to run it. The installation screen will pop up, follow the on-screen instructions to continue installing;
 
-3. 安装完成后，将在桌面上创建 CeVIO AI 快捷方式。
+3. Once the installation is completed, a CeVIO AI shortcut will be created on the desktop.
    
     ![icon](images/icon.png)
    
-    双击以启动它；
+    Double click to execute it;
    
-    ※ 如果无法启动，请查看[此页面](https://cevio.jp/guide/cevio_ai/faq/)。
+    \* If it does not execute, please check this [page](../faq/faq.md).
 
-4. 首次启动时，将会弹出“激活”窗口。
+4. When first execute, an "Activate" window will pop up.
 
-    输入歌唱编辑器或语音编辑器的序列号和电子邮件地址。
+    Enter the Product Key of Song or Talk Editor and email address.
     
-    ※ 有些情况下需要提供电子邮件地址，例如序列号丢失的情况。请准确输入。
+    \* You need to provide email address in some cases, for example, when the Product Key is missing. Please enter it accurately.
 
-5. 接下来，激活歌唱声库或语音声库；
+5. Next, activate the Song or Talk Voice;
 
-6. 如果想添加更多编辑器和声库，请从「帮助」菜单中的「序列号认证」中激活。
+6. If you want to add another Editor or more Voices, activate them from "Activate Product License" in "Help" menu.
 
-!!! info "关于序列号"
+!!! info "About Product Key"
 
-    对于实体版/盒装版，「結月ゆかり 麗」的序列号卡装在银色的袋子里，其余的封装于塑料袋中。
+    For phisical / boxed edition, the Product Key for "Yuzuki Yukari Rei" is encased in a silver bag, and the rest are encased in a plastic bag.
 
-    对于从 Vector PC Shop 购入的下载版，请通过「ライセンスキーのご案内」邮件中的链接打开接收页面，然后单击「ライセンスキーを表示」来查看。
+    For digital edition purchased from Vector PC Shop, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
 
-    对于从 DLsite 购入的下载版，请在“购买历史”中该软件的下载屏幕上查看。
+    For digital edition purchased from DLsite, please see the download screen for this software in the Purchase History.
 
-    对于从 Amazon 购入的下载版，请通过“订单确认”电子邮件中的链接显示产品页面，在「ゲーム&PCソフトダウンロードライブラリ」中查看。
+    For digital edition purchased from Amazon, please use the link in the "Order Confirmation" email to display the product page, and check in "ゲーム&PCソフトダウンロードライブラリ".
 
-## 关于卸载
+## About Uninstallation
 
-如想要卸载，Windows 11/10 用户请从「设置」里的「应用」中选择「CeVIO AI」，然后卸载。Windows 8 用户则从「控制面板」里的「卸载程序」中选择。
+To uninstall, for Windows 11/10 users, select "CeVIO AI" from "Applications" in "Settings" and then uninstall it. For Windows 8 users, select it from "Uninstall a program" in "Control Panel".
 
-声库的卸载遵从同样的步骤。选择声库然后执行卸载步骤。
+To uninstall the Voice, follow the same steps. Select the Voice and then perform the uninstallation procedure.
 
-<span style="color: red">※ 请勿直接删除安装目录下的文件。软件将无法正常运行。</span>
+<span style="color: red">※ DO NOT directly delete the files in the installation directory. The software will not operate properly.</span>
 
-## 如果想在另一台电脑上使用
+## If Wanted to Use in Another Computer
 
-请直接在新电脑上执行步骤 1~5。
+Follow the step 1~5 on the new computer directly.
 
-※ 本软件不需要诸如“取消激活”的操作。
+\* This software does not require operations such as "Deactivate".
 
-※ 激活后，需等待 24 小时才能再次使用同一序列号在另一台电脑上执行激活操作。
+\* After activation, you must wait 24 hours before you can perform the activation again on another computer with the same Product Key.
 
-※ 本软件的每个序列号只能在一台设备上激活。
+\* Each Product Key of this software can only activate one device at once.
 
-*[「序列号认证」]: ライセンス認証 / Activate Product License
-*[ライセンスキーのご案内]: 许可证密钥信息
-*[ライセンスキーを表示]: 显示许可证密钥
-*[ゲーム&PCソフトダウンロードライブラリ]: 游戏和 PC 软件下载库
+*[ライセンスキーのご案内]: Infomation of license key
+*[ライセンスキーを表示]: Show license key
+*[ゲーム&PCソフトダウンロードライブラリ]: Games and PC Software Download Library

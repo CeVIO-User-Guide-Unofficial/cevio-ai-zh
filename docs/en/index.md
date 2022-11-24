@@ -6,51 +6,51 @@ layout: home
 
 An unofficial CeVIO AI User Manual English translation.
 
-※「Talk」的译名正在讨论中。文档内暂定用词为「语音」。欢迎前往[讨论页](https://github.com./VOICeVIO/CeVIO.CN/issues/6)发表意见。
+## Shortcut Key
 
-## 快捷键
+`Global`
 
-`全局`
+:   ++f++ , ++s++ , ++slash++：Jump to the search box
 
-:   ++f++ , ++s++ , ++slash++：调出搜索对话框
+    ++p++ , ++comma++：Last Page
 
-    ++p++ , ++comma++：上一页
+    ++n++ , ++period++：Next Page
 
-    ++n++ , ++period++：下一页
+`Search`
 
-`搜索`
+:   ++down++ , ++up++：Select the last / next search result
 
-:   ++down++ , ++up++：选择上一个 / 下一个搜索结果
+    ++esc++ , ++tab++：Close the search box
 
-    ++esc++ , ++tab++：关闭搜索对话框
+    ++enter++：Open the page where search result in
 
-    ++enter++：打开搜索结果所在的页面
+## Admonitions
 
-## 图例
-
-指南中将会大量出现四种 admonitions。它们的作用如下：
+There are five admonitions that will appear throughout the manual. They work as follows:
 
 !!! hint
-    该 admonition 用于给出建议或提示。
+    This admonition is used to give suggestions or hints.
     
-    这些提示大部分由 CeVIO 官方给出，其余由译者给出。通常它们都会让 CeVIO 更易使用。
+    Most of these hints are given by CeVIO offical, and the rest are given by translator. Usually they will make CeVIO easier to use.
 
 !!! info
-    该 admonition 用于提供信息。
+    This admonition is used to provide infomation.
     
-    这些信息由 CeVIO 官方给出，涉及到 CeVIO 的特性与设置，推荐仔细阅读。
+    This infomation is given by CeVIO official and relates to the features and settings of CeVIO. It's recommended to read it carefully.
 
 !!! example
-    该 admonition 用于举例说明。
+    This admonition is used for example.
 
 !!! caution
-    该 admonition 用于标注警告或需要特别留意的信息。
+    This admonition is used to mark warnings or information that requires special attention.
 
 !!! new
-    test
+    This admonition is used to mark new features which haven't been written to manual yet.
+
+    They will be removed when these features appear in official user manual.
 
 <!-- ## 免责声明
 
 > お客様が当サイトからリンクが張られている第三者のウェブサイト、または当サイトへリンクを張っている第三者のウェブサイトから取得された各種情報のご利用によって生じたいかなる損害についても責任を負いません。
 >
-> 对于用户使用从本网站链接的第三方网站或与本网站链接的第三方网站获得的信息而引起的任何损失或损害，本站不承担任何责任。 -->
+> The Company accepts no liability for any loss or damage arising from your use of information obtained from third-party websites linked to this website or from third-party websites that have links to this website. -->

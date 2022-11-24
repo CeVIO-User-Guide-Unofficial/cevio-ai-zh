@@ -1,98 +1,88 @@
 ---
-title: 音频轨道
+title: Track Head
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ トラックヘッダ](https://cevio.jp/guide/cevio_ai/operation/trackhead/)
+Original article: [CeVIO AI ユーザーズガイド ┃ トラックヘッダ](https://cevio.jp/guide/cevio_ai/operation/trackhead/)
 
 ---
 
 ![track head](images/trackhead_1.png#only-light)
 ![track head](images/trackhead_1_dark.png#only-dark)
 
-### 音轨名
+### Track Name
 
-*トラック名 / Track Name*
+Click on the track name to select a track.
 
-点击音轨名来选中音轨。
+Double-click to change the track name.
 
-双击可以修改轨道名。
+### Volume
 
-### 音量控制
+Drag the knob left/right or up/down to adjust the volumn of a track.
 
-*ボリュームコントロール / Volume*
+Hold down the ++shift++ key while dragging for fine adjustment.
 
-左右或上下拖动旋钮（用鼠标左键按住）可以调整音轨的音量。
+Press ++ctrl++ and left-click the knob to reset it to the default value (0db); double-click the knob to enter the value manually.
 
-在拖动的同时按下 ++shift++ 键可以做更细致的调整。
+Master volume setting affects the listening, playback, and WAV export volume.
 
-按下 ++ctrl++ 键并左键点击旋钮可以将其重设为默认值（0db）；双击旋钮可以手动输入数值。
+If the master volume is changed manually, it will be memorised and reflected in new projects.
 
-音量的设置会影响试听、播放和 WAV 导出的音量。
+\* +6 dB doubles the volume. Excessively high volumes will cause clipping.
 
-* +6dB 时音量会翻倍。音量设得过高时，会出现削波的情况。
+### PAN
 
-### Pan控制
+Drag the knob left/right or up/down to adjust the pan of a track.
 
-*パンコントロール / Pan*
+Hold down the ++shift++ key while dragging for fine adjustment.
 
-左右或上下拖动旋钮可以调整音轨的声像。
+Press ++ctrl++ and left-click the knob to reset it to the default value (Centre); double-click the knob to enter the value manually.
 
-在拖动的同时按下 ++shift++ 键可以做更细致的调整。
+PAN setting affects the listening, playback, and WAV export volume.
 
-按下 ++ctrl++ 键并左键点击旋钮可以将其重设为默认值（中央）；双击旋钮可以手动输入数值。
+\* It does not affect the export of ["Audio Files per Each Line"](../menu#audio-files-per-each-line) and ["Audio File of Song"](../menu#audio-file-of-song), as they export in monaural WAV format.
 
-音量的设置会影响试听、播放和 WAV 导出的声像。
+### Mute
 
-* 不影响「导出语音部分为WAV文件」和「导出歌唱部分为WAV文件」的导出，因为这两个导出的是单声道。
+Mute the specified track. Muted tracks will not be play.
 
-（注：如果你不记得了的话请回顾一下[菜单这一节](../menu#wav_1)）
+### Solo
 
-### 静音
+Play the specified track only. When specify solo, all tracks will be muted except for this specified track.
 
-*ミュート / Mute*
+### Freeze
 
-将指定的音轨静音。静音的音轨不会播放。
+Freeze the audio of this track (output to a temporary file) to reduce the CPU and memory load during playback.
 
-### 独奏
+If the sound has gaps during playback of multiple tracks, it may be improved by freezing all the tracks except for the one being edited.
 
-*ソロ / Solo*
+(If the sound has gaps even on one track due to insufficient CPU performance, please freeze all tracks before playback.)
 
-只播放指定的音轨。指定独奏时，指定轨道外的音轨将全部被静音。
+It will unfreeze automatically once editing the track contents.
 
-### 角色设置
+### Character Setting
 
-*キャスト設定 / Character Setting*
+Choose a character voice for this track.
 
-选择要在指定音轨上使用的角色声库。
+Once the character for the talk track is changed, the character for all lines in that track will be changed.
 
-一旦变更语音轨道的角色，该音轨内所有台词的角色都会变更。
+### Track Header Size
 
-### 音轨的宽度
-
-*トラックヘッダの大きさ*
-
-可以通过时间轴右端的 [+] [-] 按钮，以三种宽度缩放音频轨道。
+The track header size can be scaled in three sizes by vertically zooming with the [+] [-] buttons at the right end of the timeline.
 
 ![track head zoom](images/trackhead_2.png)
 
-### 添加音轨按钮、排序音轨按钮
+### Add Track, Sort Track
 
-*トラック追加ボタン、トラック並べ替えボタン / Add Track, Sort Track*
-
-通过 [+] 按钮可以直观地从列表里选择角色并添加音轨，并用 [down] [up] 按钮为其排序。
+You can easily add tracks from the cast list with the [+] button, and sort them with the [↑] [↓] buttons.
 
 ![cast list](images/trackhead_3.png)
 
-### 光标
+### Position Cursor
 
-*ポジションカーソル / Position Cursor*
+Drag it left or right automatically moves the cursor in that direction. If you hold down the ++alt++ key while dragging and moving, the cursor will automatically be attached to the closest second (or bar, depending on the time base of the ruler.
 
-在标尺栏上往左或右拖动能让光标自动往该方向移动。如果在拖动的同时按下 ++alt++ 键，则光标会自动吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+### Time
 
-### 时间
-
-*タイム / Time*
-
-在标尺栏上右键单击，可以在「分：秒」和「小节：拍子」的时间基准间切换。
+Right-click on the ruler to toggle between the "Minutes: Seconds" and "Bars: Beats" time bases.

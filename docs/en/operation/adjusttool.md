@@ -1,65 +1,52 @@
 ---
-title: 调整工具（歌唱）
+title: Adjustment Tool (Song)
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 調整ツール（ソング）](https://cevio.jp/guide/cevio_ai/operation/adjusttool/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 調整ツール（ソング）](https://cevio.jp/guide/cevio_ai/operation/adjusttool/)
 
 ---
 
 ![adjust tool](images/adjusttool_1.png#only-light)
 ![adjust tool](images/adjusttool_1_dark.png#only-dark)
 
-切换歌唱轨道的调整模式。
+Switch the edit mode of the Song Track.
 
-点击按钮上面的文字（例如「PIT」）能在当前的调整页面中叠加显示其他页面。
+Click on the text above the button (e.g. 'PIT') to display other screens superimposed on the current adjustment screen.
 
-（无法在语音轨道或音频轨道中使用。）
+(Cannot be used in Talk Track or Audio Track.)
 
 ![overlay item](images/adjusttool_2.png)
 
-### 乐谱编辑
+### Edit Score
 
-*楽譜編集 / Edit Score*
+Edit the score by adding notes, deleting notes, etc.
 
-在这里执行诸如添加或删除等编辑音符的操作。
+### Edit Timing
 
-### 时间调整
+Adjust the timing of the vocalisation.
 
-*タイミング調整 / Edit Timing*
+### Edit Volume
 
-在这里调整音素发声的时刻和时长。
+Adjust the volume of the note.
 
-### 音量调整
+### Edit Pitch
 
-*ボリューム調整 / Edit Volume*
+Adjust the pitch of a note.
 
-在这里编辑音符的音量。
+\* Outside of the pitch adjustment page, when the pitch is superimposed, the pitch affected by the vibrato will also be displayed.
 
-### 音高调整
+\* In the pitch adjustment page, when the amplitude or frequency of the vibrato is superimposed, the pitch affected by the vibrato will also be displayed.
 
-*ピッチ調整 / Edit Pitch*
+### Edit Vibrato Amplitude
 
-在这里调整音符的音高。
+Adjust the vibrato amplitude here.
 
-* 在音高调整页面以外，当叠加显示音高时，颤音影响后的音高也会一同显示。
-* 在音高调整页面内，当叠加显示颤音的振幅或周期时，颤音影响后的音高也会一同显示。
+### Edit Vibrato Frequency
 
-### 颤音的振幅调整
+Adjust the vibrato frequency here.
 
-*ビブラートの振幅調整 / Edit Vibrato Amplitude*
+### Edit Alpha Detail
 
-在这里调整颤音的振幅。
-
-### 颤音的周期调整
-
-*ビブラートの周期調整 / Edit Vibrato Frequency*
-
-在这里调整颤音的周期。
-
-### 音色的详细调整
-
-*声質の詳細調整 / Edit Alpha Detail*
-
-调整轨道内音色更细节的变化。
+Adjust the more detailed variation of voice within a track.

@@ -1,76 +1,68 @@
 ---
-title: 编辑工具（歌唱）
+title: Editing Tool (Song)
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 編集ツール（ソング）](https://cevio.jp/guide/cevio_ai/operation/edittool/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 編集ツール（ソング）](https://cevio.jp/guide/cevio_ai/operation/edittool/)
 
 ---
 
 ![edit tool](images/edittool_1.png#only-light)
 ![edit tool](images/edittool_1_dark.png#only-dark)
 
-切换歌唱轨道的编辑模式。
+Switch the edit mode of the Song Track.
 
-（无法在语音轨道或音频轨道中使用。）
+(Cannot be used in Talk Track or Audio Track.)
 
-### 选择工具
+### Selection Tool
 
-*選択ツール / Selection Tool*
+Score editing screen: Select notes, tempo, etc. Drag to select a range of notes.
 
-乐谱编辑页面：选择音符、曲速等。拖动以选择音符。
+Adjustment screen: Drag to copy or delete notes.
 
-调整画面：拖动以指定复制或删除的范围。按下 ++alt++ 键时将脱离量化限制。
+\* When ++lctrl++ is held down, it changes to the Draw Tool.
 
-* 按住 ++lctrl++ 键时，它将变成画笔工具。
+### Collectively Selection Tool
 
-### 范围选择工具
+Select all the notes in the range and all the adjustment values at once, without quantization while pressing Alt.
 
-*まとめ選択ツール / Collectively Selection Tool*
+\* When ++lctrl++ is held down, it changes to the Draw Tool.
 
-选择选中范围内的音符以及它们的全部参数。按下 ++alt++ 键时将脱离量化限制。
+### Draw Tool
 
-* 按住 ++lctrl++ 键时，它将变成画笔工具。
+Score editing screen: Select notes, tempo, etc. Drag to enter or move notes.
 
-### 画笔工具
+Adjustment screen: Drag to adjust values. Change to connection adjustment mode when ++alt++ is pressed.
 
-*ペンツール / Draw Tool*
+\* When ++lctrl++ is held down, it changes to the Eraser Tool.
 
-乐谱编辑页面：选择音符、曲速等。拖动以输入歌词 / 音素或移动音符。
-
-调整画面：拖动以调整参数。按下 ++alt++ 键时进入连接调整模式。
-
-* 按住 ++lctrl++ 键时，它将变成橡皮擦工具。
-
-!!! info "连接调整模式"
+!!! info "Connection Adjustment Mode"
 
     ![connection adjustment mode](images/edittool_2.png)
     
-    * 按住 ++alt++ 并拖动鼠标时，画笔工具将会画出红色的调整线。此时放开 ++alt++ 键时，画出的红线和原始的参数线将会自动连接，并以此作为新的参数。
-    * 按住 ++alt++ 键，会出现一条参考线，它反映的是已调整的参数值。可以依此确认当前的状态。
-      * 如果在画线前就放开了 ++alt++ 键，则焦点会切到菜单上[^1]，但可以通过长按 ++alt++ 键的方式再次确认。
-    * 出于横坐标（时间）的内部数据处理原因，屏幕上的原始值和调整值，二者的连接可能会出现略微错位的情况。
+    * When you hold down ++alt++ and drag the mouse, the draw tool will draw a red line. When ++alt++ is released, the red line drawn and the original line will be automatically connected and used as the new value.
+    * When ++alt++ is held down, a single line reflecting the adjusted value will be displayed. You can use it to check the current status easily.
 
-### 直线工具
+        \* If you release ++alt++ without dragging, the focus will shift to the menu[^1], but you can check it again by holding down ++alt++.
+    
+    * The connection between the default value and the adjusted value on the screen may look a little off due to the internal data resolution of the horizontal axis (time).
 
-*ラインツール / Line Tool*
+### Line Tool
 
-乐谱编辑页面：同画笔工具。
+Score editing screen: Same as the Draw Tool.
 
-调整画面：（时间调整页面除外）拖动以画出一条直线。同时按下 ++shift++ 键可以画出水平线。
+Adjustment screen: (except for Timing editing screen) Drag to draw a straight line. Hold down ++shift++ at the same time to draw a horizontal line.
 
-* 按住 ++lctrl++ 键时，它将变成橡皮擦工具。
+\* When ++lctrl++ is held down, it changes to the Eraser Tool.
 
-### 橡皮擦工具
+### Eraser Tool
 
-*消しゴムツール / Eraser Tool*
+Score editing screen: Delete notes, tempo, etc.
 
-乐谱编辑页面：删除音符、曲速等。
+Adjustment screen: Delete the adjusted value. (Pitch/Vibrato editing screen) Hold down ++shift++ at the same time to delete the original value.[^2]
 
-调整画面：删除已调整的参数值。（音高 / 颤音调整页面）同时按住 ++shift++ 键时可以删除原始值。[^2]
+\* When ++lctrl++ is held down, it changes to the Selection Tool.
 
-* 按住 ++lctrl++ 键时，它将变成选择工具。
-
-[^1]: 译者注：这个其实是 Windows 系统使用键盘调用菜单的快捷键，菜单的文字里后面跟着的字母就是调用它们的键。比如说你现在试试看在 CeVIO 里按 ++alt++ 再按一下 ++f++（
-[^2]: 译者注：算是个小技巧，用橡皮擦删掉原始音高值可以做出黑嗓。
+[^1]: Translator's note: Actually this is a shortcut for Windows to use the keyboard to invoke the menus, and the letters that follow in the text of the menus are the keys that invoke them. For example, try pressing ++alt++ in CeVIO and then pressing ++f++ (
+[^2]: Translator's note: A trick: deleting the original pitch value with eraser tool can make a death growl.

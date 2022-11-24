@@ -1,20 +1,20 @@
 ---
-title: 关于
+title: About
 category: Basic Info
 layout: post
 ---
 
-## 关于
+## About
 
-译自 CeVIO 官网。本网站的文章为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
+Translated from the official CeVIO website. Articles on this website are unofficial translations and are for reference only. Due to the translator's Japanese and English language skills, there may be mistakes in the translation of the text. Please correct me if you find any.
 
-CeVIO 操作页面的中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](https://github.com/VOICeVIO/CeVIO.CN)。在此感谢。
+The Chinese translation of the CeVIO GUI is from [the Chinese patch of VOICeVIO/Ulysses](https://github.com/VOICeVIO/CeVIO.CN). We would like to thank you for this.
 
-本网站托管于 GitHub，使用 [GitHub Pages](https://pages.github.com/) 发布，使用的主题为 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)。
+This site is hosted on GitHub, published using [GitHub Pages](https://pages.github.com/), and uses the theme [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-## 译者
+## Translator
 
-夜轮
+夜轮_Nightwheel
 
 [![Bilibili](https://img.shields.io/badge/-夜輪風超絶技巧変奏曲-00A1D6?style=flat-square&logo=bilibili&logoColor=ffffff)](https://space.bilibili.com/2138390911) [![Twitter](https://img.shields.io/badge/-夜輪風超絶技巧変奏曲-1DA1F2?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/Yorin_NW)
 
@@ -22,9 +22,9 @@ CeVIO 操作页面的中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](ht
 
 [![Bilibili](https://img.shields.io/badge/-术力口bot-00A1D6?style=flat-square&logo=bilibili&logoColor=ffffff)](https://space.bilibili.com/390624333) [![Weibo](https://img.shields.io/badge/-术力口bot-E6162D?style=flat-square&logo=sina-weibo)](https://weibo.com/u/5760163050)
 
-## 维护者
+## Maintainer
 
-夜轮
+夜轮_NachtgeistW
 
 [![GitHub](https://img.shields.io/badge/-NachtgeistW-%23181717?style=flat-square&logo=github)](https://github.com/NachtgeistW) [![Twitter](https://img.shields.io/badge/-夜轮-1DA1F2?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/Nightwheel_C) [![Weibo](https://img.shields.io/badge/-夜轮_Nightwheel-E6162D?style=flat-square&logo=sina-weibo)](https://weibo.com/u/7312904644) 
 
@@ -32,4 +32,4 @@ CeVIO 操作页面的中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](ht
 
 ---
 
-<p style="text-align:center">献给在遥远异星歌唱咏叹调的精灵们。</p>
+<p style="text-align:center">Dedicated to the spirits singing arias on the distant alien planet.</p>

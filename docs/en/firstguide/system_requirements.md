@@ -1,52 +1,51 @@
 ---
-title: 操作环境
+title: System Requirements
 author: 夜輪風超絶技巧変奏曲
 category: firstguide
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 動作環境](https://cevio.jp/guide/cevio_ai/firstguide/system_requirements/)
+Original artical: [CeVIO AI ユーザーズガイド ┃ 動作環境](https://cevio.jp/guide/cevio_ai/firstguide/system_requirements/)
 
 ---
 
-## 支持的操作系统
+## Supported OS
 
-Windows 11 / 10 / 8.1 （64 位日语或英语）[^1]
+Windows 11/10/8.1 （64-bit Japanese or English）
 
-## 处理器
+## Processor
 
-英特尔 / AMD 双核处理器及以上
+Intel/AMD dual-core processors or higer
 
-* 推荐 4 核及以上
-* 过低的处理性能可能会导致播放过程中的跳音。 （不影响文件输出。 )
+\* 4 Core or higher Recommended.
 
-## 内存
+\* It may occur sound skipping during playback if the processing performance is too low. (Wouldn't affect file output.)
 
-4GB 及以上
+## Memories
 
-* 推荐 8GB 及以上
+4GB RAM or more
 
-## 存储 （硬盘/固态硬盘）
+\* 8GB RAM or more Recommended
 
-1GB 或更多可用空间（用于安装）
+## Storage (HDD / SSD)
 
-## 显示
+1GB or more available space (for installation)
 
-1280×720 或以上 全彩
+## Display
 
-!!! info "关于显示缩放"
+1280×720 or above, Full color
 
-    当 Windows 显示缩放（放大设置）为 150% 时，1920×1080 屏幕的实际分辨率为 1280×720。
+!!! info "About Display Scaling"
 
-    本软件支持 [Per Monitor DPI](https://docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows)，即使在 4K 分辨率和具有不同缩放设置的多显示器环境中也能舒适地使用。
+    When Windows display scaling (magnification setting) is set to 150%, the actual resolution of a 1920×1080 screen is 1280×720.
 
-## 其他
+    By supporting [Per Monitor DPI](https://docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows), this software can be used comfortably even in 4K resolution or multi-monitor environments with different scaling settings.
 
-每个许可证仅供一台电脑的安装和使用。
+## Other
 
-音频播放需要支持 Windows 的声音设备。
+Each license is for the installation and use on one computer only.
 
-需要互联网连接才能激活和更新。
+Windows-compatible sound devices are required for audio playback.
 
-本产品和合成语音的商业使用可能需要额外的许可证。
+The Internet connection is required for activate and update.
 
-[^1]: 译者注：中文操作系统也可以正常使用。
+Additional licenses may be required for commercial use of this product and synthetic voice.

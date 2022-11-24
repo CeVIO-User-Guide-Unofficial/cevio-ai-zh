@@ -8,8 +8,14 @@ layout: post
 
 ## 2022.11.21
 
-- 由于语言切换与 `navigation.instant` 不兼容，现已停用该选项。
-    - > mkdocs-material language switcher contextual link is not compatible with theme.features = navigation.instant
+- 新增英文翻译。
+- 为配合英文页面，语言切换功能已启用。
+    - 添加了 mkdocs-static-i18n 插件。
+    - 由于语言切换与 `navigation.instant` 不兼容，现已停用该选项。
+        - > mkdocs-material language switcher contextual link is not compatible with theme.features = navigation.instant
+- 由于文件夹结构发生变化，所有页面的创建日期均发生了改变。
+- 添加了图片缩放功能。
+    - 添加了 mkdocs-glightbox 插件。
 
 ## 2022.11.16
 

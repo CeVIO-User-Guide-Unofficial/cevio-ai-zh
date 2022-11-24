@@ -27,6 +27,6 @@
 *[「语音设定」]: トーク設定 / Talk Settings
 *[「预置」]: プリセット / Preset
 *[「在调整界面也显示网格线」]: 調整画面にも表示 / Line Display on Adjustment Screen
-*[「在现有内容的基础上添加」]: 既存内容に追加する / Merge with existing item
+*[「在现有内容的基础上添加」]: 既存内容に追加する / Merge with existing items
 *[「只粘贴参数」]: パラメータのみ貼り付け / Only Paste Parameter
 *[注册单词]: 単語の登録 / Japanese Word Registration

@@ -1,0 +1,153 @@
+site_name: CeVIO AI User Guide English version
+site_description: An unofficial CeVIO AI User Manual English translation
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
+repo_name: CUGU/CeVIO-AI
+
+docs_dir: '../../docs/en'
+
+# Contents
+nav:
+  - Introduction:
+    - Getting Started: index.md
+    - intro/change-log.md
+    - intro/change-log_website.md
+    - intro/contact.md
+    - intro/about.md
+  - First Guide:
+    - firstguide/system_requirements.md
+    - firstguide/install.md
+  - Operation:
+    - operation/operation.md
+    - operation/menu.md
+    - operation/transport.md
+    - operation/infopanel.md
+    - operation/trackhead.md
+    - operation/edittool.md
+    - operation/adjusttool.md
+  - Talk Track:
+    - talktrack/tutorial_talk.md
+    - talktrack/talktrack.md
+    - talktrack/talk_01.md
+    - talktrack/longsentence.md
+    - talktrack/talk_02.md
+    - talktrack/talk_05.md
+    - talktrack/phoneme.md
+    - talktrack/phoneme_english.md
+    - talktrack/talk_06.md
+    - talktrack/talk_01_english.md
+    - talktrack/phrasececlip.md
+    - talktrack/search.md
+    - talktrack/talk_04.md
+  - Song Track:
+    - songtrack/tutorial_song.md
+    - songtrack/songtrack.md
+    - songtrack/songtrack_copy.md
+    - songtrack/song_02.md
+    - songtrack/song_04.md
+    - songtrack/song_04_english.md
+    - songtrack/song_03.md
+    - songtrack/song_05.md
+    - songtrack/song_07.md
+    - songtrack/song_06.md
+    - songtrack/fileimport.md
+  - Audio Track:
+    - audio/audio.md
+  - Options:
+    - option/option.md
+    - option/characterimage.md
+  - Shortcut Key:
+    - shortcutkey/shortcutkey.md
+  - External Interface:
+    - interface/interface.md
+    - interface/com.md
+    - interface/dotnet.md
+  - FAQ and Bugs:
+    - faq/faq.md
+    - faq/known_bugs.md
+  - Others:
+    - others/voices_and_official_websites.md
+    - others/third_party_websites.md
+    - others/emotion_in_song_editor.md
+    - others/revised_license_agreement.md
+    - others/suzuki_tsudumi_song_contest_result.md
+
+# Theme
+theme:
+  custom_dir: '../../overrides/'                  # This is where the customization of the theme lives
+  name: material
+  features:
+    - content.tooltips
+    - content.code.annotate
+    - header.autohide
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/CeVIO_st
+      name: CeVIO on Twitter
+  alternate:  
+      # Switch to Chinese
+    - name: 中文（简体）
+      link: /zh/
+      lang: zh
+      # Switch to English
+    - name: English
+      link: /en/
+      lang: en
+
+# CSS
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
+  - toc:
+      toc_depth: 6
+
+plugins:
+  - glightbox
+  - git-revision-date-localized:
+      type: date
+      locale: en
+      enable_creation_date: true
+  - search:
+      lang: en

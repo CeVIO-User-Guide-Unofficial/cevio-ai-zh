@@ -4,7 +4,7 @@ layout: home
 
 ![header](intro/images/header_image_title.jpg)
 
-An unofficial CeVIO AI User Manual English translation.
+非官方的 CeVIO AI 用户指南中文版翻译。
 
 ※「Talk」的译名正在讨论中。文档内暂定用词为「语音」。欢迎前往[讨论页](https://github.com./VOICeVIO/CeVIO.CN/issues/6)发表意见。
 
