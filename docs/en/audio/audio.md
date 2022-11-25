@@ -1,88 +1,88 @@
 ---
-title: 音频轨道的操作
+title: Operations of Audio Track
 author: 夜輪風超絶技巧変奏曲
 category: audio
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ オーディオトラックの操作](https://cevio.jp/guide/cevio_ai/audio/)
+Original article: [CeVIO AI ユーザーズガイド ┃ オーディオトラックの操作](https://cevio.jp/guide/cevio_ai/audio/)
 
 ---
 
-音频轨道可以导入 WAV 格式的文件作为背景音乐或效果音。
+Audio tracks can import WAV format audio files as background music or sound effects.
 
-## 添加音轨
+## Add Track
 
-刚启动时是没有音频轨道的。
+There is no audio track when it starts.
 
-要处理音频，请在 [+] 按钮里选择「音频轨道」或音轨菜单里的「添加轨道」来添加一条音频轨道。
+To handle audio, select "Audio Track" from the [+] button or "Add Track" in the "Track" menu.
 
-最多可以添加 32 条轨道。
+Up to 32 audio tracks can be added.
 
 ![add track](images/audio_1.png)
 
-## 读取音频文件
+## Importing an Audio File
 
-在「文件」菜单中选择「导入」，或右键单击外部音频轨道并选择「导入音频文件」，可以在光标的当前位置加载音频文件。
+By selecting "Import" from the "File" menu or by right-clicking on an audio track and selecting "Import Audio File", an audio file can be loaded at the current position of the cursor.
 
-也可以直接把音频从资源管理器拖拽到音频轨道上，来在鼠标光标的位置加载音频文件。
+By dragging and dropping audio directly from the Explorer onto the audio track, an audio file can also be loaded at the current position of the cursor.
 
-音频文件加载完毕后，音频元素会以波形的形式显示。
+Once the audio file has been loaded, the audio element will be displayed as a waveform.
 
-!!! info "关于音频文件格式"
-    只支持 8 位或 16 位比特率的 WAV 格式。
+!!! info "About Audio File Formats"
+    Only WAV format with 8bit or 16bit bit rate is supported.
 
-    （不支持 24 位和 32 位。）
+    (24-bit and 32-bit are not supported.)
 
-    如果采样率不是 48kHz，文件会自动转换为 48kHz。
+    If the sampling rate is other than 48kHz, the file will be automatically converted to 48kHz.
     
-    如果音频元素不能正确播放，或在加载上耗费了过长的时间，请使用转换软件将音频文件转换为 48kHz 16 位 WAV 格式。
+    If the audio element does not play correctly or takes too long to load, use a conversion tool to convert the audio file to 48kHz 16bit WAV format.
 
-!!! info "关于音频文件的路径"
-    音频文件的路径会记录在项目中。下次打开项目时，将从该路径导入。
+!!! info "About the Paths to the Audio Files"
+    The paths to the audio files will be recorded in the project. The next time the project is open , they will be imported from those paths.
 
-    如果导入音频文件后移动了它的位置，则必须删除音频元素并重新导入。
+    If you move an audio file after importing it, you must delete the audio element and re-import it.
 
-    如果想在不同的电脑上打开项目，可以把音频文件放在与项目文件相同的路径，这样它就会正常加载。
+    If you want to open the project on a different computer, you can place the audio files in the same paths as the paths recorded in project file, and they will still be imported properly.
 
-## 删除音频元素
+## Delete the Audio Element
 
-选择一个音频元素然后按 ++del++ 键，或者在右键菜单中选择「删除」，就可以删除该元素。
+Select an audio element and press ++del++ , or select "Delete" in the context menu to delete the element.
 
-※不会删除源文件。
+\* The source file will not be deleted.
 
-![delete audio element](images/audio_2.png)
+![delete audio element](images/audio_3.png)
 
-## 调整播放时间
+## Adjust Playback Timing
 
-左右拖动（鼠标左键按住并移动）音频元素来更改播放的时间。
+Drag an audio element left or right (hold down the left mouse button) to change the playback timing.
 
-按住 ++alt++ 键并拖动音频元素，可以将元素的左或右边缘吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+If you hold down the ++alt++ key while dragging and moving, the the left or right edge of the element will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
 
-![adjust audio playback time](images/audio_3.png)
+![adjust audio playback time](images/audio_4.png)
 
-时间轴右键菜单的「移动」可以将音频元素按指定的方式移动。
+Right-click on an audio element and choose "Move" to move the element in the specified way.
 
-![move audio element](images/audio_4.png)
+![move audio element](images/audio_5.png)
 
-### 指定目标位置
+### Specified Time
 
-直接指定移动的时间戳。
+Directly specify the destination time.
 
-### 指定移动量
+### Moving Amount
 
-以相对于原始位置的正/负时间指定。
+Move to specified relative time from the current position.
 
-### 光标位置
+### Cursor Position
 
-移动到光标的当前位置。
+Move to the current Cursor position.
 
-## 音频的自动排列
+## Automatic Audio Alignment
 
-开启自动排列时，音频元素和台词元素会自动前后移动以避免重叠。
+When "Automatic Audio Alignment" in the right-click menu is turned on, audio elements will be automatically aligned so that they will not overlap each other.
 
-在选项的「语音设定」中开启「多音轨自动排列」的设置时，来自其他轨道的台词也会自动前后移动以避免重叠。
+If "Automatic Multi-track Alignment" in the right-click menu is also turned on, audio elements will be automatically aligned so that they will not overlap with audio elements and line elements from other tracks. If you want to overlap with audio from other tracks, turn one of them off (or both).
 
-![auto align audio](images/audio_5.png)
+![auto align audio](images/audio_6.png)
 
-!!! hint "与其他语音合成软件交叉使用"
-    如果勾选「音频自动排列」，「语音设置」中的「多音轨自动排列」以及「台词间隔」中的「对音频也应用」，音频元素就会以与台词相同的方式自动对齐。如此一来，便能更容易地创建与其他语音合成软件的对话。
+!!! hint "Cross-use with Other Text-to-speech Software"
+    If "Automatic Audio Alignment" "Automatic Multi-track Alignment", and "Apply to Audio Element" in "Speech Interval" are turned on, audio elements will be automatically aligned in the same way as lines, making it easier to create a dialogue with other text-to-speech software.

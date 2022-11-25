@@ -71,7 +71,7 @@ Show the current quantize setting. Click to change it.
 
     Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
 
-    ---
+<!-- ---
 
     译者注：意思就是：保留促音，不要拆音。
 
@@ -81,4 +81,6 @@ Show the current quantize setting. Click to change it.
 
     至于 64 分音……估计 CeVIO 团队也是被问烦了，直接在[常见问题](../faq/faq.md)那里贴了个“为什么量化里没有 64 分音）的 FAQ……
 
-    另外以前有个秘技可以确认 CeVIO 是怎么判断一个音符是句子头还是尾的，不过 8.1 就删掉了，翻译这篇文章的时候已经是 8.2.5 了就没有介绍的必要了……
+    另外以前有个秘技可以确认 CeVIO 是怎么判断一个音符是句子头还是尾的，不过 8.1 就删掉了，翻译这篇文章的时候已经是 8.2.5 了就没有介绍的必要了…… -->
+
+\* If there is no Song Track, the tempo, time signature, and quantize will not be displayed.
