@@ -4,191 +4,194 @@ author: 夜輪風超絶技巧変奏曲
 category: faq
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ よくある質問](https://cevio.jp/guide/cevio_ai/faq/)
+Original article: [CeVIO AI ユーザーズガイド ┃ よくある質問](https://cevio.jp/guide/cevio_ai/faq/)
 
 ---
 
-Q：无法安装软件。
+Q: I cannot install the software.
 
-A：如果在安装过程中出现“用户帐户控制”窗口，请按“是”。
+A: If the "User Account Control" window pops up during installation, click "Yes".
 
-如果显示消息“Windows 已保护您的 PC”，请单击“详细信息”，然后单击“运行”按钮。
-
----
-
-Q：我安装完软件了，但是没看到「CeVIO AI」。
-
-A：要使用本软件，除了声库外，您还需要安装和授权「CeVIO AI」软件本体。
-
-请按照[本页的指示](../../firstguide/install)安装和验证本软件。
+If the "Windows protected your PC" window pops up, click on "More info" and then click on the "Run anyway" button.
 
 ---
 
-Q：软件无法启动。
+Q: I have installed the software, but I don't see "CeVIO AI".
 
-A：如果启动软件时出现“未能加载文件或程序集'CeVIO.Audio.dll'或它的某一个依赖项”这样的信息，说明缺少所需的库（辅助程序）。
+A: To use the software, in addition to the Voice, you need to install and activate the "CeVIO AI" editor itself.
 
-请从[此 Microsoft 支持页面](https://docs.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170)下载并运行“vc_redist.x64.exe”。
-
-如果在“Windows 安全中心”的“病毒和威胁防护”下的“管理勒索软件保护”中，“文件夹限制访问”（默认设置为关闭）设置为了启用，则将其关闭。
-
-使用某些 CPU 的 PC，如 Pentium、Celeron 或更早的 Core i，可能无法启动并出现错误。
-
-请通过各自的页面更新[結月ゆかり 麗（结月缘 丽）](https://cevio.jp/guide/cevio_ai/home/yukari_1_1_0)、[東北きりたん（东北切蒲英）](https://cevio.jp/guide/cevio_ai/home/kiritan_1_1_0)、[小春六花](https://cevio.jp/guide/cevio_ai/home/rikka_1_1_1)、[可不(KAFU)](https://cevio.jp/guide/cevio_ai/home/kafu_update)。
-
-其他无法启动的场合，请尝试[全新安装](https://cevio.jp/guide/cevio_ai/tool2)。
+Please follow [the instructions on this page](../../firstguide/install) to install and activate the software.
 
 ---
 
-Q：我已经购买了产品，但不知道序列号。
+Q: The software does not start.
 
-A：对于实体版的产品，KAFU 的序列号可以在手册中找到，而其他的可以在银色或塑料袋中的卡片上找到。
+A: If you get a message like "Could not load file or assembly CeVIO.Audio.dll or one of its dependencies" when starting the software, the required library (auxiliary program) is missing.
 
-对于从 Vector PC Shop 购入的下载版，请通过「ライセンスキーのご案内」邮件中的链接打开接收页面，然后单击「ライセンスキーを表示」来查看。
+Please download and run "vc_redist.x64.exe" from [this Microsoft support page](https://docs.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
-对于从 DLsite 购入的下载版，请在“购买历史”中该软件的下载屏幕上查看。
+If you are using "Windows Defender", please turn off "Controlled folder access" (set to Off by default) in "Manage Ransomware protection" under "Virus and threat protection".
 
-对于从 Amazon 购入的下载版，请通过“订单确认”电子邮件中的链接显示产品页面，在「ゲーム&PCソフトダウンロードライブラリ」中查看。
+Some PCs using the CPU, such as Pentium, Celeron or earlier Core i, may not start and occur errors.
 
----
+Please update [Yuzuki Yukari Rei（結月ゆかり 麗）](https://cevio.jp/guide/cevio_ai/home/yukari_1_1_0), [Tohoku Kiritan（東北きりたん）](https://cevio.jp/guide/cevio_ai/home/kiritan_1_1_0), [Koharu Rikka（小春六花）](https://cevio.jp/guide/cevio_ai/home/rikka_1_1_1)and [可不(KAFU)](https://cevio.jp/guide/cevio_ai/home/kafu_update) via their pages respectively.
 
-Q：我不能保存或输出。
-
-A：如果在“Windows 安全中心”的“病毒和威胁防护”下的“管理勒索软件保护”中，“文件夹限制访问”（默认设置为关闭）设置为了启用，您可以使用“通过‘文件夹限制访问’允许某个应用”将「CeVIO AI」添加到允许的应用中。
-
-!!! info "关于 Mac"
-
-    对于在 Mac 上使用 Parallels Desktop 构建的虚拟环境，根据报告，关闭 Parallels “配置”中“选项”下“共享”中的“与 Windows 共享 Mac 用户文件夹”可以解决这个问题。
-
-    对于其他虚拟化软件的问题，请联系虚拟化软件的提供者。
+For other occasions where it does not start, please try a [Clean Install](https://cevio.jp/guide/cevio_ai/tool2).
 
 ---
 
-Q：没有声音。我想改变声音输出设备。
+Q: I have purchased the product but I don't know the serial number.
 
-A：请在 Windows 声音设置中选择输出设备。
+A: For phisical / boxed edition, the Product Key for "KAFU" can be found on a manual, and the others are on the card encased in a silver bag or a plastic bag.
 
-你也可以从设置中的“环境”下的“音频输出设备”选项中，指定一个与 Windows 的设定不同的输出设备。
+For digital edition purchased from Vector PC Shop, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
 
----
+For digital edition purchased from DLsite, please see the download screen for this software in the Purchase History.
 
-Q：使用空格键时，播放 / 停止不起作用。曲目名称不能输入日文。
-
-A：新的微软输入法在切换到日语输入法时会在屏幕左上角输入文本，并且快捷键会全部失效。一个解决方法是开启[选项]→[常规]→[使用以前版本的微软输入法]，此时就能正常使用空格键播放 / 停止，也能正常输入日文。
-
-谷歌输入法在切换到日语输入法时会在屏幕左上角输入文本（与 ++ctrl++ 键组合使用时除外），所以，比如说要播放音频时，请关闭日语输入再按空格键，或者直接使用播放按钮。
+For digital edition purchased from Amazon, please use the link in the "Order Confirmation" email to display the product page, and check in "ゲーム&PCソフトダウンロードライブラリ".
 
 ---
 
-Q：++enter++ 键不能提交台词或歌词的更改。
+Q: I can't save or export.
 
-A：Windows Update 在后台运行时似乎会偶尔遇到这种情况。请重启电脑试试。
+A: If you are using Windows Defender and enabled "Controlled folder access" (set to Off by default) in "Manage Ransomware protection" under "Virus and threat protection", you can add "CeVIO AI" to the allowed applications using "Allow an app through Controlled folder access".
 
----
+!!! info "About Mac"
 
-Q：「导入台词文本」读取失败了。
+    For virtual environments built on a Mac with "Parallels Desktop 17" or earlier, it has been reported that turning off "Share Mac user folders with Windows" in "Sharing" under "Options" in "Configure" in Parallels solved the problem. (Parallels Desktop 18 seems to be fine with the default settings.)
 
-A：请在选项“语音设置”中的“文本文件的编码”中指定与要读取的文件相同的字符编码。
-
-记事本和 Google 表格是「UTF-8」。Excel 的 CSV 文件是「shift-JIS」，不过也可以选择「CSV UTF-8」。
+    For other problems with virtualization software, please contact the provider of the virtualization software.
 
 ---
 
-Q：导出的文本文件和字幕文件，用外部软件读取就是乱码。
+Q: No sound. I want to change the sound output device.
 
-答：在“语音设置”选项的“文本文件的编码”下的“导出”中指定你的外部软件支持的字符编码。
+A: Please select the playback device from the Windows Sound setting.
 
-※例如，VideoStudio Pro 2019（或2018）使用的是“UTF-8（含BOM）”。
-
----
-
-Q：台词的 WAV 导出的文件名是固定的。
-
-答：文件名是在菜单「文件」→「导出」→「导出语音部分为 WAV 文件」的“详细”部分的“文件名模式”中指定的。如果你把文件名设置为「$通番$\_$キャスト名$\_$セリフ$」（$编号$\_$角色名$\_$台词$），文件名将恢复为默认设置。
+You can also specify a different output device from the Windows settings in "Audio Device" in "Environment" in Options.
 
 ---
 
-Q：我不希望台词导出的 WAV 文件结尾处有无声段。
+Q: Play/stop does not work with the ++space++ key. I cannot enter Japanese for track names.
 
-答：如果关闭选项中“语音设置”的“输出WAV时末尾保留间隔”，则“台词间隔”将不会为其添加静音。
+A: The new MS IME will input text on screen when switching to the Japanese input method, and all shortcut keys will be invalid. A solution is to turn on Settings > General > Use previous version of Microsoft IME in the MS IME, then you can play/stop using the ++space++ key and input Japanese track names normally.
 
----
-
-Q：没法与其他轨道的台词重叠发声。
-
-A：关掉选项中“语音设置”的“多音轨自动排列”就行了。
+Google IME will input characters when Japanese input is on (except in combination with the ++ctrl++ key), so please turn Japanese input off and then press the ++space++ key, or use the playback button on the toolbar directly.
 
 ---
 
-Q：无法连接 SAPI5 软件。没法连接到 Word、Excel 或 Acrobat Reader。
+Q：++enter++ key does not confirm the input of lines or lyrics.
 
-A：「CeVIO AI」是 64 位应用，所以它不能与 32 位的外部软件（「棒読みちゃん」等）直接链接。（可以通过外部软件将「棒読みちゃん」等与「CeVIO AI」链接起来。）
-
-不支持 Word、Excel 等 Microsoft Office，Acrobat Reader 的朗读功能。
-
-极罕见的情况下，在安装过程中，向操作系统注册联动可能会失败。
-
-在这种情况下，请尝试[此全新安装](https://cevio.jp/guide/cevio_ai/tool2/)。
+A: This seems to happen when Windows Update is running in the background, try restarting your PC.
 
 ---
 
-Q：量化里没有 1/64 音符。
+Q: "(Import) Text File" failed.
 
-A：对于「CeVIO AI」，不推荐用音符和音符间细小的空隙表示促音（っ），或用诸如 1/64 等细小的音符位置来表达发声的时机。
+A: Specify the character encoding of the file to be read in "Import" under "Text File Character Code" in the "Talk Settings" options.
 
-将促音包含在歌词中，必要时在时间调整页面调整发声的时机，会得到更好的歌声。
-
----
-
-Q：播放时声音断断续续的。
-
-A：使用播放按钮进行实时语音合成需要 CPU 性能。
-
-对于笔记本电脑，首先尝试连接电源（停用省电模式）。
-
-另外，以下步骤或许能改善情况，请尝试一下。
-
-1. 如果连接了一个USB音频设备，请断开它的连接。
-2. 在控制面板的“电源选项”的“选定的计划”中选择“最佳性能”。
-
-如果情况没有改善，请在播放前“冻结音轨”。
-
-※导出的文件音质不受 CPU 性能的影响。
+Notepad and Google Spreadsheet are "UTF-8". Excel CSV is "Shift-JIS", but you can also select "CSV UTF-8".
 
 ---
 
-Q：我想离线使用。
+Q: The exported text files and subtitle files are garbled when read with external software.
 
-A：在最后一次联网启动后的 365 天内，可以离线使用。
+A: Specify the character encoding supported by your external software in "Export" under "Text File Character Code" in "Talk Settings" option.
 
-※不适用于安全软件等对通信的阻断。
-
----
-
-Q：我想在另一台电脑上使用它。我想停用它。
-
-答：在新电脑上安装软件后，只需输入序列号。
-
-※本软件不需要诸如“取消激活”的操作。
-
-※激活后，需等待 24 小时才能再次使用同一序列号在另一台电脑上执行激活操作。
+\* For example, VideoStudio Pro 2019 (or 2018) uses "UTF-8 (with BOM)".
 
 ---
 
-Q：我想备份我的用户字典和选项设置，并将它们转移到另一台电脑上。
+Q: The WAV export of the lines has a fixed filename.
 
-A：请从菜单中选择「文件」→「导出」→「导出设置」，然后从另一台电脑上的「文件」→「导入」→「导入设置」中导入。
-
----
-
-Q：我想知道关于角色和声音数据的使用规则。
-
-A：非商业性的爱好和二次创作可以免费使用音频和角色。请务必使用它们。
-
-关于其他免费使用和商业使用的范围，请参考[本页面](http://cevio.jp/commercial/)。
+A: The file name is specified in the File menu > Export > "File Naming Convention" in the "Details" section of Audio Files per Each Line. If you set the file name to `$Number$-$Cast Name$-$Text$`, the file name will revert to the default setting.
 
 ---
 
-Q：我想报告错误或提供意见。
+Q: I don't want silence at the end of the file for WAV export of lines.
 
-A：请使用[这张表格](https://docs.google.com/forms/d/1qGam3pOnz_XJ2dhxvGMPX8QeoBZPiaPrzMft6fOh-tY/viewform)报告。
+A: If you select Option > Talk Settings, then turn off Affects on Export Audio File, the "Speech Interval" will not add silence to it.
+
+---
+
+Q: I can't overlap lines from another track.
+
+A: Please turn on "Automatic Multi-track Alignment" from the right-click menu of an audio element or from "Talk Settings".
+
+---
+
+Q: I cannot connect to SAPI5. Cannot link to 'Word', 'Excel' or 'Acrobat Reader'.
+
+A: As CeVIO AI is a 64-bit application, it cannot be linked directly with 32-bit external software (e.g. BouyomiChan（棒読みちゃん）). (There seems to be external software that links "CeVIO AI" with "BouyomiChan" etc.)
+
+Microsoft Office such as Word and Excel, and Acrobat Reader are not supported.
+
+In extremely rare cases, registration of the linkage to the OS may fail during the installation process.
+
+In this case, please try a [Clean Install](https://cevio.jp/guide/cevio_ai/tool2).
+
+---
+
+Q：There aren't 1/64 in Quantize.
+
+A: For CeVIO AI, it is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
+
+Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
+
+---
+
+Q: The sound is intermittent during playback.
+
+A: Real-time speech synthesis using the playback button requires CPU performance.
+
+For laptops, first try connecting to a power source (deactivate the power-saving mode).
+
+Alternatively, the following steps may improve the situation, please try them.
+
+1. If a USB audio device is connected, disconnect it.
+2. Select "High Performance" from "Plans shown on the battery meter" in "Power Options" in the control panel.
+3. (From translator) For Windows 10, select the Battery icon on the taskbar, and then drag the slider to the "Best performance" mode. For Windows 11, select Start > Settings > System > Power & battery, then choose "Best performance" from "Power mode".
+
+If the situation does not improve, please "Freeze Tracks" before playback.
+
+\* The sound quality of the exported file is not affected by CPU performance.
+
+---
+
+Q: I want to use it offline.
+
+A: You can use the system offline for 365 days after it was last started with an internet connection.
+
+\* Not applicable to communication blocking by security software etc.
+
+---
+
+Q: I want to use it on another PC. I want to deactivate it.
+
+A: Simply enter the Product Key after installing the software on a new PC.
+
+\* This software does not require operations such as "Deactivate".
+
+\* After activation, you must wait 24 hours before you can perform the activation again on another computer with the same Product Key.
+
+---
+
+Q: I want to back up my user dictionary and option settings and transfer them to another PC.
+
+A: Please select File > Export > Settings File to export a file, then import it from File > Import > Settings File on another PC.
+
+\* It is also possible to import the user dictionary of CeVIO CS7 into CeVIO AI.
+
+---
+
+Q: I would like to know the license regarding the use of character and sound data.
+
+A: Non-commercial hobbies and secondary creations can use the audio and characters for free. Please make use of them.
+
+Please refer to [this page](http://cevio.jp/commercial/) for the scope of other free use and commercial use.
+
+---
+
+Q: I want to report bugs or provide suggestions.
+
+A: Please use [this form](https://docs.google.com/forms/d/1qGam3pOnz_XJ2dhxvGMPX8QeoBZPiaPrzMft6fOh-tY/viewform) to report.

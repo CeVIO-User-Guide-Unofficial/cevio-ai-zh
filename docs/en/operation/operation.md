@@ -27,7 +27,7 @@ Audio tracks can be add using the [+] button or "Add Track" in the "Track" menu.
 
 ## Talk Track / Song Track
 
-The Song Track, adjustment tools and editing tools will not be displayed in the environment where only the Talk function is activated, such as the Talk Starter Pack.
+The Song Track, adjustment tools and edit tools will not be displayed in the environment where only the Talk function is activated, such as the Talk Starter Pack.
 
 The Talk Track will not be displayed in the environment where only the Song function is activated, such as the Song Starter Pack.
 

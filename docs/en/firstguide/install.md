@@ -34,7 +34,7 @@ To use this product, connect to the Internet, then follow the steps below:
 
 !!! info "About Product Key"
 
-    For phisical / boxed edition, the Product Key for "Yuzuki Yukari Rei" is encased in a silver bag, and the rest are encased in a plastic bag.
+    For phisical / boxed edition, the Product Key for "Yuzuki Yukari Rei" is encased in a silver bag, and the others are encased in a plastic bag.
 
     For digital edition purchased from Vector PC Shop, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
 

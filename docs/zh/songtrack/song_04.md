@@ -38,13 +38,16 @@ layout: post
 
 ![continuly enter lyrics](images/song_04_2.png)
 
-## 母音脱落记号
+!!! new "Improved "Enter Lyrics Collectively""
+    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
 
-如果歌词中包含 `’`（全角引号），那么它前面的音拍（假名）中的元音就会脱落，只发子音的音。
+## 元音脱落记号
 
-举例来说，输入 `いぇす` 会发「yesu」的音，最后的「す」的音非常明显；但输入 `いぇす’` 就会让母音「u」脱落，从而发出更自然的「yes」的音。
+如果歌词中包含 `’`（全角引号），那么它前面的音拍（假名）中的元音就会脱落，只发辅音的音。
 
-可以在末尾以外的地方输入 `’`，比如说 `す’ぺーす’`，但实际效果因 `’` 附着的音拍而异。对「あ行」无效。
+举例来说，输入 `いぇす` 会发「yesu」的音，最后的「す」的音非常明显；但输入 `いぇす’` 就会让元音「u」脱落，从而发出更自然的「yes」的音。
+
+※可以在末尾以外的地方输入 `’`，比如说 `す’ぺーす’`，但实际效果因 `’` 附着的音拍而异。对「あ行」无效。
 
 ![drop off Vowel](images/song_04_3.png)
 
@@ -90,4 +93,4 @@ layout: post
 
 [^1]:译者注：从 8.2.8.0 起，在不存在于面板上的音素中，日语声库中大写的日语元音字符 (`A` , `I` , `U` , `E` , `O`) 现作为特例正常播放。详见[更新日志](../../intro/change-log#2022512-8280)。
 
-*[「自动分割英语歌词的音节」]:英語の歌詞を音節で自動分割 / English lyrics are automatically divided by syllable
+*[「自动分割英语歌词的音节」]:英語の歌詞を音節で自動分割 / Automatically split English lyrics with syllables

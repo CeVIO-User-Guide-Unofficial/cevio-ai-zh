@@ -33,7 +33,7 @@ layout: post
 
 输入音符时，请在编辑工具中选择画笔工具。
 
-![pen tool](images/tutorial_song_4.png)
+![draw tool](images/tutorial_song_4.png)
 
 在钢琴卷帘上，从想要放置音符的地方向右移动（按住鼠标左键）来决定该音符的长度。
 

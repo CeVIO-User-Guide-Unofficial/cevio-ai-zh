@@ -1,27 +1,27 @@
 ---
-title: 歌声的调整③（音色）
+title: Vocal Adjustment③ (Alpha/Timbre)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 歌声の調整③（声質）](https://cevio.jp/guide/cevio_ai/songtrack/song_06/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整③（声質）](https://cevio.jp/guide/cevio_ai/songtrack/song_06/)
 
 ---
 
-通过调整音色，可以把声音变成更像大人或更像孩子的歌声。
+By adjusting the alpha, you can change the voice into a more adult-like or child-like voice.
 
-拖动（按住鼠标左键并移动）音色滑块（推子）来改变选定轨道的音色。
+Drag (hold down the left mouse button and move) the Alpha slider (knob) to change the timbre of the selected track.
 
-也可以把鼠标光标悬停在滑块上，通过向上或向下移动鼠标滚轮来调整它。
+You can also hover the mouse cursor over the slider and adjust it by moving the mouse wheel up or down.
 
-※声音变化的程度因角色而异，例如「可不(KAFU)」的变化就比较小。
+\* The degree of voice change depends on the cast. For example, the change of "Kafu" is relatively small.
 
 ![alpha](images/song_06_1.png)
 
-## 音色的详细调整
+## Fine-tune Timbre
 
-通过工具栏上的「ALP」按钮或菜单切换到调整屏幕，可以对音色进行微调（最小单位为 5 毫秒）。
+Timbre can be fine-tuned (in units of 5 ms minimum) by switching to the adjustment screen via the "ALP" button on the toolbar or the menu.
 
-调整是相对于整个音轨的音色而言的，当向上或向下移动音色滑块时，调整值也会相应地向上或向下移动。
+Adjustments are relative to the overall timbre of the track, and as you move the alpha slider up or down, the adjustment value will also move up or down accordingly.
 
-![finely adjust alpha](images/song_06_2.png)
+![fine-tune alpha](images/song_06_2.png)

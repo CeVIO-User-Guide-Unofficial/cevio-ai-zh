@@ -21,7 +21,7 @@ Double-click to change the track name.
 
 Drag the knob left/right or up/down to adjust the volumn of a track.
 
-Hold down the ++shift++ key while dragging for fine adjustment.
+Hold down the ++shift++ key while dragging for fine-tuning.
 
 Press ++ctrl++ and left-click the knob to reset it to the default value (0db); double-click the knob to enter the value manually.
 
@@ -35,7 +35,7 @@ If the master volume is changed manually, it will be memorised and reflected in 
 
 Drag the knob left/right or up/down to adjust the pan of a track.
 
-Hold down the ++shift++ key while dragging for fine adjustment.
+Hold down the ++shift++ key while dragging for fine-tuning.
 
 Press ++ctrl++ and left-click the knob to reset it to the default value (Centre); double-click the knob to enter the value manually.
 

@@ -13,7 +13,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 調整ツール（ソ�
 
 Switch the edit mode of the Song Track.
 
-Click on the text above the button (e.g. 'PIT') to display other screens superimposed on the current adjustment screen.
+Click on the text above the button (e.g. "PIT") to display other screens superimposed on the current adjustment screen.
 
 (Cannot be used in Talk Track or Audio Track.)
 
@@ -49,4 +49,4 @@ Adjust the vibrato frequency here.
 
 ### Edit Alpha Detail
 
-Adjust the more detailed variation of voice within a track.
+Adjust the more detailed variation of timbre within a track.

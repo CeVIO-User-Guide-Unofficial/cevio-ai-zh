@@ -4,65 +4,65 @@ author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ MIDI／MusicXML](https://cevio.jp/guide/cevio_ai/songtrack/fileimport/)
+Original article: [CeVIO AI ユーザーズガイド ┃ MIDI／MusicXML](https://cevio.jp/guide/cevio_ai/songtrack/fileimport/)
 
 ---
 
-## 导入 MIDI 文件
+## Import MIDI Files
 
-可以导入由外部软件创建的 MIDI 文件。
+You can import MIDI files created by external software.
 
-在「文件」菜单的「导入」下选择「导入MIDI音轨」，并指定 MIDI 文件。
+Select "MIDI File" under "Import" in the "File" menu and specify the MIDI file.
 
-也可以从资源管理器中拖放 MIDI 文件到歌曲轨道上。
+You can also drag and drop a MIDI file from the Explorer onto a song track.
 
-接下来将显示 MIDI 文件的音轨结构，选择要导入的音轨并按 OK 键。
+The track structure of the MIDI file will then be displayed, select the track you want to import and press OK.
 
-※最多可以加载八个音轨。
+Up to eight tracks can be loaded at once.
 
-※如果勾选「曲速和拍子也一并读取」，在 MIDI 文件中设置的曲速和拍子将反映在所有歌唱轨道中。
+If "Import Tempo and Time Signature" is also checked, the tempos and time signatures set in the MIDI file will be reflected in all the song tracks.
 
 ![import midi](images/fileimport_1.png)
 
-!!! hint "纠正 MIDI 文件"
-    导入 MIDI 文件时，太细的音符（短于 32 分的音符）的位置和长度会被自动纠正。
+!!! hint "Correcting MIDI Files"
+    When importing MIDI files, the position and length of notes that are too short (notes shorter than 32 cents) will be automatically corrected.
 
-    与其在音符之间留下细小的空隙，不如按照原样写谱，这样能唱出更自然的歌声。
+    Entering the notes as the original score can get a more natural voice, rather than leaving the tiny gaps between the notes.
 
-    请将促音包含在歌词中，在音符下方或时间调整页面调整发声的时机。
+    Including the sokuon (っ, small tsu) in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
 
-## 导出 MIDI 文件
+## Export MIDI Files
 
-可以导出 MIDI 文件，以便与兼容的外部软件一起使用。
+MIDI files can be exported for use with compatible external software.
 
-时间轴右键菜单中的「导出」可以轻松地导出单个选定的轨道。
+"Export" in the timeline right-click menu makes it easy to export a single selected track.
 
-「文件」菜单中的「导出」，可以将多个音轨合并到一个文件中一起导出。
+"Export' in the "File" menu allows multiple tracks to be combined into a single file and exported together.
 
-※选择多个音轨时，调号会反映在由选定的第一个音轨生成的「Conductor Track」中。
+\* When multiple tracks are selected, the key signature will be reflected in the "Conductor Track" generated from the first track selected.
 
-※时间和音高等调整值不会导出。
+\* Adjustment values such as timing and pitch will not be exported.
 
-## 导入 MusicXML 文件
+## Importing MusicXML files
 
-可以导入由外部软件创建的 MusicXML 文件。
+You can import MusicXML files created by external software.
 
-在「文件」菜单的「导入」下选择「导入MusicXML」，并指定 MusicXML 文件。
+Select "MusicXML File" under "Import" in the "File" menu and specify the MusicXML file.
 
-也可以从资源管理器中拖放 MusicXML 文件到歌曲轨道上。
+MusicXML files can also be dragged and dropped from the Explorer onto song tracks.
 
-若 MusicXML 包含多个音轨，则只会加载第一个音轨。
+If the MusicXML contains more than one track, only the first track will be loaded.
 
-## 导出 MusicXML 文件
+## Export MusicXML Files
 
-可以导出 MusicXML 文件，以便与兼容的外部软件一起使用。
+MusicXML files can be exported for use with compatible external software.
 
-时间轴右键菜单中的「导出」可以轻松地导出单个选定的轨道。
+"Export" in the timeline right-click menu makes it easy to export a single selected track.
 
-「文件」菜单中的「导出」，可以将多个音轨合并到一个文件中一起导出。
+"Export' in the "File" menu allows multiple tracks to be combined into a single file and exported together.
 
-※时间和音高等调整值不会导出。
+\* Adjustment values such as timing and pitch will not be exported.
 
-!!! info "关于文字编码"
+!!! info "About Encoding"
 
-    MIDI 文件可以用「Shift-JIS」读取/写入；MusicXML 文件可以用「UTF-8」读取/写入。
+    MIDI files can be read/written in "Shift-JIS" and MusicXML files can be read/written in "UTF-8".

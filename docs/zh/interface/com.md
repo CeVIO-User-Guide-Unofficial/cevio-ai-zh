@@ -85,7 +85,7 @@ interface ITalker2V40
     // 返回值：
     // 　音素单位的数据。
     // 备注：
-    // 　可以用于对口型。
+    // 　可以用来对口型或其他用途。
     // 注意：
     // 　在 Visual C++ 环境中使用智能指针时，该类型被替换为以下类型。
     // 　IPhonemeDataArray2Ptr
@@ -230,9 +230,9 @@ interface IServiceControl2V40
     // 　　　　　　false时不会返回控制，直到启动后允许外部访问后。
     // 返回值：
     // 　 0：成功。包括已启动的情况。
-    // 　-1：无法确认安装状态。
+    // 　-1：安装状态未知。
     // 　-2：找不到可执行文件。
-    // 　-3：无法启动进程。
+    // 　-3：进程启动失败。
     // 　-4：应用程序在启动后因错误而终止。
 
     void CloseHost(int mode);
@@ -260,7 +260,7 @@ interface IServiceControl2V40
         // COM初始化
         ::CoInitialize(NULL);
 
-        // 生成ServiceControl实例
+        // 创建ServiceControl实例
         CeVIO::IServiceControl2V40* pServiceControl;
         HRESULT result0 = ::CoCreateInstance(CeVIO::CLSID_ServiceControl2V40,
             NULL,

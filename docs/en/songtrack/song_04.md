@@ -1,93 +1,92 @@
 ---
-title: 歌词的输入（日语声库）
+title: Lyrics Input (Japanese Voice)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 歌詞の入力（日本語ボイス）](https://cevio.jp/guide/cevio_ai/songtrack/song_04/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌詞の入力（日本語ボイス）](https://cevio.jp/guide/cevio_ai/songtrack/song_04/)
 
 ---
 
-歌词中的音符默认是根据音阶分配的「ドレミファソラシ」（Do Re Mi Fa So La Si）。
+Notes lyrics are assigned to "ドレミファソラシ" (Do Re Mi Fa So La Si) according to the scale by default.
 
-（可以通过选项的「歌唱设置」的「默认歌词」修改默认歌词，比如改成「ら」。）
+(You can change the default lyrics, for example to "ら", via "Default lyrics" in "Song Settings" of Options.)
 
-可以为每个音符输入歌词，也可以一次性为所有音符输入歌词。
+Lyrics can be input for each note, or for all notes at once.
 
-## 输入歌词
+## Input Lyrics
 
-在调整工具的「乐谱编辑」里双击一个音符以输入音符。
+Double click on a note in the "Edit Score" of adjustment tool to enter the note.
 
-也可以用 ++f2++ 键进入选定音符的输入状态。在输入状态下输入歌词后，按 ++enter++ 键提交歌词。
+You can also use the ++f2++ key to enter the selected note. After entering lyrics in the input state, press ++enter++ to submit the lyrics.
 
-在输入歌词后如果按 ++tab++ 键而不是 ++enter++ 键，则可以继续为下一个音符输入歌词。
+If you press ++tab++ instead of ++enter++ after entering lyrics, you can continue entering lyrics for the next note.
 
-允许输入全角平假名/片假名和半角英文字符，而且可以为一个音符输入多个字符。
+The characters that can be input are full-angle hiragana/katakana and half-angle English characters, and multiple characters can be input to a single note.
 
-※无法发声的字符以红色显示。 
+\* Characters that cannot be sung out are shown in red.
 
 ![enter lyrics](images/song_04_1.png)
 
-## 长段歌词输入
+## Enter Lyrics Collectively
 
-可以通过「歌唱」菜单、钢琴卷帘的右键菜单或者快捷键 ++f8++ 快速调出该界面。
+This can be called from the "Song" menu, the right-click menu on the piano roll or the shortcut key ++f8++ .
 
-选择「按空格分割」时，可以通过输入由空格（空白）分隔的字符来为一个音符指定多个字符。
+When "Space-Separated" is selected, a note can assigned multiple characters by entering characters separated by half spaces.
 
-选择「1音符1音节」时，每个音符会分到一个字母，但如果像「しゃ」这样后面跟着一个小写字母（ぁぃぅぇぉっゃゅょ），则分配两个字母（音拍单位）。
+When "1 note with 1 mora" is selected, one letter will be assigned to one note. But if it is followed by a lowercase letter (ぁぃぅぇぉっゃゅょ) like "しゃ", this note will assign two letters (a mora unit).
 
 ![continuly enter lyrics](images/song_04_2.png)
 
-## 母音脱落记号
+!!! new "Improved "Enter Lyrics Collectively""
+    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
 
-如果歌词中包含 `’`（全角引号），那么它前面的音拍（假名）中的元音就会脱落，只发子音的音。
+## Vowel Devoicing Symbol
 
-举例来说，输入 `いぇす` 会发「yesu」的音，最后的「す」的音非常明显；但输入 `いぇす’` 就会让母音「u」脱落，从而发出更自然的「yes」的音。
+If the lyrics contain `’` (full-width quotation mark), the vowel in the mora (kana) before it will be dropped, and only the sound of the consonant will be pronounced.
 
-可以在末尾以外的地方输入 `’`，比如说 `す’ぺーす’`，但实际效果因 `’` 附着的音拍而异。对「あ行」无效。
+For example, typing `いぇす` will pronounce "yesu", and the sound of the last "す" is very clear; but typing `いぇす'` will make the vowel "u" drop out and pronounces a more natural "yes" sound.
+
+\* You can enter `’` at places other than the end, such as `す’ぺーす’`, but the actual effect depends on the mora to which `’` is attached. Invalid for row /a/ (あ行).
 
 ![drop off Vowel](images/song_04_3.png)
 
-## 假声记号
+## Falsetto Symbol
 
-如果歌词中包含 `※`，那么该音符将发假声。
+If the lyrics contain a `※`, the note will be falsettoed.
 
-但是，受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
+Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 
-※对「結月ゆかり 麗（结月缘 丽）」比较有效，对「東北きりたん（东北切蒲英）」效果不佳。
+\* It is more effective against "Yuzuki Yukari Rei (結月ゆかり 麗)" and less effective against "Tohoku Kiritan (東北きりたん)".
 
-## 输入音素记号
+## Input Phoneme Symbols
 
-在音素输入模式下，可以用音素单位指定发声。
+In phoneme input mode, vocalisations can be specified in phoneme units.
 
-在输入歌词时，可以通过右键菜单「按音素输入歌词」或快捷键 ++ctrl+p++ 切换到音素输入模式。
+When entering lyrics, you can switch to phoneme input mode by using "Enter Lyrics with Phoneme" in "Other Operations" via the piano roll right-click menu, the "Song" menu, or using the shortcut key ++ctrl+p++ .
 
-在音素输入模式下，歌词输入栏的背景会变为蓝灰色，并在随后的输入中保持这个颜色。
-
-（也可以通过「歌唱」菜单或钢琴卷帘的右键菜单切换到「音素输入模式」。）
+In phoneme input mode, the background of the lyrics input field changes to a blue-grey colour and keeps this colour in subsequent input.
 
 ![enter parameter](images/song_04_4.png)
 
-音素输入模式下会显示「音素面板」。单击面板上的字符输入音素符号，之后按 ++enter++ 键或关闭音素面板便可提交更改。
+The "English phonemes palette" is displayed in phoneme input mode. Click on a character in the palette to enter a phoneme symbol, then press ++enter++ or close the phoneme palette to commit the change.
 
-音素间使用 1 字符宽的空格 ` ` 或 1 字符宽的 `,` 分割。若音节间有混淆，可以使用 `|` 分割（例如 `y,e,s|a,i`）。
+Phonemes are separated by a 1-character wide space ` ` or a 1-character wide `,`. If there is confusion between syllables, use `|` to divide them (e.g. `y,e,s|a,i`).
 
-若输入了音素面板上不存在的字符，则该字符将被视作错误的歌词（以红色显示），所在的音符将不会发声。[^1]
+If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.[^1]
 
-## 英语歌词
+## English Lyrics
 
-若以半角英文字符输入了歌词，则日语声库的音素将分配给英语音素以歌唱。英语和日语能在同一首歌中混杂出现。
+If the lyrics are entered in half-angle English characters, the phonemes of the Japanese Voice will be assigned to the English phonemes for singing. English and Japanese can be mixed in the same song.
 
-在选项中打开「自动分割英语歌词的音节」后，英文歌词也会自动按音节分割并分配给音符。
+English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" is turned on in the Options.
 
-※即使在「连续输入歌词」中选择「以空格划分」，并混合输入日语和英语歌词时，英语音节也可以自动划分。
+\* English syllables can be divided automatically even when "Space-Separated" is selected in "Enter Lyrics Collectively" and Japanese and English lyrics are mixed.
 
-※英文歌词中输入的假声符号 `※` 会自动转换为英文声库使用的 `$`。
+\* The falsetto symbol `※` entered in English lyrics is automatically converted to `$` used in the English Voice.
 
-※由于分配的是日语音素，发音会与原始的英语发音有所不同。
+\* Since Japanese phonemes are assigned, the pronunciation will be different from the original English pronunciation.
 
 ![English lyrics](images/song_04_5.png)
 
-[^1]:译者注：从 8.2.8.0 起，在不存在于面板上的音素中，日语声库中大写的日语元音字符 (`A` , `I` , `U` , `E` , `O`) 现作为特例正常播放。详见[更新日志](../../intro/change-log#2022512-8280)。
-
-*[「自动分割英语歌词的音节」]:英語の歌詞を音節で自動分割 / English lyrics are automatically divided by syllable
+[^1]:Translator's note: As of version 8.2.8.0, uppercase Japanese vowel characters (`A` , `I` , `U` , `E` , `O`) in the Japanese Voice are now played normally as exceptions in phonemes that are not present in the pattle. See [Change Log](../../intro/change-log#2022512-8280).

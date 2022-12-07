@@ -7,6 +7,191 @@ layout: post
 ---
 
 ------------------------------------------------------
+Oct.12,2022 Version 8.3.17.0
+------------------------------------------------------
+▼Common to Songs and Talks
+　Added "Sample Rate" to "Environment" under "Options".
+　Supported sampling rate 32kHz/44.1kHz/96kHz output (except for mixdown WAV export).
+
+▼Song related changes
+・Updated to Song Engine 6.1.5. No change in sound quality.
+
+・The display of notes on another track is now supported for 9 or more tracks.
+
+・Fixed a bug in "SEKAI" and "Suzuki Tsudumi Song Voice" that the emotional parameters saved in the project were not restored in some cases.
+
+▼Other changes
+Other minor changes.
+
+------------------------------------------------------
+Sep.12,2022 Version 8.3.15.0
+------------------------------------------------------
+・The number of initial presets of "Suzuki Tsudumi Talk Voice" was changed from 2 to 5.
+
+・Restored the cast image of "Suzuki Tsudumi Talk Voice".
+　*Please install "Suzuki Tsudumi Talk Voice" installer 1.0.2 from User's Guide.
+
+------------------------------------------------------
+Sep.6,2022 Version 8.3.13.0
+------------------------------------------------------
+▼Song related changes
+・Improved "Enter Lyrics Collectively".
+　*All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
+　*Fixed a problem that the cursor always moves to the beginning after pasting.
+
+・When editing lyrics in Japanese Song Voice, IME is not turned on if the input lyrics are in English.
+
+・Fixed a bug that the piano roll returns to vertical scrolling when the "Mouse Wheel" option is changed to "Horizontal Scroll" and the application is launched next time.
+
+・Fixed a bug that an error was sometimes displayed when "Paste lyrics only".
+
+・Fixed a bug that an error was sometimes displayed when "Merge Notes".
+
+・Fixed a bug in which an error was sometimes displayed when moving notes under certain conditions.
+
+▼Talk related changes
+・Updated to Talk Engine 6.0.20. No change in sound quality.
+
+・The weight cursor is now displayed after text input, emotion adjustment, and other time-consuming processes.
+
+・Supported "CeVIO AI Suzuki Tsudumi" Talk Voice 1.0.1.
+
+▼Other changes
+・The location of the file opened in "Recent Projects" is now reflected in the folder displayed in the next "Open" window.
+
+------------------------------------------------------
+Aug.17,2022 Version 8.3.10.0
+------------------------------------------------------
+▼Song related changes
+・Updated to Song Engine 6.1.4. No change in sound quality.
+
+・"Paste Lyrics Only" function is implemented.
+　*After copying a note, you can select it from the right-click menu of the note.
+　*The lyrics will be applied to the note whose relative time matches that of the source note.
+
+・Added "Falset" to "Note(s) Properties".
+　*Enables batch falsetto of multiple notes.
+
+・Fixed a bug in which TMG adjustments for tracks that were never selected after opening a project with multiple song tracks were not reflected in playback or WAV export.
+
+▼Talk related changes
+・Fixed a bug that pre-rendering before playback takes more than 1 minute, an error message is displayed and the application is closed.
+
+▼Other changes
+・Improved to guide the user to Microsoft's download page when the required Windows library is not yet installed.
+
+・Other minor improvements.
+
+------------------------------------------------------
+Aug.4,2022 Version 8.3.7.0
+------------------------------------------------------
+▼Song related changes
+・Supports the free trial version of "Suzuki Tsudumi Song Voice".
+　*After 12:00 on Aug. 5, the trial version will be available from the "Trial Version" in the "Help" menu.
+
+・The operation that does not follow the pitch adjustment by vertical movement of notes has been changed to [Alt] key pressing.
+　*Cursor key up/down note movement should also not follow the pitch adjusted by pressing the [Alt] key.
+
+・Pasting of text including line feeds is now possible in the "Enter Lyrics Collectively".
+
+・The following shortcut keys are added.
+　[Shift+2]...Overlay Timing.
+　[Shift+3]...Overlay Volume.
+　[Shift+4]...Overlay Pitch.
+　[Shift+5] ...Overlays Vibrato Amplitude.
+　[Shift+6] ...Overlays Vibrato Frequency.
+　[Shift+7]...Overlay Alpha Details.
+
+▼Talk related changes
+・Updated to Talk Engine 6.0.19. No change in sound quality.
+　*Fixed a bug that caused a forced termination when adjusting emotions with lines that contain some Japanese character strings.
+
+・Updated to Japanese Talk Dictionary 3.0.15. Added new words.
+
+▼Other changes
+・Other minor improvements.
+
+------------------------------------------------------
+Jul.11,2022 Version 8.3.6.0(～8.3.2.0)
+------------------------------------------------------
+Version 8.3 is even easier to use with many improvements, including support for exporting 24bit / 32bit float WAV files, implementation of new Song functions, improved operability, and improved Talk phonographs.
+
+▼Common to Songs and Talks
+・WAV export format was added to "Environment" under "Options.
+　Supports 24 bit / 32 bit float output (except for mixdown WAV export).
+
+▼Song related changes
+・Updated to Song Engine 6.1.3. No change in sound quality.
+
+・Supported Accent and Staccato settings.
+
+・Supported the dynamics setting of "ffff", "fff", "ppp", "ppppp".
+
+・The "Merge Notes" function has been implemented.
+
+・The right-click menu changes depending on the situation, making it easier to set notes, etc.
+　・When a single note is selected, the attributes (Accent/Staccato/Breath/Slur/Falsetto) can be set and auditioned.
+　・With multiple notes selected, slurs can be set, notes can be combined, and auditioning can be performed.
+
+・When moving notes other than with the "Collectively Select" tool, the parameters will automatically follow if they have already been adjusted.
+　・When dragging notes, the pitch adjustment can be disabled by holding down the [Shift] key.
+
+・The following processes have been speeded up to improve response time.
+　・Loading a project.
+　・Undo/Redo.
+　・Paste after copying a collectively selection, and drag/cut/delete after collectively selection.
+　・Insert/delete measures.
+　・Add, change, and delete tempo and time signatures.
+　・Move notes with the up/down cursor keys (when "Auto Play" is on).
+
+・Improved eraser behavior for phoneme/note timing.
+　*The State Line is not necessarily initialized, but interpolated based on the ratio of the previous/next phoneme/note.
+
+・The "Enter Lyrics Collectively" can now be completed by pressing the [Enter] key.
+
+・The following shortcut keys have been added.
+　[Ctrl+Arrow Left/Right]...Switch Editing Tools.
+　[Ctrl+Tab]...Display the next adjustment screen.
+　[Ctrl+Shift+Tab]...Display the previous adjustment screen.
+　[Shift+Q]...Next quantize value.
+　[Shift+W]...Previous quantize value.
+　[Shift+T]...Triplet on/off.
+　[Ctrl+U]...Merge notes (when multiple notes are selected).
+
+・The menu name "Remove Fine Spaces" was changed to "Remove Rests".
+　The gap between one note and the next note can now be filled even when only one note is selected.
+
+・The MIDI Import Window now supports "*.midi" extensions.
+
+・Fixed a bug that the eraser could not erase the adjustment timing in the Score editing screen.
+
+・Fixed a bug that the mouse cursor did not return to the pen, etc., when the mouse cursor was moved out of the adjustment screen and then returned.
+
+・Fixed a bug in which the tempo, time signature, key signature, and dynamics were not pasted correctly under certain circumstances after copying a measure by measure with the "Collectively Select" tool.
+
+▼Talk related changes
+・Updated to Talk Engine 6.0.18. No change in sound quality.
+
+・Updated to Japanese Talk Dictionary 3.0.14.
+
+・Improved phoneme graph.
+　・The bar graph of the mouse cursor position in PIT and VOL is surrounded by a vertical line to make it easier to understand the operation target.
+　・Phoneme names are now displayed at the top of the PIT and VOL bar graphs. It is easier to adjust while looking at the top of the graph.
+
+・The following shortcut keys have been added.
+　[Ctrl+Tab]...Display the next adjustment screen.
+　[Ctrl+Shift+Tab]...Display the previous adjustment screen.
+
+▼Other changes
+・The default horizontal zoom setting has been reduced to make it easier to see the timeline.
+
+・All supported file extensions are now initially displayed in the import window.
+
+・The maximum number of "Recent Project" in the "File" menu has been increased to 10 files.
+
+・Other minor improvements and bug fixes.
+
+------------------------------------------------------
 Jun.29,2022 Version 8.3 Official Release (8.3.2.0～8.3.3.0)
 ------------------------------------------------------
 Version 8.3 is even easier to use with many improvements, including support for exporting 24bit / 32bit float WAV files, implementation of new Song functions, improved operability, and improved Talk phonographs.
@@ -44,7 +229,7 @@ Version 8.3 is even easier to use with many improvements, including support for 
 ・The "Enter Lyrics Collectively" can now be completed by pressing the [Enter] key.
 
 ・The following shortcut keys have been added.
-　[Ctrl+Arrow Left/Right]...Switch Editing Tools.
+　[Ctrl+Arrow Left/Right]...Switch edit tools.
 　[Ctrl+Tab]...Display the next adjustment screen.
 　[Ctrl+Shift+Tab]...Display the previous adjustment screen.
 　[Shift+Q]...Next quantize value.
@@ -468,7 +653,7 @@ layout: post
 
 默认以音符为单位调整。按下 [Ctrl P] 或在 Song 的菜单栏里选择「以音素输入歌词」，可以将 TMG 的单位切换为音素。按住 [Alt] 键可以暂时切换。
 
-以音符为单位调整时，会自动保持子音和母音的原始长度比例。
+以音符为单位调整时，会自动保持辅音和元音的原始长度比例。
 
 在「设置」的「Song」的选项卡中加入了「在音符编辑页中调整 TMG/Timing Edit on Score」选项。
 　关闭该选项后，界面将恢复到 8.1 版本的样子。

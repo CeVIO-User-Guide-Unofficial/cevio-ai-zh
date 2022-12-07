@@ -63,7 +63,7 @@ layout: post
 
 若要将已注册单词的用户字典转移到另一台电脑上，请移步[常见问题](../faq/faq.md)。
 
-## 发音记号一览
+## List of Pronunciation Symbols
 
 在注册单词和[插入注音](talk_01.md#_2)中，可以使用下列发音记号。
 

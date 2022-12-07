@@ -335,7 +335,7 @@ Show/hide the columns in speech list.
 
 ### Selection / Collectively Selection / Draw / Line / Eraser Tool
 
-Toggle between the editing tools.
+Toggle between the edit tools.
 
 [Editing Tool](../edittool)
 
@@ -377,7 +377,9 @@ Delete measures at the specified position and length for the currently selected 
 
 ### Other Track Notes
 
-Select whether or not to display all notes of the song tracks in the Score editing screen.
+Select whether or not to display notes from other song tracks in the Score editing screen.
+
+(Notes in muted track are not displayed.)
 
 ### Ruler View
 

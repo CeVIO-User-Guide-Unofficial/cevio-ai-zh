@@ -1,5 +1,5 @@
 ---
-title: 歌声的调整②（调整画面）
+title: Vocal Adjustment② (Adjustment Screen)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
@@ -8,142 +8,130 @@ layout: post
 
 ---
 
-在调整页面里可以对歌声的发声时间、音高等参数（值）做更细致的调整。
+You can finely adjust parameters (values) like the timing of the vocalisation and pitch in the adjustment screens.
 
 ![adjust tool](images/song_07_1.png#only-light)
 ![adjust tool](images/song_07_1_dark.png#only-dark)
 
-### 调整值的叠加显示
+### Superimposed Display of Adjustment Values
 
-使用工具栏上的调整工具的圆形按钮选择一个调整项目时，将会显示调整页面。
+When an adjustment item is selected using the round button of the adjustment tool on the toolbar, the adjustment screen will be displayed.
 
-点击按钮上面的文字（例如「PIT」）能在当前的调整页面中叠加显示其他页面。
+Clicking the text above the button (such as "PIT") can superimpose other screens on the current adjustment screen.
 
-※切换到一个正在叠加的调整项目时，会保持叠加显示的状态。
+※When switching to an adjustment item that is being superimposed, the superimposed display state will remain.
 
-![overlay item](images/song_07_2.png)
+![Superimposed Display](images/song_07_2.png)
 
-### 数值显示
+### Numerical Display
 
-选项中「歌唱设定」的「参数调整页面的数值显示」可以选择当鼠标光标悬停在某个参数上时的数值显示。
+You can select the numerical value display when hovering the mouse cursor over a parameter in "Numeral Display on Adjustment Screen" in the "Song Settings" option.
 
-默认设置是只显示当前值，但也可以选择「当前+相对」，以「（相对值）当前值」的格式详细显示数值；或者隐藏它们。
+By default, only the current value is displayed, but you can select "Current value + Difference" to display it in detail in the format of "(difference) current value"; or hide it.
 
-## 时间调整
+## Edit Timing
 
-*タイミング調整 / Edit Timing*
+Adjust the timing and duration of the phoneme voicing here.
 
-在这里调整音素发声的时刻和时长。
-
-调整时间会自动重新计算音高、音量、颤音幅度和周期，以配合时间变化。所以先调整时间，再调整其他项目会更有效率。
+Adjusting the time will automatically recalculate pitch, volume, vibrato amplitude and frequency to match the timing change. So it is more efficient to adjust the timing first and then other items.
 
 ![Edit Timing](images/song_07_3.png)
 
-选择「画笔工具」，拖动线条来修改时间。
+Select draw tool and drag line to change timing.
 
-向前移动线条可以将时刻提前，向后移动可以将时刻延后。
+Move the line forward to advance the time, and move it backward to delay the time.
 
-### 以音符为单位调整
+### Adjust in Phoneme Units
 
-按下 ++ctrl+shift+p++ 可以在音素单位和音符单位之间切换。按住 ++alt++ 键可以暂时切换。
+Press ++ctrl+shift+p++ to toggle between phoneme units and note units. Hold down the ++alt++ key to toggle temporarily.
 
-以音符为单位调整时，会自动保持子音和母音的原始长度比例。
+When adjusting by note, the original length ratio of consonant and vowel is automatically maintained.
 
-![adjust in note unit](images/song_07_4.png)
+![adjust in note units](images/song_07_4.png)
 
-### 状态线
+### Timing Status line
 
-从本质上讲，时间由歌词中每个音素（例如「ド」的「d」或「o」）的五条线组成，一条红紫色的音素线表示该音素的开始，四条浅紫色的状态线表示该音素的声音变化。
+Originally, timing consists of five lines for each phoneme in a lyric (e.g., "d" or "o" for "ド"), one reddish-purple **phoneme line** to indicate the beginning of the phoneme, and four light-purple **status lines** to indicate the change of sound within the phoneme.
 
-可以按 ++ctrl+i++ 键显示这些状态线，或者在「歌唱」菜单的「显示网格线」下打开「显示音素状态线」。通常情况下可以直接隐藏，有需要时再将它显示出来做调整。
+These status lines can be display by pressing the ++ctrl+i++ key or by turning on "Timing Status Lines" under "Line View" in the "Song" menu. Normally it is fine to hide them, but you can show or adjust them as needed.
 
-※默认设置为隐藏。在隐藏状态线的情况下，调整时会自动保证状态线之间的原始比率。
+\* The default setting is hidden. When hidden, the status lines are automatically adjusted to maintain the ratio between the lines.
 
 ![status line](images/song_07_5.png)
 
-显示状态线时，可以以一条状态线为单位调整时间。
+When the status line is displayed, the timing can be adjusted in units of one status line.
 
 ![status line](images/song_07_6.png)
 
-显示状态线时，在钢琴卷帘下部显示音素的黑色区域内拖动音素线，可以方便地以音素单位（或音符单位）自动调整状态线。
+When the status line is displayed, it is convenient to drag the phoneme line in the black area where the phonemes are displayed in the lower part of the piano roll to automatically adjust the status line in phoneme units (or note units).
 
 ![status line](images/song_07_7.png)
 
-!!! info "关于参数变化"
-    因为『CeVIO AI』会从乐谱整体推定演唱风格，所以当增加、删除音符，改变或编辑音符长度和音阶时，乐谱的各个部分的参数——如时间和音高——都会发生变化。
+!!! info "About parameter changes"
+    Because "CeVIO AI" infers the singing style from the score as a whole, when adding or deleting notes, changing or editing the note length and scale, the parameters of each part of the score - such as timing and pitch - will change.
 
-    由于时间调整值是相对于原始值而言的，因此当参数发生变化时，调整值也会发生变化。在这种情况下，每条时间线内跨越了相邻线的线将会被重置。
+    Since the timing adjustment value is relative to the original value, when the parameter changes, the adjustment value also changes. In this case, each timing line that crosses adjacent lines will be reset.
 
-    （除时间外，音高等其他调整值是绝对值。）
+    (Adjustment values other than timing, such as pitch, are absolute values.)
 
-## 音量调整
+## Edit Volume
 
-*ボリューム調整 / Edit Volume*
+Adjust the volume of the note here.
 
-在这里编辑音符的音量。
-
-※也可以通过[强弱记号](../songtrack)轻松调整音量。
+\* You can also use [dynamic marks](../songtrack) to adjust the volume easily.
 
 ![volume](images/song_07_8.png)
 
-选择「画笔工具」，拖动线条来修改音量。
+Select the Draw Tool and drag a line to modify the volume.
 
-音量的单位为 dB（分贝）。
+The unit of volume is dB (decibels).
 
 ![edit volume](images/song_07_9.png)
 
-## 音高调整
+## Edit Pitch
 
-*ピッチ調整 / Edit Pitch*
+Adjust the pitch of a note here. Only base pitch is adjusted, vibrato is not included.
 
-在这里调整音符的音高。仅调整基本音高，不包含颤音。
+Outside of the pitch adjustment page, when the pitch is superimposed, the pitch affected by the vibrato will also be displayed.
 
-在音高调整页面以外，当叠加显示音高时，颤音影响后的音高也会一同显示。
-
-在音高调整页面内，当叠加显示颤音的振幅或周期时，颤音影响后的音高也会一同显示。
+In the pitch adjustment page, when the amplitude or frequency of the vibrato is superimposed, the pitch affected by the vibrato will also be displayed.
 
 ![pitch](images/song_07_10.png)
 
-选择「画笔工具」，拖动线条来修改音高。
+Select the Draw Tool and drag a line to modify the pitch.
 
-音高的单位是 Hz（赫兹）。
-
-相对值的数值（括号内）的单位是 Cent，+100Cent 代表升高半个音。
+The unit of pitch is Hz (Hertz).
 
 ![edit pitch](images/song_07_11.png)
 
-## 颤音的振幅调整
+## Edit Vibrato Amplitude
 
-*ビブラートの振幅調整 / Edit Vibrato Amplitude*
+Vibrato can be adjusted by amplitude and frequency, adjust the amplitude of vibrato here.
 
-颤音可以通过振幅和周期来调节，在这里调整颤音的振幅。
+Superimposed display pitch will show the pitch with vibrato for easy adjustment.
 
-重叠显示音高将显示带有颤音的音高，以便于调整。
-
-要在一个没有颤音的区域添加颤音，你需要在该区域同时画出振幅和周期。
+To add vibrato to an area that doesn't have vibrato, you need to draw both amplitude and frequency in that area.
 
 ![amplitude](images/song_07_12.png)
 
-选择「画笔工具」，拖动线条来修改振幅。
+Select the Draw Tool and drag a line to modify the amplitude.
 
-振幅的单位是 Cent，100Cent 代表向上或向下摆动半个音。
+The unit of amplitude is Cent, and 100Cent represents a half-tone up or down.
 
 ![edit amplitude](images/song_07_13.png)
 
-## 颤音的周期调整
+## Edit Vibrato Frequency
 
-*ビブラートの周期調整 / Edit Vibrato Frequency*
+Vibrato can be adjusted by amplitude and frequency, adjust the frequency of vibrato here.
 
-颤音可以通过振幅和周期来调节，在这里调整颤音的周期（频率）。
+Superimposed display pitch will show the pitch with vibrato for easy adjustment.
 
-重叠显示音高将显示带有颤音的音高，以便于调整。
-
-要在一个没有颤音的区域添加颤音，你需要在该区域同时画出振幅和周期。
+To add vibrato to an area that doesn't have vibrato, you need to draw both amplitude and frequency in that area.
 
 ![frequency](images/song_07_14.png)
 
-选择「画笔工具」，拖动线条来修改周期。
+Select the Draw Tool and drag a line to modify the frequency.
 
-周期的单位是 Hz（赫兹），表示每秒摇动的次数。
+The unit of period is Hz (Hertz), which means the number of shakes per second.
 
 ![edit frequency](images/song_07_15.png)

@@ -1,85 +1,86 @@
 ---
-title: 音符的输入与编辑
+title: Note Input and Editing
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 音符の入力と編集](https://cevio.jp/guide/cevio_ai/songtrack/song_02/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 音符の入力と編集](https://cevio.jp/guide/cevio_ai/songtrack/song_02/)
 
 ---
 
-可以使用调整工具在「乐谱编辑」的状态下输入和编辑音符。
+Notes can be input and edited using the adjustment tool in the "Edit Score" state.
 
-## 输入音符
+## Input Note
 
-若要输入音符，请从编辑工具里选择画笔工具。
+To input a note, select the draw tool from the edit tools.
 
-在钢琴卷帘上，从放置音符的地方左右拖拽（按住鼠标左键并移动）来决定音符的长度。
+On the piano roll, move to the right from where you want to place the note (hold down the left mouse button) to determine the length of that note.
 
-在执行音符的输入、移动或粘贴的操作时，若音符与同一轨道的其他音符重叠，则其他音符会自动缩短。（可选项。可以在选项中选择「输入音符时不调整会重叠的音符」。）
+When performing a note input, move or paste operation, if a note overlaps with another note on the same track, that note will be automatically shortened. (Optional. You can select "Do not erase existing notes when entering notes" in the options.)
 
-最开始的小节（第 0 小节）不允许输入音符。
+The very first bar (bar 0) does not allow notes input.
 
 ![enter note](images/song_02_1.png)
 
-输入音符后，它的下方会显示歌词的音素和发声时间。可以在这里调整时间。
+When a note is entered, the phoneme and vocal time of the lyrics are displayed below it. The timing can be adjusted here.
 
-在键盘上单击，该轨道的角色会唱出当前音阶上的这个音。
+Click on the scale and character assigned to this track will sing this key.
 
-!!! hint "音符输入的提示"
+!!! hint "hint for note input"
+    It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
 
-    不推荐用音符和音符间细小的空隙表示促音（っ），或用诸如 1/32 等细小的音符位置来表达发声的时机。
+    Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
 
-    将促音包含在歌词中，在音符下方或时间调整页面调整发声的时机，会得到更好的歌声。
+## Delete Note
 
-## 删除音符
+Select the eraser tool from the edit tool and click on a note to erase it.
 
-从编辑工具里选择橡皮擦工具，再单击音符，便可擦除音符。
-
-另外，使用橡皮擦工具以外的工具时，选中音符再按 ++del++ 键也可以删除音符。
+Alternatively, when using a tool other than the eraser tool, select the note and press ++del++ can also delete it.
 
 ![delete note](images/song_02_2.png)
 
-## 调整音符长度
+## Adjust Note Length
 
-从编辑工具里选择选择工具或画笔工具，再拖拽音符的左侧或右侧，便可调整音符长度。
+Note length can be changed by selecting the selection tool or draw tool from the edit tool and dragging the right or left edge of the note.
 
 ![adjust note length](images/song_02_3.png)
 
-## 移动音符
+## Move Note
 
-从编辑工具里选择选择工具或画笔工具，再拖拽音符，便可移动音符。
+Select the selection tool or the draw tool from the edit tool and drag the note to move it.
 
-拖拽时按住 ++shift++ 键，可以水平或垂直移动音符。
+Hold down the ++shift++ key while dragging to move the note horizontally or vertically.
 
-同时选中多个音符时可以一并移动它们。
+When multiple notes are selected at the same time, you can move them together.
 
-另外，拖拽时按住 ++alt++ 键可以复制选择的音符。
+Alternatively, hold down ++alt++ while dragging to copy the selected note.
 
-※不允许将音符移至第 0 小节。
+Moving note to bar 0 is not allowed.
 
 ![move note](images/song_02_4.png)
 
-!!! hint "连同音符的参数一并移动"
+!!! hint "Move Note with Parameters"
 
-    选中音符后，用鼠标拖拽或用 ++up++ 或 ++down++ 键移动它，则音高会自动随之变换。
+    After selecting notes, drag with the mouse or move them with ++up++ or ++down++ keys, and the pitch will automatically follow their change.
 
-    使用[范围选择工具](../song_05)圈定范围，然后移动它们，则选择范围内的音符会连同它们的参数一并移动。
+    Use the [Collectively Selection Tool](../song_05) to specify the range, and then move them, the notes in the selection range will move together with their parameters.
 
-## 复制与粘贴音符
+    If you move notes which have been adjusted parameters, they will automatically be collectively selected and the parameters will follow, even if you move them with a tool other than the collectively selection tool. At this time, if you hold down the ++alt++ key and move a note vertically, this note will not be collectively selected, and the adjusted pitch will remain in the original place.
 
-从编辑工具中选择选择工具或画笔工具，然后点击待复制的音符。
+## Copy and Paste Note
 
-可以通过按住 ++rctrl++ 或 ++shift++ 键并点击音符来选择多个音符。
+Choose the select tool or the draw tool from the edit tool and click on the note to be copied.
 
-也可以在使用选择工具的情况下，通过在钢琴卷帘上拖动，来选择拖动范围内的音符。
+Multiple notes can be selected by holding down the ++rctrl++ or ++shift++ keys and clicking on the notes.
 
-选定音符后，从右键菜单中选择「复制」。
+It is also possible to select multiple notes within the dragging range by dragging in the piano roll while using the selection tool.
 
-然后，从右键菜单中选择「粘贴」，将音符粘贴在光标位置。
+After selecting the notes, select "Copy" from the context menu.
+
+Then, select "Paste" from the right-click menu to paste the notes at the cursor position.
 
 ![copy and paste note](images/song_02_5.png)
 
-!!! hint "连同音符的参数一并粘贴"
+!!! hint "Copy and Paste Note with Parameters"
 
-    使用[范围选择工具](../song_05)圈定范围后复制，可以一并复制范围内的音符调整值、节拍、强弱等参数。之后，利用光标指定位置并粘贴，便可轻松地再现原始的音符和调整值。
+    By using the [Collectively Selection Tool](../song_05) to specify the range and copy, you can also copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.

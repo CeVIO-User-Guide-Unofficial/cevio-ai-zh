@@ -1,117 +1,110 @@
 ---
-title: 歌声的调整①（编辑工具）
+title: Vocal Adjustment① (Editing Tool)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 歌声の調整①（編集ツール）](https://cevio.jp/guide/cevio_ai/songtrack/song_05/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整①（編集ツール）](https://cevio.jp/guide/cevio_ai/songtrack/song_05/)
 
 ---
 
-通过工具栏的编辑工具或钢琴卷帘的右键菜单可以切换编辑模式。
+The editing mode can be switched through the editing tool in the toolbar or the right-click menu of the piano roll.
 
-按住 ++ctrl++ 键可以临时切换编辑工具。
+Hold down the ++ctrl++ key to temporarily switch editing tools.
 
 ![edit tool](images/song_05_1.png#only-light)
 ![edit tool](images/song_05_1_dark.png#only-dark)
 
-## 选择工具
+## Selection Tool
 
-*選択ツール / Selection Tool*
+Drag (hold down the left mouse button and move) to specify the range to copy or delete.
 
-拖动（鼠标左键按住并移动）以指定复制或删除的范围。
+After specifying the range, use the ++ctrl+c++ keys to copy the adjustment value within the range of the adjustment screen. The copied content can be pasted to the position of the cursor by using ++ctrl+v++ keys.
 
-指定范围后，使用 ++ctrl+c++ 键复制调整屏幕范围内的调整值。复制的内容可以用 ++ctrl+v++ 键粘贴到光标所在的位置。
-
-指定范围后，使用 ++del++ 键会删除范围内的调整值，并将其恢复为原始值。
+After specifying the range, use the ++del++ key to delete the adjusted value within the range and restores it to its original value.
 
 ![delete adjustment in range](images/song_05_2.png)
 
-### 复制和粘贴时间调整值（TMG）
+### Copy and Paste Timing Adjustment Values (TMG)
 
-在复制 TMG 时，同时会记录五条音素线其中的特定条。
+When copying TMG, the number of the five lines of the phoneme is also stored.
 
-例如，如果复制第三条线，粘贴时它将粘贴到光标后的第三条线上。
+For example, if you copy the third line, when you paste it will be pasted on the third line after the position cursor.
 
-按住 ++alt++ 键时将脱离量化限制，可以指定更细的范围。
+The quantize correction will be released when the ++alt++ is held down, making it easier to specify a detailed range.
 
-### 调整值的上下移动
+### Move up and down the adjustment value
 
-在时间以外的调整屏幕中，在指定范围后向上或向下拖动参数值，可以使范围内的数值按原样向上或向下移动。当整体增加或减少某一范围内的颤音时很有用。
+In the adjustment screens other than timing, dragging the parameter value up or down after specifying the range will move the value in this range up or down as it is. It's useful when overall increasing or decreasing vibrato over a range.
 
-按住 ++alt++ 键时将脱离量化限制。
+The quantize correction will be released when the ++alt++ is held down
 
 ![move the value within the range up or down](images/song_05_3.png)
 
-选中音符后（使用选择工具或范围选择工具），用鼠标拖拽或用 ++up++ 或 ++down++ 键移动它，则音高会自动随之变换。
+### Edit Score Screen{#edit-score-screen-selection}
 
-## 范围选择工具
+After selecting the note (with selection tool or collectively selection tool), use mouse to drag or use ++up++ or ++down++ key to move it and its pitch adjustment value will automatically follow its change.
 
-*まとめ選択ツール / Collectively Selection Tool*
+## Collectively Selection Tool
 
-圈定范围后复制，可以一并复制范围内的音符调整值、节拍、强弱等参数。之后，利用光标指定位置并粘贴，便可简单地再现原始的音符和调整值。
+By specifying the range and copy, you can copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.
 
 ![Collectively Selection Tool](images/song_05_4.png)
 
-### 以小节为单位粘贴
+### Paste in Measure Unit
 
-如果选择了一个小节并用光标粘贴到最开始的第 0 小节处，则它将以「以小节为单位粘贴」的方式粘贴，除了本就会粘贴的曲速和强弱符号外，拍子和调号也会一并粘贴。如果被粘贴的小节的节拍与被粘贴的小节不同，小节将被扩展或缩减。[^1]
+If a measure is selected and pasted with the position cursor to the very first measure 0, it will be pasted as "paste in measure unit", except for the tempo and dynamics mark that would have been pasted by default, the time signature and key signature will also be pasted together. If the tempo from the pasted measure differs from the original measure, the measure will be expanded or contracted. [^1]
 
-※例如，如果复制了一个 4/4 拍的小节，然后粘贴到一个 3/4 拍的小节中，它将自动多添加一拍。
+\* For example, if you copy a 4/4 measure and paste it into a 3/4 measure,  an extra beat will be add automatically.
 
-※当复制的单位不是小节，或当光标位置不在最开始的第 0 小节时，将不会发生拍子和调号的粘贴以及小节的扩展/缩减。
+\* When the copied unit is not a measure, or when the cursor position is not at the measure 0, the pasting of the beat and key signature and the expansion/contraction of the measure will not occur.
 
-### 曲速·拍子的变化
+### Tempo and Time Signature Changes
 
-所有歌唱轨道共享曲速和拍子的设定。所以如果在范围选择后通过删除/剪切/粘贴改变了曲速或节拍，项目中的所有歌唱轨道都会受到影响。
+All the song tracks share the same tempo and time signature settings. So if the tempo or time signature is changed by deleting/cutting/pasting after collectively selection, all song tracks in the project will be affected.
 
-### 乐谱编辑屏幕
+### Edit Score Screen{#edit-score-screen-collectively-selection}
 
-在乐谱编辑画面，圈定范围后拖动，选择范围内的音符会连同它们的参数一并移动。
+On the edit score screen, specify the range and drag, the notes within the selected range will move along with their parameters.
 
-※拖拽时按住 ++shift++ 键，可以水平或垂直移动音符。
+\* Holding ++shift++ when dragging can move notes horizontally or vertically.
 
-## 画笔工具
+## Draw Tool
 
-*ペンツール / Draw Tool*
+Drag to adjust values. Adjusted values are shown in orange.
 
-拖动以调整参数。调整后的数值显示为橙色。
+\* During superimposed display or connection adjustment, only the valid values (the adjusted part is the adjusted value) are displayed.
 
-※在重叠显示和连接调整时，只显示有效的数值（被调整部分的调整值）。
+### Connection Adjustment Mode
 
-### 连续调整模式
-
-在调整音高、音量或颤音时，拖动时按住 ++alt++ 键，可以画出一条与原始值整齐连接的线。
+When adjusting pitch, volume or vibrato, hold down the ++alt++ keys while dragging to draw a line that is neatly connected to the original value.
 
 ![connection adjustment mode](images/song_05_5.png)
 
-* 按住 ++alt++ 并拖动鼠标时，画笔工具将会画出红色的调整线。此时放开 ++alt++ 键时，画出的红线和原始的参数线将会自动连接，并以此作为新的参数。
-* 按住 ++alt++ 键，会出现一条参考线，它反映的是已调整的参数值。可以依此确认当前的状态。
-    
-    ※如果在画线前就放开了 ++alt++ 键，则焦点会切到菜单上[^2]，但可以通过长按 ++alt++ 键的方式再次确认。
+* When you hold down ++alt++ and drag the mouse, the draw tool will draw a red line. When ++alt++ is released, the red line drawn and the original line will be automatically connected and used as the new value.
 
-## 直线工具
+* When ++alt++ is held down, a single line reflecting the adjusted value will be displayed. You can use it to check the current status easily.
 
-*ラインツール / Line Tool*
+    \* If you release ++alt++ without dragging, the focus will shift to the menu[^2], but you can check it again by holding down ++alt++.
 
-拖动以画出一条直线。
+## Line Tool
 
-拖动的同时按下 ++shift++ 键可以画出水平线。
+Drag to draw a straight line.
 
-注意，在时间调整页面不能画线，此时它的工作方式与画笔工具相同。
+Hold down ++shift++ at the same time when dragging to draw a horizontal line.
+
+Note that you cannot drag lines in timing editing screen, when it works in the same way as the draw tool.
 
 ![line tool](images/song_05_6.png)
 
-## 橡皮擦工具
+## Eraser Tool
 
-*消しゴムツール / Eraser Tool*
+Drag to delete the adjusted value and back to the original value.
 
-拖动以删除调整值，返回到原始值。
-
-在音高 / 颤音调整页面拖动的同时按住 ++shift++ 键时可以删除原始值。[^3]
+In pitch/vibrato editing screen, hold down ++shift++ at the same time when dragging to delete the original value.[^3]
 
 ![eraser tool](images/song_05_7.png)
 
-[^1]:译者注：可以试试在标尺栏上随便设点数值，然后用范围选择工具在钢琴卷帘里拖动一下，观察拖满一个小节时四个标签的颜色变化。
-[^2]:译者注：这个其实是 Windows 系统使用键盘调用菜单的快捷键，菜单的文字里后面跟着的字母就是调用它们的键。比如说你现在试试看在 CeVIO 里按 ++alt++ 再按一下 ++f++（
-[^3]:译者注：算是个小技巧，用橡皮擦删掉原始音高值可以做出黑嗓。
+[^1]: Translator's note: You can try to set random values on the ruler, then use the collectively selection tool to drag in the piano roll, and observe the colour changes of the labels on four rows when dragging a measure.
+[^2]: Translator's note: Actually this is a shortcut for Windows to use the keyboard to invoke the menus, and the letters that follow in the text of the menus are the keys that invoke them. For example, try pressing ++alt++ in CeVIO and then pressing ++f++ (
+[^3]: Translator's note: A trick: deleting the original pitch value with eraser tool can make a death growl.

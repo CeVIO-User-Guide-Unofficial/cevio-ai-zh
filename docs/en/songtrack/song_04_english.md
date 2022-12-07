@@ -1,72 +1,74 @@
 ---
-title: 歌词的输入（英语声库）
+title: Lyrics Input (English Voice)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 歌詞の入力（英語ボイス）](https://cevio.jp/guide/cevio_ai/songtrack/song_04english/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌詞の入力（英語ボイス）](https://cevio.jp/guide/cevio_ai/songtrack/song_04english/)
 
 ---
 
-使用英语声库时，歌词中的音符默认是根据音阶分配的「Do Re Mi Fa So La Si」。
+For English Voices, notes lyrics are assigned to "Do Re Mi Fa So La Si" according to the scale by default.
 
-（可以通过选项的「歌唱设置」的「默认歌词」修改默认歌词，比如改成「La」。）
+(You can change the default lyrics, for example to "La", via "Default lyrics" in "Song Settings" of Options.)
 
-可以为每个音符输入歌词，也可以一次性为所有音符输入歌词。
+Lyrics can be input for each note, or for all notes at once.
 
-## 输入歌词
+## Input Lyrics
 
-在调整工具的「乐谱编辑」里双击一个音符以输入音符。
+Double click on a note in the "Edit Score" of adjustment tool to enter the note.
 
-也可以用 ++f2++ 键进入选定音符的输入状态。在输入状态下输入歌词后，按 ++enter++ 键提交歌词。
+You can also use the ++f2++ key to enter the selected note. After entering lyrics in the input state, press ++enter++ to submit the lyrics.
 
-在输入歌词后如果按 ++tab++ 键而不是 ++enter++ 键，则可以继续为下一个音符输入歌词。
+If you press ++tab++ instead of ++enter++ after entering lyrics, you can continue entering lyrics for the next note.
 
-允许输入半角英文字符、`.`、`'`、`-` 和 `$`（假声记号）。
+The characters that can be input are half-angle English characters, `.`, `'`, `-` and `$` (falsetto symbol).
 
-※无法发声的字符以红色显示。
+\* Characters that cannot be sung out are shown in red.
 
 ![enter lyrics](images/song_04_english_1.png)
 
-`-` 可以用来将一个词（及其音素）分成多个音符。
+`-` can be used to divide a word (and its phonemes) into multiple notes.
 
-例如，`holy` 可以分为两个音 `ho` 和 `-ly`；`tenderly` 可以分为四个音 `ten`、`-der`、`-ly` 和 `-`。
+For example, `holy` can be divided into two parts `ho` and `-ly`; `tenderly` can be divided into four parts `ten`, `-der`, `-ly` and `-`.
 
-※只有 `-` 才会延长前面的音素。另外，将 `tenderly` 分为两个音符输入，如 `tenderl` 和 `-y`，会自动分配音素。[^1]
+\* Only `-` extends the preceding phoneme. Alternatively, inputting `tenderly` as two notes, such as `tenderl` and `-y`, will automatically assign phonemes. [^1]
 
-## 长段歌词输入
+## Enter Lyrics Collectively
 
-可以通过「歌唱」菜单、钢琴卷帘的右键菜单或者快捷键 ++f8++ 快速调出该界面。
+This can be called from the "Song" menu, the right-click menu on the piano roll or the shortcut key ++f8++ .
 
-选择「按空格分割」时，可以通过输入由半角空格分隔的字符，将歌词分配到多个音符上。
+When "Space-Separated" is selected, the lyrics will be assigned to multiple notes by entering characters separated by half spaces.
 
-选择「1音符1音节」时，由半角空格分割的单词会自动再按音节分割，并为每个音符分配一个音节。
+When "1 note with 1 syllable" is selected, words separated by half spaces will be automatically divided by syllables again, and one syllable will be assigned to one note.
 
 ![continuly enter lyrics](images/song_04_english_2.png)
 
-## 假声记号
+!!! new "Improved "Enter Lyrics Collectively""
+    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
 
-如果歌词中包含 `$`，那么该音符将发假声。
+## Falsetto Symbol
 
-※受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
+If the lyrics contain a `$`, the note will be falsettoed.
 
-## 输入音素记号
+\* Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 
-在音素输入模式下，可以用音素单位指定发声。
+## Input Phoneme Symbols
 
-在输入歌词时，可以通过右键菜单「按音素输入歌词」或快捷键 ++ctrl+p++ 切换到音素输入模式。
+In phoneme input mode, vocalisations can be specified in phoneme units.
 
-在音素输入模式下，歌词输入栏的背景会变为蓝灰色，并在随后的输入中保持这个颜色。
+When entering lyrics, you can switch to phoneme input mode by using "Enter Lyrics with Phoneme" in "Other Operations" via the piano roll right-click menu, the "Song" menu, or using the shortcut key ++ctrl+p++ .
 
-（也可以通过「歌唱」菜单或钢琴卷帘的右键菜单切换到「音素输入模式」。）
+In phoneme input mode, the background of the lyrics input field changes to a blue-grey colour and keeps this colour in subsequent input.
 
 ![enter parameter](images/song_04_english_3.png)
 
-音素输入模式下会显示「音素面板」。[^2]单击面板上的字符输入音素符号，之后按 ++enter++ 键或关闭音素面板便可提交更改。
+The "English phonemes palette" is displayed in phoneme input mode.[^2] Click on a character in the palette to enter a phoneme symbol, then press ++enter++ or close the phoneme palette to commit the change.
 
-音素间使用 1 字符宽的空格 ` ` 或 1 字符宽的 `,` 分割。若音节间有混淆，可以使用 `|` 分割（例如 `y,e,s|a,i`）。
+Phonemes are separated by a 1-character wide space ` ` or a 1-character wide `,`. If there is confusion between syllables, use `|` to divide them (e.g. `y,e,s|a,i`).
 
-若输入了音素面板上不存在的字符，则该字符将被视作错误的歌词（以红色显示），所在的音符将不会发声。
+If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.
 
-[^1]:译者注：（如果理解正确的话）具体来说就是，将 `tenderly` 分为 `tenderl` 和 `-y` 时，如果不分割音素，则前一个音符分到的音素是「t,eh,n,d,axr,l」，后一个音符分到的是「iy」。但是，因为音素会自动分割，所以实际上前一个音符分到的音素是「t,eh,n,d,axr」，后一个音符分到的是「l,iy」。另外其实在这个例子里自动分割的音素才是正确的分割，因为 tenderly 这个词的分割点是 ten·der·ly，该断开的位置应该是 ly，发「l,iy」的音。
-[^2]:译者注：CeVIO 使用的音素与 IPA 的对照表参见[注册单词与发音记号（英语声库）的“发音记号一览”一节](../../talktrack/talk_01_english/#_8)。
+[^1]:Translator's note: (if the understanding is correct) Specifically, when `tenderly` is divided into `tenderl` and `-y`, if the phoneme is not automatically divided, the phoneme assigned to the previous note would be "t,eh,n,d,axr,l" and the latter note would be "iy". However, because the phonemes are automatically divided, the phonemes assigned to the previous note are actually "t,eh,n,d,axr", and the phonemes assigned to the latter note are "l,iy". In addition, in this example, the phonemes that are automatically divided are the correct division, because the segmentation point of the word "tenderly" is ten·der·ly, and the divided position should be ly, pronounced "l,iy".
+
+[^2]:Translator's note: For a comparison table of the phonemes used in CeVIO with IPA, see the section ["List of Pronunciation Symbols"](../../talktrack/talk_01_english/#list-of-pronunciation-symbols) from Words Registration and Pronunciation (English Voice).

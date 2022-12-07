@@ -43,7 +43,7 @@ Automatically or Manually scroll timeline, speech list, piano roll during playba
 
 You can adjust the overall volume while maintaining the volume balance between tracks.
 
-Drag the knob left/right or up/down to adjust. Hold down the ++shift++ key while dragging for fine adjustment.
+Drag the knob left/right or up/down to adjust. Hold down the ++shift++ key while dragging for fine-tuning.
 
 Press ++ctrl++ and left-click the knob to reset it to the default value (0db); double-click the knob to enter the value manually.
 

@@ -1,89 +1,81 @@
 ---
-title: 音符的参数
+title: Note Properties
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 音符のプロパティ](https://cevio.jp/guide/cevio_ai/songtrack/song_03/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 音符のプロパティ](https://cevio.jp/guide/cevio_ai/songtrack/song_03/)
 
 ---
 
-显示音符的详细参数。
+Display detailed information about the notes.
 
-同时选中多个音符时，面板中会显示它们相同的内容。可以同时修改内容，也可以用 `+` 和 `-` 改变相对值。
+If multiple notes are selected, the common content will be displayed, and you can change the content collectively or use `+` and `-` to change the relative values.
 
 ![property](images/song_03_1.png)
 
-## 音
+## Sound
 
-*音*
+### Pitch
 
-### 音高
+Display the pitch of the note.
 
-*高さ*
+Enter `+12` to raise all selected notes by one octave.
 
-显示音符的音高。
+### Duration
 
-输入 `+12` 可以将所有选择的音符提高一个八度。
+Display the length of the note. The length of a quarter note is 960 tick.
 
-### 长度
+### Lyric
 
-*長さ*
+The lyric assigned to the note.
 
-显示音符的长度。一个四分音符的长度为 960 tick。
+### Phoneme
 
-### 歌词
+Phonemes of the lyric. Entered phonemes have a higer priority than lyrics.
 
-*歌詞*
+## Position
 
-分配给音符的歌词。
+### Measure
 
-### 音素
+Display the measure in which the note is located.
 
-*音素*
+### Beat
 
-歌词的音素。输入的音素优先于歌词。
-
-## 位置
-
-*位置*
-
-### 小节
-
-*小節*
-
-显示音符所在的小节。
-
-### 拍子
-
-*拍*
-
-显示音符所在的拍子。
+Display the beat in which the note is located.
 
 ### Tick
 
-显示音符所在的 tick。
+Display the tick in which the note is located.
 
-## 属性
+## Attribute
 
-*属性*
+### Accent
 
-### 呼吸
+Assign accent to the note.
 
-*ブレス*
+### Staccato
 
-在音符后换气。
+Assign staccato to the note.
 
-### 连音开始 / 连音结束
+### Breath
 
-*スラー開始／スラー終了*
+Breath after the note.
 
-从连音开始标记到结束标记为止流畅地演唱。
+### Slur Start / Slur End
 
-也可以通过在乐谱编辑屏幕上选择多个音符并按 ++ctrl+r++ 来设置连音的范围。
+Sing more smoothly from the start to the end of the slur.
 
-!!! hint "连音的提示"
+You can also set the slur range by selecting multiple notes on the Edit Score screen and pressing ++ctrl+r++.
 
-    当后面的歌词（或长音）与前一个音符元音相同时，设置滑音将使音量的连接更加平滑。
-    
-    如果想唱得更流畅，请使用调整屏幕，将音高和音量线平滑地连起来。
+!!! hint "hint about slur"
+
+    When the following lyric (or long note) has the same vowel with the previous note, setting a slur will smooth down the volume connection.
+
+    For smoother singing, use the adjustment screen to smoothly connect the pitch and volume lines.
+
+### Falsetto
+
+Add a falsetto symbol to the note.
+
+\* Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.

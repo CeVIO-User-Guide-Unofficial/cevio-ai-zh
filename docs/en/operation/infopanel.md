@@ -29,7 +29,7 @@ Show the tempo at the cursor position. Click to change it.
 
 \* Tempo is a common setting for all song tracks. It does not affect the talk track.
 
-\* If you want to change the tempo in the middle of a song, add a tempo from the ruler in piano roll .
+\* If you want to change the tempo in the middle of a song, add a tempo from the ruler in piano roll.
 
 ![tempo](images/infopanel_3.png)
 
@@ -39,7 +39,7 @@ Show the time signature (beat) at the cursor position. Click to change it.
 
 \* Time signature is a common setting for all song tracks. It does not affect the talk track.
 
-\* If you want to change the time signature in the middle of a song, add a time signature from the ruler in piano roll .
+\* If you want to change the time signature in the middle of a song, add a time signature from the ruler in piano roll.
 
 ![time signature](images/infopanel_4.png)
 
@@ -65,7 +65,7 @@ Show the current quantize setting. Click to change it.
 
 !!! tip
 
-    Entering the notes as the original score can get a more naturally voice.
+    Entering the notes as the original score can get a more natural voice.
 
     It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
 

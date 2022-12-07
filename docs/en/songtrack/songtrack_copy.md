@@ -1,86 +1,93 @@
 ---
-title: 曲速 / 拍子 / 调号 / 强弱记号
+title: Tempo / Time Signature / Key Signature / Dynamics Mark
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ テンポ／拍子／調号／強弱記号](https://cevio.jp/guide/cevio_ai/songtrack/songtrack/)
+Original article: [CeVIO AI ユーザーズガイド ┃ テンポ／拍子／調号／強弱記号](https://cevio.jp/guide/cevio_ai/songtrack/songtrack/)
 
 ---
 
-在钢琴卷帘中可以修改、增加或删除曲速/拍子/调号/强弱记号。
+In the ruler of piano roll, you can change, add and delete tempo/time signature/key signature/dynamic mark.
 
-对于新项目，位于 0 小节的开始处会有一个默认的设置。
+In a new project, there is a default setting for each, located at the beginning of bar 0.
 
-在标尺栏的右键菜单里可以切换每一项的显示与否。
+You can switch between showing and hiding each of these from the right-click menu in the ruler header.
 
-<span style="color: red">※曲速和拍子默认隐藏。若想在歌曲中间修改曲速或拍子，请将它们设为显示。</span>
+<span style="color: red">\* Tempo and beat are hidden by default. Set to display if you want to change them in the middle of a song.</span>
 
 ![setting](images/songtrack_copy_1.png)
 
-## 曲速的设置
+## Tempo Setting
 
-在编辑工具里选择选择工具或画笔工具，然后双击曲速，便可变更曲速。
+Select the selection tool or the draw tool from the edit tool and double-click on the tempo to change tempo.
 
-若想在歌曲中间修改曲速，请选择画笔工具，然后在想改变曲速的位置双击曲速行来设置新的曲速。
+If you want to change the tempo in the middle of a song, select the draw tool and double-click on the tempo row at the position where you want to change the tempo to place the new tempo.
 
 ![set new tempo](images/songtrack_copy_2.png)
 
-也可以通过向左或向右拖动（按住鼠标左键移动）或直接在曲速属性中指定位置的方式，来移动曲速（除了最初的曲速外）。曲速的位置通过量化补正。
+You can also move the tempo (except for the first tempo) by dragging it left or right (hold down the left mouse button and move it) or by specifying the position directly in the Tempo Properties. The tempo position is corrected by Quantize.
 
-※若从信息面板里修改了曲速，则会改变离光标最近的前一个曲速。
+\* If you change the tempo from the info panel, it will change the previous tempo closest to the cursor.
 
-※所有歌唱轨道共享曲速的设定。
+\* All the song tracks share the same tempo settings.
 
-## 拍子的设置
+## Time Signature Setting
 
-在编辑工具里选择选择工具或画笔工具，然后双击拍子，便可变更拍子。
+Select the selection tool or the draw tool from the edit tool and double-click on the time signature(beat) to change beat.
 
-若想在歌曲中间修改拍子，请选择画笔工具，然后在想改变拍子的位置双击拍子行来设置新的拍子。
+If you want to change the beat in the middle of a song, select the draw tool and double-click on the beat row at the position where you want to change the beat to place the new beat.
 
 ![set new beat](images/songtrack_copy_3.png)
 
-也可以通过向左或向右拖动（按住鼠标左键移动）或直接在拍子属性中指定位置的方式，来移动拍子（除了最初的拍子外）。
+You can also move the beat (except for the first beat) by dragging it left or right (hold down the left mouse button and move it) or by specifying the position directly in the Time Signature Properties.
 
-※若从信息面板里修改了拍子，则会改变前一个离光标最近的拍子。
+\* If you change the beat from the info panel, it will change the previous beat closest to the cursor.
 
-※所有歌唱轨道共享拍子的设定。
+\* All the song tracks share the same beat settings.
 
-!!! info "曲速和拍子的修改"
-    曲速和拍子的修改会影响所有音轨。
+!!! info "Change Tempo and Time Signature"
 
-    如果已经调整过了参数，则它们也会自动变换。
+    Editing the tempo or beat will affect all song tracks.
 
-    请留意，举例来说，将曲速从 120 改到 180，会丢失 1/3 的时间数据，所以此时将曲速调回 120 是无法完全还原数据的（虽然数据会被拉伸）。
+    If the parameters have already been adjusted, they will also be converted automatically.
 
-    这时可以使用撤销回到之前的状态。
+    It is important to note that if, for example, the tempo is changed from 120 to 180, 1/3 of the time data per hour will be lost, so changing the tempo to 120 again will not completely restore the original state (although the data will be stretched).
 
-## 调号（key）的设置
+    In this case, you can use undo to completely restore the original state.
 
-在编辑工具里选择选择工具或画笔工具，然后双击调号，便可变更调号。
+## Key Signature Setting
 
-若想在歌曲中间修改调号，请选择画笔工具，然后在想改变调号的位置双击调号行来设置新的调号。
+Select the selection tool or the draw tool from the edit tool and double-click on the key signature to change key.
+
+If you want to change the key in the middle of a song, select the draw tool and double-click on the key row at the position where you want to change the key to place the new key.
 
 ![set new key](images/songtrack_copy_4.png)
 
-也可以通过向左或向右拖动（按住鼠标左键移动）或直接在调号属性中指定位置的方式，来移动调号（除了最初的调号外）。
+You can also move the key (except for the first key) by dragging it left or right (hold down the left mouse button and move it) or by specifying the position directly in the Key Properties.
 
-※可以为每条歌唱轨道分别设置调号。
+\* You can set different key signatures for each song track.
 
-## 强弱记号的设置
+## Dynamic Mark Setting
 
-设置强弱符号可以从这个位置开始自然地加强或减弱发声。
+Setting a dynamic mark can naturally strengthen or weaken the vocalisation from this position.
 
-※效果依 [mf]→[f]→[ff] 的顺序变强，依 [mp]→[p]→[pp] 的顺序变弱，[N] 为正常力度。
+The effect becomes stronger in the order [mf] → [f] → [ff], weaker in the order [mp] → [p] → [pp], with [N] being normal.
 
-※效果从指定的位置持续到下一个强弱记号。音量也会改变。
+\* The effect continues from the specified position to the next dynamic mark. The volume will also change.
 
-在编辑工具里选择选择工具或画笔工具，然后双击强弱记号，便可变更强弱记号。
+!!! new
 
-若想在歌曲中间修改调号，请选择画笔工具，然后在想改变力度的位置双击强弱记号行来设置新的强弱记号。
+    From version 8.3.2.0, you can set new dynamic mark "ffff" "ffff" "ppp" "pppp".
+
+    \* Depending on the character and score, the effect may not be as obvious compared to "ff" and "pp".
+
+Select the selection tool or the draw tool from the edit tool and double-click on the dynamic mark to change dynamic mark.
+
+If you want to change the dynamic mark in the middle of a song, select the draw tool and double-click on the dynamic mark row at the position where you want to change the dynamic mark to place the new dynamic mark.
 
 ![set new dynamics](images/songtrack_copy_5.png)
 
-也可以通过向左或向右拖动（按住鼠标左键移动）或直接在强弱记号属性中指定位置的方式，来移动强弱记号（除了最初的强弱记号外）。
+You can also move the dynamic mark (except for the first dynamic mark) by dragging it left or right (hold down the left mouse button and move it) or by specifying the position directly in the dynamic mark Properties.
 
-※可以为每条歌唱轨道分别设置强弱记号。
+\* You can set different dynamic marks for each song track.

@@ -1,66 +1,64 @@
 ---
-title: 制作第一个歌唱作品
+title: Make Your First Song Work
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ はじめてのソング作成](https://cevio.jp/guide/cevio_ai/tutorial_song/)
+Original article: [CeVIO AI ユーザーズガイド ┃ はじめてのソング作成](https://cevio.jp/guide/cevio_ai/tutorial_song/)
 
 ---
-填入音符来创作旋律，再输入歌词来合成自然的歌声。
+Place notes to create a melody, then input lyrics to create a natural singing voice.
 
-在钢琴卷帘上直观地操作编辑，同时可以利用多条歌唱轨道进行合唱。
+With intuitive editing operations using the piano roll, you can also create multiple song tracks and make them chorus.
 
-## 1.启动应用
+## 1. Start the application
 
-启动软件后，音频轨道将在页面的上方显示。
+After starting the application, the tracks will be displayed at the top of the screen.
 
-※如果有多个音轨，点击写着「歌唱 1」的音轨（或者时间轴），页面的下方将会出现歌唱编辑界面。
+\* If there are multiple tracks, click on the track name (or timeline) labeled "Song 1" to display the piano roll at the bottom of the screen.
 
 ![interface](images/tutorial_song_1.png)
 
-## 2.设置曲速和拍子
+## 2. Set the tempo and time signature
 
-点击信息面板的曲速或拍子，将会弹出设置窗口。
+Click the tempo or beat on info panel to display the properties window.
 
-※若想要在曲子的中途变更曲速或拍子，请使用钢琴卷帘的标尺。
+\* If you want to change the tempo or time signature in the middle of a song, add a time signature from the ruler in piano roll.
 
 ![tempo](images/tutorial_song_2.png)
 
 ![beat](images/tutorial_song_3.png)
 
-## 3.输入音符
+## 3. Enter notes
 
-输入音符时，请在编辑工具中选择画笔工具。
+When entering notes, select the Draw Tool in the editing tool.
 
-![pen tool](images/tutorial_song_4.png)
+![draw tool](images/tutorial_song_4.png)
 
-在钢琴卷帘上，从想要放置音符的地方向右移动（按住鼠标左键）来决定该音符的长度。
+On the piano roll, move to the right from where you want to place the note (hold down the left mouse button) to determine the length of that note.
 
 ![enter note](images/tutorial_song_5.png)
 
-## 4.输入歌词
+## 4. Enter lyrics
 
-放置音符时默认填入的歌词为「ドレミファソラシド」（Do Re Mi Fa So La Si Do）。
+Default lyrics will be assigned to「ドレミファソラシド」(Do Re Mi Fa So La Si Do) when placing notes.
 
-双击音符可以输入歌词。
+Double-click a note to enter lyrics.
 
 ![enter lyrics](images/tutorial_song_6.png)
 
-## 5.播放
+## 5. Play
 
-点击控制面板的播放按钮，将会从光标的位置开始播放。
+Press the Start button on transport to start playback from the position cursor.
 
-播放到音轨末尾或点击停止按钮时会停止播放。
+Playback will stop when it play to the end of all tracks or you press the Stop button.
 
 ![play](images/tutorial_song_7.png)
 
-## 6.音频文件的输出
+## 6. Output the audio file
 
-通过点击菜单的「文件」→「导出」→「导出WAV音频文件」，可以将全部音轨合成一个文件并导出。
+All tracks can be combined and output as a file by using File > Export > Audio Mixdown in the menu.
 
-另外，选择「导出歌唱部分为WAV文件」，可以将选中的轨道导出为单声道。
+You can also output the selected track in mono only by Audio File of Song.
 
 ![output](images/tutorial_song_8.png)
-
-*[标尺]:ルーラー / Rule

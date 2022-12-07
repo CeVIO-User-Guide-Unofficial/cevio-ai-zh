@@ -1,5 +1,5 @@
 ---
-title: 歌唱轨道的说明
+title: Description of the Song Track
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
@@ -7,184 +7,159 @@ layout: post
 原文：[CeVIO AI ユーザーズガイド ┃ ソングトラックの説明](https://cevio.jp/guide/cevio_ai/songtrack/)
 
 ---
-在钢琴卷帘中填入音符输入歌词，同时可以在调整界面进行细微调整。
+Put the notes in the piano roll and enter lyrics, then fine-tune in the adjustment screen.
 
-菜单的「音轨」或者右键点击轨道选择「添加歌唱轨道」，最大可以添加 32 个轨道。
+By selecting "Add Track" from "Track" menu or the right-clicking on a track, up to 32 song tracks can be added.
 
 ![songtrack](images/songtrack_1.png#only-light)
 ![songtrack](images/songtrack_1_dark.png#only-dark)
 
-### 光标
+### Position Cursor
 
-点击标尺，可以移动想要开始播放的位置。
+Click on the ruler to move the cursor to the position where you want playback to begin.
 
-钢琴卷帘通常通过量化自动进行位置补正；按住 ++alt++ 键再点击则不会补正。
+The piano roll is usually automatically position-corrected by quantize, but clicking when holding down ++alt++ will not correct it.
 
-### 标尺
+### Ruler
 
-在小节行中，可以水平拖动鼠标（按住左键移动）来滚动。
+In the Measure Row, you can drag the mouse horizontally (hold down the left mouse button) to scroll.
 
-在任意一行中垂直拖动都可以缩放。
+Drag the mouse vertically to zoom in/out on any row.
 
-曲速行/拍子行/调号行/强弱记号行的任意一行都可以在歌曲中间添加、编辑和删除信息，如在曲速行中间添加新的曲速。
+You can add, edit, and delete tempo and other information in the middle of the song in the Tempo, Time Signature, Key Signature, and Dynamics Mark Rows.
 
-※曲速行和拍子行默认不显示，但可以通过标尺栏前端和钢琴卷帘的右键菜单设置为显示。[^1]
+\* The Tempo and Time Signature Rows are hidden by default, but can be displayed from the ruler header or the right-click menu in the piano roll.[^1]
 
-### 试听
+### Listening
 
-播放选择的音符前后的简单区间。在调整界面中则是播放选择范围的区间。
+Play a simple interval of the selected note. In the adjustment screen, play the selected area as a interval.
 
-使用快捷键 ++shift+space++ 也可以进行试听。
+You can also use the shortcut key ++shift+space++ to listen.
 
-### 自动试听
+### Automatic Listening
 
-选择是否在输入音符后或移动音符后自动进行试听。
+Toggle whether or not the notes are automatically played after they are entered or moved.
 
-### 键盘
+### Piano Keyboard
 
-点击音阶，该轨道的角色会唱出这个音。
+Click on the scale and character assigned to this track will sing this key.
 
-### 滚动条
+### Scrollbar
 
-当滚动条位于右端时，按住钢琴卷帘底部的滚动条的向右滚动按钮，或按住 ++shift++ 再向下滚动鼠标滚轮，可以往末尾追加小节。
+When the scrollbar is at the right end, you can add measures by pressing the right scroll button or press ++shift++ with mouse scroll down.
 
-### 缩放条
+### Zoom Slider
 
-拖动缩放条以调整钢琴卷帘的缩放倍率。
+Drag to change the scaling rate of the piano roll.
 
-## 右键菜单
+## Right-click Menu
+
+Right-click (or hold down on the touchscreen) on the Piano Roll to open the menu.
 
 ![right-click menu](images/songtrack_2.png)
 
-### 选择 / 范围选择 / 画笔 / 直线 / 橡皮擦工具
+### Selection / Collectively Selection / Draw / Line / Eraser Tool
 
-*選択／まとめ選択／ペン／ライン／消しゴムツール*
+Toggle between the edit tools.
 
-*Selection / Collectively Selection / Draw / Line / Eraser Tool*
+[Editing Tool](../edittool)
 
-切换编辑工具。
+### Quantize
 
-[编辑工具](../../operation/edittool)
+Change quantize.
 
-### 量化
+[Quantize is](../infopanel#Quantize)
 
-*クオンタイズ / Quantize*
+### Edit Mode {#edit-mode-song}
 
-变更量化。
+Toggle between the Score editing mode for entering notes and lyrics, and the modes for adjusting timing, volume, pitch and vibrato.
 
-[量化是](../../operation/infopanel#音符量化)
+You can also disable the vibrato of the selected track.
 
-### 参数调整
+### Cut
 
-*調整モード / Edit Mode*
+Cut the selected note(s).
 
-在用于输入音符和歌词的乐谱编辑模式和调整时间、音量、音高和颤音的模式间切换。
+### Copy
 
-也可以禁用所选音轨的颤音。
+Copy the selected note(s).
 
-### 剪切
+### Paste
 
-*切り取り / Cut*
+Paste the copied/cut note(s) to the position of the position cursor.
 
-切取选择的音符。
+### Delete
 
-### 复制
+Delete the selected note(s).
 
-*コピー / Copy*
+### Select All
 
-复制选择的音符。
+Select all the notes on the current track.
 
-### 粘贴
+### Enter Lyrics Collectively
 
-*貼り付け / Paste*
+Input the lyrics at a time from the currently selected note (or from the beginning if it is not selected).
 
-在光标当前的位置粘贴复制（剪切）的音符。
+### Other Operations
 
-### 删除
+#### Insert Measures
 
-*削除 / Delete*
+Insert measures at the specified position and length for the currently selected track or all song tracks.
 
-删除选择的台词或音符。
+You can also append measures to the end by pressing the right scroll button on the scroll bar at the right end of the piano roll; or by pressing ++shift++ + scroll the mouse wheel down.
 
-### 全选
+#### Delete Measures
 
-*すべて選択 / Select All*
+Delete measures at the specified position and length for the currently selected track or all song tracks.
 
-选择钢琴卷帘内的所有音符。
+#### Remove Rests
 
-### 输入歌词
+Removes tiny gaps (rests) caused by MIDI import, etc.
 
-*歌詞のまとめ入力 / enter Lyrics Collectively*
+### Enter Lyrics with Phoneme
 
-一次性从当前选中的音符开始（若未选定的话则从头开始）插入歌词。
+Enter lyrics with phonemic symbol.
 
-### 按音素输入歌词
+When this option is turned on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
 
-*音素で歌詞入力 / enter Lyrics with Phoneme*
+!!! new
 
-按音素记号（发音记号）输入歌词。
+    ### Auto Split English Lyrics
 
-开启该选项时，输入模式切换为音素输入模式，歌词输入栏的背景会变为蓝灰色。
+    Automatically divide into one syllable per note when entering English lyrics.
 
-### 其他操作
+    \* Since it is calculated automatically, there may be errors.
 
-#### 插入小节
+### View
 
-*小節の挿入 / Insert Measures*
+### Other Track Notes
 
-在指定的位置往所选音轨或全部音轨中插入小节。
+Select whether or not to display notes from other song tracks in the Score editing screen.
 
-也可以通过按住钢琴卷帘底部的滚动条的向右滚动按钮，或通过 ++shift++ + 下鼠标滚轮的方式往末尾追加小节。
+(Notes in muted track will not be displayed.)
 
-#### 删除小节
+### Tempo Row / Time Signature Row / Key Signature Row / Dynamics Mark Row
 
-*小節の削除 / Delete Measures*
+Select whether or not to display Tempo / Time Signature / Key Signature / Dynamics Mark on the ruler.
 
-在指定的位置往所选音轨或全部音轨中删除小节。
+### Beat Line / Quantize Line / Line Display on Adjustment Screen
 
-#### 消除短空白
+Select whether or not to display Beat / Quantize Lines in the piano roll.
 
-*細かい空白の除去 / Remove Fine Spaces*
+When "Line Display on Adjustment Screen" is turned on, the Beat and Quantize Lines will be also displayed on the Adjustment screen.
 
-删除 MIDI 文件导入等原因导致的小空隙（休止符）。
+!!! new
 
-### 显示
+    ### Timing Status Line
 
-#### 显示其他音轨的音符
+    Select whether or not to display state change lines within phonemes on the Timing editing screen.
 
-*別トラックの音符表示 / Other Track Notes*
+    They will be automatically adjusted when hidden.
 
-选择是否要在乐谱编辑页面里显示所有歌唱轨道的音符。
-(静音轨道不会被显示。)
+### Guide Cursor
 
-#### 曲速行 / 拍子行 / 调号行 / 强弱记号行
+Select whether or not to display the Quantize guide cursor.
 
-*テンポ行／拍子行／調号行／強弱記号行*
+\* It will be also displayed on the Score editing screen when using Collectively Selection / Draw / Line Tool.
 
-修改标尺栏内曲速、拍子、调号、强弱记号的显示与否。
-
-#### 显示拍子网格线 / 量化线 / 调整画面
-
-*拍のライン／クオンタイズのライン／調整画面*
-
-修改钢琴卷帘内拍子线、量化线的显示与否。
-
-开启「在调整界面也显示网格线」时，调整界面中也会显示网格线。
-
-#### 光标指示器
-
-*ガイドカーソル / Guide Cursor*
-
-修改标尺栏内当前鼠标对应量化位置的显示与否。
-
-- 使用范围选择工具 / 画笔工具 / 直线工具时，该量化位置也会出现在乐谱编辑页面中。
-
-### 属性
-
-*プロパティ / Property*
-
-浏览音符的详情，并为其设置呼吸音与滑音。
-
-也可以选择多个音符，然后同时修改它们的设定。
-
-[^1]:译者注：原文为强弱记号行，但从版本 8.2.5.0 起，强弱记号行与调号行一并改为默认显示，曲速行和拍子行改为默认隐藏。
+[^1]:Translator's note: The original is Dynamics Mark Rows, but since version 8.2.5.0, Dynamics Mark Rows are shown by default along with the Key Signature Row, and Tempo and Time Signature Rows are hidden by default.

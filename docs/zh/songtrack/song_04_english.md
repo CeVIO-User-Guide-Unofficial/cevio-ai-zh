@@ -44,6 +44,9 @@ layout: post
 
 ![continuly enter lyrics](images/song_04_english_2.png)
 
+!!! new "Improved "Enter Lyrics Collectively""
+    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
+
 ## 假声记号
 
 如果歌词中包含 `$`，那么该音符将发假声。
