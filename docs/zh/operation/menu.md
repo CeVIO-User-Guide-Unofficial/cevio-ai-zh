@@ -10,7 +10,7 @@ layout: post
 
 ![menu](images/menu_1.png)
 
-!!! hint
+!!! tip
     如果你不理解菜单里的某个选项是做什么用的，试试将鼠标长时间停留在那个选项上。
 
 ## 文件

@@ -4,7 +4,7 @@ author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 歌声の調整②（調整画面）](https://cevio.jp/guide/cevio_ai/songtrack/song_07/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整②（調整画面）](https://cevio.jp/guide/cevio_ai/songtrack/song_07/)
 
 ---
 

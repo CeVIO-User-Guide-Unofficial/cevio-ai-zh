@@ -3,7 +3,7 @@ title: 安装中文补丁
 category: firstguide
 layout: post
 ---
-!!! caution
+!!! warning
     本页面不属于 CeVIO 的官方页面。
 
 CeVIO 官方并未提供 CeVIO AI 的官方中文翻译。但可以通过安装中文补丁将 CeVIO AI 的语言设为中文。

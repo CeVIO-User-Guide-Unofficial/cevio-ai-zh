@@ -1,24 +1,24 @@
 ---
-title: 选项
+title: Options
 author: 夜輪風超絶技巧変奏曲
 category: option
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ オプション](https://cevio.jp/guide/cevio_ai/option/)
+Original article: [CeVIO AI ユーザーズガイド ┃ オプション](https://cevio.jp/guide/cevio_ai/option/)
 
 ---
 
-「工具」菜单里的「选项」可以修改各种设定。
+"Options" in the "Tools" menu can modify various settings.
 
-## 环境
+## Environment
 
 ![environment](images/option_1.png)
 
-### 画像
+### Image
 
-#### 在音轨上显示角色画像
+#### Show cast image of track
 
-选择是否要在音轨上显示角色的图片。
+Select whether or not to show the image of character in the track header.
 
 #### 角色画像设置
 
@@ -198,7 +198,7 @@ WAV 导出结束后或文本导入完毕后，不显示完成的通知对话框�
 
 当用于外部调用时，在改变设置后请重新启动外部程序。
 
-!!! hint "外部调用时的默认预设"
+!!! tip "外部调用时的默认预设"
     在 SAPI5 中，「语速」由链接方的设置决定，「音量」和「音高」由链接方和本软件的设置共同决定，其他设置由本软件决定。如果连接到 SAPI5 时声音很小，请试着将预设的音量调到 +8.00 / 100。
 
     在 COM 组件 / .NET 程序集中，状态和情绪为默认值。

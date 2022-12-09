@@ -24,7 +24,7 @@ If "Import Tempo and Time Signature" is also checked, the tempos and time signat
 
 ![import midi](images/fileimport_1.png)
 
-!!! hint "Correcting MIDI Files"
+!!! tip "Correcting MIDI Files"
     When importing MIDI files, the position and length of notes that are too short (notes shorter than 32 cents) will be automatically corrected.
 
     Entering the notes as the original score can get a more natural voice, rather than leaving the tiny gaps between the notes.

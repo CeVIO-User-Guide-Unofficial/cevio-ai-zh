@@ -78,13 +78,13 @@ The effect becomes stronger in the order [mf] → [f] → [ff], weaker in the or
 
 !!! new
 
-    From version 8.3.2.0, you can set new dynamic mark "ffff" "ffff" "ppp" "pppp".
+    From version 8.3.2.0, you can set new dynamic marks "ffff" "ffff" "ppp" "pppp".
 
     \* Depending on the character and score, the effect may not be as obvious compared to "ff" and "pp".
 
 Select the selection tool or the draw tool from the edit tool and double-click on the dynamic mark to change dynamic mark.
 
-If you want to change the dynamic mark in the middle of a song, select the draw tool and double-click on the dynamic mark row at the position where you want to change the dynamic mark to place the new dynamic mark.
+If you want to change the dynamic mark in the middle of a song, select the draw tool and double-click on the dynamic mark row at the position where you want to change to place the new dynamic mark.
 
 ![set new dynamics](images/songtrack_copy_5.png)
 

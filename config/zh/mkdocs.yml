@@ -79,11 +79,13 @@ theme:
   features:
     - content.tooltips
     - content.code.annotate
+    - content.code.copy
     - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.top
+    - navigation.footer
   icon:
     repo: fontawesome/brands/github
   language: zh

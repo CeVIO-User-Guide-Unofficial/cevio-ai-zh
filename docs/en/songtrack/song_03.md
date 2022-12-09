@@ -68,7 +68,7 @@ Sing more smoothly from the start to the end of the slur.
 
 You can also set the slur range by selecting multiple notes on the Edit Score screen and pressing ++ctrl+r++.
 
-!!! hint "hint about slur"
+!!! tip "hint about slur"
 
     When the following lyric (or long note) has the same vowel with the previous note, setting a slur will smooth down the volume connection.
 

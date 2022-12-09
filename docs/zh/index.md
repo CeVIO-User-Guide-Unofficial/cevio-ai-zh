@@ -30,7 +30,7 @@ layout: home
 
 指南中将会大量出现四种 admonitions。它们的作用如下：
 
-!!! hint
+!!! tip
     该 admonition 用于给出建议或提示。
     
     这些提示大部分由 CeVIO 官方给出，其余由译者给出。通常它们都会让 CeVIO 更易使用。
@@ -43,7 +43,7 @@ layout: home
 !!! example
     该 admonition 用于举例说明。
 
-!!! caution
+!!! warning
     该 admonition 用于标注警告或需要特别留意的信息。
 
 !!! new

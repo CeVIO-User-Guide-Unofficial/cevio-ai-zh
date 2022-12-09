@@ -1,10 +1,10 @@
 ---
-title: 制作第一个语音作品
+title: Make Your First Talk Work
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ はじめてのトーク作成](https://cevio.jp/guide/cevio_ai/tutorial_talk/)
+Original article: [CeVIO AI ユーザーズガイド ┃ はじめてのトーク作成](https://cevio.jp/guide/cevio_ai/tutorial_talk/)
 
 ---
 
@@ -12,23 +12,27 @@ layout: post
 
 轻轻一点就可以使用诸如「元気一杯」「哀しげ」等预设好的情绪[^1]，并更进一步地调整音量和语速等细节。
 
-## 1.启动应用
+Whether dialogue or narration, you can use CeVIO to create the suitable sound.
 
-启动软件后，音轨将在页面的上方显示。
+With a single click, you can use preset emotions such as "元気一杯" and "哀しげ"[^1], and adjust the volume and speed in detail.
 
-* 如果有多个音轨，点击写着「语音 1」的音轨（或者时间轴），页面的下方将会出现语音编辑界面。
+## 1. Start the application
+
+After starting the application, the tracks will be displayed at the top of the screen.
+
+\* If there are multiple tracks, click on the track name (or timeline) labeled "Talk 1" to display the talk editing screen at the bottom of the screen.
 
 ![interface](images/tutorial_talk_1.png)
 
-## 2.输入台词
+## 2. Input Lines
 
-在语音编辑界面里选择一行，然后单击该行并输入文字。
+Select a line in talk editing screen, then click this line and enter text.
 
 ![input text](images/tutorial_talk_2.png)
 
-## 3.台词的发声时间
+## 3. Vocalisation Timing of Lines
 
-输入台词后，一个台词的元素（方块）会出现在时间轴上。拖动（鼠标左键按住并移动）元素来更改发声的时间。
+After entering a line, an element (box) of the line will appear in the timeline. Drag (left-click and hold) the element to change the timing of its vocalisation.
 
 ![change utterance time](images/tutorial_talk_3.png)
 

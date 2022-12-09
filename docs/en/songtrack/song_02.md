@@ -26,7 +26,7 @@ When a note is entered, the phoneme and vocal time of the lyrics are displayed b
 
 Click on the scale and character assigned to this track will sing this key.
 
-!!! hint "hint for note input"
+!!! tip "hint for note input"
     It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
 
     Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
@@ -59,7 +59,7 @@ Moving note to bar 0 is not allowed.
 
 ![move note](images/song_02_4.png)
 
-!!! hint "Move Note with Parameters"
+!!! tip "Move Note with Parameters"
 
     After selecting notes, drag with the mouse or move them with ++up++ or ++down++ keys, and the pitch will automatically follow their change.
 
@@ -81,6 +81,6 @@ Then, select "Paste" from the right-click menu to paste the notes at the cursor 
 
 ![copy and paste note](images/song_02_5.png)
 
-!!! hint "Copy and Paste Note with Parameters"
+!!! tip "Copy and Paste Note with Parameters"
 
     By using the [Collectively Selection Tool](../song_05) to specify the range and copy, you can also copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.

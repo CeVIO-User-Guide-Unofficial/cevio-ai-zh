@@ -84,5 +84,5 @@ If "Automatic Multi-track Alignment" in the right-click menu is also turned on, 
 
 ![auto align audio](images/audio_6.png)
 
-!!! hint "Cross-use with Other Text-to-speech Software"
+!!! tip "Cross-use with Other Text-to-speech Software"
     If "Automatic Audio Alignment" "Automatic Multi-track Alignment", and "Apply to Audio Element" in "Speech Interval" are turned on, audio elements will be automatically aligned in the same way as lines, making it easier to create a dialogue with other text-to-speech software.

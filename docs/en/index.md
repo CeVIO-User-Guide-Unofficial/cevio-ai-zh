@@ -28,7 +28,7 @@ An unofficial CeVIO AI User Manual English translation.
 
 There are five admonitions that will appear throughout the manual. They work as follows:
 
-!!! hint
+!!! tip
     This admonition is used to give suggestions or hints.
     
     Most of these hints are given by CeVIO offical, and the rest are given by translator. Usually they will make CeVIO easier to use.
@@ -41,7 +41,7 @@ There are five admonitions that will appear throughout the manual. They work as 
 !!! example
     This admonition is used for example.
 
-!!! caution
+!!! warning
     This admonition is used to mark warnings or information that requires special attention.
 
 !!! new

@@ -26,7 +26,7 @@ layout: post
 
 ![enter lines](images/tutorial_talk_2.png)
 
-!!! hint "日语台词的输入提示"
+!!! tip "日语台词的输入提示"
 
     发音是由一行台词的整个句子决定的。句末的疑問符（？）或感嘆符（！）也会加入发音的判定中。
 

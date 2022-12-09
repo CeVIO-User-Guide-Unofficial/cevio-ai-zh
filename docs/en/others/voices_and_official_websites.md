@@ -3,7 +3,7 @@ title: 声库与官方页面列表
 category: others
 layout: post
 ---
-!!! caution
+!!! warning
     本页面不属于 CeVIO 的官方页面。
 
 本页面记录 CeVIO AI 的现行声库与它们的官方页面。

@@ -10,7 +10,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ メニュー](https://c
 
 ![menu](images/menu_1.png)
 
-!!! hint
+!!! tip
     If you don't understand what an option in a menu does, try hovering the mouse over that option for a while.
 
 ## File

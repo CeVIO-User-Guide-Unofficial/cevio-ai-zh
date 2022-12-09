@@ -24,7 +24,7 @@ layout: post
 
 ![import midi](images/fileimport_1.png)
 
-!!! hint "纠正 MIDI 文件"
+!!! tip "纠正 MIDI 文件"
     导入 MIDI 文件时，太细的音符（短于 32 分的音符）的位置和长度会被自动纠正。
 
     与其在音符之间留下细小的空隙，不如按照原样写谱，这样能唱出更自然的歌声。
