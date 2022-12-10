@@ -8,7 +8,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 歌詞の入力（英�
 
 ---
 
-For English Voices, notes lyrics are assigned to "Do Re Mi Fa So La Si" according to the scale by default.
+For English Voices, notes lyrics are assigned to "Do Re Mi Fa So La Ti" according to the scale by default.
 
 (You can change the default lyrics, for example to "La", via "Default lyrics" in "Song Settings" of Options.)
 

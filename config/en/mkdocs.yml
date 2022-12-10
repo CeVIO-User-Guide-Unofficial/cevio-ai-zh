@@ -79,7 +79,7 @@ theme:
     - content.tooltips
     - content.code.annotate
     - content.code.copy
-    - header.autohide
+    # - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand

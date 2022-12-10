@@ -8,7 +8,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 歌詞の入力（日�
 
 ---
 
-Notes lyrics are assigned to "ドレミファソラシ" (Do Re Mi Fa So La Si) according to the scale by default.
+Notes lyrics are assigned to "ドレミファソラシ" (Do Re Mi Fa So La Ti) according to the scale by default.
 
 (You can change the default lyrics, for example to "ら", via "Default lyrics" in "Song Settings" of Options.)
 

@@ -120,7 +120,7 @@ Removes tiny gaps (rests) caused by MIDI import, etc.
 
 Enter lyrics with phonemic symbol.
 
-When this option is turned on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
+When this option is on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
 
 !!! new
 
@@ -128,7 +128,7 @@ When this option is turned on, the input mode switches to phoneme input mode, an
 
     Automatically divide into one syllable per note when entering English lyrics.
 
-    \* Since it is calculated automatically, there may be errors.
+    \* The division position in the notation may be incorrect due to automatic estimation.
 
 ### View
 

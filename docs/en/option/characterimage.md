@@ -1,58 +1,58 @@
 ---
-title: 显示自定义图像
+title: Display User Image
 author: 夜輪風超絶技巧変奏曲
 category: option
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ ユーザー画像の表示](https://cevio.jp/guide/cevio_ai/option/characterimage/)
+Original article: [CeVIO AI ユーザーズガイド ┃ ユーザー画像の表示](https://cevio.jp/guide/cevio_ai/option/characterimage/)
 
 ---
 
-将图像（JPEG/PNG/GIF）拖放到屏幕右上方的角色中，就能显示这张图像。
+Drag and drop an image (JPEG/PNG/GIF) into the character portrait at the upper right of the screen to display this image.
 
-如果遵循了上述的操作，或者将图像拖放到了选项里的「选择右侧显示的画像」，则该图像将注册为用户图像，然后便可以在「图像显示」和「角色画像」里选择它。
+If the above is followed, or if the image is dragged and dropped into the option "Right Side Image", the image will be registered as a user image and it can then be selected in "Image display" and ["Image Settings"](../option#image-settings).
 
 ![user image](images/characterimage_1.png)
 
-- 用户图像会复制到角色图右键菜单「打开画像文件夹」所给出的文件夹中。
-- 要删除「显示画像」列表里的用户图像，删掉画像文件夹里的图像即可。
-- 通过 `图像文件名.扩展名.ini` 文件，可以精细地控制图像。ini 文件的格式见下。
-- 修改用户图像或设定文件后，请重启软件。
+- The user image will be copied to the folder given in the character portrait right-click menu "Open Image Folder".
+- To delete a user image in the "Display Image" list, delete it in the image folder.
+- Via the `filename.extension.ini` file, you can finely control the image. The format of the ini file is shown below.
+- After modifying the user image or setting file, please restart the software.
 
-```ini title="设定文件的格式"
-; ・文件名应遵循『图像文件名.扩展名.ini』的格式。
-; ・开头的分号";"为注释，会被自动忽略。
-; ・不需要指定设定文件的每一项设置。未设置时将使用默认值。
+```ini title="The format of setting file"
+; ・The file name should follow the format of "filename.extension.ini".
+; ・The semicolon ";" at the beginning is a comment and will be ignored automatically.
+; ・It is not necessary to specify every setting of the setting file. Default value will be used when not set.
 
 [Image]
-Title=标题
-; 列表里显示的标题。
-; （默认：文件名）
+Title=title
+; Title displayed in the list
+; (default: filename)
 
 Center=0.5,0
-; 显示的中心点。依水平方向和垂直方向的顺序指定，使用逗号分隔。
-; 如果指定的数值在 0.0~1.0 之间，则默认单位是百分比；如果指定的是整数，则默认单位是像素。
-; （默认：0.5,0）
+; The center point of the display. Specify in the order of horizontal direction and vertical direction, separated by commas.
+; If the specified value is between 0.0~1.0, the default unit is percentage; if the specified value is integer, the default unit is pixel.
+; (default: 0.5,0)
 
 Reducible=true
-; 指定 true 以允许缩放显示，或 false 以不允许。
-; （默认：true）
+; Specify true to allow scaling, or false to disallow.
+; (default: true)
 
 Preview=50,50,100,100
-; 选择画面的预览范围。依[X,Y,宽度,高度]的顺序指定，使用逗号分割。
-; （默认：整张图像）
+; Select the preview range of the screen. Specify in the order of [X,Y,Width,Height], separated by commas.
+; (default: whole image)
 
-Message=你好
-; 鼠标移到画像上时显示的信息。允许多行显示。
-; （默认：文件名）
+Message=Hello
+; Information displayed when the mouse is hovered over the image. Multiple lines are allowed.
+; (default: filename)
 ```
 
-## 用户图像与设定文件样例
+## A Sample of User Image and Setting File
 
-从下面的链接下载好文件后，将图片拖拽到右上方的画像处，它就会设置为当前角色的角色画像。（也可以从右上方角色图的右键菜单中打开存放用户图像的文件夹，然后将样例图片放到该文件夹中。之后便可以在「选择右侧显示的画像」和「角色画像」里选择它。）
+After downloading the file from the link below, drag the image to the portrait on the upper right, and it will be set as the character image of the current character. (You can also open the folder where the user images are stored from the right-click menu of the character image on the upper right, and then put the sample image in the folder. Then you can select it from "Right Side Image" and "Image Settings".)
 
-[设定文件样例](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png.ini)
+[setting file sample](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png.ini)
 
-※用户图像的样例【すずきつづみ（铃木梓梓弥）】。单击或者右键单击图片以保存。
+\* A sample of user image (Suzuki Tsuzumi / すずきつづみ). Click or right-click the image to save it.
 
 [![tsuzumi](images/characterimage_2.png)](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png)

@@ -25,7 +25,7 @@ Clicking the text above the button (such as "PIT") can superimpose other screens
 
 ### Numerical Display
 
-You can select the numerical value display when hovering the mouse cursor over a parameter in "Numeral Display on Adjustment Screen" in the "Song Settings" option.
+You can select the value display when hovering the mouse cursor over a parameter in "Numeral Display on Adjustment Screen" in the "Song Settings" option.
 
 By default, only the current value is displayed, but you can select "Current value + Difference" to display it in detail in the format of "(difference) current value"; or hide it.
 

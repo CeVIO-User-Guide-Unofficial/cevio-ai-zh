@@ -41,7 +41,7 @@ layout: post
 
 ## 4.输入歌词
 
-放置音符时默认填入的歌词为「ドレミファソラシド」（Do Re Mi Fa So La Si Do）。
+放置音符时默认填入的歌词为「ドレミファソラシド」（Do Re Mi Fa So La Ti Do）。
 
 双击音符可以输入歌词。
 

@@ -11,7 +11,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ メニュー](https://c
 ![menu](images/menu_1.png)
 
 !!! tip
-    If you don't understand what an option in a menu does, try hovering the mouse over that option for a while.
+    If you don't understand what an option does, try hovering the mouse over that option for a while.
 
 ## File
 
@@ -279,7 +279,7 @@ You can also use it to split lines.
 
 ### Continuous Input
 
-When this option is turned on, the following features will be enabled to assist in the continuous input of lines.
+When this option is on, the following features will be enabled to assist in the continuous input of lines.
 
 * Press ++enter++ to end editing on this line, move to the next line and enter editing automatically.
 
@@ -289,9 +289,9 @@ When this option is turned on, the following features will be enabled to assist 
 
 ### Automatic Line Alignment
 
-When this option is turned on, subsequent lines will automatically move backwards and forwards after the line is entered (to maintain spacing).
+When this option is on, subsequent lines will automatically move backwards and forwards after the line is entered (to maintain spacing).
 
-When this option is turned off, editing or moving a line does not change the position of other lines.
+When this option is off, editing or moving a line does not change the position of other lines.
 
 ### Add Blank Line
 
@@ -305,13 +305,13 @@ Switch among accent, pitch and volume adjustment modes.
 
 #### Overlay Duration Lines
 
-When this option is turned off, adjustment line of sound length will be hidden.
+When this option is off, adjustment line of sound length will be hidden.
 
 \* You can still adjust the sound length by dragging the text area above and below the phoneme graph, or scrolling the mouse wheel up and down.
 
 #### Phoneme Mode
 
-When this option is turned on, you can adjust by phoneme units to make a more detailed adjustment.
+When this option is on, you can adjust by phoneme units to make a more detailed adjustment.
 
 Even if this option is turned off, you can press and hold ++alt++ to temporarily switch to phoneme mode, then drag with the mouse to adjust the phoneme units.
 
@@ -359,7 +359,7 @@ Input the lyrics at a time from the currently selected note (or from the beginni
 
 Enter lyrics with phonemic symbol.
 
-When this option is turned on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
+When this option is on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
 
 ### Remove Rests
 
@@ -415,7 +415,7 @@ When playback is stopped, return the Corsor to the position where the playback s
 
 Automatically scroll timeline, speech list, piano roll during playback.
 
-When this option is turned off, manual scroll will be enable. It can be modified during playback.
+When this option is off, manual scroll will be enable. It can be modified during playback.
 
 ### Circle
 

@@ -41,7 +41,7 @@ On the piano roll, move to the right from where you want to place the note (hold
 
 ## 4. Enter lyrics
 
-Default lyrics will be assigned to「ドレミファソラシド」(Do Re Mi Fa So La Si Do) when placing notes.
+Default lyrics will be assigned to「ドレミファソラシド」(Do Re Mi Fa So La Ti Do) when placing notes.
 
 Double-click a note to enter lyrics.
 

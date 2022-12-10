@@ -8,6 +8,9 @@ Original article: [CeVIO AI ユーザーズガイド ┃ オプション](https:
 
 ---
 
+!!! tip
+    If you don't understand what an option does, try hovering the mouse over that option for a while.
+
 "Options" in the "Tools" menu can modify various settings.
 
 ## Environment
@@ -20,286 +23,294 @@ Original article: [CeVIO AI ユーザーズガイド ┃ オプション](https:
 
 Select whether or not to show the image of character in the track header.
 
-#### 角色画像设置
+#### Image Settings
 
-修改各个角色的显示画像。可以用用户画像替换。
+Modify the display image of each character. This can be replaced by a user image.
 
 ![set character image](images/option_2.png)
 
-※该例中用すずきつづみ（铃木梓梓弥）的用户图像替换掉了角色「OИE」的语音声库的图像。
+\* In this example, the image of the the character "OИE"'s Talk voice has been replaced with the user image of Suzuki Tsuzumi (すずきつづみ).
 
-[显示自定义图像](../characterimage)
+[Display user image](../characterimage)
 
-#### 在右侧显示画像
+#### Show image on the right side
 
-开启后，主屏幕右上方会显示角色的图像。
+When this option is on, the character image will be displayed on the upper right of the main screen.
 
-##### 扩大显示
+##### View Large
 
-开启后，画像会扩展到窗口的顶部和底部。
+When this option is on, the character image will expand to the top and bottom of the main screen.
 
-##### 显示当前音轨的角色画像
+##### Linked to the cast of track
 
-开启后，角色画像会随着选择的轨道或选择的台词而切换。
+When this option is on, the character image will switch with the track or the line selected.
 
-#### 选择右侧显示的画像
+#### Right Side Image
 
-可以设置显示在屏幕右侧的图像。在图像上单击，从列表中选择一张图片显示。也可以将自己的图片拖放到这里，将它们注册为用户图片并选择。
+Set the image to be displayed on the right side of the screen. Click on the image to select an image from the list to display. You can also drag and drop your own image here to register them as a user image and select them.
 
-※开启「显示当前音轨的角色画像」后，「选择右侧显示的画像」将显示未选择轨道时展示的图片。
+\* When "Linked to the cast of track" is turned on, "Right Side Image" will show the picture that is displayed when no track is selected.
 
-### 默认音轨
+### Default Track Configuration
 
-设置新项目的轨道名、类型与角色。
+Set the track name, type and cast for the new project.
 
-在「选择」栏中选中的轨道将以选定状态启动。
+The track selected in the 'Selection' column will start with the selected state.
 
-角色列表里最上方的角色将是创建轨道时的默认角色。
+The character at the top of the cast list will be the default cast when the track is created.
 
-### 界面语言
+### Interface Language
 
-切换菜单等在用户界面显示的语言。
+Switch language that displayed in the user interface.
 
-### 音频输出设备
+### Audio Device
 
-可以在这里选择默认音频设备以外的音频设备。
+You can select audio devices other than the default audio device here.
 
-### 音频缓存文件夹
+### Export WAV Format
 
-设置文件夹，用于存放冻结音轨或加载外部音频文件时生成的缓存文件。
+Specify the sampling rate and bit depth of the exported WAV file.
 
-缓存文件不会自动删除。要减少硬盘空间使用量，请使用「清空」按钮清理它们。
+\* The higher the bit depth, the better the sound quality. The sound quality at a sampling rate of 96kHz is no different from 48kHz.
 
-### 鼠标滚轮
+\* Currently, the format of WAV file exported in "Audio Mixdown" is fixed at 48kHz 16bit.
 
-修改时间轴等的默认滚动方向（垂直 / 水平）。
+### Audio Folder
 
-### 撤销次数限制
+Set a folder for storing temporary files generated when freezing tracks or loading external audio files.
 
-最大可以设置为 100000。
+Temporary files are not automatically deleted. To reduce the amount of space used on the hard drive, using the 'Clear' button clear them.
 
-※次数越多，耗费的内存也越高。
+### Mouse Wheel
 
-### 启动时打开上次的工程
+Change the default scroll direction (vertical / horizontal) for timeline, etc.
 
-启动时自动打开上次关闭软件时编辑的工程，并恢复到之前的编辑状态。
+### Number of Undo Levels
 
-### 显示启动画面
+Max to 100000.
 
-关闭后，启动时就不会显示 CeVIO 的闪屏，在启动 CeVIO 时就可以去操作别的软件。
+The more undo levels, the more memory it consumes.
 
-### 显示升级提示
+### Open the previous project at startup
 
-例如为了与其他软件协作，或是想要保持特定的版本，请关闭该选项。
+At startup, open the project edited when the application is last closed and restore to its previous edited state.
 
-### 停止按钮不返回音轨开头
+### Show Splash Screen
 
-停止时连续按下停止按钮（或 ++num0++），选择要不要让光标返回音轨的开头。
+When this option is on, the splash screen will not be displayed at startup, making it easier to operate other apps during startup.
 
-### 不显示完毕通知对话框
+### Show Update Information
 
-WAV 导出结束后或文本导入完毕后，不显示完成的通知对话框。
+You can turn it off when you want to fix the version of this software by external cooperation, when you want to stay at a specify version, etc.
 
-### 使用旧版参数显示
+### Stop at the start position
 
-音量、语速、感情等参数用 0~100 的数值显示。
+When the stop button (or ++num0++) is continuously pressed during stop, select whether to let the position cursor go back to the beginning of track or stay at the playback position.
 
-### 将所有通知标记为已读
+### Do not show completion window
 
-将启动时显示的通知全部标记为已读。在换 PC 或者纯不想看广告时很方便。
+Do not show the completion dialog box after WAV export or text import.
 
-## 语音设定
+### Old style parameter
+
+Parameters such as volume, speed, and emotion are displayed from 0 to 100 (CeVIO Creative Studio style).
+
+### Mark all notifications as read
+
+Mark all notifications displayed after startup as read. Useful when you move to another PC or just don't want to see ads.
+
+## Talk Settings
 
 ![talk setting](images/option_3.png)
 
-### 预渲染合成
+### Pre-rendered playback
 
-在播放开始前合成声音，避免播放中的跳音或突然停顿。
+Synthesize speech before playback starts to avoid skipping or pausing during playback.
 
-如果台词有很多行，第一次播放时需要更长的时间，但之后就只有编辑过的行会重新合成。这大大提高了合成速度。
+If there are a lot of lines, it will take a while for the first playback, but after that, only the edited lines will be synthesized to speed up the playback.
 
-若关闭该选项，则仅在播放时进行合成。
+If this option is turned off, real-time speech synthesis will be used.
 
-### 台词过长时换行显示
+### Text wrap
 
-台词列表中，长文的右端会换行，以显示整句台词。
+In speech list, wrap the long sentences at the right edge to display the whole sentence.
 
-### 音素图调整部分自动试听
+### Partial replay with Phoneme Graph
 
-音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。
+Automatic play the section of the Phoneme Graph from the previous pause before the adjustment point (e.g. punctuation) to the next pause after the adjustment point.
 
-### 多音轨自动排列
+### Automatic Multi-track Alignment
 
-从「语音」菜单或右键菜单的「台词的自动排列」开启自动排列时，来自其他音轨的台词会自动前后移动以避免重叠。
+When auto-align is enabled from "Automatic Line Alignment" in the "Talk" menu or the right-click menu, lines from other tracks will be automatically moved backwards and forwards to avoid overlap.
 
-开启「音频自动排列」时，音频元素也会自动前后移动以避免重叠。
+When "Automatic Audio Alignment" is turned on, audio elements will also be automatically aligned so that they will not overlap each other.
 
-如果同时开启本设置和「音轨」菜单里的「设置音轨的内容为等间隔排列」，调整时其他轨道也会一并包括在内。如果不想移动台词（让它们重叠），请关闭该选项。
+If this option and "Align Track Elements" in the "Track" menu are both turned on, the contents of other tracks will be aligned as well. If you don't want to move the lines in the other track (overlap them), turn it off.
 
-### 旧版音素图
+### Old style Phoneme Graph
 
-水平轴是等距的，垂直轴用于长度调节，长度调节最长可以达到 1 秒。
+The horizontal axis is set at regular intervals, the vertical axis is for LEN adjustment, and the LEN can be up to 1 second.
 
-※格式与『CeVIO Creative Studio』版本 5.2 相同。
+\* Same as CeVIO Creative Studio version 5.2.
 
-#### 长度（LEN）显示相对大小
+#### Adjust LEN display
 
-旧式音素图里 LEN 值越小，显示的时间越长。关闭时，垂直轴是等距的。
+The smaller the LEN value, the longer it is displayed in old style Phoneme Graph. The vertical axis is set at regular intervals when off.
 
-### 台词的字体
+### Text Font
 
-指定台词列表的字体和大小。
+Specify the font and size in speech list.
 
-### 台词角色的显示方式
+### Cast View
 
-从画像、名字、画像+名字里选择一种作为台词列表左端的角色显示方式。
+Choose one of Image, Name or Image + Name as the way to display the character on the left side of the speech list.
 
-### 台词列表的背景
+### Speech List Background
 
-从 5 种背景中选择一种作为台词列表的背景。
+Choose from 5 background theme for the Speech List.
 
-- 条纹
-- 浅蓝色
-- 深蓝色
-- 白色
-- 黑色
+- Stripe
+- Light Blue
+- Dark Blue
+- White
+- Black
 
-### 音素图数值的显示方式
+### Numeral display on Phoneme Graph
 
-选择当鼠标光标悬停在音素图上时显示的数值。
+Select the value displayed when the cursor is hovering over the Phoneme Graph.
 
-### 台词间隔
+### Speech Interval
 
-指定输入台词或排列台词时台词间的间隔。
+Specify the interval between lines when entering or aligning them.
 
-#### 输出WAV时末尾保留间隔
+#### Affects on Export Audio File
 
-导出时台词末尾会保留同样长度的静音时间。
+Assign the same length of silence as Speech Interval to the end of line when export lines to audio files.
 
-#### 对音频也应用
+#### Apply to Audio Elements
 
-应用「设置音轨的内容为等间隔排列」或开启「音频自动排列」并编辑时，音频元素会自动保持间隔。若再与「多音轨自动排列」相结合，便能更容易地创建与其他语音合成软件的对话。
+Audio elements will automatically maintain the interval when you apply "Align Track Element" or turn on "Automatic Audio Alignment" and edit. If it is further combined with "Automatic Multi-track Alignment", it will be easier to create dialogues with other text-to-speech software.
 
-### 停顿设置
+### Pause Setting
 
-分别设置句読点或記号等符号的停顿时长。
+Set individual pause lengths for punctuation marks and symbols.
 
 ![pause setting](images/option_4.png)
 
-※也可以把全角空格设置为最短的 0.025 秒，然后输入「みなさん　こんにちは」这样的台词来分割重音短语。
+\* You can also set the shortest full-width space to 0.025 seconds and use it to break up accent phrases by entering lines like "みなさん　こんにちは".
 
-※当句子中有一连串诸如「・・・」的停顿字符时，停顿的长度会反映在停顿字符的数量上。
+\* When there are consecutive pause characters such as `・・・` in a sentence, the pause length will be reflected in the number of pause characters.
 
-※要将 WAV 末尾的无声段长度设置为零，请关闭「输出WAV时末尾保留间隔」。
+\* If you want the length of silence at the end of the WAV to be zero, turn off "Affects on Export Audio File".
 
-### 默认的预设
+### Default Preset
 
-指定新建音轨，更改角色或外部调用时的预设。
+Specify the preset to be used when creating a new track, changing a cast or calling during external cooperation.
 
-当用于外部调用时，在改变设置后请重新启动外部程序。
+Please restart the external application after change during external cooperation.
 
-!!! tip "外部调用时的默认预设"
-    在 SAPI5 中，「语速」由链接方的设置决定，「音量」和「音高」由链接方和本软件的设置共同决定，其他设置由本软件决定。如果连接到 SAPI5 时声音很小，请试着将预设的音量调到 +8.00 / 100。
+!!! tip "Default presets for external cooperation"
+    In SAPI5, "speed" is determined by the setting of the linking party, "volume" and "pitch" are jointly determined by the setting of the linking party and this application, and other settings are determined by this application. If the sound is low when connecting to SAPI5, try setting the preset volume to +8.00 / 100.
 
-    在 COM 组件 / .NET 程序集中，状态和情绪为默认值。
+    In COM components / .NET assemblies, conditions and emotions are the default.
 
-    ※如果所有的参数由链接的应用程序控制，则不使用这些设置。
+    \* If all parameters are controlled by the linked application, these settings will not be used.
 
-### 声库版本
+### Voice Version {#voice-version-talk}
 
-一些角色可以选择声库的版本。
+Some casts allow choose the voice version.
 
-### 文本文件的编码
+### Text File Character Code
 
-指定读取文件和导出文件时的编码。
+Specify the encoding to be used when reading files and exporting files.
 
-请根据需要修改编码，以配合读取或导出文本文件的外部软件。
+Please modify the encoding as required to match the external software used to import or export the text files.
 
-## 歌唱设定
+## Song Settings
 
 ![song setting](images/option_5.png)
 
-### 调号主音高亮显示
+### Brighten the key tone
 
-在乐谱编辑页面高亮显示当前调号的主音。
+Highlight the tonic of the current key signature on the score editing page.
 
-### 钢琴键盘的标号降低1个八度
+### Represent the keyboard by one octave lower (C3 for center)
 
-将 440Hz 的音用钢琴卷帘键盘上的 A3（原为 A4）表示。
+Represents the sound of 440Hz as A3 (was A4) on the Piano Roll keyboard.
 
-### 自动分割英语歌词的音节
+### Automatically split English lyric with syllables
 
-输入英语歌词时，按 1 音符 1 音节的方式分割单词并分配给音符。
+Automatically divide into one syllable per note when entering English lyrics.
 
-※由于是自动推算，可能会有出错的情况。
+\* The division position in the notation may be incorrect due to automatic estimation.
 
-### 输入音符时不调整会重叠的音符
+### Do not erase existing notes when entering notes
 
-输入音符时，不删除已输入的音符，即使会导致重叠。
+When entering notes, notes already entered will not be deleted, even if they would cause an overlap.
 
-### 单击输入音符
+### Click to enter note
 
-启用类似 DAW 的操作，单击就能直接输入音符，无需拖动。
+Enable DAW-like operation to input notes directly with a single click, no dragging required.
 
-启用该设定时，仍然可以通过拖动来指定长度。不拖动时，长度会被量化。
+When this option is on, you can still specify the length by dragging. When not dragging, the length will be quantized.
 
-### 点击标尺栏时以最近的量化线作为光标位置
+### Position correction in the Ruler
 
-因为光标移动到了更左或右的位置，这个功能让钢琴卷帘标尺栏的量化更接近 DAW 的操作。
+Enables DAW-like operation to shift position correction by quantizing towards to the left or the right closer in the Piano Roll Ruler.
 
-### 在乐谱编辑页面调整时间（TMG）
+### Timing Edit on Score
 
-在乐谱编辑页面的下方可以对时间做简单的确认和调整。
+Simply check and adjust Timing at the bottom of the score editing screen.
 
-### 歌词的字体
+### Lyric Font
 
-指定歌词的字体和大小。
+Specify the font and size of lyrics.
 
-### 钢琴卷帘配色
+### Piano Roll Background
 
-对于钢琴卷帘的背景，从 6 种背景中选择一种作为乐谱编辑页面的背景：
+For the background of the Piano Roll, choose from 6 background theme for the Score Editing Screen.
 
-- 彩虹
-- 蜡笔
-- Vocaloid
-- 蓝色
-- 灰色
-- 黑色
+- Rainbow
+- Pastel
+- Simple
+- Blue
+- Gray
+- Black
 
-从 2 种背景中选择一种作为调整页面的背景：
+Choose from 2 background theme for the Adjustment Screen.
 
-- 灰色
-- 黑色
+- Gray
+- Black
 
-### 参数调整界面的数值显示
+### Numerical Display
 
-选择在调整界面里，当鼠标光标悬停在参数上时显示的数值。
+Select the value display when hovering the mouse cursor over a parameter on adjustment screen.
 
-### 默认的歌词
+### Default lyrics
 
-修改输入音符时的默认歌词，比如改成「ら」。
+Change the default lyrics when entering notes, for example to "ら".
 
-留空则为默认根据音阶分配的「ドレミファソラシ」（Do Re Mi Fa So La Si）。
+If left blank, "ドレミファソラシ" (Do Re Mi Fa So La Ti) is assigned according to the scale by default.
 
-#### 默认歌词随调号改变
+#### "Do Re Mi Fa So La Ti Do" follow key signature
 
-「默认的歌词」留空时，取消勾选将把「ドレミ……」固定为 C Major。
+If "Default Lyrics" is left blank, unchecking it will fix "ドレミ......" to C Major.
 
-### 默认音色
+### Default Alpha
 
-指定新建音轨或更改角色时音色初始值。
+Specify the alpha value when creating a new track or changing a cast.
 
-### 声库版本
+### Voice Version {#voice-version-song}
 
-一些角色可以选择声库的版本。
+Some casts allow choose the voice version.
 
-!!! info "关于设定文件夹"
+!!! info "About setting folder"
 
-    文件夹内存储了下列配置文件（除了选项设置，它是在使用该功能时生成的）。
+    The following configuration files (except option settings, which are generated when using this function) are stored in the folder.
 
-    - TalkDictionary3.dic（用户字典）
-    - PhraseClips.xml（台词片段）
-    - Personality.xml（预设）
-    - RuntimeSettings.xml（选项设置）
+    - TalkDictionary3.dic (user dictionary)
+    - PhraseClips.xml (speech clips)
+    - Personality.xml (preset)
+    - RuntimeSettings.xml (option settings)
 
-    如果你想把设置转移到另一台电脑上，请从菜单中选择「文件」→「导出」→「导出设置」，然后从另一台电脑上的「文件」→「导入」→「导入设置」中导入。
+    If you want to transfer your settings to another PC, please select File > Export > Settings File to export a file, then import it from File > Import > Settings File on another PC.
