@@ -4,7 +4,7 @@
          <loc>None.</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
          
     </url>
@@ -12,7 +12,7 @@
          <loc>Noneaudio/audio/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/audio/audio/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/audio/audio/"/>
          
     </url>
@@ -20,7 +20,7 @@
          <loc>Nonefaq/faq/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/faq/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/faq/faq/"/>
          
     </url>
@@ -28,7 +28,7 @@
          <loc>Nonefaq/known_bugs/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/known_bugs/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/faq/known_bugs/"/>
          
     </url>
@@ -36,7 +36,7 @@
          <loc>Nonefirstguide/install/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/firstguide/install/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/firstguide/install/"/>
          
     </url>
@@ -44,7 +44,7 @@
          <loc>Nonefirstguide/install_cn_patch/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/firstguide/install_cn_patch/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/firstguide/install_cn_patch/"/>
          
     </url>
@@ -52,7 +52,7 @@
          <loc>Nonefirstguide/system_requirements/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/firstguide/system_requirements/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/firstguide/system_requirements/"/>
          
     </url>
@@ -60,7 +60,7 @@
          <loc>Noneinterface/com/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/interface/com/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/interface/com/"/>
          
     </url>
@@ -68,7 +68,7 @@
          <loc>Noneinterface/dotnet/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/interface/dotnet/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/interface/dotnet/"/>
          
     </url>
@@ -76,7 +76,7 @@
          <loc>Noneinterface/interface/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/interface/interface/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/interface/interface/"/>
          
     </url>
@@ -84,7 +84,7 @@
          <loc>Noneintro/about/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/intro/about/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/intro/about/"/>
          
     </url>
@@ -92,7 +92,7 @@
          <loc>Noneintro/change-log/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/intro/change-log/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/intro/change-log/"/>
          
     </url>
@@ -100,7 +100,7 @@
          <loc>Noneintro/change-log_website/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/intro/change-log_website/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/intro/change-log_website/"/>
          
     </url>
@@ -108,7 +108,7 @@
          <loc>Noneintro/contact/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/intro/contact/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/intro/contact/"/>
          
     </url>
@@ -116,7 +116,7 @@
          <loc>Noneoperation/adjusttool/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/adjusttool/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/adjusttool/"/>
          
     </url>
@@ -124,7 +124,7 @@
          <loc>Noneoperation/edittool/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/edittool/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/edittool/"/>
          
     </url>
@@ -132,7 +132,7 @@
          <loc>Noneoperation/infopanel/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/infopanel/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/infopanel/"/>
          
     </url>
@@ -140,7 +140,7 @@
          <loc>Noneoperation/menu/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/menu/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/menu/"/>
          
     </url>
@@ -148,7 +148,7 @@
          <loc>Noneoperation/operation/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/operation/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/operation/"/>
          
     </url>
@@ -156,7 +156,7 @@
          <loc>Noneoperation/trackhead/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/trackhead/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/trackhead/"/>
          
     </url>
@@ -164,7 +164,7 @@
          <loc>Noneoperation/transport/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operation/transport/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/operation/transport/"/>
          
     </url>
@@ -172,7 +172,7 @@
          <loc>Noneoption/characterimage/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/option/characterimage/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/option/characterimage/"/>
          
     </url>
@@ -180,7 +180,7 @@
          <loc>Noneoption/option/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/option/option/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/option/option/"/>
          
     </url>
@@ -188,7 +188,7 @@
          <loc>Noneothers/emotion_in_song_editor/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/emotion_in_song_editor/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/emotion_in_song_editor/"/>
          
     </url>
@@ -196,7 +196,7 @@
          <loc>Noneothers/revised_license_agreement/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/revised_license_agreement/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/revised_license_agreement/"/>
          
     </url>
@@ -204,7 +204,7 @@
          <loc>Noneothers/suzuki_tsudumi_song_contest_result/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/suzuki_tsudumi_song_contest_result/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/suzuki_tsudumi_song_contest_result/"/>
          
     </url>
@@ -212,7 +212,7 @@
          <loc>Noneothers/third_party_websites/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/third_party_websites/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/third_party_websites/"/>
          
     </url>
@@ -220,7 +220,7 @@
          <loc>Noneothers/voices_and_official_websites/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/voices_and_official_websites/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/voices_and_official_websites/"/>
          
     </url>
@@ -228,7 +228,7 @@
          <loc>Noneshortcutkey/shortcutkey/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/shortcutkey/shortcutkey/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/shortcutkey/shortcutkey/"/>
          
     </url>
@@ -236,7 +236,7 @@
          <loc>Nonesongtrack/fileimport/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/fileimport/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/fileimport/"/>
          
     </url>
@@ -244,7 +244,7 @@
          <loc>Nonesongtrack/song_02/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_02/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_02/"/>
          
     </url>
@@ -252,7 +252,7 @@
          <loc>Nonesongtrack/song_03/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_03/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_03/"/>
          
     </url>
@@ -260,7 +260,7 @@
          <loc>Nonesongtrack/song_04/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_04/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_04/"/>
          
     </url>
@@ -268,7 +268,7 @@
          <loc>Nonesongtrack/song_04_english/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_04_english/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_04_english/"/>
          
     </url>
@@ -276,7 +276,7 @@
          <loc>Nonesongtrack/song_05/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_05/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_05/"/>
          
     </url>
@@ -284,7 +284,7 @@
          <loc>Nonesongtrack/song_06/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_06/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_06/"/>
          
     </url>
@@ -292,7 +292,7 @@
          <loc>Nonesongtrack/song_07/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/song_07/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/song_07/"/>
          
     </url>
@@ -300,7 +300,7 @@
          <loc>Nonesongtrack/songtrack/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/songtrack/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/songtrack/"/>
          
     </url>
@@ -308,7 +308,7 @@
          <loc>Nonesongtrack/songtrack_copy/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/songtrack_copy/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/songtrack_copy/"/>
          
     </url>
@@ -316,7 +316,7 @@
          <loc>Nonesongtrack/tutorial_song/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/songtrack/tutorial_song/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/songtrack/tutorial_song/"/>
          
     </url>
@@ -324,7 +324,7 @@
          <loc>Nonetalktrack/longsentence/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/longsentence/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/longsentence/"/>
          
     </url>
@@ -332,7 +332,7 @@
          <loc>Nonetalktrack/phoneme/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/phoneme/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/phoneme/"/>
          
     </url>
@@ -340,7 +340,7 @@
          <loc>Nonetalktrack/phoneme_english/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/phoneme_english/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/phoneme_english/"/>
          
     </url>
@@ -348,7 +348,7 @@
          <loc>Nonetalktrack/phrasececlip/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/phrasececlip/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/phrasececlip/"/>
          
     </url>
@@ -356,7 +356,7 @@
          <loc>Nonetalktrack/search/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/search/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/search/"/>
          
     </url>
@@ -364,7 +364,7 @@
          <loc>Nonetalktrack/talk_01/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_01/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_01/"/>
          
     </url>
@@ -372,7 +372,7 @@
          <loc>Nonetalktrack/talk_01_english/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_01_english/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_01_english/"/>
          
     </url>
@@ -380,7 +380,7 @@
          <loc>Nonetalktrack/talk_02/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_02/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_02/"/>
          
     </url>
@@ -388,7 +388,7 @@
          <loc>Nonetalktrack/talk_04/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_04/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_04/"/>
          
     </url>
@@ -396,7 +396,7 @@
          <loc>Nonetalktrack/talk_05/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_05/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_05/"/>
          
     </url>
@@ -404,7 +404,7 @@
          <loc>Nonetalktrack/talk_06/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talk_06/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talk_06/"/>
          
     </url>
@@ -412,7 +412,7 @@
          <loc>Nonetalktrack/talktrack/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/talktrack/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/talktrack/"/>
          
     </url>
@@ -420,7 +420,7 @@
          <loc>Nonetalktrack/tutorial_talk/</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/talktrack/tutorial_talk/"/>
+         
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/talktrack/tutorial_talk/"/>
          
     </url>
