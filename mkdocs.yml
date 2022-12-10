@@ -68,13 +68,13 @@ markdown_extensions:
 
 plugins:
   - i18n:
-      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      default_language: !ENV [DEFAULT_LANGUAGE, "zh"]
       default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
       docs_structure: folder
       languages:
         zh:
           name: 中文（简体）
-          build: false
+          build: true
           site_name: "CeVIO AI 用户指南（非官方译文）"
         en:
           name: English
@@ -99,6 +99,8 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
+  # - offline
+      # enabled: !ENV [OFFLINE, false]
 
 # Contents
 nav:
