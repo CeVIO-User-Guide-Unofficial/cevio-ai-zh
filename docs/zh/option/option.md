@@ -7,6 +7,8 @@ layout: post
 原文：[CeVIO AI ユーザーズガイド ┃ オプション](https://cevio.jp/guide/cevio_ai/option/)
 
 ---
+!!! tip
+    如果你不理解某个选项是做什么用的，试试将鼠标长时间停留在那个选项上。
 
 「工具」菜单里的「选项」可以修改各种设定。
 
