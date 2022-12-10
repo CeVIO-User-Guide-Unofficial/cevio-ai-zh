@@ -18,5 +18,7 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-static-i18n
+      - run: pip install mkdocs-glightbox
       - run: pip install jieba
       - run: mkdocs gh-deploy --force
