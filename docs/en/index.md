@@ -26,7 +26,7 @@ An unofficial CeVIO AI User Manual English translation.
 
 ## Admonitions
 
-There are five admonitions that will appear throughout the manual. They work as follows:
+There are five admonitions that will appear throughout the guide. They work as follows:
 
 !!! tip
     This admonition is used to give suggestions or hints.
@@ -45,9 +45,9 @@ There are five admonitions that will appear throughout the manual. They work as 
     This admonition is used to mark warnings or information that requires special attention.
 
 !!! new
-    This admonition is used to mark new features which haven't been written to manual yet.
+    This admonition is used to mark new features which haven't been written to user guide yet.
 
-    They will be removed when these features appear in official user manual.
+    They will be removed when these features appear in official user guide.
 
 <!-- ## 免责声明
 

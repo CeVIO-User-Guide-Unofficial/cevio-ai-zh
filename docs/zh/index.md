@@ -28,7 +28,7 @@ layout: home
 
 ## 图例
 
-指南中将会大量出现四种 admonitions。它们的作用如下：
+指南中将会大量出现五种 admonitions。它们的作用如下：
 
 !!! tip
     该 admonition 用于给出建议或提示。
@@ -47,7 +47,9 @@ layout: home
     该 admonition 用于标注警告或需要特别留意的信息。
 
 !!! new
-    test
+    该 admonition 用于标记尚未写入指南里的新功能。
+
+    当这些新功能出现在官方文档后它们就会被移除。
 
 <!-- ## 免责声明
 
