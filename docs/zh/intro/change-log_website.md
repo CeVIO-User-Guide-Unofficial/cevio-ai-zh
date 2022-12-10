@@ -16,6 +16,7 @@ layout: post
 - 由于文件夹结构发生变化，所有页面的创建日期均发生了改变。
 - 添加了图片缩放功能。
     - 添加了 mkdocs-glightbox 插件。
+- Material for MkDocs 更新到 9.0.0b3。
 
 ## 2022.11.16
 

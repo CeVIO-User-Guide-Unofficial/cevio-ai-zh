@@ -8,4 +8,4 @@ layout: post
 
 你可以通过 [Issues](https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI/issues/new) 报告项目中出现的任何问题。
 
-若需要进一步联络，请发送邮件至 nachtgeistw@protonmail.com。
+若需要进一步联络，请发送邮件至 [nachtgeistw@protonmail.com](mailto:nachtgeistw@protonmail.com)。

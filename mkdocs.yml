@@ -3,8 +3,6 @@ site_description: 非官方的 CeVIO AI 用户指南中文版翻译
 repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
 repo_name: CUGU/CeVIO-AI
 
-# docs_dir: '../../docs/zh'
-
 # Theme
 theme:
   custom_dir: 'overrides/'                  # This is where the customization of the theme lives
@@ -41,15 +39,6 @@ extra:
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/CeVIO_st
       name: CeVIO on Twitter
-  alternate:  
-      # Switch to Chinese
-    - name: 中文（简体）
-      link: ./zh/
-      lang: zh
-      # Switch to English
-    - name: English
-      link: ./en/
-      lang: en
 
 # CSS
 extra_css:
@@ -80,17 +69,22 @@ markdown_extensions:
 
 plugins:
   - i18n:
-      default_language: zh
+      default_language: !ENV [DEFAULT_LANGUAGE, "zh"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
       docs_structure: folder
       languages:
         zh:
-          name: 中文
+          name: 中文（简体）
+          build: true
+          site_name: "CeVIO AI 用户指南（非官方译文）"
         en:
           name: English
+          build: true
+          site_name: "CeVIO AI User Guide (Unofficial Translation)"
       nav_translations:
         zh:
+          Home: 首页
           Introduction: 简介
-          Getting Started: Getting Started
           First Guide: 入门
           Operation: 基本操作
           Talk Track: 语音轨道
@@ -101,29 +95,16 @@ plugins:
           External Interface: 外部调用接口
           FAQ and Bugs: FAQ和已知问题
           Others: 其他
-        en:
-          Introduction: Introduction
-          Getting Started: Getting Started
-          First Guide: First Guide
-          Operation: Operation
-          Talk Track: Talk Track
-          Song Track: Song Track
-          Audio Track: Audio Track
-          Options: Options
-          Shortcut Key: Shortcut Key
-          External Interface: External Interface
-          FAQ and Bugs: FAQ and Bugs
-          Others: Others
+  - search
   - glightbox
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
-  - search
 
 # Contents
 nav:
+  - Home: index.md
   - Introduction:
-    - Getting Started: index.md
     - intro/change-log.md
     - intro/change-log_website.md
     - intro/contact.md
