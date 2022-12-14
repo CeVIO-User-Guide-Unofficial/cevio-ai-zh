@@ -9,7 +9,7 @@
 <meta content="夜輪風超絶技巧変奏曲" name="author"/>
 <link href="../../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
-<title>音素图（日语声库） - CeVIO AI User Guide (Unofficial Translation)</title>
+<title>Phoneme Graph (Japanese Voice) - CeVIO AI User Guide (Unofficial Translation)</title>
 <link href="../../../assets/stylesheets/main.975780f9.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#_1">
+<a class="md-skip" href="#adjust-accent">
           Skip to content
         </a>
 </div>
@@ -44,7 +44,7 @@
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
 <a aria-label="CeVIO AI User Guide (Unofficial Translation)" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="CeVIO AI User Guide (Unofficial Translation)">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -59,7 +59,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              音素图（日语声库）
+              Phoneme Graph (Japanese Voice)
             
           </span>
 </div>
@@ -213,7 +213,7 @@
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
 <a aria-label="CeVIO AI User Guide (Unofficial Translation)" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="CeVIO AI User Guide (Unofficial Translation)">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
 </a>
     CeVIO AI User Guide (Unofficial Translation)
   </label>
@@ -367,37 +367,37 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talktrack/">
-        语音轨道的说明
+        Description of the Talk Track
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_01/">
-        台词的输入与编辑
+        Line Input and Editing
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../longsentence/">
-        长段文本输入
+        Enter Text Collectively
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_02/">
-        发声时间的调整
+        Vocalization Timing Adjustment
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_05/">
-        台词的表情设置
+        Emotion Setting of the Line
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          音素图（日语声库）
+          Phoneme Graph (Japanese Voice)
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        音素图（日语声库）
+        Phoneme Graph (Japanese Voice)
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -406,61 +406,61 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_1">
-    调整重音
+<a class="md-nav__link" href="#adjust-accent">
+    Adjust Accent
   </a>
-<nav aria-label="调整重音" class="md-nav">
+<nav aria-label="Adjust Accent" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_2">
-    重音段的分割 / 连接
+<a class="md-nav__link" href="#dividecombine-accent-phrases">
+    Divide/combine Accent Phrases
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_3">
-    调整音高 / 音长 / 音量
+<a class="md-nav__link" href="#adjust-pitchlengthvolume">
+    Adjust Pitch/Length/Volume
   </a>
-<nav aria-label="调整音高 / 音长 / 音量" class="md-nav">
+<nav aria-label="Adjust Pitch/Length/Volume" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_4">
-    调整音高或音量
+<a class="md-nav__link" href="#adjust-pitch-or-volume">
+    Adjust Pitch or Volume
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_5">
-    调整音长
+<a class="md-nav__link" href="#adjust-length">
+    Adjust Length
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_6">
-    显示缩放
+<a class="md-nav__link" href="#zoom-display">
+    Zoom Display
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
-    以音素为单位/假名为单位调整
+<a class="md-nav__link" href="#adjust-in-phoneme-unitskana-units">
+    Adjust in Phoneme Units/Kana Units
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
-    恢复初始值
+<a class="md-nav__link" href="#reset-to-default-value">
+    Reset to Default Value
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_9">
-    滚动显示
+<a class="md-nav__link" href="#scrolling-display">
+    Scrolling Display
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_10">
-    试听
+<a class="md-nav__link" href="#listen">
+    Listen
   </a>
 </li>
 </ul>
@@ -468,32 +468,32 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../phoneme_english/">
-        音素图（英语声库）
+        Phoneme Graph (English Voice)
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_06/">
-        注册单词与词典管理（日语声库）
+        Word Registration and Dictionary Management (Japanese Voice)
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_01_english/">
-        注册单词与发音记号（英语声库）
+        Word Registration and Pronunciation Symbols (English Voice)
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../phrasececlip/">
-        台词片段
+        Speech Clip
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../search/">
-        台词的搜索
+        Finding Lines
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talk_04/">
-        台词的导入
+        Lines Import
       </a>
 </li>
 </ul>
@@ -628,7 +628,7 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../shortcutkey/shortcutkey/">
-        快捷键
+        Shortcut Key
       </a>
 </li>
 </ul>
@@ -713,7 +713,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../others/emotion_in_song_editor/">
-        关于「CeVIO AI」歌曲编辑器的情绪参数
+        关于「CeVIO AI」歌曲编辑器的感情参数
       </a>
 </li>
 <li class="md-nav__item">
@@ -744,61 +744,61 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_1">
-    调整重音
+<a class="md-nav__link" href="#adjust-accent">
+    Adjust Accent
   </a>
-<nav aria-label="调整重音" class="md-nav">
+<nav aria-label="Adjust Accent" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_2">
-    重音段的分割 / 连接
+<a class="md-nav__link" href="#dividecombine-accent-phrases">
+    Divide/combine Accent Phrases
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_3">
-    调整音高 / 音长 / 音量
+<a class="md-nav__link" href="#adjust-pitchlengthvolume">
+    Adjust Pitch/Length/Volume
   </a>
-<nav aria-label="调整音高 / 音长 / 音量" class="md-nav">
+<nav aria-label="Adjust Pitch/Length/Volume" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_4">
-    调整音高或音量
+<a class="md-nav__link" href="#adjust-pitch-or-volume">
+    Adjust Pitch or Volume
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_5">
-    调整音长
+<a class="md-nav__link" href="#adjust-length">
+    Adjust Length
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_6">
-    显示缩放
+<a class="md-nav__link" href="#zoom-display">
+    Zoom Display
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
-    以音素为单位/假名为单位调整
+<a class="md-nav__link" href="#adjust-in-phoneme-unitskana-units">
+    Adjust in Phoneme Units/Kana Units
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
-    恢复初始值
+<a class="md-nav__link" href="#reset-to-default-value">
+    Reset to Default Value
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_9">
-    滚动显示
+<a class="md-nav__link" href="#scrolling-display">
+    Scrolling Display
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_10">
-    试听
+<a class="md-nav__link" href="#listen">
+    Listen
   </a>
 </li>
 </ul>
@@ -811,86 +811,80 @@
 <a class="md-content__button md-icon" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI/edit/master/docs/en/talktrack/phoneme.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1>音素图（日语声库）</h1>
-<p>原文：<a href="https://cevio.jp/guide/cevio_ai/talktrack/phoneme/">CeVIO AI ユーザーズガイド ┃ 音素グラフ（日本語ボイス）</a></p>
+<h1>Phoneme Graph (Japanese Voice)</h1>
+<p>Original article: <a href="https://cevio.jp/guide/cevio_ai/talktrack/phoneme/">CeVIO AI ユーザーズガイド ┃ 音素グラフ（日本語ボイス）</a></p>
 <hr/>
-<p>在这里修正单词的重音，调整每个音素的音高、长度和音量。</p>
-<h2 id="_1">调整重音</h2>
-<p>「ACC」按钮表示的画面用于调整重音。</p>
+<p>Correct accents of words and adjust pitch, length and volume of each phoneme here.</p>
+<h2 id="adjust-accent">Adjust Accent</h2>
+<p>The screen displayed by the "ACC" button is used to adjust the Japanese pitch accent.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_1.png"><img alt="acc" src="../images/phoneme_1.png"/></a></p>
-<p>单击音拍（假名）以将其所在的位置标记为重音。</p>
-<p>上下拖动音拍会自动将重音型应用到重音段中。</p>
-<p>修改后的音拍，它们的连接线会以橙色显示。</p>
+<p>Clicking on a mora (kana) to mark that position as an accent in that position.</p>
+<p>Dragging the mora up or down automatically applies the accent type to the accent phrase.</p>
+<p>After modifying the mora, the connecting lines are displayed in orange.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_2.png"><img alt="change mora" src="../images/phoneme_2.png"/></a></p>
 <div class="admonition info">
-<p class="admonition-title">重音型与重音段</p>
-<p>常见的日语有四种“重音型”：头高型、中高型、尾高型和平板型。</p>
-<p>“重音段”是由单词和助词组成的重音单元，它具有其中一种重音类型。</p>
-<p>在重音调整屏幕中，重音段的边界上会显示一条黑色的垂直线。</p>
+<p class="admonition-title">Accent type and accent phrase</p>
+<p>In standard Japanese, there are four normative pitch accent type: head-high (頭高, atamadaka), middle-high (中高, nakadaka), tail-high (尾高, odaka) and flat (平板, heiban).</p>
+<p>An accent phrase is a unit of accent consisting of a word, particle, etc., which has one of the accent types.</p>
+<p>In the accent adjustment screen, a black vertical line is displayed at the border of the accent phrase.</p>
 </div>
-<h3 id="_2">重音段的分割 / 连接</h3>
-<p>鼠标移到音拍之间时，它会变为剪刀（音拍已连接时）或绳索（音拍被分开时）。此时左键单击便可分割或连接重音段。</p>
-<p>活用分割与连接重音段功能，便可以更加自由地调整重音的高低。</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_3.png"><img alt="split/joint accent" src="../images/phoneme_3.png"/></a></p>
-<h2 id="_3">调整音高 / 音长 / 音量</h2>
-<p>「PIT」按钮表示的画面用于调整音高和音长。</p>
-<p>「VOL」按钮表示的画面用于调整音量和音长。</p>
-<p>PIT 屏幕的背景每八度有一个渐变，VOL 屏幕的背景每 10 dB 有一个渐变。</p>
+<h3 id="dividecombine-accent-phrases">Divide/combine Accent Phrases</h3>
+<p>If you move the mouse cursor between two mora, the mouse cursor will change to scissor (when the mora is connected) or rope (when the mora is divided). Left-clicking there to divide or combine accent phrases.</p>
+<p>Dividing/combining accent phrases allows you to adjust the pitch of accents more freely.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_3.png"><img alt="divide/combine accent" src="../images/phoneme_3.png"/></a></p>
+<h2 id="adjust-pitchlengthvolume">Adjust Pitch/Length/Volume</h2>
+<p>The screen displayed by the "PIT" button is used to adjust the pitch and length.</p>
+<p>The screen displayed by the "VOL" button is used to adjust the volume and length.</p>
+<p>The background of the PIT screen has a fade every octave and the background of the VOL screen has a fade every 10 dB.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_4.png"><img alt="pit" src="../images/phoneme_4.png"/></a></p>
-<h3 id="_4">调整音高或音量</h3>
-<p>在条形图上用鼠标上下拖动（鼠标左键按住），便可根据鼠标的移动修改长条柱。也可以左右移动，或是按住 <span class="keys"><kbd class="key-shift">Shift</kbd></span> 键再往左（或右）移动，来纵向调整音素图。</p>
+<h3 id="adjust-pitch-or-volume">Adjust Pitch or Volume</h3>
+<p>Drag the mouse up or down (hold down the left mouse button) on the bar graph and the graph will change according to the movement of the mouse. The graph can also be adjusted horizontally by dragging left and right, or by holding down the <span class="keys"><kbd class="key-shift">Shift</kbd></span> key and moving left (or right).</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_5.png"><img alt="adjust pit" src="../images/phoneme_5.png"/></a></p>
-<p>也可以将鼠标光标放在长条柱上，然后上下滚动鼠标滚轮来调整。</p>
-<ul>
-<li>
-<p>在放大显示时按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键，可以用鼠标滚轮向上 / 向下进行调整。</p>
-</li>
-<li>
-<p>音高的变化单位是 100 Cent，音量的变化单位是 1dB。</p>
-</li>
-</ul>
-<p>从上方的文字区域开始上下拖动，可以以单语单位调整音高 / 音量。</p>
+<p>Adjustments can also be made by hovering the mouse cursor over the graph and rolling the mouse wheel up and down.</p>
+<p>* Adjustments can be made with the mouse wheel up/down while holding down the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key during magnified display.</p>
+<p>* The change unit of pitch is 100 Cent, and the change unit of volume is 1dB.</p>
+<p>Dragging up and down from the text area above allows you to adjust the pitch/volume in word units.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_6.png"><img alt="adjust in group" src="../images/phoneme_6.png"/></a></p>
-<h3 id="_5">调整音长</h3>
-<p>拖动白色的竖线（调整后为橙色）来调整发音的长度。</p>
-<p>双击垂直线，或是在点击或拖动时按住 <span class="keys"><kbd class="key-control">Ctrl</kbd></span> 键，可以使其恢复到原来的音长。</p>
-<p>从上方的文字区域开始左右拖动，可以以单语单位调整音长。</p>
+<h3 id="adjust-length">Adjust Length</h3>
+<p>Drag the white vertical line (orange after adjusting) to adjust the length of the vocalization.</p>
+<p>Double-click on the vertical line, or hold down the <span class="keys"><kbd class="key-control">Ctrl</kbd></span> key while clicking or dragging to bring it back to its original length.</p>
+<p>Dragging left and right from the text area above allows you to adjust the length in word units.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_7.png"><img alt="adjust length" src="../images/phoneme_7.png"/></a></p>
-<p>除了拖动垂直线外，还可以通过拖动文字区域或在文字区域上下滚动鼠标滚轮来调整音长。</p>
-<p>待调整的词或音拍（或音素），当鼠标光标移动到它所在的区域内时，它会变成橙色。</p>
-<p>以单语或音拍为单位调整音长时，会自动确保辅音与元音的比例。</p>
+<p>In addition to dragging the vertical line, the length can also be adjusted by dragging the text area or by rolling the mouse wheel up and down on the text area.</p>
+<p>The word or mora (or phoneme) to be adjusted turns orange when the mouse cursor is over it.</p>
+<p>When adjusting the length in word or mora units, the ratio of consonants to vowels is automatically maintained.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>关闭右键菜单的「显示音长界限」，可以防止在调整音高时不小心按到音长调整线。</p>
-<p>（即使隐藏了，也依然可以通过音素图上下的文本区域来调整音长。）</p>
+<p>Turning off "Overlay Duration Lines" in the right-click menu prevents you from accidentally dragging the length while trying to adjust the pitch or volume. </p>
+<p>(Even if hidden, the length can still be adjusted via the text area above and below the phoneme graph)</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_8.png"><img alt="hide duration line" src="../images/phoneme_8.png"/></a></p>
 </div>
-<h3 id="_6">显示缩放</h3>
-<p>在 PIT 和 VOL 屏幕上，音素图右下方的 [+] 和 [-] 按钮可以用来放大和缩小显示。</p>
-<p>当屏幕很窄或者想进行微调时很有用。</p>
-<p>还可以用快捷键 <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + 鼠标滚轮向上/向下进行垂直放大和缩小，用 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd></span> + 鼠标滚轮向上/向下进行水平放大和缩小。</p>
+<h3 id="zoom-display">Zoom Display</h3>
+<p>On the PIT and VOL screens, you can zoom in/out with the "+" and "-" buttons at the bottom right of the phoneme graph.</p>
+<p>This is useful when the screen is narrow or when you want to fine-tune.</p>
+<p>You can also use the shortcut keys <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + mouse wheel up/down to zoom vertically, and <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd></span> + mouse wheel up/down to zoom horizontally.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_9.png"><img alt="display" src="../images/phoneme_9.png"/></a></p>
-<h3 id="_7">以音素为单位/假名为单位调整</h3>
-<p>开启右键菜单的「按音素单位调整」，可以以音素为单位调整音高 / 音长 / 音量；关闭时则以假名为单位。</p>
-<p>快捷键 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-p">P</kbd></span> 可以切换调整单位。按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时切换。</p>
-<p>以音素为单位调整能调整最小的语音单位，例如调整「おはようございます」的「ohayoogozaimasU」。</p>
-<h2 id="_8">恢复初始值</h2>
-<p>选择音素图右键的「恢复初始值」，可以将重音、音高、音长和音量恢复到调整前的状态。</p>
-<p>双击调整后的音素图可以只将该部分的图恢复到初始值。按住 <span class="keys"><kbd class="key-control">Ctrl</kbd></span> 键再拖动鼠标，可以将鼠标经过的区域恢复到其初始值。</p>
+<h3 id="adjust-in-phoneme-unitskana-units">Adjust in Phoneme Units/Kana Units</h3>
+<p>Turn on "Phoneme mode" from the right-click menu to adjust pitch/length/volume in phoneme units; turn off to adjust in kana units (mora units).</p>
+<p>The shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-p">P</kbd></span> toggles the adjustment unit. Hold down <span class="keys"><kbd class="key-alt">Alt</kbd></span> to toggle temporarily.</p>
+<p>Adjusting in phonemes adjusts the smallest speech unit, for example, "ohayoogozaimasU" for "おはようございます".</p>
+<h2 id="reset-to-default-value">Reset to Default Value</h2>
+<p>Selecting "Reset" from the right-click menu of the phoneme graph restores the accent, pitch, length and volume to the state before adjustment.</p>
+<p>Double-clicking on an adjusted phoneme graph will restore only that part of the graph to its default value. Holding down the <span class="keys"><kbd class="key-control">Ctrl</kbd></span> key and dragging the mouse restores the area where the mouse passes to its default value.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/phoneme_10.png"><img alt="reset" src="../images/phoneme_10.png"/></a></p>
-<h2 id="_9">滚动显示</h2>
-<p>除了滚动条之外，还可以按住鼠标中键拖动来滚动音素图。</p>
-<p>也可以通过按住 <span class="keys"><kbd class="key-shift">Shift</kbd></span> 键然后上下拖动鼠标滚轮的方式来水平滚动；在放大显示时上下拖动鼠标滚轮则为垂直滚动。</p>
-<h2 id="_10">试听</h2>
-<p>在音素图中点击，将从点击的位置开始试听。在试听过程中再次点击将停止试听。</p>
-<p>在调整后自动开始试听的「自动试听」功能，可以用「自动试听按钮」来激活 / 停用。</p>
-<p>如果在<a href="../../option/option/">选项</a>中的「语音设置」中勾选了「音素图调整部分自动试听」，音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。</p>
+<h2 id="scrolling-display">Scrolling Display</h2>
+<p>The phoneme graph can be scrolled not only by the scroll bar, but also by holding down the middle mouse button and dragging.</p>
+<p>It can be also scrolled horizontally by holding down the <span class="keys"><kbd class="key-shift">Shift</kbd></span> key and then dragging the mouse wheel up and down; dragging the mouse wheel up and down when the display is zoomed in is vertical scrolling.</p>
+<h2 id="listen">Listen</h2>
+<p>Clicking in the phoneme graph will start the playback from the clicked position. Clicking again during the playback will stop the playing.</p>
+<p>The "Auto play" function, which automatically starts playback after adjustment, can be activated/deactivated using the "Auto play button".</p>
+<p>If "Partial replay with Phoneme Graph" from the "Talk settings" in <a href="../../option/option">Options</a> is checked, it will automatic play the section of the phoneme graph from the previous pause before the adjustment point (e.g. punctuation) to the next pause after the adjustment point.</p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 9, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 14, 2022</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 18, 2022</span>
@@ -906,7 +900,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: 台词的表情设置" class="md-footer__link md-footer__link--prev" href="../talk_05/" rel="prev">
+<a aria-label="Previous: Emotion Setting of the Line" class="md-footer__link md-footer__link--prev" href="../talk_05/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -915,17 +909,17 @@
 <span class="md-footer__direction">
                 Previous
               </span>
-              台词的表情设置
+              Emotion Setting of the Line
             </div>
 </div>
 </a>
-<a aria-label="Next: 音素图（英语声库）" class="md-footer__link md-footer__link--next" href="../phoneme_english/" rel="next">
+<a aria-label="Next: Phoneme Graph (English Voice)" class="md-footer__link md-footer__link--next" href="../phoneme_english/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              音素图（英语声库）
+              Phoneme Graph (English Voice)
             </div>
 </div>
 <div class="md-footer__button md-icon">
