@@ -28,7 +28,7 @@ Q: The software does not start.
 
 A: If you get a message like "Could not load file or assembly CeVIO.Audio.dll or one of its dependencies" when starting the software, the required library (auxiliary program) is missing.
 
-Please download and run "vc_redist.x64.exe" from [this Microsoft support page](https://docs.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170).
+Please download and run "vc_redist.x64.exe" from [Microsoft support page](https://docs.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 If you are using "Windows Defender", please turn off "Controlled folder access" (set to Off by default) in "Manage Ransomware protection" under "Virus and threat protection".
 
@@ -122,7 +122,7 @@ A: Please turn on "Automatic Multi-track Alignment" from the right-click menu of
 
 Q: I cannot connect to SAPI5. Cannot link to 'Word', 'Excel' or 'Acrobat Reader'.
 
-A: As CeVIO AI is a 64-bit application, it cannot be linked directly with 32-bit external software (e.g. BouyomiChan（棒読みちゃん）). (There seems to be external software that links "CeVIO AI" with "BouyomiChan" etc.)
+A: As CeVIO AI is a 64-bit application, it cannot be linked directly with 32-bit external software (e.g. 棒読みちゃん, BouyomiChan). (There seems to be external softwares that can link "CeVIO AI" with "BouyomiChan", etc.)
 
 Microsoft Office such as Word and Excel, and Acrobat Reader are not supported.
 

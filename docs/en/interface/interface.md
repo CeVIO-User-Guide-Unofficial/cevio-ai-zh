@@ -1,68 +1,71 @@
 ---
-title: 外部调用接口
+title: External Cooperation Interface
 author: 夜輪風超絶技巧変奏曲
 category: interface
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 外部連携インターフェイス](https://cevio.jp/guide/cevio_ai/interface/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 外部連携インターフェイス](https://cevio.jp/guide/cevio_ai/interface/)
 
 ---
 
 !!! warning
-    译者注：
+    Translator's Notes:
     
-    - 理解本章节的内容需要一定的编程知识。
-    - 在使用 API 前，请仔细地阅读本页面末尾的注意事项。
+    - Programming knowledge is required to understand the contents of this section.
+    - Please read the notes at the end of this page carefully before using the API.
 
-可以通过外部软件调用语音引擎的文本转语音功能。
+The text-to-speech function of the speech engine can be invoked via external software.
 
-有三种可用的方法供不同的应用调用。
+There are three available methods for different applications to call.
 
-## 从 SAPI5 调用
+## Call from SAPI5
 
-可与支持 SAPI5 的软件链接后朗读文字。
+It can read text aloud after linking with software that supports SAPI5.
 
-CeVIO AI 可与 64 位的软件链接，也能用作 Windows 10 的「讲述人」。在 Windows 设置的「个性化讲述人的声音」的「选择语音」中，可以选择作为讲述人的角色。[^1]
+CeVIO AI can be linked with 64-bit software and can also be used as a "Narrator" for Windows 10. In "Choose a voice" of "Personalize Narrator's voice" in Windows Settings, you can choose the character as Narrator. [^1]
 
 ![select narrator](images/8.1.1.png)
 
-- 不支持 Word、Excel 等 Microsoft Office，Acrobat Reader 的朗读功能。
-- 「CeVIO AI」是 64 位应用，所以它不能与 32 位的外部软件（「棒読みちゃん」等）直接链接。（可以通过外部软件将「棒読みちゃん」等与「CeVIO AI」链接起来。）
+- Microsoft Office such as Word and Excel, and Acrobat Reader are not supported.
+- As CeVIO AI is a 64-bit application, it cannot be linked directly with 32-bit external software (e.g. 棒読みちゃん, BouyomiChan). (There seems to be external softwares that can link "CeVIO AI" with "BouyomiChan", etc.)
 
-!!! tip "默认预设"
-    外部调用时将使用选项里「语音设定」的「默认的预设」。
+!!! tip "Default presets"
+    External cooperation will use the "Default preset" in the "Talk Settings" under the Options.
 
-    在 SAPI5 中，「语速」由链接方的设置决定，「音量」和「音高」由链接方和本软件的设置共同决定，其他设置由本软件决定。
+    In SAPI5, "speed" is determined by the setting of the linking party, "volume" and "pitch" are jointly determined by the setting of the linking party and this application, and other settings are determined by this application.
 
-    如果想在链接时提高音量，或者想用喜欢的感情设置读出信息，请将该设置添加到预设中，然后将其作为默认预设。
+    If you want to increase the volume when linking, or want the message to be read with your favorite emotion setting, add that setting to the preset and then make it the default preset.
 
-!!! info "在项目中使用"
-    - 支持使用以下 SAPI XML TTS 标记的参数规范。
+!!! info "Use in project"
+    - Support parameter specifications using the following SAPI XML TTS tags.
       
         `<pitch>` `<volume>` `<rate>` `<silence>`
 
-        `pitch`、`volume`、`rate` 只支持用标签括起来的格式（不支持在句子中说明）。
+        `pitch`, `volume`, `rate` only support formats enclosed in tags (do not support statements in sentences).
 
-    - 支持 SAPI5 的 `Volume` 属性和 `Rate` 属性。
+    - Support SAPI5's `Volume` property and `Rate` property.
 
-## 用作 COM 组件
+## Use as a COM component
 
-通过 C++ 等程序，使用专用 API 精细地控制感情、状态等。
+Emotions and conditions can be finely controlled from programs such as C++ via a dedicated API.
 
-[详情请见这里。](com.md)
+[See here for more details.](com.md)
 
-## 用作 .NET 程序集
+## Used as a .NET assembly
 
-通过 C# 等 .NET 程序，使用专用 API 精细地控制感情、状态等。
+Emotions and conditions can be finely controlled from .NET programs such as C# via a dedicated API.
 
-[详情请见这里。](dotnet.md)
+[See here for more details.](dotnet.md)
 
-!!! warning "注意事项"
-    - Song 新手包等不具备语音功能的产品，不能使用外部调用接口调用。
-    - ① 是使用 ② 的 API 的简单实现。不保证兼容所有的 SAPI5 软件。
-    - 使用 ② 或 ③ 时，请首先调用启动『CeVIO AI』的 API。
-    - ①～③ 全体可同时使用外部调用接口的应用程序数量均为 1。
-    - 在 ①～③ 的任意一种情况下，使用条款和限制均为产品附带的许可协议。
-        - 外部调用接口不能用于商业用途。如果您需要用于商业用途的实时语音合成，请通过[此页面](http://cevio.jp/contact_others/)与我们联系。[在此范围内](http://cevio.jp/commercial/)可以免费使用。
+!!! warning "Caution"
+    - Products without Talk functions, such as the Song Starter Pack, cannot be called using external cooperation interface.
+    - ① is a simple implementation of the API using ②. Compatibility with all SAPI5 software is not guaranteed.
+    - When using ② or ③, please first call the API for starting "CeVIO AI".
+    - The total number of applications that can use the external call interface at the same time throughout ① to ③ is 1.
+    - In the case of any of ① to ③, the terms and conditions of use are the license agreement that comes with the product.
+    
+    \* <span style="color: red">The external cooperation interface cannot be used for commercial purposes.</span> If you require real-time speech synthesis for commercial use, please contact CeVIO official via [this page](http://cevio.jp/contact_others/). 
+    
+    \* [Within this range](http://cevio.jp/commercial/) can be used free of charge.
 
-[^1]: 译者注：也可以通过快捷键 ++ctrl+windows+n++ 直接打开“讲述人”的设置。
+[^1]: Translator's note: You can also use the shortcut ++ctrl+windows+n++ to open the "Narrator" settings directly.

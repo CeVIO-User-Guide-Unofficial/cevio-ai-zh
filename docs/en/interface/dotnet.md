@@ -1,211 +1,212 @@
 ---
-title: 用作 .NET 程序集
+title: Used as a .NET Assembly
 author: 夜輪風超絶技巧変奏曲
 category: interface
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ .NETアセンブリとして利用](https://cevio.jp/guide/cevio_ai/interface/dotnet/)
+Original article: [CeVIO AI ユーザーズガイド ┃ .NETアセンブリとして利用](https://cevio.jp/guide/cevio_ai/interface/dotnet/)
 
 ---
-C# 等 .NET 程序的接口。
+Interface for programming with .NET programs such as C#, etc.
 
-可以使用专用 API 精细地控制感情、状态等。
+The dedicated API allows detailed control of emotions and conditions.
 
-## API 规范
+## API Specification
 
 ```cs
-// 提供语音功能。
+// Provide the Talk function.
 class Talker2
 {
     uint Volume { get; set; }
-    // 获取或设置音量（0～100）。
+    // Get or set volume (0~100).
 
     uint Speed { get; set; }
-    // 获取或设置语速（0～100）。
+    // Get or set speed (0~100)
 
     uint Tone { get; set; }
-    // 获取或设置音高（0～100）。
+    // Get or set pitch (0~100).
 
     uint Alpha { get; set; }
-    // 获取或设置音色（0～100）。
+    // Get or set alpha (0~100).
 
     uint ToneScale { get; set; }
-    // 获取或设置音调（0～100）。※版本4.0.7.0追加。
+    // Get or set intonation (0~100). *Since version 4.0.7.0
 
     TalkerComponentCollection2 Components { get; }
-    // 获取当前角色的感情参数。
-    // 　内容会随着角色变化。
-    // 　例1『さとうささら』→ "普通", "元気", "怒り", "哀しみ"
-    // 　例2『小春六花』→ "嬉しい", "普通", "怒り", "哀しみ", "落ち着き"
+    // Get the emotion parameters of current cast.
+    // Annotation:
+    // 　The parameters depending on the Cast.
+    // 　example 1『さとうささら』→ "普通", "元気", "怒り", "哀しみ"
+    // 　example 2『小春六花』→ "嬉しい", "普通", "怒り", "哀しみ", "落ち着き"
 
     string Cast { get; set; }
-    // 获取或设置角色。
+    // Get or set the cast.
 
     static string[] AvailableCasts { get; }
-    // 获取可以使用的角色名。
-    // 备注：
-    // 　能获取到的角色取决于已安装的音源。
+    // Get the available casts.
+    // Annotation:
+    // 　The available casts depend on the installed voices.
 
     SpeakingState2 Speak(string text);
-    // 开始播放指定的台词。
-    // 参数：
-    // 　text - 台词。
-    // 返回值：
-    // 　表示播放状态的对象。
-    // 备注：
-    // 　该方法返回而不等待播放结束。
-    // 　要等待播放结束，请调用返回值 (SpeakingState) 的 Wait。
+    // Play the specified line.
+    // Parameters:
+    // 　text - line.
+    // Return value:
+    // 　An object representing the playback state.
+    // Annotation:
+    // 　The process returns without waiting for the end of playback.
+    // 　To wait for the end of playback, call Wait of the return value (SpeakingState).
 
     bool Stop();
-    // 停止播放。
-    // 返回值：
-    // 　成功时返回true。其他情况返回false。
+    // Stop playback.
+    // Return value:
+    // 　true if succeed. false otherwise.
 
     double GetTextDuration(string text);
-    // 获取指定台词的长度。
-    // 参数：
-    // 　text - 台词。
-    // 返回值：
-    // 　长度。单位是秒。
+    // Get the length of the specified line.
+    // Parameters:
+    // 　text - line.
+    // Return value:
+    // 　Length. Unit is seconds.
 
     PhonemeData2[] GetPhonemes(string text);
-    // 获取指定台词的音素单位的数据。
-    // 参数：
-    // 　text - 台词。
-    // 返回值：
-    // 　音素单位的数据。
-    // 备注：
-    // 　可以用于对口型。
+    // Get phoneme unit data of the specified line.
+    // Parameters:
+    // 　text - line.
+    // Return value:
+    // 　Phoneme unit data.
+    // Annotation:
+    // 　Can be used for lip sinks, etc.
 
     bool OutputWaveToFile(string text, string path);
-    // 将指定台词输出为 WAV 文件。
-    // 参数：
-    // 　text - 台词。
-    // 　path - 输出路径。
-    // 返回值：
-    // 　成功时返回true。其他情况返回false。
-    // 备注：
-    // 　输出格式为采样率 48kHz，比特率 16bit，单声道。
+    // Output the specified line to a wav file.
+    // Parameters:
+    // 　text - line.
+    // 　path - path to be outputted.
+    // Return value:
+    // 　true if succeed. false otherwise.
+    // Annotation:
+    // 　The output format is sampling rate 48kHz, bit rate 16bit, mono.
 }
 
-// 表示角色的感情参数图的对象。
+// An object representing the cast's emotion parameter map.
 class TalkerComponentCollection2
 {
     int Count { get; }
-    // 获取元素的数量。
+    // Get the number of parameters.
 
     TalkerComponent2 this[int index] { get; }
-    // 获取具有指定索引的元素。
-    // 参数：
-    // 　index - 索引。
-    // 返回值：
-    // 　元素。
+    // Access the parameter at specified location index.
+    // Parameters:
+    // 　index - index.
+    // Return value:
+    // 　parameter.
 
     TalkerComponent2 this[string name] { get; }
-    // 获取具有指定名称的元素。
-    // 参数：
-    // 　name - 名字。
-    // 返回值：
-    // 　元素。
+    // Access the parameter with the specified name.
+    // Parameters:
+    // 　name - name.
+    // Return value:
+    // 　parameter.
 }
 
-// 感情参数的单位对象。
+// The object of emotion parameters unit.
 class TalkerComponent2
 {
     string Id { get; }
-    // 获取标识符。
+    // Get the identifier.
 
     string Name { get; }
-    // 获取感情的名字。
+    // Get the name of emotion.
 
     uint Value { get; set; }
-    // 获取或设置感情的值（0～100）。
+    // Get or set the value of an emotion (0~100).
 }
 
-// 表示播放状态的对象。
+// The object representing of playback status.
 class SpeakingState2
 {
     bool IsCompleted { get; }
-    // 获取播放的状态（是否完成）。
-    // 完成的情况返回true。（包括失败在内）其他情况返回false。
+    // Get the playback status (whether or not playback is completed).
+    // true if completed. false otherwise (failures included).
 
     bool IsSucceeded { get; }
-    // 获取播放的状态（是否成功）。
-    // 成功时返回true。其他情况返回false。
+    // Get the playback status (whether or not playback is succeed).
+    // true if succeed. false otherwise.
 
     void Wait();
-    // 等待播放结束。
+    // Wait for the end of playback.
 
     void Wait(double timeout);
-    // 等待播放结束。
-    // 参数：
-    // 　timeout - 最大等待时间。单位是秒。（0以下为无限）
+    // Wait for the end of playback.
+    // Parameters:
+    // 　timeout - Maximum standby time. Unit is seconds. (Smaller than 0 means unlimited)
 }
 
-// 表示音素数据单位的对象。
+// The object representing the unit of phoneme data.
 class PhonemeData2
 {
     string Phoneme { get; }
-    // 获取音素。
+    // Get the phoneme.
 
     double StartTime { get; }
-    // 获取开始时间。单位是秒。
+    // Get the start time. Unit is seconds.
 
     double EndTime { get; }
-    // 获取结束时间。单位是秒。
+    // Get the end time. Unit is seconds.
 }
 
-// 提供【CeVIO AI】的控制功能。
+// Provide the control function of [CeVIO AI].
 static class ServiceControl2
 {
     static string HostVersion { get; }
-    // 获取【CeVIO AI】的客户端版本。
+    // Get the version of [CeVIO AI].
 
     static bool IsHostStarted { get; }
-    // 获取【CeVIO AI】的可访问情况。
+    // Get the status whether or not [CeVIO AI] can be accessed.
 
     static HostStartResult StartHost(bool noWait);
-    // 启动【CeVIO Creative Studio】。如果已启动则无效。
-    // 参数：
-    // 　noWait - true时仅启动。关于可访问情况，可以通过 IsHostStarted 确认。
-    // 　　　　　　false时不会返回控制，直到启动后允许外部访问后。
-    // 返回值：
-    // 　结果代码。
+    // Start [CeVIO AI]. Do nothing if it is already started.
+    // Parameters:
+    // 　noWait - true means startup only. IsHostStarted checks if it is accessible or not.
+    // 　　　　　　false does not return control until it is accessible externally after startup.
+    // Return value:
+    // 　 Result code.
 
     static void CloseHost(HostCloseMode mode = HostCloseMode.Default);
-    // 请求退出【CeVIO Creative Studio】。
-    // 参数：
-    // 　mode - 处理模式。
+    // Request [CeVIO AI] to exit.
+    // Parameters:
+    // 　mode - handle mode.
 }
 
-// 表示 StartHost() 的结果代码。
+// Result code representing for StartHost().
 enum HostStartResult
 {
     Succeeded = 0,
-    // 成功。包括已启动的情况。
+    // Success. This includes the case when it has already been started.
 
     NotRegistered = -1,
-    // 无法确认安装状态。
+    // Unknown installation status.
 
     FileNotFound = -2,
-    // 找不到可执行文件。
+    // Can't find the executable file.
 
     StartingFailed = -3,
-    // 无法启动进程。
+    // Failed to start process.
 
     HostError = -4
-    // 应用程序在启动后因错误而终止。
+    // Application terminates due to an error after startup.
 }
 
-// 表示 CloseHost() 的处理代码。
+// Result code representing for CloseHost().
 enum HostCloseMode
 {
     Default = 0
-    // 如果【CeVIO AI】正在编辑，可以保存，取消退出等。
+    // When [CeVIO AI] is editing, it is able to save or cancel the end of the editing process.
 }
 ```
 
-## 示例项目
+## Sample Project
 
 === "C#"
 
@@ -218,26 +219,26 @@ enum HostCloseMode
         {
             static void Main(string[] args)
             {
-                // 启动【CeVIO AI】
+                // Start CeVIO AI up
                 ServiceControl2.StartHost(false);
 
-                // 生成Talker实例
+                // Create Talker instance
                 Talker2 talker = new Talker2();
 
-                // 设定角色
+                // Set the cast
                 talker.Cast = "さとうささら";
 
-                // （例）设定音量
+                // (Example) set the volume
                 talker.Volume = 100;
 
-                // （例）设定语调
+                // (Example) set the intonation
                 talker.ToneScale = 100;
 
-                // （例）播放
+                // (Example) playback
                 SpeakingState2 state = talker.Speak("こんにちは");
                 state.Wait();
 
-                // （例）音素数据的跟踪输出
+                // (Example) get the data of phonemes and print
                 PhonemeData2[] phonemes = talker.GetPhonemes("はじめまして");
                 foreach (var phoneme in phonemes)
                 {
@@ -247,7 +248,7 @@ enum HostCloseMode
                         " " + phoneme.EndTime);
                 }
 
-                // 关闭【CeVIO AI】
+                // Close [CeVIO AI]
                 ServiceControl2.CloseHost();
             }
         }
@@ -256,4 +257,4 @@ enum HostCloseMode
 
     [CeVIO_AI_DotNetTest(1.1.0).zip](https://cevio.jp/storage/cevio_ai/CeVIO_AI_DotNetTest(1.1.0).zip)
 
-    该压缩包内包含了上面的示例项目工程。解压后，请使用 Visual Studio 2019 或更高版本打开该项目。
+    The zip contains the example project above. After unzipping, load the solution in Visual Studio 2019 or later to run it.

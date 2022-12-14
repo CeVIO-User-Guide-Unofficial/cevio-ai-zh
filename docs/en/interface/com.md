@@ -1,5 +1,5 @@
 ---
-title: Used as a COM component
+title: Used as a COM Component
 author: 夜輪風超絶技巧変奏曲
 category: interface
 layout: post
@@ -14,7 +14,7 @@ The dedicated API allows detailed control of emotions and conditions.
 ## API Specification
 
 ```cpp
-// Provice the Talk funciton.
+// Provide the Talk function.
 interface ITalker2V40
 {
     uint Volume { get; set; }
@@ -91,17 +91,17 @@ interface ITalker2V40
     // 　IPhonemeDataArray2Ptr
 
     bool OutputWaveToFile(string text, string path);
-    // Output the spicified line to a wav file.
+    // Output the specified line to a wav file.
     // Parameters:
     // 　text - line.
-    // 　path - path to be outputed.
+    // 　path - path to be outputted.
     // Return value:
     // 　true if succeed. false otherwise.
     // Annotation:
     // 　The output format is sampling rate 48kHz, bit rate 16bit, mono.
 }
 
-// An object representing the cast's emotional parameter map.
+// An object representing the cast's emotion parameter map.
 interface ITalkerComponentArray2
 {
     int Length { get; }

@@ -48,7 +48,7 @@ To uninstall, for Windows 11/10 users, select "CeVIO AI" from "Applications" in 
 
 To uninstall the Voice, follow the same steps. Select the Voice and then perform the uninstallation procedure.
 
-<span style="color: red">※ DO NOT directly delete the files in the installation directory. The software will not operate properly.</span>
+<span style="color: red">\* DO NOT directly delete the files in the installation directory. The software will not operate properly.</span>
 
 ## If Wanted to Use in Another Computer
 

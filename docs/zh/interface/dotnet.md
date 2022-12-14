@@ -165,7 +165,7 @@ static class ServiceControl2
     // 获取【CeVIO AI】的可访问情况。
 
     static HostStartResult StartHost(bool noWait);
-    // 启动【CeVIO Creative Studio】。如果已启动则无效。
+    // 启动【CeVIO AI】。如果已启动则无效。
     // 参数：
     // 　noWait - true时仅启动。关于可访问情况，可以通过 IsHostStarted 确认。
     // 　　　　　　false时不会返回控制，直到启动后允许外部访问后。
@@ -173,7 +173,7 @@ static class ServiceControl2
     // 　结果代码。
 
     static void CloseHost(HostCloseMode mode = HostCloseMode.Default);
-    // 请求退出【CeVIO Creative Studio】。
+    // 请求退出【CeVIO AI】。
     // 参数：
     // 　mode - 处理模式。
 }
