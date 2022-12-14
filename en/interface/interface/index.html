@@ -9,7 +9,7 @@
 <meta content="夜輪風超絶技巧変奏曲" name="author"/>
 <link href="../../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
-<title>外部调用接口 - CeVIO AI User Guide (Unofficial Translation)</title>
+<title>External Cooperation Interface - CeVIO AI User Guide (Unofficial Translation)</title>
 <link href="../../../assets/stylesheets/main.975780f9.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#sapi5">
+<a class="md-skip" href="#call-from-sapi5">
           Skip to content
         </a>
 </div>
@@ -59,7 +59,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              外部调用接口
+              External Cooperation Interface
             
           </span>
 </div>
@@ -578,11 +578,11 @@
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          外部调用接口
+          External Cooperation Interface
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        外部调用接口
+        External Cooperation Interface
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -591,18 +591,18 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#sapi5">
-    从 SAPI5 调用
+<a class="md-nav__link" href="#call-from-sapi5">
+    Call from SAPI5
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#com">
-    用作 COM 组件
+<a class="md-nav__link" href="#use-as-a-com-component">
+    Use as a COM component
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#net">
-    用作 .NET 程序集
+<a class="md-nav__link" href="#used-as-a-net-assembly">
+    Used as a .NET assembly
   </a>
 </li>
 </ul>
@@ -610,12 +610,12 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../com/">
-        Used as a COM component
+        Used as a COM Component
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../dotnet/">
-        用作 .NET 程序集
+        Used as a .NET Assembly
       </a>
 </li>
 </ul>
@@ -701,18 +701,18 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#sapi5">
-    从 SAPI5 调用
+<a class="md-nav__link" href="#call-from-sapi5">
+    Call from SAPI5
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#com">
-    用作 COM 组件
+<a class="md-nav__link" href="#use-as-a-com-component">
+    Use as a COM component
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#net">
-    用作 .NET 程序集
+<a class="md-nav__link" href="#used-as-a-net-assembly">
+    Used as a .NET assembly
   </a>
 </li>
 </ul>
@@ -725,70 +725,69 @@
 <a class="md-content__button md-icon" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI/edit/master/docs/en/interface/interface.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1>外部调用接口</h1>
-<p>原文：<a href="https://cevio.jp/guide/cevio_ai/interface/">CeVIO AI ユーザーズガイド ┃ 外部連携インターフェイス</a></p>
+<h1>External Cooperation Interface</h1>
+<p>Original article: <a href="https://cevio.jp/guide/cevio_ai/interface/">CeVIO AI ユーザーズガイド ┃ 外部連携インターフェイス</a></p>
 <hr/>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>译者注：</p>
+<p>Translator's Notes:</p>
 <ul>
-<li>理解本章节的内容需要一定的编程知识。</li>
-<li>在使用 API 前，请仔细地阅读本页面末尾的注意事项。</li>
+<li>Programming knowledge is required to understand the contents of this section.</li>
+<li>Please read the notes at the end of this page carefully before using the API.</li>
 </ul>
 </div>
-<p>可以通过外部软件调用语音引擎的文本转语音功能。</p>
-<p>有三种可用的方法供不同的应用调用。</p>
-<h2 id="sapi5">从 SAPI5 调用</h2>
-<p>可与支持 SAPI5 的软件链接后朗读文字。</p>
-<p>CeVIO AI 可与 64 位的软件链接，也能用作 Windows 10 的「讲述人」。在 Windows 设置的「个性化讲述人的声音」的「选择语音」中，可以选择作为讲述人的角色。<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>The text-to-speech function of the speech engine can be invoked via external software.</p>
+<p>There are three available methods for different applications to call.</p>
+<h2 id="call-from-sapi5">Call from SAPI5</h2>
+<p>It can read text aloud after linking with software that supports SAPI5.</p>
+<p>CeVIO AI can be linked with 64-bit software and can also be used as a "Narrator" for Windows 10. In "Choose a voice" of "Personalize Narrator's voice" in Windows Settings, you can choose the character as Narrator. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/8.1.1.png"><img alt="select narrator" src="../images/8.1.1.png"/></a></p>
 <ul>
-<li>不支持 Word、Excel 等 Microsoft Office，Acrobat Reader 的朗读功能。</li>
-<li>「CeVIO AI」是 64 位应用，所以它不能与 32 位的外部软件（「棒読みちゃん」等）直接链接。（可以通过外部软件将「棒読みちゃん」等与「CeVIO AI」链接起来。）</li>
+<li>Microsoft Office such as Word and Excel, and Acrobat Reader are not supported.</li>
+<li>As CeVIO AI is a 64-bit application, it cannot be linked directly with 32-bit external software (e.g. 棒読みちゃん, BouyomiChan). (There seems to be external softwares that can link "CeVIO AI" with "BouyomiChan", etc.)</li>
 </ul>
 <div class="admonition tip">
-<p class="admonition-title">默认预设</p>
-<p>外部调用时将使用选项里「语音设定」的「默认的预设」。</p>
-<p>在 SAPI5 中，「语速」由链接方的设置决定，「音量」和「音高」由链接方和本软件的设置共同决定，其他设置由本软件决定。</p>
-<p>如果想在链接时提高音量，或者想用喜欢的感情设置读出信息，请将该设置添加到预设中，然后将其作为默认预设。</p>
+<p class="admonition-title">Default presets</p>
+<p>External cooperation will use the "Default preset" in the "Talk Settings" under the Options.</p>
+<p>In SAPI5, "speed" is determined by the setting of the linking party, "volume" and "pitch" are jointly determined by the setting of the linking party and this application, and other settings are determined by this application.</p>
+<p>If you want to increase the volume when linking, or want the message to be read with your favorite emotion setting, add that setting to the preset and then make it the default preset.</p>
 </div>
 <div class="admonition info">
-<p class="admonition-title">在项目中使用</p>
+<p class="admonition-title">Use in project</p>
 <ul>
 <li>
-<p>支持使用以下 SAPI XML TTS 标记的参数规范。</p>
+<p>Support parameter specifications using the following SAPI XML TTS tags.</p>
 <p><code>&lt;pitch&gt;</code> <code>&lt;volume&gt;</code> <code>&lt;rate&gt;</code> <code>&lt;silence&gt;</code></p>
-<p><code>pitch</code>、<code>volume</code>、<code>rate</code> 只支持用标签括起来的格式（不支持在句子中说明）。</p>
+<p><code>pitch</code>, <code>volume</code>, <code>rate</code> only support formats enclosed in tags (do not support statements in sentences).</p>
 </li>
 <li>
-<p>支持 SAPI5 的 <code>Volume</code> 属性和 <code>Rate</code> 属性。</p>
+<p>Support SAPI5's <code>Volume</code> property and <code>Rate</code> property.</p>
 </li>
 </ul>
 </div>
-<h2 id="com">用作 COM 组件</h2>
-<p>通过 C++ 等程序，使用专用 API 精细地控制感情、状态等。</p>
-<p><a href="../com/">详情请见这里。</a></p>
-<h2 id="net">用作 .NET 程序集</h2>
-<p>通过 C# 等 .NET 程序，使用专用 API 精细地控制感情、状态等。</p>
-<p><a href="../dotnet/">详情请见这里。</a></p>
+<h2 id="use-as-a-com-component">Use as a COM component</h2>
+<p>Emotions and conditions can be finely controlled from programs such as C++ via a dedicated API.</p>
+<p><a href="../com/">See here for more details.</a></p>
+<h2 id="used-as-a-net-assembly">Used as a .NET assembly</h2>
+<p>Emotions and conditions can be finely controlled from .NET programs such as C# via a dedicated API.</p>
+<p><a href="../dotnet/">See here for more details.</a></p>
 <div class="admonition warning">
-<p class="admonition-title">注意事项</p>
+<p class="admonition-title">Caution</p>
 <ul>
-<li>Song 新手包等不具备语音功能的产品，不能使用外部调用接口调用。</li>
-<li>① 是使用 ② 的 API 的简单实现。不保证兼容所有的 SAPI5 软件。</li>
-<li>使用 ② 或 ③ 时，请首先调用启动『CeVIO AI』的 API。</li>
-<li>①～③ 全体可同时使用外部调用接口的应用程序数量均为 1。</li>
-<li>在 ①～③ 的任意一种情况下，使用条款和限制均为产品附带的许可协议。<ul>
-<li>外部调用接口不能用于商业用途。如果您需要用于商业用途的实时语音合成，请通过<a href="http://cevio.jp/contact_others/">此页面</a>与我们联系。<a href="http://cevio.jp/commercial/">在此范围内</a>可以免费使用。</li>
+<li>Products without Talk functions, such as the Song Starter Pack, cannot be called using external cooperation interface.</li>
+<li>① is a simple implementation of the API using ②. Compatibility with all SAPI5 software is not guaranteed.</li>
+<li>When using ② or ③, please first call the API for starting "CeVIO AI".</li>
+<li>The total number of applications that can use the external call interface at the same time throughout ① to ③ is 1.</li>
+<li>In the case of any of ① to ③, the terms and conditions of use are the license agreement that comes with the product.</li>
 </ul>
-</li>
-</ul>
+<p>* <span style="color: red">The external cooperation interface cannot be used for commercial purposes.</span> If you require real-time speech synthesis for commercial use, please contact CeVIO official via <a href="http://cevio.jp/contact_others/">this page</a>. </p>
+<p>* <a href="http://cevio.jp/commercial/">Within this range</a> can be used free of charge.</p>
 </div>
 <div class="footnote">
 <hr/>
 <ol>
 <li id="fn:1">
-<p>译者注：也可以通过快捷键 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-windows">Win</kbd><span>+</span><kbd class="key-n">N</kbd></span> 直接打开“讲述人”的设置。 <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+<p>Translator's note: You can also use the shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-windows">Win</kbd><span>+</span><kbd class="key-n">N</kbd></span> to open the "Narrator" settings directly. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 </ol>
 </div>
@@ -826,13 +825,13 @@
             </div>
 </div>
 </a>
-<a aria-label="Next: Used as a COM component" class="md-footer__link md-footer__link--next" href="../com/" rel="next">
+<a aria-label="Next: Used as a COM Component" class="md-footer__link md-footer__link--next" href="../com/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Used as a COM component
+              Used as a COM Component
             </div>
 </div>
 <div class="md-footer__button md-icon">
