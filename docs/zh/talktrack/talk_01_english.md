@@ -75,7 +75,7 @@ layout: post
 | axr | IPA 记号的 ər
 | ah | IPA 记号的 ʌ
 | ao | IPA 记号的 ɔ, o
-| aw | PA 记号的 ɑʊ, aʊ
+| aw | IPA 记号的 ɑʊ, aʊ
 | ay | IPA 记号的 ɑɪ, aɪ
 | b | IPA 记号的 b
 | ch | IPA 记号的 tʃ

@@ -1,111 +1,113 @@
 ---
-title: 注册单词与词典管理（日语声库）
+title: Word Registration and Dictionary Management (Japanese Voice)
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 単語の登録と辞書の管理（日本語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/talk_06/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 単語の登録と辞書の管理（日本語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/talk_06/)
 
 ---
 
-容易读错的人名或地名可以使用注册单词功能登记正确的读音。
+You can use the Word Registration function to register the correct pronunciation of the names of people or places that are easy to be mispronounced.
 
-## 注册单词
+## Word Registration
 
-在「语音」菜单中，在台词列表中或在输入对话时，右键单击并选择「注册单词」。
+Select "Word Registration" from the "Talk" menu, the right-click menu of the speech list or by right-clicking while entering a line.
 
-（如果正在使用多个语种的声库，请在台词列表中选择日语声库。）
+(When multiple language Voices are in use, selecting an Japanese Voice in the speech list.)
 
-从台词列表选中一整行时，选择的句子会作为「写作」的范围；输入台词时则是选择范围内的词。
+When a whole line is selected from the speech list, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
 
 ![register word](images/talk_06_1.png)
 
-### 写作
+### Spelling
 
-以全角字符输入待注册单词的写法（最长 40 字）。[^1]
+Enter the spelling of the word to be registered in full-width characters (maximum 40 characters).[^1]
 
-### 读作
+### Reading
 
-以全角片假名输入待注册单词的发音（最长 40 字）。
+Enter the pronunciation of the word in full-width katakana (maximum 40 characters).
 
-例如，输入「トオキョオ」作为「東京」的发音。
+For example, enter "トオキョオ" as the pronunciation of "東京".
 
-!!! info "元音的无声化"
+!!! info "Vowel Devoicing"
 
-    举例来说，输入 `イェス` 会发「yesu」的音，最后的「ス」的音非常明显；但输入 `イェス’` 就会让元音「u」无声化，从而发出更自然的「yesU」的音。
+    For example, typing `いぇす` will pronounce "yesu", and the sound of the last "す" is very clear; but typing `いぇす'` will devoice the vowel "u" and pronounce a more natural "yes" sound.
 
-    无声化的元音在音素图的调整界面里会以大写字母显示。
+    Voiceless vowels are displayed in capital letters in the adjustment screen of the phoneme chart.
 
-    * 效果因 `’` 附着的音拍而异。对「あ段」「え段」「お段」收效甚微。
+    \* The actual effect depends on the mora to which `’` is attached. It has little effect on the a column (あ段), e column (え段) and o column (お段).
 
-### 重音
+### Accent
 
-单击指定重音的位置。大文字为高音的地方。
+Click on a character to specify the position of the accent. Large text is where the accent is.
 
-可以输入读法然后用 ++tab++ 或 ++enter++ 键来指定。
+This can be specified by entering the Reading and then using the ++tab++ or ++enter++ keys.
 
-!!! info "重音的细节"
+!!! info "The detail of accent"
 
-    声调从高位到低位变化的位置用第多少多少拍来表示。
+    The position of the change in pitch accent from high to low is indicated by the number of mora.
 
-    （就像俳句等五七五的句子一样，「ア」和「キャ」都是 1 拍。）
+    (As in haiku and other form of 5-7-5, both "a (ア)" and "kya (キャ)" are in 1 mora.)
 
-    其基本形式是：第一拍低，第二拍高，并指定高位延续的位置。
+    The basic pattern is: the first mora is low, the second mora is high, and the position of the continuation of the high position is specified.
 
-    举例来说，「山梨（ヤマナシ）」是「低高低低」，所以把重音的位置指定为第 2 拍。
+    For example, "山梨 (ヤマナシ, Yamanashi)" is "low-high-low-low", so the position of the accent is designated as the 2nd mora.
 
-    「一之瀬（イチノセ）」是「低高高低」，所以是第 3 拍。
+    "一之瀬 (イチノセ, Ichinose) is "low-high-low", so it is in the 3rd mora.
 
-    不过也有像「安藤（アンドオ）」的「高低低低」这样第 1 拍就是高位的形式。
+    However, there are also patterns like "安藤 (アンドオ, Ando)" where the first mora is at the high position.
 
-### 连接助词保持高音
+### The sound remains high and le
 
-指定从第二拍起就在高位并且不再变化的单词，后接的助词（「～は」「～が」等）是否要保持高位。
+(The following title are missing)
 
-当重音记号位于最后一拍时才可以指定。
+Specify whether the word that is in high position from the second mora and no longer changes, the particle ("~は" "~が" etc.) followed remains in high position.
 
-例如对「東京」应用该项，「東京は（ト オ キョ オ ハ）」的读音就是「低高高高高」。
+This can only be specified when the accent is at the last mora.
 
-### 词性
+For example, if you apply the item to "東京", "東京は (ト オ キョ オ ハ)" is pronounced "low-high-high-high-high".
 
-选择待注册单词的词性。
+### Part of speech
 
-### 优先度
+Select the part of speech of the word to be registered.
 
-如果注册单词后系统仍不采纳注册的读音，请使用滑块提高优先度。
+### Priority
 
-例如，如果注册了「四月一日（ワタヌキ）」，但又注册了优先度更高的「一日（ツイタチ）」，则「四月一日」就会念成「シガツツイタチ」。
+If the registered pronunciation is not accepted after registering the word, use the slider to increase the priority.
 
-反过来，如果注册了「一日（ツイタチ）」，又注册了优先度更高的「四月一日（ワタヌキ）」，则「四月一日」就会念成「ワタヌキ」。
+For example, if you register "四月一日 (ワタヌキ)" and register "一日 (ツイタチ)" with a higher priority, "四月一日" will be pronounced as "シガツツイタチ".
 
-### 连续注册
+Conversely, if you register "一日 (ツイタチ)" and register "四月一日 (ワタヌキ)" with a higher priority, "四月一日" will be pronounced as "ワタヌキ".
 
-启用时，按下“注册”按钮后会移动到下一个单词的注册。关闭时按按钮后注册结束。
+### Continue to register
 
-## 用户词典管理
+When it is on, click the "Register" button to move on to the next word. When it is off, registration ends when the button is pressed.
 
-从「语音」菜单中选择「词典管理」，可以编辑或删除已注册的单词。
+## User Dictionary Management
 
-点击列的标题（写作/读作/词性），可以暂时重新排序。
+Select "Dictionary Management" from "Talk" menu allows you to edit or delete registered words.
+
+Click on a column heading (Spelling/Reading/Part of speech) to temporarily reorder it.
 
 ![manage user dict](images/talk_06_2.png)
 
-### 编辑与删除单词
+### Edit and Delete Word
 
-双击一个单词就可以编辑。
+Double-click a word to edit.
 
-也可以从右键菜单中编辑或删除选中的单词。
+Selected words can also be edited or deleted from the right-click menu.
 
-++del++ 键可以删除选中的单词，++enter++ 键可以编辑选中的单词。
+The ++del++ key can delete the selected word, and the ++enter++ key can edit the selected word.
 
-按住 ++ctrl++ 键或 ++shift++ 键可以多选单词，++ctrl+a++ 可以全选单词，然后便能将选中的单词全部删除。
+Hold down ++ctrl++ or ++shift++ to select multiple words, ++ctrl+a++ to select all words, and then delete all selected words.
 
-### 搜索单词
+### Search Word
 
-将显示范围缩小到与写法或读法部分匹配的单词。
+Narrow the display to words that partially match the spelling or reading of the word.
 
-输入由空格隔开的多个单词时会使用 OR 搜索。可以使用通配符（`*` 和 `?`）。例如，`四*日` 和 `?月?日` 可以搜索到 `四月一日`。
+OR search is used when entering multiple words separated by spaces. Wildcards (`*` and `?`) are allowed to use. For example, `四*日` and `?月?日` will match `四月一日`.
 
-若要将已注册单词的用户字典转移到另一台电脑上，请移步[常见问题](../faq/faq.md)。
+To transfer the user dictionary of registered words to another computer, please go to [FAQ](../faq/faq.md).
 
-[^1]:译者注：这里允许输入全角英文。
+[^1]:Translator's note: Full-width English input is allowed here.

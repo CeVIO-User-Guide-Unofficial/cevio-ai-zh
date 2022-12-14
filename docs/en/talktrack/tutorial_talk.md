@@ -8,13 +8,9 @@ Original article: [CeVIO AI ユーザーズガイド ┃ はじめてのトー�
 
 ---
 
-无论是对话，抑或是旁白，都可以利用 CeVIO 创作出适合的声音。
-
-轻轻一点就可以使用诸如「元気一杯」「哀しげ」等预设好的情绪[^1]，并更进一步地调整音量和语速等细节。
-
 Whether dialogue or narration, you can use CeVIO to create the suitable sound.
 
-With a single click, you can use preset emotions such as "元気一杯" and "哀しげ"[^1], and adjust the volume and speed in detail.
+With a single click, you can use emotion presets such as "元気一杯" and "哀しげ"[^1], and adjust the volume and speed in detail.
 
 ## 1. Start the application
 
@@ -30,42 +26,38 @@ Select a line in talk editing screen, then click this line and enter text.
 
 ![input text](images/tutorial_talk_2.png)
 
-## 3. Vocalisation Timing of Lines
+## 3. Vocalization Timing of Lines
 
-After entering a line, an element (box) of the line will appear in the timeline. Drag (left-click and hold) the element to change the timing of its vocalisation.
+After entering a line, an element (box) of the line will appear in the timeline. Drag (left-click and hold) the element to change the timing of its vocalization.
 
 ![change utterance time](images/tutorial_talk_3.png)
 
-## 4.选择角色
+## 4. Select Cast
 
-拥有多个可使用的角色时，可以在配音角色栏选择说出这一行台词的角色。
+If there are multiple available casts, you can choose the character who will speak that line in the Cast column.
 
 ![select cast](images/tutorial_talk_4.png)
 
-## 5.情绪的设置
+## 5. Set the emotion
 
-轻轻一点语音编辑界面右侧的预设就能设置角色的情绪。
+The presets on the right side of the talk edit screen allow you to set emotions with a single touch.
 
-也可以使用情绪控制（条形图的推子）来混合多种情绪。
+You can also mix multiple emotions using the emotion control (bar graph knob).
 
 ![set emotion](images/tutorial_talk_5.png)
 
-## 6.试听
+## 6. Listen
 
-按下试听按钮可以试听选中的台词。
+You can listen to the selected line by clicking Listen/Stop button.
 
 ![preview](images/tutorial_talk_6.png)
 
-## 7.导出声音文件
+## 7. Output the audio file
 
-通过菜单的「文件」→「导出」→「导出WAV音频文件」，可以将全部音轨合成一个文件并导出。
+All tracks can be combined and output as a file by using File > Export > Audio Mixdown in the menu.
 
-另外，也可以通过「导出语音部分为WAV文件」，将每句台词分别导出。
+You can also output output separate files for each line by Audio File per Each Line.
 
 ![export](images/tutorial_talk_7.png)
 
-[^1]: 译者注：这两个都是莎莎拉的情绪预设名，分别是「元気」拉满和「哀しみ」拉满
-
-*[「语音 1」]: トーク１ / Talk 1
-
---8<-- "includes/abbreviations.md"
+[^1]: Translator's note: Both of these are Sasara's emotion preset names, "元気" in 100 and "哀しみ" in 100 respectively.

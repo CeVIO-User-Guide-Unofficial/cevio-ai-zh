@@ -313,7 +313,7 @@ When this option is off, adjustment line of sound length will be hidden.
 
 When this option is on, you can adjust by phoneme units to make a more detailed adjustment.
 
-Even if this option is turned off, you can press and hold ++alt++ to temporarily switch to phoneme mode, then drag with the mouse to adjust the phoneme units.
+Even if this option is turned off, you can press and hold the ++alt++ key to temporarily switch to phoneme mode, then drag with the mouse to adjust the phoneme units.
 
 #### Reset
 

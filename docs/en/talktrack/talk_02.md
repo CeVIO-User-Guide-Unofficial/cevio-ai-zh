@@ -1,73 +1,69 @@
 ---
-title: 发声时间的调整
+title: Vocalization Timing Adjustment
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 発声タイミングの調整](https://cevio.jp/guide/cevio_ai/talktrack/talk_02/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 発声タイミングの調整](https://cevio.jp/guide/cevio_ai/talktrack/talk_02/)
 
 ---
 
-## 在时间轴上调整
+## Adjust on the Timeline
 
-输入台词后，一个台词的元素会出现在时间轴上。
+After entering a line, an element of the line will appear on the timeline.
 
-拖动（鼠标左键按住并移动）元素来更改发声的时间。
+Drag (left mouse button pressed and moved) the element to change the vocalization timing.
 
-按住 ++alt++ 键并拖动，可以将台词元素的左或右边缘吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+Hold down ++alt++ and drag to attach the left or right edge of the line element to the closest second (or bar, depending on the time base of the ruler).
 
-按住 ++shift++ 键后单击台词元素，可以多选并同时移动这些台词。
+Hold down ++shift++ and click on a line element to multi-select and move these lines at the same time.
 
-### 设置音轨的内容为等间隔排列
+### Align Track Element
 
-从「音轨」的菜单里或在音轨上右键选择「设置音轨的内容为等间隔排列」后，该音轨内的全部台词将自动按一定的距离等间隔排列。（第一句台词的位置不会发生变化。）
+After selecting "Align Track Element" from the "Track" menu or right-clicking on the talk track, all the lines in that track will automatically be spaced at equal intervals. (The position of the first line will not change.)
 
-* 在[选项](../../option/option)的「语音设定」里可以修改台词间距离的设置。
+\* The distance between lines can be modified in [Options](../../option/option) in "Talk Settings".
 
-![change utterance time](images/tutorial_talk_3.png)
+![change vocalization time](images/tutorial_talk_3.png)
 
-## 在台词列表中调整
+## Adjust in Speech List
 
-在台词列表的「开始时间」一栏双击，可以直接输入发声的时间。
+Double-click in the "Start time" column of the speech list to enter the time of the vocalization directly.
 
-可以在台词列表右键菜单的「面板显示」中设置「开始时间」的显示与否。
+You can set whether to display "Start time" in the "View" in the right-click menu of the speech list.
 
 ![change start time](images/talk_02_1.png)
 
-台词列表右键菜单的「移动」可以将选中行按指定的方式移动。
+"Move" in the right-click menu of the speech list can move the selected line in the specified method.
 
 ![move](images/talk_02_2.png)
 
-### 指定目标位置
+### Specified Time
 
-直接指定移动的时间戳。
+Directly specify the destination time.
 
-### 指定移动量
+### Moving Amount
 
-以相对于原始位置的正/负时间指定。
+Move to specifies relative time from the current position.
 
-### 光标位置
+### Cursor Position
 
-移动到光标的当前位置。
+Move to the current Cursor position.
 
-## 台词的自动排列
+## Automatic Line Alignment
 
-开启自动排列时，输入台词后后续的台词会自动前后移动（以维持间距）。
+When this option is on, subsequent lines will automatically move backwards and forwards after the line is entered (to maintain spacing).
 
-更换角色或调整速度、情绪或音素图的 LEN 后，它也会自动排列。
+It will also automatically align after changing a cast or adjusting speed, emotion or the LEN of phoneme graph.
 
-取消勾选可以将其关闭。此时编辑一句台词不会改变其他台词的位置，而且可以将台词移动到互相重叠的位置上。
+Uncheck to turn it off. At this time, editing or moving a line does not change the position of other lines, and the lines can be moved to overlapping positions.
 
-（关闭后，即使输入一句新台词或者插入一条空行，原有的台词也不会移动。）
+(When turned off, even if a new line is entered or a blank line is inserted, the original lines will not be moved.)
 
 !!! tip
 
-    推荐一开始先开着自动排列编辑台词，当不想修改台词位置的时候再将其关掉。
+    It is recommended to start editing lines with automatic alignment and turn it off when you don't want to change the position of the lines.
 
-    * 如果你想让这条轨道的台词跟其他轨道的台词重叠，请在选项的「语音设置」中关闭「多音轨自动排列」选项。
+    \* If you want to overlap lines with lines from other tracks, turn off the "Automatic multi-track alignment" option in the "Talk Settings" in the Options.
 
 ![Automatic multi-track alignment](images/talk_02_3.png)
-
-*[「面板显示」]: 表示 / View
-*[「多音轨自动排列」]: マルチトラック自動整列 / Automatic multi-track alignment
-*[「设置音轨的内容为等间隔排列」]: トラック内容を等間隔に整列 / Align Track Element

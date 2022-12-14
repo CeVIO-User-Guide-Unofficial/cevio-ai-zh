@@ -81,7 +81,7 @@ You can easily add tracks from the cast list with the [+] button, and sort them 
 
 ### Position Cursor
 
-Drag it left or right automatically moves the cursor in that direction. If you hold down the ++alt++ key while dragging and moving, the cursor will automatically be attached to the closest second (or bar, depending on the time base of the ruler.
+Drag it left or right automatically moves the position cursor in that direction. Hold down ++alt++Alt and drag to attach the position cursor to the closest second (or bar, depending on the time base of the ruler).
 
 ### Time
 

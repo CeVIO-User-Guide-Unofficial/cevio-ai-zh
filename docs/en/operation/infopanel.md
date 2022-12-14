@@ -67,9 +67,9 @@ Show the current quantize setting. Click to change it.
 
     Entering the notes as the original score can get a more natural voice.
 
-    It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
+    It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalization.
 
-    Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
+    Including the sokuon in the lyrics and adjusting the timing of the vocalization in the Timing adjustment screen will get a better song.
 
 <!-- ---
 

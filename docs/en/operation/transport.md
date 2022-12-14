@@ -33,7 +33,7 @@ Enable or disable playback looping.
 
 Set or remove the start/end point of playback looping.
 
-The start/end point markers displayed in the ruler can be moved by dragging (hold down the left mouse button). If you hold down the ++alt++ key while dragging, the marker will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
+The start/end point markers displayed in the ruler can be moved by dragging (hold down the left mouse button). Hold down ++alt++Alt and drag to attach the marker to the closest second (or bar, depending on the time base of the ruler).
 
 ### Auto scroll
 
@@ -55,9 +55,9 @@ If the master volume is changed manually, it will be memorised and reflected in 
 
 ### Position Cursor
 
-Click on the ruler to move the cursor to that position.
+Click on the ruler to move the position cursor to that position.
 
-Drag it left or right automatically moves the cursor in that direction. If you hold down the ++alt++ key while dragging and moving, the cursor will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
+Drag it left or right automatically moves the position cursor in that direction. Hold down ++alt++Alt and drag to attach the position cursor to the closest second (or bar, depending on the time base of the ruler).
 
 ![光标](images/transport_2.png#only-light)
 ![光标](images/transport_2_dark.png#only-dark)

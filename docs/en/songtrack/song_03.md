@@ -32,7 +32,7 @@ The lyric assigned to the note.
 
 ### Phoneme
 
-Phonemes of the lyric. Entered phonemes have a higer priority than lyrics.
+Phonemes of the lyric. Entered phonemes have a higher priority than lyrics.
 
 ## Position
 

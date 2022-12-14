@@ -5,7 +5,7 @@ repo_name: CUGU/CeVIO-AI
 
 # Theme
 theme:
-  custom_dir: 'overrides/'                  # This is where the customization of the theme lives
+  custom_dir: 'overrides/material'                  # This is where the customization of the theme lives
   name: material
   features:
     - content.tooltips
@@ -17,6 +17,8 @@ theme:
     - navigation.top
     - navigation.footer
   icon:
+    logo: fontawesome/solid/book
+    favicon: images/c-solid.png
     repo: fontawesome/brands/github
   language: zh
   palette:

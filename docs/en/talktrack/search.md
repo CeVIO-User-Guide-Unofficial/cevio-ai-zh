@@ -1,64 +1,47 @@
 ---
-title: 台词的搜索
+title: Finding Lines
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ セリフの検索](https://cevio.jp/guide/cevio_ai/talktrack/search/)
+Original article: [CeVIO AI ユーザーズガイド ┃ セリフの検索](https://cevio.jp/guide/cevio_ai/talktrack/search/)
 
 ---
 
-台词行数很多的情况下，可以通过关键词快速显示所需的台词。
+If you have a large number of lines, you can quickly find the line you need by keyword.
 
-「语音」菜单的「搜索」、台词列表右键菜单的「搜索」以及快捷键 ++ctrl+f++ 都可以调出搜索窗口。
+The search window can be called up from the "Find Text" in the "Voice" menu, in the right-click menu of the speech list or using the shortcut key ++ctrl+f++.
 
-按 ++f3++ 键可以用上一次的搜索关键字和条件继续查找下一句台词（「下一个」）。
+Press ++f3++ to continue searching for the next line ("Next") using the keyword and conditions of the previous search.
 
 ![search](images/search_1.png)
 
-### 查找文本
+### Text
 
-*検索テキスト*
+Enter the text to be searched here.
 
-在这里输入待查找的文本。
+### Details
 
-### 详细
+#### Methods
 
-*詳細*
+By default, the search results in rows containing the search text. It is also possible to search only for lines that exactly match the search text.
 
-#### 比较方法
+#### Search Target
 
-*比較方法*
+Choose whether to search in all talk tracks or current track only.
 
-默认情况下，搜索结果为包含搜索文本的行。也可以只搜索与搜索文本完全匹配的行。
+When "Other Track Lines" is turned on in the speech list, all talk tracks are the default search target; when it is turned off, the current track is the default search target.
 
-#### 搜索对象
+#### Cast
 
-*検索対象*
+Unspecified by default. It is also possible to search only for lines of the specified character.
 
-选择是在全部语音轨道中搜索，还是只在选定音轨中搜索。
+#### Search again after rotation
 
-当开启了台词列表中的「显示别的音轨的台词」时，所有语音轨道都是默认的搜索目标；而当它被关闭时，选定的轨道是默认的搜索目标。
+When checked, once the search reaches the end (beginning), it will return to the beginning (end) and continue the search.
 
-#### 配音角色
+#### Previous, Next
 
-*キャスト*
+"Previous" searches up from the selected row.
 
-默认不指定角色。也可以仅搜索指定了的角色的台词。
-
-#### 循环查找
-
-*ループ検索*
-
-勾选时，查找到达末尾（开头）后，会返回开头（末尾）并继续查找。
-
-#### 上一个、下一个
-
-*前を検索、次を検索*
-
-「上一个」从选择行开始往上搜索。
-「下一个」从选择行开始往下搜索（默认）。
-
-*[「下一个」]: 次を検索 / 
-*[「上一个」]: 前を検索 / 
-*[「显示别的音轨的台词」]: 別トラックのセリフ / 
+"Next" searches down from the selected row (default).

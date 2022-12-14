@@ -1,70 +1,67 @@
 ---
-title: 台词片段
+title: Speech Clip
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ セリフクリップ](https://cevio.jp/guide/cevio_ai/talktrack/phrasececlip/)
+Original article: [CeVIO AI ユーザーズガイド ┃ セリフクリップ](https://cevio.jp/guide/cevio_ai/talktrack/phrasececlip/)
 
 ---
 
-## 注册台词片段
+## Register Speech Clip
 
-将调整完毕的台词注册为台词片段，就可以简单地重复利用它们。
+By registering the adjusted lines as speech clips, you can easily reuse them later.
 
-右键菜单里的「注册台词片段」可以注册选中行的台词。
+The "Register Speech Clips" in the right-click menu allows you to register the lines of the selected row.
 
-状态（音量~语调）、情感和调整过的音素图等调整内容也会一并注册。
+Conditions (volume to intonation), emotions, and phoneme graph adjustments are also registered.
 
-同一句台词可以注册多种不同的调整以供使用，也可以选择覆盖以前的注册。
+You can register multiple different adjustments with the same line and use them properly, or you can overwrite the previous registration.
 
 ![phrase clip](images/phraseclip_1.png)
 
-!!! info "与注册单词的关系"
+!!! info "Relationship to Word Registration"
 
-    注册台词片段时，对音素图的调整也会一起注册，但原始单词的重音会随着注册单词而改变。
+    When registering a speech clip, adjustments to the phoneme map are registered along with it, but the accents of the original words change with Word Registration.
+    
+    \* It may change due to the update of the system dictionary at the time of update.
 
-    * 也有更新后随着系统字典的更新而发生变化的可能。
+## Insert Speech Clip
 
-## 插入台词片段
+The "Insert Speech Clip" in the right-click menu allows you to select a registered speech clip and insert it into the selected line.
 
-右键菜单里的「插入台词片段」可以选择已注册的台词片段并插入到选中行中。
+You can insert a speech clip at the cursor position by right-clicking and selecting "Insert Speech Clip" from the menu, even if you are entering a line.
 
-即使是正在输入台词的情况下，也可以通过右键单击从菜单里选择「插入台词片段」来在光标位置插入台词片段。
-
-* 该行的状态和情感等值将变为台词片段的值。
+\* The as condition and emotion values of the line will be changed to the value of the speech clip.
 
 ![insert clip](images/phraseclip_2.png)
 
-## 浏览台词片段
+## View Speech Clip
 
-在台词片段列表中，可以选择一句台词并按「插入」按钮插入。
+In the list of speech clips, you can select a line and insert it by pressing the "Insert" button.
 
-右键菜单可以试听或删除选中的台词。
+The right-click menu allows you to play or delete the selected line.
 
-点击列的标题（配音角色/台词/注释），可以暂时重新排序。
+Click on a column heading (Cast/Text/Memo) to temporarily reorder it.
 
 ![view clips](images/phraseclip_3.png)
 
-### 配音角色
+### Cast
 
-说出这句台词的角色。
+The character who speaks the line.
 
-### 台词
+### Text
 
-台词的内容。鼠标移至该栏会显示该台词的状态、情感等值。
+The content of the line. Mouse over the column will show the condition and emotion values of the line.
 
-### 备注
+### Memo
 
-用于备注，例如区分同一句台词的不同调整。允许留空。
+Used for notes, for example, distinguish between different adjustments of the same line. Blank is allowed.
 
-### 搜索台词
+### Search Word
 
-将显示范围缩小到与台词或备注部分匹配的台词。
+Narrow the display to lines that partially match the spelling or reading of the line.
 
-输入由空格隔开的多个单词时会使用 OR 搜索。可以使用通配符（`*` 和 `?`）。
+OR search is used when entering multiple words separated by spaces. Wildcards (`*` and `?`) are allowed to use.
 
-※若要将台词片段转移到另一台电脑上，请移步[常见问题](../faq/faq.md)。
-
-*[「注册台词片段」]: セリフクリップの登録 /
-*[「插入台词片段」]: セリフクリップの挿入 /
+\* To transfer the speech clips to another computer, please go to [FAQ](../faq/faq.md).

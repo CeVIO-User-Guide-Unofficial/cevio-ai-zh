@@ -1,133 +1,130 @@
 ---
-title: 音素图（日语声库）
+title: Phoneme Graph (Japanese Voice)
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 音素グラフ（日本語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/phoneme/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 音素グラフ（日本語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/phoneme/)
 
 ---
 
-在这里修正单词的重音，调整每个音素的音高、长度和音量。
+Correct accents of words and adjust pitch, length and volume of each phoneme here.
 
-## 调整重音
+## Adjust Accent
 
-「ACC」按钮表示的画面用于调整重音。
+The screen displayed by the "ACC" button is used to adjust the Japanese pitch accent.
 
 ![acc](images/phoneme_1.png)
 
-单击音拍（假名）以将其所在的位置标记为重音。
+Clicking on a mora (kana) to mark that position as an accent in that position.
 
-上下拖动音拍会自动将重音型应用到重音段中。
+Dragging the mora up or down automatically applies the accent type to the accent phrase.
 
-修改后的音拍，它们的连接线会以橙色显示。
+After modifying the mora, the connecting lines are displayed in orange.
 
 ![change mora](images/phoneme_2.png)
 
-!!! info "重音型与重音段"
-    常见的日语有四种“重音型”：头高型、中高型、尾高型和平板型。
+!!! info "Accent type and accent phrase"
+    In standard Japanese, there are four normative pitch accent type: head-high (頭高, atamadaka), middle-high (中高, nakadaka), tail-high (尾高, odaka) and flat (平板, heiban).
 
-    “重音段”是由单词和助词组成的重音单元，它具有其中一种重音类型。
-    
-    在重音调整屏幕中，重音段的边界上会显示一条黑色的垂直线。
+    An accent phrase is a unit of accent consisting of a word, particle, etc., which has one of the accent types.
 
-### 重音段的分割 / 连接
+    In the accent adjustment screen, a black vertical line is displayed at the border of the accent phrase.
 
-鼠标移到音拍之间时，它会变为剪刀（音拍已连接时）或绳索（音拍被分开时）。此时左键单击便可分割或连接重音段。
+### Divide/combine Accent Phrases
 
-活用分割与连接重音段功能，便可以更加自由地调整重音的高低。
+If you move the mouse cursor between two mora, the mouse cursor will change to scissor (when the mora is connected) or rope (when the mora is divided). Left-clicking there to divide or combine accent phrases.
 
-![split/joint accent](images/phoneme_3.png)
+Dividing/combining accent phrases allows you to adjust the pitch of accents more freely.
 
-## 调整音高 / 音长 / 音量
+![divide/combine accent](images/phoneme_3.png)
 
-「PIT」按钮表示的画面用于调整音高和音长。
+## Adjust Pitch/Length/Volume
 
-「VOL」按钮表示的画面用于调整音量和音长。
+The screen displayed by the "PIT" button is used to adjust the pitch and length.
 
-PIT 屏幕的背景每八度有一个渐变，VOL 屏幕的背景每 10 dB 有一个渐变。
+The screen displayed by the "VOL" button is used to adjust the volume and length.
+
+The background of the PIT screen has a fade every octave and the background of the VOL screen has a fade every 10 dB.
 
 ![pit](images/phoneme_4.png)
 
-### 调整音高或音量
+### Adjust Pitch or Volume
 
-在条形图上用鼠标上下拖动（鼠标左键按住），便可根据鼠标的移动修改长条柱。也可以左右移动，或是按住 ++shift++ 键再往左（或右）移动，来纵向调整音素图。
+Drag the mouse up or down (hold down the left mouse button) on the bar graph and the graph will change according to the movement of the mouse. The graph can also be adjusted horizontally by dragging left and right, or by holding down the ++shift++ key and moving left (or right).
 
 ![adjust pit](images/phoneme_5.png)
 
-也可以将鼠标光标放在长条柱上，然后上下滚动鼠标滚轮来调整。
+Adjustments can also be made by hovering the mouse cursor over the graph and rolling the mouse wheel up and down.
 
-- 在放大显示时按住 ++alt++ 键，可以用鼠标滚轮向上 / 向下进行调整。
+\* Adjustments can be made with the mouse wheel up/down while holding down the ++alt++ key during magnified display.
 
-- 音高的变化单位是 100 Cent，音量的变化单位是 1dB。
+\* The change unit of pitch is 100 Cent, and the change unit of volume is 1dB.
 
-从上方的文字区域开始上下拖动，可以以单语单位调整音高 / 音量。
+Dragging up and down from the text area above allows you to adjust the pitch/volume in word units.
 
 ![adjust in group](images/phoneme_6.png)
 
-### 调整音长
+### Adjust Length
 
-拖动白色的竖线（调整后为橙色）来调整发音的长度。
+Drag the white vertical line (orange after adjusting) to adjust the length of the vocalization.
 
-双击垂直线，或是在点击或拖动时按住 ++ctrl++ 键，可以使其恢复到原来的音长。
+Double-click on the vertical line, or hold down the ++ctrl++ key while clicking or dragging to bring it back to its original length.
 
-从上方的文字区域开始左右拖动，可以以单语单位调整音长。
+Dragging left and right from the text area above allows you to adjust the length in word units.
 
 ![adjust length](images/phoneme_7.png)
 
-除了拖动垂直线外，还可以通过拖动文字区域或在文字区域上下滚动鼠标滚轮来调整音长。
+In addition to dragging the vertical line, the length can also be adjusted by dragging the text area or by rolling the mouse wheel up and down on the text area.
 
-待调整的词或音拍（或音素），当鼠标光标移动到它所在的区域内时，它会变成橙色。
+The word or mora (or phoneme) to be adjusted turns orange when the mouse cursor is over it.
 
-以单语或音拍为单位调整音长时，会自动确保辅音与元音的比例。
+When adjusting the length in word or mora units, the ratio of consonants to vowels is automatically maintained.
 
 !!! tip
 
-    关闭右键菜单的「显示音长界限」，可以防止在调整音高时不小心按到音长调整线。
-
-    （即使隐藏了，也依然可以通过音素图上下的文本区域来调整音长。）
+    Turning off "Overlay Duration Lines" in the right-click menu prevents you from accidentally dragging the length while trying to adjust the pitch or volume. 
+    
+    (Even if hidden, the length can still be adjusted via the text area above and below the phoneme graph)
 
     ![hide duration line](images/phoneme_8.png)
 
-### 显示缩放
+### Zoom Display
 
-在 PIT 和 VOL 屏幕上，音素图右下方的 [+] 和 [-] 按钮可以用来放大和缩小显示。
+On the PIT and VOL screens, you can zoom in/out with the "+" and "-" buttons at the bottom right of the phoneme graph.
 
-当屏幕很窄或者想进行微调时很有用。
+This is useful when the screen is narrow or when you want to fine-tune.
 
-还可以用快捷键 ++ctrl++ + 鼠标滚轮向上/向下进行垂直放大和缩小，用 ++ctrl+shift++ + 鼠标滚轮向上/向下进行水平放大和缩小。
+You can also use the shortcut keys ++ctrl++ + mouse wheel up/down to zoom vertically, and ++ctrl+shift++ + mouse wheel up/down to zoom horizontally.
 
 ![display](images/phoneme_9.png)
 
-### 以音素为单位/假名为单位调整
+### Adjust in Phoneme Units/Kana Units
 
-开启右键菜单的「按音素单位调整」，可以以音素为单位调整音高 / 音长 / 音量；关闭时则以假名为单位。
+Turn on "Phoneme mode" from the right-click menu to adjust pitch/length/volume in phoneme units; turn off to adjust in kana units (mora units).
 
-快捷键 ++ctrl+p++ 可以切换调整单位。按住 ++alt++ 键可以暂时切换。
+The shortcut ++ctrl+p++ toggles the adjustment unit. Hold down ++alt++ to toggle temporarily.
 
-以音素为单位调整能调整最小的语音单位，例如调整「おはようございます」的「ohayoogozaimasU」。
+Adjusting in phonemes adjusts the smallest speech unit, for example, "ohayoogozaimasU" for "おはようございます".
 
-## 恢复初始值
+## Reset to Default Value
 
-选择音素图右键的「恢复初始值」，可以将重音、音高、音长和音量恢复到调整前的状态。
+Selecting "Reset" from the right-click menu of the phoneme graph restores the accent, pitch, length and volume to the state before adjustment.
 
-双击调整后的音素图可以只将该部分的图恢复到初始值。按住 ++ctrl++ 键再拖动鼠标，可以将鼠标经过的区域恢复到其初始值。
+Double-clicking on an adjusted phoneme graph will restore only that part of the graph to its default value. Holding down the ++ctrl++ key and dragging the mouse restores the area where the mouse passes to its default value.
 
 ![reset](images/phoneme_10.png)
 
-## 滚动显示
+## Scrolling Display
 
-除了滚动条之外，还可以按住鼠标中键拖动来滚动音素图。
+The phoneme graph can be scrolled not only by the scroll bar, but also by holding down the middle mouse button and dragging.
 
-也可以通过按住 ++shift++ 键然后上下拖动鼠标滚轮的方式来水平滚动；在放大显示时上下拖动鼠标滚轮则为垂直滚动。
+It can be also scrolled horizontally by holding down the ++shift++ key and then dragging the mouse wheel up and down; dragging the mouse wheel up and down when the display is zoomed in is vertical scrolling.
 
-## 试听
+## Listen
 
-在音素图中点击，将从点击的位置开始试听。在试听过程中再次点击将停止试听。
+Clicking in the phoneme graph will start the playback from the clicked position. Clicking again during the playback will stop the playing.
 
-在调整后自动开始试听的「自动试听」功能，可以用「自动试听按钮」来激活 / 停用。
+The "Auto play" function, which automatically starts playback after adjustment, can be activated/deactivated using the "Auto play button".
 
-如果在[选项](../option/option.md)中的「语音设置」中勾选了「音素图调整部分自动试听」，音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。
-
-*[「显示音长界限」]: 長さのラインを重ねて表示 / Overlay Duration Lines
-*[「音素图调整部分自动试听」]: 音素グラフの自動試聴で部分再生 / Partial replay with Phoneme Graph
+If "Partial replay with Phoneme Graph" from the "Talk settings" in [Options](../../option/option) is checked, it will automatic play the section of the phoneme graph from the previous pause before the adjustment point (e.g. punctuation) to the next pause after the adjustment point.

@@ -1,58 +1,56 @@
 ---
-title: 长段文本输入
+title: Enter Text Collectively
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 文のまとめ入力](https://cevio.jp/guide/cevio_ai/talktrack/longsentence/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 文のまとめ入力](https://cevio.jp/guide/cevio_ai/talktrack/longsentence/)
 
 ---
-当你想一次性输入一组句子而不是一次输入一行时，或者当你想在选定的行上插入一个句子时，「长段文本输入」选项就很有用了。
+The "Enter Text Collectively" option is convenient when you want to enter lines at once rather than one line at a time, or when you want to insert text on a selected row.
 
-可以通过台词列表的右键菜单或者 ++f8++ 快速调出该界面。
+It can be quickly called up via the right-click menu in the speech list or shortcut key ++f8++.
 
-浏览器等来自外部的文本也可以复制并粘贴其中，导入长文更为便捷。
+Text from external sources such as browsers can also be copied and pasted in, making it easier to import long text.
 
 ![invoke Enter Text Collectively](images/longsentence_1.png)
 
-在时间轴上通过右键菜单调出「长段文本输入」时，句子将插入到鼠标点击或是光标所在的地方。
+When the "Enter Text Collectively" is called up through the right-click menu on the timeline, the line is inserted at the point where the mouse click or cursor is located.
 
 ![invoke Enter Text Collectively on Timeline](images/longsentence_2.png)
 
-### 配音角色
+### Cast
 
-说出这句台词的角色。
+The character who speaks the line.
 
-### 开始时间
+### Start time
 
-在指定的时间点插入句子。初始值为选中行的开始时间（分:秒.微秒）。
+Insert text at the specified point in time. The default value is the start time of the selected row (min:sec.microseconds).
 
-### 开始时间（在时间轴上通过右键菜单调出的情况）
+### Start time (called up through the right-click menu on the timeline)
 
-#### 点击位置
+#### Clicked Position
 
-在右键单击的位置插入句子。
+Insert text at the right-click position.
 
-#### 光标位置
+#### Cursor Position
 
-在光标的位置插入句子。
+Insert text at the cursor position.
 
-#### 指定时间
+#### Specified Time
 
-在指定的时间点插入句子。初始值为右键单击的位置。
+Inserts text at the specified point in time. The default value is the position of the right-click.
 
-### 台词
+### Text
 
-角色要说的文本。换行时台词会自动分割到新的行中。
+The text to say by the character. Lines will be automatically split into new lines when the line breaks.
 
-一句话超过 200 字时，将优先按照标点符号将句子分割到 200 字以内。
+When text exceeds 200 characters, it will be split to less than 200 characters based on punctuation first.
 
-!!! tip "状态和情绪"
+!!! tip "Condition and emotion"
 
-    选中行的状态（音量、语速、音高、音色、语调）和情绪会应用到台词中。
+    The condition (volume, speed, pitch, alpha/timbre, intonation) and emotion of the selected row are applied to the line.
 
-    预先设好参数或预设，再输入文本，便可以轻松为它们批量设置。
+    Lines can be easily made batch settings by pre-setting parameters or presets and then inputting the text.
     
-    即使输入已经完成，也依旧能通过选择预设时按住 ++alt++ 的方式，来为该音轨的角色批量设置预设。
-
---8<-- "includes/abbreviations.md"
+    Even after inputting, it is still possible to batch set presets for the character of that track by holding down ++alt++ when selecting a preset.

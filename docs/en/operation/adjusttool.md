@@ -25,7 +25,7 @@ Edit the score by adding notes, deleting notes, etc.
 
 ### Edit Timing
 
-Adjust the timing of the vocalisation.
+Adjust the timing of the vocalization.
 
 ### Edit Volume
 

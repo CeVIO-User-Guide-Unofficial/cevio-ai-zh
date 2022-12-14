@@ -1,113 +1,113 @@
 ---
-title: 注册单词与发音记号（英语声库）
+title: Word Registration and Pronunciation Symbols (English Voice)
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ 単語の登録と発音記号（英語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/talk_01_english/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 単語の登録と発音記号（英語ボイス）](https://cevio.jp/guide/cevio_ai/talktrack/talk_01_english/)
 
 ---
-容易读错的人名或地名可以使用注册单词功能登记正确的读音。
+You can use the Word Registration function to register the correct pronunciation of the names of people or places that are easy to be mispronounced.
 
-## 注册单词
+## Word Registration
 
-在「语音」菜单中，在台词列表中或在输入对话时，右键单击并选择「注册单词」。
+Select "Word Registration" from the "Talk" menu, the right-click menu of the speech list or by right-clicking while entering a line.
 
-（如果正在使用多个语种的声库，请在台词列表中选择英语声库。）
+(When multiple language Voices are in use, selecting an English Voice in the speech list.)
 
-从台词列表选中一整行时，选择的句子会作为「写作」的范围；输入台词时则是选择范围内的词。
+When a whole line is selected from the speech list, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
 
-![register word](images/talk_01_english_1.png)
+![Word Registration](images/talk_01_english_1.png)
 
-### 写作
+### Spelling
 
-以半角字符输入待注册单词的写法（最长 100 字）。
+Enter the spelling of the word to be registered in half-width alphabet (maximum 100 characters).
 
-### 读作
+### Reading
 
-输入待注册单词的发音符号（最长 100 字）。
+Enter the pronunciation symbols of the word (maximum 100 characters).
 
-音节（syllable）间使用 `|` 分割；音节内的音素使用 `,` 分割。
+Use `|` to separate syllables; use `,` to separate phonemes within a syllable.
 
-元音后面应有一个表示重音（stress）的数字（如果省略则为 0）。
+The vowel should be followed by a number indicating stress (0 if omitted).
 
-0：非重音   1：主重音  2：次重音
+0: no stress 1: primary stress 2: secondary stress
 
-### 连续注册
+### Continue to register
 
-启用时，按下“注册”按钮后会移动到下一个单词的注册。关闭时按按钮后注册结束。
+When it is on, click the "Register" button to move on to the next word. When it is off, registration ends when the button is pressed.
 
-## 用户词典管理
+## User Dictionary Management
 
-从「语音」菜单中选择「词典管理」，可以编辑或删除已注册的单词。
+Select "Dictionary Management" from "Talk" menu allows you to edit or delete registered words.
 
-点击列的标题（写作/读作），可以暂时重新排序。
+Click on a column heading (Spelling/Reading) to temporarily reorder it.
 
 ![talk_01_english_2](images/talk_01_english_2.png)
 
-### 编辑与删除单词
+### Edit and Delete Word
 
-双击一个单词就可以编辑。
+Double-click a word to edit.
 
-也可以从右键菜单中编辑或删除选中的单词。
+Selected words can also be edited or deleted from the right-click menu.
 
-++del++ 键可以删除选中的单词，++enter++ 键可以编辑选中的单词。
+The ++del++ key can delete the selected word, and the ++enter++ key can edit the selected word.
 
-按住 ++ctrl++ 键或 ++shift++ 键可以多选单词，++ctrl+a++ 可以全选单词，然后便能将选中的单词全部删除。
+Hold down ++ctrl++ or ++shift++ to select multiple words, ++ctrl+a++ to select all words, and then delete all selected words.
 
-### 搜索单词
+### Search Word
 
-将显示范围缩小到与写法或读法部分匹配的单词。
+Narrow the display to words that partially match the spelling or reading of the word.
 
-输入由空格隔开的多个单词时会使用 OR 搜索。可以使用通配符（`*` 和 `?`）。例如，`Sa*` 和 `?a?ara` 可以搜索到 `Sasara`。
+OR search is used when entering multiple words separated by spaces. Wildcards (`*` and `?`) are allowed to use. For example, `Sa*` and `?a?ara` will match `Sasara`.
 
-若要将已注册单词的用户字典转移到另一台电脑上，请移步[常见问题](../faq/faq.md)。
+To transfer the user dictionary of registered words to another computer, please go to [FAQ](../faq/faq.md).
 
 ## List of Pronunciation Symbols
 
-在注册单词和[插入注音](talk_01.md#_2)中，可以使用下列发音记号。
+The following pronunciation symbols can be used in Word Registration and in [Insert Ruby Brackets](talk_01.md#insert-ruby-brackets).
 
-| 发音记号 | 备注 |
+| Pronunciation Symbol | Note |
 | :---: | --- |
-| aa | IPA 记号的 ɑ, a
-| ae | IPA 记号的 æ
-| ax | IPA 记号的 ə
-| axr | IPA 记号的 ər
-| ah | IPA 记号的 ʌ
-| ao | IPA 记号的 ɔ, o
-| aw | PA 记号的 ɑʊ, aʊ
-| ay | IPA 记号的 ɑɪ, aɪ
-| b | IPA 记号的 b
-| ch | IPA 记号的 tʃ
-| d | IPA 记号的 d
-| dh | IPA 记号的 ð
-| eh | IPA 记号的 e，ɛ，ɜ
-| ey | IPA 记号的 eɪ，ɛɪ，ɜɪ
-| f | IPA 记号的 f
-| g | IPA 记号的 g
-| hh | IPA 记号的 h
-| ih | IPA 记号的 ɪ
-| iy | IPA 记号的 i
-| jh | IPA 记号的 dʒ
-| k | IPA 记号的 k
-| l | IPA 记号的 l
-| m | IPA 记号的 m
-| n | IPA 记号的 n
-| ng | IPA 记号的 ŋ
-| ow | IPA 记号的 ɔʊ，oʊ
-| oy | IPA 记号的 ɔɪ, oɪ
-| p | IPA 记号的 p
-| r | IPA 记号的 r
-| s | IPA 记号的 s
-| sh | IPA 记号的 ʃ
-| t | IPA 记号的 t
-| th | IPA 记号的 θ
-| uh | IPA 记号的 ʊ
-| uw | IPA 记号的 u
-| v | IPA 记号的 v
-| w | IPA 记号的 w
-| y | IPA 记号的 j
-| z | IPA 记号的 z
-| zh | IPA 记号的 ʒ
-| tt | IPA 记号的 t 闪音（better, little等）
-| dd | IPA 记号的 d 闪音（middle等）
+| aa | IPA's ɑ, a
+| ae | IPA's æ
+| ax | IPA's ə
+| axr | IPA's ər
+| ah | IPA's ʌ
+| ao | IPA's ɔ, o
+| aw | IPA's ɑʊ, aʊ
+| ay | IPA's ɑɪ, aɪ
+| b | IPA's b
+| ch | IPA's tʃ
+| d | IPA's d
+| dh | IPA's ð
+| eh | IPA's e，ɛ，ɜ
+| ey | IPA's eɪ，ɛɪ，ɜɪ
+| f | IPA's f
+| g | IPA's g
+| hh | IPA's h
+| ih | IPA's ɪ
+| iy | IPA's i
+| jh | IPA's dʒ
+| k | IPA's k
+| l | IPA's l
+| m | IPA's m
+| n | IPA's n
+| ng | IPA's ŋ
+| ow | IPA's ɔʊ，oʊ
+| oy | IPA's ɔɪ, oɪ
+| p | IPA's p
+| r | IPA's r
+| s | IPA's s
+| sh | IPA's ʃ
+| t | IPA's t
+| th | IPA's θ
+| uh | IPA's ʊ
+| uw | IPA's u
+| v | IPA's v
+| w | IPA's w
+| y | IPA's j
+| z | IPA's z
+| zh | IPA's ʒ
+| tt | IPA's flapping t (better, little, etc.)
+| dd | IPA's flapping d (middle, etc.)

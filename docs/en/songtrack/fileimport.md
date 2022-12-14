@@ -24,12 +24,12 @@ If "Import Tempo and Time Signature" is also checked, the tempos and time signat
 
 ![import midi](images/fileimport_1.png)
 
-!!! tip "Correcting MIDI Files"
+!!! tip "Correcting MIDI files"
     When importing MIDI files, the position and length of notes that are too short (notes shorter than 32 cents) will be automatically corrected.
 
     Entering the notes as the original score can get a more natural voice, rather than leaving the tiny gaps between the notes.
 
-    Including the sokuon (っ, small tsu) in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
+    Including the sokuon (っ, small tsu) in the lyrics and adjusting the timing of the vocalization in the Timing adjustment screen will get a better song.
 
 ## Export MIDI Files
 
@@ -63,6 +63,6 @@ MusicXML files can be exported for use with compatible external software.
 
 \* Adjustment values such as timing and pitch will not be exported.
 
-!!! info "About Encoding"
+!!! info "About encoding"
 
     MIDI files can be read/written in "Shift-JIS" and MusicXML files can be read/written in "UTF-8".

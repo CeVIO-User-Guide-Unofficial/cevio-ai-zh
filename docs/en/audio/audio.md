@@ -56,7 +56,7 @@ Select an audio element and press ++del++ , or select "Delete" in the context me
 
 Drag an audio element left or right (hold down the left mouse button) to change the playback timing.
 
-If you hold down the ++alt++ key while dragging and moving, the the left or right edge of the element will automatically be attached to the closest second (or bar, depending on the time base of the ruler).
+Hold down ++alt++ and drag to attach the left or right edge of the element to the closest second (or bar, depending on the time base of the ruler).
 
 ![adjust audio playback time](images/audio_4.png)
 

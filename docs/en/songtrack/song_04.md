@@ -51,9 +51,9 @@ When "1 note with 1 mora" is selected, one letter will be assigned to one note. 
 
 If the lyrics contain `’` (full-width quotation mark), the vowel in the mora (kana) before it will be dropped, and only the sound of the consonant will be pronounced.
 
-For example, typing `いぇす` will pronounce "yesu", and the sound of the last "す" is very clear; but typing `いぇす'` will make the vowel "u" drop out and pronounces a more natural "yes" sound.
+For example, typing `いぇす` will pronounce "yesu", and the sound of the last "す" is very clear; but typing `いぇす'` will devoice the vowel "u" and pronounce a more natural "yes" sound.
 
-\* You can enter `’` at places other than the end, such as `す’ぺーす’`, but the actual effect depends on the mora to which `’` is attached. Invalid for row /a/ (あ行).
+\* You can enter `’` at places other than the end, such as `す’ぺーす’`, but the actual effect depends on the mora to which `’` is attached. Invalid for a row (あ行).
 
 ![drop off Vowel](images/song_04_3.png)
 
@@ -67,7 +67,7 @@ Depending on the character and the pitch of the note (e.g., a note with a low pi
 
 ## Input Phoneme Symbols
 
-In phoneme input mode, vocalisations can be specified in phoneme units.
+In phoneme input mode, vocalizations can be specified in phoneme units.
 
 When entering lyrics, you can switch to phoneme input mode by using "Enter Lyrics with Phoneme" in "Other Operations" via the piano roll right-click menu, the "Song" menu, or using the shortcut key ++ctrl+p++ .
 

@@ -1,497 +1,469 @@
 ---
-title: 快捷键
+title: Shortcut Key
 author: 夜輪風超絶技巧変奏曲
 category: shortcutkey
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ ショートカットキー](https://cevio.jp/guide/cevio_ai/shortcutkey/)
+Original article: [CeVIO AI ユーザーズガイド ┃ ショートカットキー](https://cevio.jp/guide/cevio_ai/shortcutkey/)
 
 ---
 
-## 文件相关
+## About File
 
 ### ++ctrl+n++
 
-新建工程。
+Create a new project.
 
 ### ++ctrl+o++
 
-打开。
+Open.
 
 ### ++ctrl+s++
 
-保存。
+Save.
 
-### ++ctrl+shift+s++（或 ++f12++ ）
+### ++ctrl+shift+s++ (Or ++f12++ )
 
-另存为。
+Save as.
 
-## 编辑相关
+## About Editing
 
 ### ++ctrl+z++
 
-撤销。
+Undo.
 
 ### ++ctrl+y++
 
-重做。
+Redo.
 
 ### ++ctrl+x++
 
-剪切。
+Cut.
 
 ### ++ctrl+c++
 
-复制。
+Copy.
 
 ### ++ctrl+v++
 
-粘贴。
+Paste.
 
 ### ++ctrl+a++
 
-全选。
+Select all.
 
-## 音轨 / 走带控制相关
+## About Track/Transport
 
 ### ++space++
 
-播放 / 停止。※该操作可以通过「走带控制」菜单的「停止时返回开始播放位置」修改。
+Play/Stop. \* This operation can be modified via the "Return to Start Position when Stopped" in the "Transport" menu.
 
 ### ++ctrl+space++
 
-停止播放。※修正停止时不返回起始位置的操作。
+Stopping playback. *Fixed operation that does not return to the start position when stopped.
 
 ### ++num0++
 
-停止播放。停止状态下再次按下会依次回到播放开始位置、歌曲开头。
+Stop playback. While stopping, it moves in order of playback start position and the beginning of the song by pressing it again.
 
 ### ++num-asterisk++
 
-开启 / 关闭选项「停止播放时光标返回到播放开始的位置」。
+Turn on/off the option "Return to Start Position when Stopped".
 
 ### ++f7++
 
-开启 / 关闭选项「播放时自动滚动」。
+Turn on/off the option "Auto scroll".
 
 ### ++num-slash++
 
-开启 / 关闭选项「循环播放」。
+Turn on/off the option "Circle".
 
 ### ++bracket-left++
 
-设置 / 撤除起点标记。
+Set or remove the start point of playback looping.
 
 ### ++bracket-right++
 
-设置 / 撤除终点标记。
+Set or remove the end point of playback looping.
 
-### ++comma++ 或 ++num-separator++
+### ++comma++ or ++num-separator++
 
-使光标移动到开头。
+Move the Cursor to the beginning.
 
 ### ++num1++
 
-使光标移动到起点标记所在的位置。
+Move the Cursor to the Start Marker position.
 
 ### ++num2++
 
-使光标移动到终点标记所在的位置。
+Move the Cursor to the End Marker position.
 
 ### ++num3++
 
-使光标移动到当前选定台词 / 外部音频的左端。
+Move the Cursor to the left edge of the current selected line / external audio.
 
 ### ++ctrl+t++
 
-使光标移动到指定位置。
+Move the Cursor to the specific position.
 
 ### ++ctrl+shift+t++
 
-显示光标所在的位置。
+Show the Cursor position.
 
 ### ++shift+f2++
 
-修改选中轨道的名字。
+Rename the selected track.
 
 ### ++shift+s++
 
-独奏选中的轨道，或将其取消。
+Solo the selected track, or cancel it.
 
 ### ++shift+m++
 
-静音选中的轨道，或将其取消。
+Mute the currently selected track or unmute it.
 
 ### ++shift+c++
 
-为选中的轨道分配角色。
+Change the cast for currently selected track.
 
-## 语音（台词列表 / 音素图）
+## Talk (the Speech List/ Phoneme Graph)
 
 ### ++shift+space++
 
-试听所选行。
+Listen to the selected row.
 
 ### ++f2++
 
-選択行のセリフを編集。
+Edit the line of the selected row.
 
 ### ++f3++
 
-使用上一次的搜索关键字和条件继续查找。
+Continue searching using the keyword and conditions of the previous search.
 
 ### ++f5++
 
-开启 / 关闭选项「自动排列台词」。
+Turn on/off the option "Automatic Line Alignment".
 
 ### ++f8++
 
-长段文本输入。
+Enter text collectively.
 
 ### ++f9++
 
-浏览台词片段。
+View Speech Clips
 
 ### ++up++ ++down++
 
-选择上一行 / 下一行。
+Select previous row / next row.
 
 ### ++shift+up++ ++shift+down++
 
-选择多行。
+Select multiple rows.
 
 ### ++home++
 
-选择第一行的台词。
+Select the first line of rows.
 
 ### ++end++
 
-选择最后一行的台词。
+Select the last line of rows.
 
 ### ++ctrl+f++
 
-搜索台词。
+Search lines.
 
 ### ++ctrl+shift+v++
 
-插入。
+Insert.
 
 ### ++ctrl+m++
 
-台词的移动。
+Move line.
 
 ### ++ctrl+w++
 
-将所选行的台词以 WAV 格式（48kHz 16bit 单声道）导出。
+Export the line of selected track(s) in WAV (48kHz mono) format. \* Bit Depth can be specified in Option.
 
 ### ++ctrl+1++
 
-打开音素图的重音调整界面。
+Open the accent adjustment screen of the phoneme graph.
 
 ### ++ctrl+2++
 
-打开音素图的音高调整界面。
+Open the pitch adjustment screen of the phoneme graph.
 
 ### ++ctrl+3++
 
-打开音素图的音量调整界面。
+Open the volume adjustment screen of the phoneme graph.
 
 ### ++ctrl+l++
 
-开启 / 关闭选项「显示调整线」。
+Turn on/off the option "Overlay Duration Lines"
 
 ### ++ctrl+p++
 
-将音素图的单位切换为音素。
+Switch to phoneme mode.
 
-※按住 ++alt++ 可以暂时切换。
+Hold down ++alt++ to toggle temporarily.
 
 ### ++shift+g++
 
-垂直缩小音素图。
+Zoom out the phoneme graph vertically.
 
 ### ++shift+h++
 
-垂直放大音素图。
+Zoom in the phoneme graph vertically.
 
-### 鼠标滚轮向上 / 向下
+### scroll the mouse wheel up/down
 
-调整音素图的音素单位（放大时则为垂直滚动）。
+Adjust the phoneme units of the phoneme graph (or scroll vertically when zoomed in).
 
-### ++alt++ + 鼠标滚轮向上 / 向下
+### ++alt++ + scroll the mouse wheel up/down
 
-调整音素图的音素单位。
+Adjust the phoneme units of the phoneme graph
 
-### ++shift++ + 鼠标滚轮向上 / 向下
+### ++shift++ + scroll the mouse wheel up/down
 
-水平滚动音素图。
+Horizontally scroll phoneme graph.
 
-### ++ctrl++ + 鼠标滚轮向上 / 向下
+### ++ctrl++ + scroll the mouse wheel up/down
 
-垂直缩放音素图。
+Vertically scroll phoneme graph.
 
-※在音素图中点击，将从点击的位置开始试听。
+\* Clicking in the phoneme graph will start the playback from the clicked position.
 
-※双击调整后的音素图可以只将该部分的图恢复到初始值。
+\* Double-clicking on an adjusted phoneme graph will restore only that part of the graph to its default value.
 
-※要将音素图恢复到调整前的状态，请选择音素图右键的「恢复初始值」。
+\* To restores the phoneme graph to the state before adjustment, select "Reset" from the right-click menu of the phoneme graph.
 
-※在音素图中按住鼠标中键拖动可以滚动音素图。
+\* The phoneme graph can be scrolled by holding down the middle mouse button and dragging.
 
-## 歌唱（钢琴卷帘）
+## Song (Piano Roll)
 
 ### ++1++
 
-编辑乐谱。
+Edit score.
 
 ### ++2++
 
-调整时间。
+Edit timing. ++shift+2++ for superimposed display.
 
 ### ++3++
 
-调整音量。
+Edit volume. ++shift+3++ for superimposed display.
 
 ### ++4++
 
-调整音高。
+Edit pitch. ++shift+4++ for superimposed display.
 
 ### ++5++
 
-调整颤音的振幅。
+Edit vibrato amplitude. ++shift+5++ for superimposed display.
 
 ### ++6++
 
-调整颤音的周期。
+Edit vibrato frequency. ++shift+6++ for superimposed display.
 
-### ++shift+2++
+### ++7++
 
-叠加显示时间调整页（TMG）。
-
-### ++shift+3++
-
-叠加显示音量调整页（VOL）。
-
-### ++shift+4++
-
-叠加显示音高调整页（PIT）。
-
-### ++shift+5++
-
-叠加显示颤音的振幅调整页（VIA）。
-
-### ++shift+6++
-
-叠加显示颤音的周期调整页（VIF）。
-
-### ++shift+7++
-
-叠加显示音色调整页（ALP）。
-
-
-### ++ctrl+1++
-
-选择工具。
-
-### ++ctrl+2++
-
-范围选择工具。
-
-### ++ctrl+3++
-
-画笔工具。
-
-### ++ctrl+4++
-
-直线工具。
-
-### ++ctrl+5++
-
-橡皮擦工具。
-
-### ++ctrl+space++
-
-将位置光标移动到鼠标光标所在的位置。
-
-### ++shift+space++
-
-试听选择的范围。
-
-### ++f2++
-
-输入所选音符的台词。
-
-### ++f8++
-
-长段歌词输入。
-
-### ++tab++
-
-输入下一个音符的歌词。
-
-### ++shift+tab++
-
-输入上一个音符的台词。
-
-### ++left++ ++right++
-
-选择上 / 下一个音符。
-
-### ++shift+left++ ++shift+right++
-
-选择多个音符。
-
-### ++up++ ++down++
-
-将所选音符移动半个音。音高调整值会自动随之变换。
-
-※按住 ++alt++ 键移动音符时，将暂停音高变换。
-
-### ++shift+up++ ++shift+down++
-
-将所选音符移动一个八度。音高调整值会自动随之变换。
-
-※按住 ++alt++ 键移动音符时，将暂停音高变换。
-
-### ++home++
-
-选择第一个音符（同时按住 ++shift++ 则会同时选择当前音符到第一个音符这段范围内的所有音符）。
-
-### ++end++
-
-选择最后一个音符（同时按住 ++shift++ 则会同时选择当前音符到最后一个音符这段范围内的所有音符）。
-
-### ++ctrl+home++
-
-将光标移动到乐谱的开头。
-
-### ++ctrl+end++
-
-将光标移动到乐谱的末尾。
-
-### ++num-plus++
-
-前移光标。
-
-### ++num-minus++
-
-回退光标。
-
-### ++shift+num-plus++
-
-将光标往前移动一个小节。
-
-### ++shift+num-minus++
-
-将光标往后移动一个小节。
-
-### ++g++
-
-水平缩小钢琴卷帘。
-
-### ++h++
-
-水平放大钢琴卷帘。
-
-### ++shift+g++
-
-垂直缩小钢琴卷帘。
-
-### ++shift+h++
-
-垂直放大钢琴卷帘。
-
-### ++ctrl+p++
-
-将歌词的输入模式切换为音素输入模式。
-
-### ++ctrl+shift+p++
-
-将时间调整页面的单位切换为音素或音符。
-
-※按住 ++alt++ 可以暂时切换。
-
-### ++ctrl+i++
-
-显示 / 隐藏时间调整画面的状态线。
-
-※在隐藏状态线的情况下，调整时会自动保证状态线之间的原始比率。
-
-### ++ctrl+r++
-
-为选中的音符设置连音。
-
-### ++ctrl+w++
-
-将所选歌唱轨道以 WAV 格式（48kHz 16bit 单声道）导出。
-
-### ++ctrl+space++
-
-将位置光标移至鼠标光标所在的位置。
-
-### ++shift+q++
-
-切换到下一个量化值。
-
-### ++shift+w++
-
-切换到上一个量化值。
-
-### ++shift+t++
-
-开启 / 关闭三连音。
-
-※按住 ++alt++ 键移动光标时，将脱离量化限制。
-
-※按住 ++alt++ 键输入或改变音符的长度时，量化为最小值（32分音符）。
-
-※按住 ++alt++ 键移动音符 / 曲速 / 拍子 / 调号 / 强弱记号时，将复制它们。
-
-## 台词列表 / 钢琴卷帘共通
-
-### 鼠标滚轮向上 / 向下
-
-垂直滚动。
-
-### ++alt++ + 鼠标滚轮向上 / 向下
-
-调整音素图的音素单位。
-
-### ++shift++ + 鼠标滚轮向上 / 向下
-
-水平滚动。
-
-当钢琴卷帘的滚动条位于右端时，按住 ++shift++ 再向下滚动鼠标滚轮，可以往末尾追加小节。
-
-### ++ctrl++ + 鼠标滚轮向上 / 向下
-
-垂直缩放。
-
-### ++ctrl+shift++ + 鼠标滚轮向上 / 向下
-
-水平缩放。
+Edit Alpha (timbre). ++shift+7++ for superimposed display.
 
 ### ++ctrl+tab++
 
-切换到下一个调整页面。
+Display the next adjustment screen. ++ctrl+shift+tab++ display the previous adjustment screen.
 
-### ++ctrl+shift+tab++
+### ++ctrl+1++
 
-切换到上一个调整页面。
+Selection tool.
 
-※在时间轴上按住 ++alt++ 键并拖动台词或音频元素，可以将元素的左或右边缘吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
+### ++ctrl+2++
 
-※按住鼠标中键拖动可以滚动。
+Collectively selection tool.
 
-※鼠标滚轮的基本滚动方向（垂直/水平）可以在[「选项」](../../option/option)中的「环境」中修改。
+### ++ctrl+3++
 
-!!! info "当快捷键失效时"
-    在 Windows 10 2004 或更高版本中，微软输入法在切换到日语输入法时会在屏幕左上角输入文本，并且快捷键会全部失效。一个解决方法是开启[选项]→[常规]→[使用以前版本的微软输入法]，此时这些快捷键在日语输入模式下将恢复正常。
+Draw tool.
 
-    谷歌输入法在切换到日语输入法时会在屏幕左上角输入文本（与 ++ctrl++ 键组合使用时除外），所以，比如说要播放音频时，请关闭日语输入再按空格键，或者直接使用播放按钮。
+### ++ctrl+4++
 
-    ---
-    译者注：这些情况与解决方案对微软中文输入法也适用。一些别的解决方法：
+Line tool.
 
-    - 将微软日语输入法切换到半角字母数字模式。
-    - 安装并切换到英文键盘布局，比如英语（美国）。
+### ++ctrl+5++
+
+Eraser tool.
+
+### ++ctrl+left++ ++ctrl+right++
+
+Toggle between the edit tools.
+
+### ++ctrl+space++
+
+Move the the position cursor to the position of mouse cursor.
+
+### ++shift+space++
+
+Listen to the selected range.
+
+### ++f2++
+
+Enter the lyrics for the selected note.
+
+### ++f8++
+
+Enter Lyrics Collectively.
+
+### ++tab++
+
+Enter the lyrics for the next note.
+
+### ++shift+tab++
+
+Enter the lyrics for the previous note.
+
+### ++left++ ++right++
+
+Select previous row / next note.
+
+### ++shift+left++ ++shift+right++
+
+Select multiple notes.
+
+### ++up++ ++down++
+
+Move the selected note by a half-tone. The pitch adjustment values automatically shift accordingly.
+
+\* Pitch shift will be paused when the ++alt++ key is held down to move a note.
+
+### ++shift+up++ ++shift+down++
+
+Move the selected note by one octave. The pitch adjustment values automatically shift accordingly.
+
+\* Pitch shift will be paused when the ++alt++ key is held down to move a note.
+
+### ++home++
+
+Select the first note (holding ++shift++ at the same time will select all notes from the current note to the first note at the same time).
+
+### ++end++
+
+Select the last note (holding ++shift++ at the same time will select all notes from the current note to the first note at the same time).
+
+### ++ctrl+home++
+
+Move the the position cursor to the beginning of the score.
+
+### ++ctrl+end++
+
+Move the the position cursor to the end of the score.
+
+### ++num-plus++
+
+Move the position cursor forward.
+
+### ++num-minus++
+
+Move the position cursor back.
+
+### ++shift+num-plus++
+
+Move the position cursor forward one bar.
+
+### ++shift+num-minus++
+
+Move the position cursor back one bar.
+
+### ++g++
+
+Zoom out the piano roll horizontally.
+
+### ++h++
+
+Zoom in the piano roll horizontally.
+
+### ++shift+g++
+
+Zoom out the piano roll vertically.
+
+### ++shift+h++
+
+Zoom in the piano roll vertically.
+
+### ++ctrl+p++
+
+Switch to phoneme input mode.
+
+### ++ctrl+shift+p++
+
+Switch the unit of timing adjustment screen to phoneme or note.
+
+\* Hold down ++alt++ to toggle temporarily.
+
+### ++ctrl+i++
+
+Display / Hide the timing status lines in timing adjustment screen.
+
+\* When hidden, the status lines are automatically adjusted to maintain the ratio between the lines.
+
+### ++ctrl+r++
+
+Set the slur. Valid when multiple notes are selected.
+
+### ++ctrl+u++
+
+Merge notes. Valid when multiple notes are selected.
+
+### ++ctrl+w++
+
+Export the selected Song track in WAV (48kHz mono) format. \* Bit Depth can be specified in Option.
+
+### ++shift+q++
+
+Switch to the next Quantize value.
+
+### ++shift+w++
+
+Switch to the previous Quantize value.
+
+### ++shift+t++
+
+Turn the triplet on/off.
+
+\* The quantize correction will be released when the ++alt++ is held down.
+
+\* When holding down the ++alt++ key to enter or change the length of the note, the quantize is the minimum value (1/32).
+
+\* When holding down the ++alt++ key to move the note/tempo/time signature/key signature/dynamic mark, they will be copied.
+
+\* When holding down the ++alt++ key to move the note vertically, collectively selection will be turned off.
+
+## Common to Speech List and Piano Roll
+
+### scroll the mouse wheel up/down
+
+Scroll vertically.
+
+### ++shift++ + scroll the mouse wheel up/down
+
+Scroll horizontally.
+
+When the scrollbar is at the right end, you can add measures by pressing ++shift++ with mouse scroll down.
+
+### ++ctrl++ + scroll the mouse wheel up/down
+
+Zoom in/out vertically.
+
+### ++ctrl+shift++ + scroll the mouse wheel up/down
+
+Zoom in/out horizontally.
+
+\* Hold down ++alt++ and drag to attach the left or right edge of the line or audio element on the timeline to the closest second (or bar, depending on the time base of the ruler).
+
+\* Holding the middle mouse button allows you to scroll by dragging.
+
+\* The basic scroll direction (vertical/horizontal) of the mouse wheel can be changed in "Environment" under ["Options"](../../option/option).
+
+!!! info "When shortcut keys don't work"
+
+    The new MS IME will input text on screen when switching to the Japanese input method, and all shortcut keys will be invalid. A solution is to turn on Settings > General > Use previous version of Microsoft IME in the MS IME, then you can play/stop using the ++space++ key and input Japanese track names normally.
+
+    Google IME will input characters when Japanese input is on (except in combination with the ++ctrl++ key), so please turn Japanese input off and then press the ++space++ key, or use the playback button on the toolbar directly.

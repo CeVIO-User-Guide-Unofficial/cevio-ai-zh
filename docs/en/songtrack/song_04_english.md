@@ -61,7 +61,7 @@ If the lyrics contain a `$`, the note will be falsettoed.
 
 ## Input Phoneme Symbols
 
-In phoneme input mode, vocalisations can be specified in phoneme units.
+In phoneme input mode, vocalizations can be specified in phoneme units.
 
 When entering lyrics, you can switch to phoneme input mode by using "Enter Lyrics with Phoneme" in "Other Operations" via the piano roll right-click menu, the "Song" menu, or using the shortcut key ++ctrl+p++ .
 

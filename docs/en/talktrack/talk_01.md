@@ -1,190 +1,188 @@
 ---
-title: 台词的输入与编辑
+title: Line Input and Editing
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ セリフの入力と編集](https://cevio.jp/guide/cevio_ai/talktrack/talk_01/)
+Original article: [CeVIO AI ユーザーズガイド ┃ セリフの入力と編集](https://cevio.jp/guide/cevio_ai/talktrack/talk_01/)
 
 ---
 
-## 输入台词
+## Input Line
 
-单击以选择一行，然后再次单击该行以进入文本输入状态。
+Click to select a row, then click on the row again to enter the text input state.
 
-在输入状态输入台词后，按 ++enter++ 键提交。
+After entering a line in the input state, press ++enter++ to submit.
 
-也可以单独使用键盘操作。按 ++enter++ 键或 ++up++ 键移动到下一行；按 ++down++ 键移动到上一行；按 ++f2++ 键输入选定的行。
+You can also use the keyboard alone. Press ++enter++ or ++down++ to move to the next line; press ++up++ to move to the previous line; press ++f2++ to enter in the selected row.
 
-（非输入状态下，不需要按 ++f2++ 键也可以直接输入文字。）
+(Text can be entered directly without pressing ++f2++ in non-input states.)
 
-日语声库的台词可以使用全角平假名 / 片假名 / 汉字等自然句子。
+The lines of the Japanese Voice can use natural sentences in full-width hiragana/katakana/kanji.
 
-英语声库的台词可以使用半角字母和数字等英文。
+The lines in the English Voice can use English in half-width letters and numbers.
 
-对于日语声库，每行台词的文字上限是 200；对于英语声库，上限是 500。
+The text limit for each line is 200 for the Japanese Voice and 500 for the English Voice.
 
 ![enter lines](images/tutorial_talk_2.png)
 
-!!! tip "日语台词的输入提示"
+!!! tip "Tips for Japanese lines input"
 
-    发音是由一行台词的整个句子决定的。句末的疑問符（？）或感嘆符（！）也会加入发音的判定中。
+    Pronunciation is determined by the entire sentence of a line. The question mark (？, 疑問符) or exclamation mark (！, 感嘆符) at the end of a sentence is also added to the judgment of pronunciation.
 
-    没有読点（、）的长文和原为一句却分成多行输入的句子无法正确地发音。
+    Long texts without commas (、, 読点) and sentences that were originally one sentence but are divided into multiple lines cannot be pronounced correctly.
 
-    类似「こんにちは。○○さん。」这样的句子，中间的句点（。）会被替换为読点。
+    In sentences like "こんにちは。○○さん。", the period (。, 句点) in the middle will be replaced with a comma.
 
-    即使读音相同，也可以通过改为同音字、平假名或片假名的方式，来寻找想要的发音。
+    Even if the pronunciation is the same, you can find the pronunciation you want by changing it to homophones, hiragana or katakana.
 
-    容易读错的人名或地名可以使用[注册单词](../talk_06)功能登记正确的读音。
+    You can use the [Word Registration](../talk_06) function to register the correct pronunciation of the names of people or places that are easy to be mispronounced.
 
-### 插入注音记号
+### Insert Ruby Brackets
 
-输入台词时，右键菜单的「插入注音记号」可以插入注音记号。
+When inputting a line, the "Insert Ruby Brackets" in the right-click menu can insert a reading-specified brackets in this position.
 
-- 对于日语声库，会在光标位置插入 `《》`。<br>
-  如果选中了文本，会额外插入一个表示注音开始的 `|`。
-- 对于英语声库，会在光标位置的单词末尾插入 `[]`。
+- For Japanese Voice, `《》` is inserted at the cursor position. <br>
+   If text is selected, an additional `|` will be inserted to indicate the start of reading specification.
+- For English Voice, `[]` is inserted at the end of the word at the cursor position.
 
-![insert ](images/talk_01_2.png)
+![insert ruby brackets](images/talk_01_2.png)
 
-!!! info "输入日语注音"
+!!! info "Japanese ruby input (reading specification)"
 
-    在 `《》` 内输入平假名或片假名来指定读法。
+    Specify the reading by writing hiragana/katakana in the `《》`.
 
-    （例）　今朝｜四月一日《わたぬき》さんに会った。　※ `|` 标明了注音的对象。
+    (Example) 今朝｜四月一日《わたぬき》さんに会った。　\* `|` indicates the object to be specified reading.
 
-    （例）　こんにちは、四月一日《わたぬき》さん。　　※ 省略 `|` 时，注音对象将假定为从头开始。[^1]
+    (Example) こんにちは、四月一日《わたぬき》さん。　　\* When `|` is omitted, the reading specification will be assumed to start from the beginning. [^1]
 
-    和注册单词时一样，在 `《》` 里也可以使用 `’` 让元音无声化。
+    Like registering a word, you can also use `'` in `《》` to devoice the vowel.
 
-!!! info "输入英语注音"
+!!! info "English ruby input (phonetic symbol specification)"
 
-    在单词后紧跟的 `[]` 内输入发音记号来指定读法。
+    Enter phonetic symbols in the `[]` following a word to specify the pronunciation.
 
-    音节（syllable）间使用 `|` 分割；音节内的音素使用 `,` 分割。
+    Use `|` to separate syllables; use `,` to separate phonemes within a syllable.
 
-    元音后面应有一个表示重音（stress）的数字（如果省略则为 0）。
+    The vowel should be followed by a number indicating stress (0 if omitted).
 
-    0：非重音   1：主重音  2：次重音
+    0: no stress 1: primary stress 2: secondary stress
 
-    （例）　Sasara[s,ah1\|s,ah0\|r,ah0]
+    (Example) Sasara[s,ah1\|s,ah0\|r,ah0]
 
-    （例）　Ando[ah1,n\|d,ow0]
+    (Example) Ando[ah1,n\|d,ow0]
 
-    关于注音符号的清单，[请点击这里](../talk_01_english)。
+    For a list of phonetic symbols, [click here](../talk_01_english).
 
-### 连续输入台词
+### Continuous Input
 
-从右键菜单中开启「连续输入台词」，将进入台词连续输入模式。
+Turn on "Continuous Input" from the right-click menu to enter continuous line input mode.
 
-如果想连续输入并播放台词时，请使用此功能。
+Use this function if you want to continuously input and play lines.
 
 ![Continuous Input](images/talk_01_3.png)
 
-- 按 ++enter++ 键结束这一行的编辑，自动移至下一行并进入编辑状态。
+- Press ++enter++ to end editing on this line, move to the next line and enter editing automatically.
 
-- 按 ++shift+enter++ 键结束这一行的编辑，自动移至上一行并进入编辑状态。
+- Press ++shift+enter++ to end editing on this line, move to the last line and enter editing automatically.
 
-- 按 ++ctrl+enter++ 键结束这一行的编辑，按 ++esc++ 键撤销编辑，在空白行按 ++enter++ 键结束编辑。
+- Press ++ctrl+enter++ to end editing on this line, ++esc++ to cancel editing, ++enter++ on a blank line to end editing.
 
-## 台词的角色设定
+## Cast Setting for Lines
 
-点击配音栏，可以选择说出这一行台词的角色。
+Click in the Cast column to select the character who will speak the line in that row.
 
-从「音轨」菜单的「音轨配音角色」或音轨前端的角色设置变更角色，可以同时变更轨道内所有行的角色。
+You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.
 
 ![select cast](images/tutorial_talk_4.png)
 
-## 剪切/复制/粘贴
+## Cut/Copy/Paste
 
-可以选择某一行进行剪切或复制，然后粘贴到另一行。
+You can select a line for cutting or copying, and then paste it into another line.
 
-可以通过右键菜单，或者快捷键 ++ctrl+x++（剪切）、++ctrl+c++（复制）和 ++ctrl+v++（粘贴）执行操作。
+These operations can be performed via the right-click menu, or the shortcut keys ++ctrl+x++ (cut), ++ctrl+c++ (copy) and ++ctrl+v++ (paste).
 
-状态、情绪和音素图等内容也会一并粘贴，可以方便地重用已调整的台词。
+Condition, emotion and phoneme graph are also pasted along with it, allowing easy reuse of adjusted lines.
 
-- 开启「显示别的音轨的台词」时，只会剪切 / 复制选中的行。
+\* When "Other Tracks Lines" is turned on, only the selected line will be cut/copied.
 
-- 也可以从剪贴板中粘贴来自其他软件的文本。
+\* Text from other software can also be pasted from the clipboard.
 
 ![cut/copy/paste](images/talk_01_4.png)
 
-### 只粘贴参数
+### Paste Parameters Only
 
-剪切或复制台词后，对适用参数的行（允许多选）右键单击，选择「只粘贴参数」，就能不粘贴台词，只粘贴语速、音高、情绪等参数。
+After cutting or copying lines, right-click on the line to which the parameter to be applied (multiple selections allowed) and select "Paste Parameters Only" to paste only the speed, pitch, emotion and other parameters without pasting the text of line.
 
-- 与通常的粘贴相同，即使该台词栏为空参数也能够填入。
+\* Same with normal pasting. Parameters can be filled in even if the line field is empty.
 
-![only paste parameter](images/talk_01_5.png)
+![Paste Parameters Only](images/talk_01_5.png)
 
-## 选择多行
+### Multiple Rows Select
 
-选择一行后，按住 ++shift++ 键再单击别的行，可以选择多行。
+After selecting a row, hold down the ++shift++ key and click another row to select multiple rows.
 
-另外，++ctrl+a++ 可以全选行。[^2]
+In addition, ++ctrl+a++ can select all rows. [^2]
 
-可以用于多行的剪切或复制，或同时给多行设置预设。
+It can be used to cut or copy multiple rows, or to set presets for multiple rows at the same time.
 
-- 预设仅会应用到角色匹配的行上。
+\* Presets will only be applied to rows where the cast matches.
 
-## 删除行
+## Delete Row
 
-按 ++del++ 键或在右键菜单中选择「删除」，可以删除选中的行。
+++del++ or select "Delete" in the right-click menu to delete selected rows.
 
-## 插入行
+## Insert Row
 
-右键菜单的「插入」，可以在选中行的位置插入新的一行。
+"Insert" in the right-click menu can insert a new row at the position of the selected row.
 
-剪贴 / 复制时会插入执行了该操作的那行，除此之外会插入空白行。
+When cutting/copying, the row on which the operation was performed is inserted, otherwise a blank row is inserted.
 
-也可以从剪贴板中插入来自其他软件的文本。
+Text from the clipboard copied from another software can also be inserted.
 
-- 如果想插入空白行，可以先用 ++esc++ 键清除剪贴板。
+\* If you want to insert a blank row, you can use the ++esc++ key to clear the clipboard first.
 
-## 添加空白行
+## Add Blank Line
 
-菜单「语音」的「添加空白行」可以在台词列表末尾添加 10 行空白行。
+"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the speech list.
 
-## 变更面板显示
+## Change Display
 
-右键菜单的「面板显示」，可以变更列表的显示内容。
+The "View" in the right-click menu allows you to change the display of the speech list.
 
-勾选「显示别的音轨的台词」，可以选择是否要在台词列表里显示所有语音轨道的台词。
+Check "Other Track Lines" to choose whether to display lines from all talk tracks in the speech list.
 
-「配音角色、开始时间、结束时间、时长、音轨」中的每一列都可以单独选择是否显示或隐藏。
+Each column in "Cast, Start Time, End Time, Duration, Track" can be individually selected to be displayed or hidden.
 
 ![view](images/talk_01_6.png)
 
-以下是一个隐藏了角色和音轨，只显示开始时间和长度的例子。
+Here is an example where the cast and track are hidden and only the start time and length are shown.
 
 ![view setting example](images/talk_01_7.png)
 
-### 显示别的音轨的台词
+### Other Track Lines
 
-在台词列表中将选择的轨道外的台词一并显示。
+Displays lines other than the currently selected track together in the speech list.
 
-### 配音角色
+### Cast
 
-说出这句台词的角色。
+The character who speaks the line.
 
-### 开始时间
+### Start time
 
-台词开始的时间（分:秒.微秒）。直接输入时间可以移动台词。
+The time when the line starts (min:sec.microseconds). Enter the time directly to move the line.
 
-### 结束时间
+### End time
 
-台词结束的时间（分:秒.微秒）。可以把控一行结束时的时间。
+The time when the line ends (min:sec.microseconds). You can keep track of the elapsed time of a line.
 
-### 时长
+### Duration
 
-台词的长度（分:秒.微秒）。
+Length of the line (min:sec. microseconds).
 
-### 音轨
+### Track
 
-台词的音轨。输入台词后选择别的轨道，可以轻松地将其移至别的轨道。
+The talk track of the line. You can easily move the line to another track by entering it and then selecting another track.
 
-[^1]:译者注：实际情况是从 `《》` 的前一个停顿处（如标点符号）开始。
-[^2]:译者注：只能全选该轨道内的行。
-
---8<-- "includes/abbreviations.md"
+[^1]:Translator's Note: The actual situation is to start from the previous pause (such as punctuation mark) of `《》`.
+[^2]:Translator's Note: Only lines within this track will be selected.

@@ -9,7 +9,7 @@ layout: post
 ---
 C# 等 .NET 程序的接口。
 
-可以使用专用 API 精细地控制情绪、状态等。
+可以使用专用 API 精细地控制感情、状态等。
 
 ## API 规范
 
@@ -33,7 +33,7 @@ class Talker2
     // 获取或设置音调（0～100）。※版本4.0.7.0追加。
 
     TalkerComponentCollection2 Components { get; }
-    // 获取当前角色的情绪参数。
+    // 获取当前角色的感情参数。
     // 　内容会随着角色变化。
     // 　例1『さとうささら』→ "普通", "元気", "怒り", "哀しみ"
     // 　例2『小春六花』→ "嬉しい", "普通", "怒り", "哀しみ", "落ち着き"
@@ -88,7 +88,7 @@ class Talker2
     // 　输出格式为采样率 48kHz，比特率 16bit，单声道。
 }
 
-// 表示角色的情绪参数图的对象。
+// 表示角色的感情参数图的对象。
 class TalkerComponentCollection2
 {
     int Count { get; }
@@ -109,17 +109,17 @@ class TalkerComponentCollection2
     // 　元素。
 }
 
-// 情绪参数的单位对象。
+// 感情参数的单位对象。
 class TalkerComponent2
 {
     string Id { get; }
     // 获取标识符。
 
     string Name { get; }
-    // 获取情绪的名字。
+    // 获取感情的名字。
 
     uint Value { get; set; }
-    // 获取或设置情绪的值（0～100）。
+    // 获取或设置感情的值（0～100）。
 }
 
 // 表示播放状态的对象。

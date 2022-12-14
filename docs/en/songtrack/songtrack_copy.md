@@ -70,7 +70,7 @@ You can also move the key (except for the first key) by dragging it left or righ
 
 ## Dynamic Mark Setting
 
-Setting a dynamic mark can naturally strengthen or weaken the vocalisation from this position.
+Setting a dynamic mark can naturally strengthen or weaken the vocalization from this position.
 
 The effect becomes stronger in the order [mf] → [f] → [ff], weaker in the order [mp] → [p] → [pp], with [N] being normal.
 

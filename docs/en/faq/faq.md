@@ -134,9 +134,9 @@ In this case, please try a [Clean Install](https://cevio.jp/guide/cevio_ai/tool2
 
 Q：There aren't 1/64 in Quantize.
 
-A: For CeVIO AI, it is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalisation.
+A: For CeVIO AI, it is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalization.
 
-Including the sokuon in the lyrics and adjusting the timing of the vocalisation in the Timing adjustment screen will get a better song.
+Including the sokuon in the lyrics and adjusting the timing of the vocalization in the Timing adjustment screen will get a better song.
 
 ---
 

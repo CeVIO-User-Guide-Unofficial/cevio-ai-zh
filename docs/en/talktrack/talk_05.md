@@ -1,111 +1,101 @@
 ---
-title: 台词的表情设置
+title: Emotion Setting of the Line
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
 ---
-原文：[CeVIO AI ユーザーズガイド ┃ セリフの表情設定](https://cevio.jp/guide/cevio_ai/talktrack/talk_05/)
+Original article: [CeVIO AI ユーザーズガイド ┃ セリフの表情設定](https://cevio.jp/guide/cevio_ai/talktrack/talk_05/)
 
 ---
 
-每句台词都有音量、语速、情绪等多种参数（值）。
+Each line has various parameters (values) such as volume, speed and emotion.
 
-调整这些参数，可以创造出想要的声音。
+Adjusting these parameters to create the voice you want.
 
-## 状态的设定
+## Condition Setting
 
-可以通过拖动（鼠标左键按住并移动）推子的方式来调整声音的音量、语速等。
+You can adjust the volume, speed etc. of the voice by dragging (left mouse button pressed and moved) the knob.
 
-也可以将鼠标光标放在推子上，然后上下滚动鼠标滚轮，来以 1 为单位调整。
+It can also be adjusted in steps of 1 by hovering the mouse cursor over the knob and scrolling the mouse wheel up and down.
 
-在拖动或者滚动鼠标滚轮的时候按住 ++alt++ 键，可以将值同时应用到该轨道内的全部角色上。
+Holding down the ++alt++ key while dragging or scrolling the mouse wheel will apply the value to all characters within that track at the same time.
 
 ![condition controller](images/talk_05_1.png#only-light)
 ![condition controller](images/talk_05_1_dark.png#only-dark)
 
-### 音量
+### Volume
 
-*大きさ / Volumn*
+Adjust the volume of the voice.
 
-调整声音的大小。
+### Speed
 
-### 语速
+Adjust the speed of reading line.
 
-*速さ*
+### Pitch
 
-调整读台词的速度。
+Adjust the pitch of the voice.
 
-### 音高
+### Alpha
 
-*高さ*
+Change the voice to a mature or childlike voice.
 
-调整声音的高低。
+### Into. (Intonation)
 
-### 音色
+Make the voice more energetic or a little calmer.
 
-*声質 / Alpha*
+## Emotion Setting
 
-将声音变得更像大人或小孩子。
+By dragging the knob such as Bright or Angry (*), multiple emotions can be mixed at the desired proportion.
 
-### 语调
+It can also be adjusted in steps of 1 by hovering the mouse cursor over the knob and scrolling the mouse wheel up and down.
 
-*抑揚*
-
-让声音更精神或更冷静。
-
-## 情绪的设定
-
-通过拖动 Bright 或 Angry（※）等推子，可以以所需的比例混合多种情绪。
-
-也可以将鼠标光标放在推子上，然后上下滚动鼠标滚轮，来以 1 为单位调整。
-
-在拖动或者滚动鼠标滚轮的时候按住 ++alt++ 键，可以将值同时应用到该轨道内的全部角色上。
+Holding down the ++alt++ key while dragging or scrolling the mouse wheel will apply the value to all characters within that track at the same time.
 
 ![emotion controller](images/talk_05_2.png#only-light)
 ![emotion controller](images/talk_05_2_dark.png#only-dark)
 
-※图为「IA」与「OИE」的情绪。
+\* The picture shows the emotion of "IA" and "OИE".
 
-### 情绪图
+### Emotion Graph
 
-情绪图显示情绪合成的百分比。例如，如果 Bright 和 Angry 都为 1.00 / 100（旧版参数），则百分比为各占 50%。
+The emotion graph shows the percentage of emotion composites. For example, if Bright and Angry are both 1.00 / 100 (old parameter), the percentages will be 50% each.
 
-（“Bright 1.00 + Angry 1.00”与“Bright 0.50 + Angry 0.50”效果相同）
+("Bright 1.00 + Angry 1.00" has the same effect as "Bright 0.50 + Angry 0.50")
 
-也可以拖动情绪图里的推子来直接修改百分比。
+The percentage can also be changed directly by dragging the knobs in the emotion chart.
 
-!!! info "每个角色的情绪"
+!!! info "Emotion of each character"
     
-    情绪参数因角色而异，如下列角色所示。
+    Emotion parameters vary from character to character, as shown in the examples below.
 
-    - さとうささら … 元気，普通，怒り，哀しみ
+    - Sato Sasara (さとうささら) … 元気，普通，怒り，哀しみ
 
     - IA … Bright, Normal, Strong, Dark
 
-    - 小春六花 … 嬉しい，普通，怒り，哀しみ，，落ち着き
+    - Koharu Rikka (小春六花) … 嬉しい，普通，怒り，哀しみ，，落ち着き
 
-## 预设
+## Preset
 
-轻轻一点就可以为台词添加预设好的情绪，或是添加喜欢的设置。
+With a single click, you can apply a preset emotion for a line, or add a favorite preset.
 
-选中多行台词的情况下设置预设时，预设会应用到角色匹配的行上。
+When a preset is applied with multiple lines selected, the preset is applied to the line that the character matches.
 
-设置预设时按住 ++alt++ 键，可以将值同时应用到该轨道内所有与角色匹配的行上。
+Holding down the ++alt++ key while applying a preset will apply the value to all characters within that track at the same time.
 
-### 保存预设
+### Save Preset
 
-选择（保存），可以将当前的参数设定命名并添加到预设中。
+Select (Save) to name the current parameter setting and add it to the preset.
 
 ![save preset](images/talk_05_3.png)
 
-* 当覆盖已有的预设时，更改会应用到所有使用了该预设的行中。
+\* When overwriting an existing preset, the changes are applied to all lines where the preset is used.
 
-### 删除预设
+### Delete Preset
 
-点击预设名字右侧的「×」即可删除预设。
+Click on the "×" to the right of the preset name to delete the preset.
 
 ![delete preset](images/talk_05_4.png)
 
-### 默认的预设
+### Default Preset
 
-经常使用的预设可以在[选项](../option/option.md)的「语音设定」里设为「默认的预设」，这样它就会变为空白行的预设，方便使用。
+Frequently used presets can be set as "Default Preset" in the "Talk Settings" in [Options](../option/option.md), so that it will become the default setting for a blank row for use conveniently.

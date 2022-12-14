@@ -8,7 +8,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整②（�
 
 ---
 
-You can finely adjust parameters (values) like the timing of the vocalisation and pitch in the adjustment screens.
+You can finely adjust parameters (values) like the timing of the vocalization and pitch in the adjustment screens.
 
 ![adjust tool](images/song_07_1.png#only-light)
 ![adjust tool](images/song_07_1_dark.png#only-dark)
