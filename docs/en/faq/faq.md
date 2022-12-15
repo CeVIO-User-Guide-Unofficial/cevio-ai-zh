@@ -42,7 +42,7 @@ For other occasions where it does not start, please try a [Clean Install](https:
 
 Q: I have purchased the product but I don't know the serial number.
 
-A: For phisical / boxed edition, the Product Key for "KAFU" can be found on a manual, and the others are on the card encased in a silver bag or a plastic bag.
+A: For physical / boxed edition, the Product Key for "KAFU" can be found on a manual, and the others are on the card encased in a silver bag or a plastic bag.
 
 For digital edition purchased from Vector PC Shop, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
 

@@ -7,6 +7,18 @@ layout: post
 ---
 ## 8.3
 
+### 2022/12/15 更新（版本号 8.3.22.0）
+
+包含歌唱的 TIMING 调整、角色列表一览等可用性改进。
+
+CeVIO AI 8.4 将于近日公开。※正式公开时可以在启动时通过自动更新升级。
+
+※如果发现了问题和 bug，请使用[这张表格](https://docs.google.com/forms/d/1qGam3pOnz_XJ2dhxvGMPX8QeoBZPiaPrzMft6fOh-tY/viewform)报告。
+
+▼歌唱相关
+
+- 歌唱引擎更新到 6.2.0。
+
 ### 2022/10/12 更新（版本号 8.3.17.0）
 
 ▼歌唱 / 语音共通

@@ -29,7 +29,7 @@ Modify the display image of each character. This can be replaced by a user image
 
 ![set character image](images/option_2.png)
 
-\* In this example, the image of the the character "OИE"'s Talk voice has been replaced with the user image of Suzuki Tsuzumi (すずきつづみ).
+\* In this example, the image of the the character "OИE"'s Talk voice has been replaced with the user image of Suzuki Tsudumi (すずきつづみ).
 
 [Display user image](../characterimage)
 

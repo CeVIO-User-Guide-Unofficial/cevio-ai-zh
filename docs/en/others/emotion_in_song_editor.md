@@ -1,22 +1,22 @@
 ---
-title: 关于「CeVIO AI」歌曲编辑器的感情参数
+title: About the Emotion Parameter of the "CeVIO AI" Song Editor
 category: others
 layout: post
 ---
-原文：[2022.04.27 『CeVIO AI』ソングエディタの感情パラメータについて](https://cevio.jp/archives/17383/)
+Original article: [2022.04.27 『CeVIO AI』ソングエディタの感情パラメータについて](https://cevio.jp/archives/17155/)
 
 ---
 
-在「音乐的同位体 星界」发售之前，我们想介绍一下首次搭载的「感情」参数。
+Before the release of "MUSICAL ISOTOPE SEKAI", we would like to introduce the "Emotion" parameter that is on board for the first time.
 
-“CeVIO AI”的歌唱声库通过深度学习等AI技术，真实地再现了原歌手的音色·习惯·演唱风格。
+The Song Voice of "CeVIO AI" authentically reproduces the timbre, habit, singing style of the original singer through deep learning and other AI technologies.
 
-通常而言，歌唱表达会根据歌曲的内容自动重现（是学习的结果）。但这次，由于「音乐的同位体 星界」的声源提供者虚拟歌手ヰ世界感情，歌唱表达的范围十分广泛，因此我们特地学习了两种歌唱表达，将其制作成「感情」参数供各位创作者使用。
+Normally, vocal expressions are automatically reproduced according to the content of the song (as a result of learning). However, this time, since the virtual singer ヰ世界感情, which is the vocal source provider of "MUSICAL ISOTOPE SEKAI", has a very wide range of vocal expressions, so we have learnt two vocal expressions and made them into "Emotion" parameters for creators to use.
 
-对于「音乐的同位体 星界」，调高「感情」参数能给人一种帅气的感觉，调低「感情」参数则给人一种可爱的感觉。请试着寻找适合歌曲的演唱风格。
+For the "MUSICAL ISOTOPE SEKAI", turning up the "Emotion" parameter gives a handsome feeling and turning down the "Emotion" parameter gives a cute feeling. Please try to find the right vocal style for your song.
 
 ![emotion in song editor](images/emotion_in_song_editor.png)
 
-也因此，现有的声库不会追加感情参数。未来发布的声库只有在达到预期效果时才会实装。
+Therefore, the existing Voices will not add emotion parameter. Voices released in the future will only be implemented if they perform as expected.
 
-此外，对于语音声库的「感情」参数而言，以「元気」和「怒り」两个参数为例，调整它们会极大地改变音色和说话方式，但歌唱声库的「感情」参数改变的是非常细微的歌唱表达方式。
+In addition, for the "Emotion" parameters of the Talk Voice, taking the "元気" and "怒り" parameters as an example, adjusting them greatly changes the timbre and speaking style, but the "Emotion" parameter of the Song Voice changes the vocal expression in a very subtle way.

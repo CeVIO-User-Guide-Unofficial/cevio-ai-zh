@@ -2,7 +2,8 @@
 layout: home
 ---
 
-![header](intro/images/header_image_title.jpg)
+![header](intro/images/header_image_title.png#only-light)
+![header](intro/images/header_image_title_dark.png#only-dark)
 
 An unofficial CeVIO AI User Manual English translation.
 
@@ -31,12 +32,12 @@ There are five admonitions that will appear throughout the guide. They work as f
 !!! tip
     This admonition is used to give suggestions or hints.
     
-    Most of these hints are given by CeVIO offical, and the rest are given by translator. Usually they will make CeVIO easier to use.
+    Most of these hints are given by CeVIO official, and the rest are given by translator. Usually they will make CeVIO easier to use.
 
 !!! info
-    This admonition is used to provide infomation.
+    This admonition is used to provide information.
     
-    This infomation is given by CeVIO official and relates to the features and settings of CeVIO. It's recommended to read it carefully.
+    This information is given by CeVIO official and relates to the features and settings of CeVIO. It's recommended to read it carefully.
 
 !!! example
     This admonition is used for example.

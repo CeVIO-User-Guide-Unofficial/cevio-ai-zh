@@ -55,4 +55,4 @@ Message=你好
 
 ※用户图像的样例【すずきつづみ（铃木梓梓弥）】。单击或者右键单击图片以保存。
 
-[![tsuzumi](images/characterimage_2.png)](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png)
+[![tsudumi](images/characterimage_2.png)](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png)

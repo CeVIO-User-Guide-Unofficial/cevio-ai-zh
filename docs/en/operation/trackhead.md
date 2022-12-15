@@ -19,7 +19,7 @@ Double-click to change the track name.
 
 ### Volume
 
-Drag the knob left/right or up/down to adjust the volumn of a track.
+Drag the knob left/right or up/down to adjust the volume of a track.
 
 Hold down the ++shift++ key while dragging for fine-tuning.
 

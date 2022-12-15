@@ -53,6 +53,6 @@ After downloading the file from the link below, drag the image to the portrait o
 
 [setting file sample](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png.ini)
 
-\* A sample of user image (Suzuki Tsuzumi / すずきつづみ). Click or right-click the image to save it.
+\* A sample of user image (Suzuki Tsudumi / すずきつづみ). Click or right-click the image to save it.
 
-[![tsuzumi](images/characterimage_2.png)](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png)
+[![tsudumi](images/characterimage_2.png)](https://cevio.jp/storage/cevio_ai/CeVIO_user_image_sample2.png)

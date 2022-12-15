@@ -4,7 +4,7 @@ author: 夜輪風超絶技巧変奏曲
 category: firstguide
 layout: post
 ---
-Original artical: [CeVIO AI ユーザーズガイド ┃ 動作環境](https://cevio.jp/guide/cevio_ai/firstguide/system_requirements/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 動作環境](https://cevio.jp/guide/cevio_ai/firstguide/system_requirements/)
 
 ---
 
@@ -14,7 +14,7 @@ Windows 11/10/8.1 （64-bit Japanese or English）
 
 ## Processor
 
-Intel/AMD dual-core processors or higer
+Intel/AMD dual-core processors or higher
 
 \* 4 Core or higher Recommended.
 

@@ -127,7 +127,7 @@ interface ITalkerComponentArray2
     // 　The index of the copied array.
 }
 
-// The object of emotion parameters unit
+// The object of emotion parameters unit.
 interface ITalkerComponent2
 {
     string Id { get; }

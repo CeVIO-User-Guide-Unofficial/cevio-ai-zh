@@ -85,7 +85,7 @@ Load the file saved in [(Export) Track File](#track-file-export).
 
 Load the saved environment settings.
 
-Available import settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" adn "Talk: Speech Clips".
+Available import settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" and "Talk: Speech Clips".
 
 "Talk: User Dictionary" "Talk: Preset" "Talk: Speech Clips" allow you to select the import option of "Replace existing items" or "Merge with existing items".
 
@@ -139,7 +139,7 @@ The extension of the saved file is `.ccst`.
 
 Save the current environment settings.
 
-Available export settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" adn "Talk: Speech Clips".
+Available export settings are "General Settings" "Talk: User Dictionary" "Talk: Preset" and "Talk: Speech Clips".
 
 The extension of the saved file is `.ccsa`.
 
@@ -337,7 +337,7 @@ Show/hide the columns in speech list.
 
 Toggle between the edit tools.
 
-[Editing Tool](../edittool)
+[Edit Tool](../edittool)
 
 ### Quantize
 
@@ -409,7 +409,7 @@ Stop playback. While stopping, it moves in order of playback start position and 
 
 ### Return to Start Position when Stopped
 
-When playback is stopped, return the Corsor to the position where the playback starts.
+When playback is stopped, return the Cursor to the position where the playback starts.
 
 ### Auto scroll
 

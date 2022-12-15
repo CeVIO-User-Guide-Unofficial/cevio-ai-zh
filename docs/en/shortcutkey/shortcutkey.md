@@ -224,11 +224,11 @@ Adjust the phoneme units of the phoneme graph
 
 ### ++shift++ + scroll the mouse wheel up/down
 
-Horizontally scroll phoneme graph.
+Scroll phoneme graph horizontally.
 
 ### ++ctrl++ + scroll the mouse wheel up/down
 
-Vertically scroll phoneme graph.
+Scroll phoneme graph vertically.
 
 \* Clicking in the phoneme graph will start the playback from the clicked position.
 
@@ -310,7 +310,7 @@ Enter the lyrics for the selected note.
 
 ### ++f8++
 
-Enter Lyrics Collectively.
+Enter lyrics collectively.
 
 ### ++tab++
 
@@ -322,7 +322,7 @@ Enter the lyrics for the previous note.
 
 ### ++left++ ++right++
 
-Select previous row / next note.
+Select previous note / next note.
 
 ### ++shift+left++ ++shift+right++
 
@@ -346,7 +346,7 @@ Select the first note (holding ++shift++ at the same time will select all notes 
 
 ### ++end++
 
-Select the last note (holding ++shift++ at the same time will select all notes from the current note to the first note at the same time).
+Select the last note (holding ++shift++ at the same time will select all notes from the current note to the last note at the same time).
 
 ### ++ctrl+home++
 

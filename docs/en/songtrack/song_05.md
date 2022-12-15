@@ -1,5 +1,5 @@
 ---
-title: Vocal Adjustment① (Editing Tool)
+title: Vocal Adjustment① (Edit Tool)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
@@ -8,9 +8,9 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整①（�
 
 ---
 
-The editing mode can be switched through the editing tool in the toolbar or the right-click menu of the piano roll.
+The editing mode can be switched through the edit tool in the toolbar or the right-click menu of the piano roll.
 
-Hold down the ++ctrl++ key to temporarily switch editing tools.
+Hold down the ++ctrl++ key to temporarily switch edit tools.
 
 ![edit tool](images/song_05_1.png#only-light)
 ![edit tool](images/song_05_1_dark.png#only-dark)

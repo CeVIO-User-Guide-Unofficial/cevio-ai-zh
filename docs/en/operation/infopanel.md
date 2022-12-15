@@ -13,7 +13,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ インフォパネル](
 
 ### Time of Cursor Position
 
-Display the positon of position cursor.
+Display the position of position cursor.
 
 Left-click to directly enter and move to the position.
 

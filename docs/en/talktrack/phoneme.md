@@ -125,6 +125,6 @@ It can be also scrolled horizontally by holding down the ++shift++ key and then 
 
 Clicking in the phoneme graph will start the playback from the clicked position. Clicking again during the playback will stop the playing.
 
-The "Auto play" function, which automatically starts playback after adjustment, can be activated/deactivated using the "Auto play button".
+The "Auto Play" function, which automatically starts playback after adjustment, can be activated/deactivated using the "Auto Play button".
 
 If "Partial replay with Phoneme Graph" from the "Talk settings" in [Options](../../option/option) is checked, it will automatic play the section of the phoneme graph from the previous pause before the adjustment point (e.g. punctuation) to the next pause after the adjustment point.

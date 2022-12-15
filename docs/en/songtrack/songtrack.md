@@ -62,7 +62,7 @@ Right-click (or hold down on the touchscreen) on the Piano Roll to open the menu
 
 Toggle between the edit tools.
 
-[Editing Tool](../edittool)
+[Edit Tool](../edittool)
 
 ### Quantize
 

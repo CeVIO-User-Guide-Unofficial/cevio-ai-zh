@@ -31,7 +31,7 @@ Click the tempo or beat on info panel to display the properties window.
 
 ## 3. Enter notes
 
-When entering notes, select the Draw Tool in the editing tool.
+When entering notes, select the Draw Tool in the edit tool.
 
 ![draw tool](images/tutorial_song_4.png)
 

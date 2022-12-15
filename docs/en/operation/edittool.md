@@ -1,5 +1,5 @@
 ---
-title: Editing Tool (Song)
+title: Edit Tool (Song)
 author: 夜輪風超絶技巧変奏曲
 category: operation
 layout: post

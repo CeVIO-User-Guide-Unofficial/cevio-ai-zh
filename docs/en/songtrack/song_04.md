@@ -36,7 +36,7 @@ When "Space-Separated" is selected, a note can assigned multiple characters by e
 
 When "1 note with 1 mora" is selected, one letter will be assigned to one note. But if it is followed by a lowercase letter (ぁぃぅぇぉっゃゅょ) like "しゃ", this note will assign two letters (a mora unit).
 
-![continuly enter lyrics](images/song_04_2.png)
+![continually enter lyrics](images/song_04_2.png)
 
 !!! new "Improved "Enter Lyrics Collectively""
     　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
@@ -59,7 +59,7 @@ For example, typing `いぇす` will pronounce "yesu", and the sound of the last
 
 ## Falsetto Symbol
 
-If the lyrics contain a `※`, the note will be falsettoed.
+If the lyrics contain a `※`, the note will be sung in falsetto.
 
 Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 
@@ -95,4 +95,4 @@ English lyrics will also be automatically divided by syllable and assigned to no
 
 ![English lyrics](images/song_04_5.png)
 
-[^1]:Translator's note: As of version 8.2.8.0, uppercase Japanese vowel characters (`A` , `I` , `U` , `E` , `O`) in the Japanese Voice are now played normally as exceptions in phonemes that are not present in the pattle. See [Change Log](../../intro/change-log#2022512-8280).
+[^1]:Translator's note: As of version 8.2.8.0, uppercase Japanese vowel characters (`A` , `I` , `U` , `E` , `O`) in the Japanese Voice are now played normally as exceptions in phonemes that are not present in the palette. See [Change Log](../../intro/change-log#2022512-8280).

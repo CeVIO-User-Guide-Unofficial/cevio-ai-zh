@@ -22,13 +22,13 @@ This site is hosted on GitHub, published using [GitHub Pages](https://pages.gith
 
 [![Bilibili](https://img.shields.io/badge/-术力口bot-00A1D6?style=flat-square&logo=bilibili&logoColor=ffffff)](https://space.bilibili.com/390624333) [![Weibo](https://img.shields.io/badge/-术力口bot-E6162D?style=flat-square&logo=sina-weibo)](https://weibo.com/u/5760163050)
 
+Telekinetic
+
 ## Maintainer
 
 夜轮_NachtgeistW
 
 [![GitHub](https://img.shields.io/badge/-NachtgeistW-%23181717?style=flat-square&logo=github)](https://github.com/NachtgeistW) [![Twitter](https://img.shields.io/badge/-夜轮-1DA1F2?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/Nightwheel_C) [![Weibo](https://img.shields.io/badge/-夜轮_Nightwheel-E6162D?style=flat-square&logo=sina-weibo)](https://weibo.com/u/7312904644) 
-
-<!-- 由于 CeVIO 官方做说明时使用的声库为佐藤莎莎拉，但译者只购买了 IA 与 OИE 的声库，因此部分原显示为莎莎拉的图片会被 IA 和 OИE 代替。 -->
 
 ---
 

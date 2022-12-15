@@ -42,7 +42,7 @@ When "Space-Separated" is selected, the lyrics will be assigned to multiple note
 
 When "1 note with 1 syllable" is selected, words separated by half spaces will be automatically divided by syllables again, and one syllable will be assigned to one note.
 
-![continuly enter lyrics](images/song_04_english_2.png)
+![continually enter lyrics](images/song_04_english_2.png)
 
 !!! new "Improved "Enter Lyrics Collectively""
     　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
@@ -55,7 +55,7 @@ When "1 note with 1 syllable" is selected, words separated by half spaces will b
 
 ## Falsetto Symbol
 
-If the lyrics contain a `$`, the note will be falsettoed.
+If the lyrics contain a `$`, the note will be sung in falsetto.
 
 \* Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 

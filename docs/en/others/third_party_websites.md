@@ -1,10 +1,10 @@
 ---
-title: 第三方页面
+title: Third Party Websites
 category: others
 layout: post
 ---
 !!! warning
-    本页面不属于 CeVIO 的官方页面。
+    This page is not an official page of CeVIO.
 
 本页面记录部分与 CeVIO 有关的第三方页面。
 

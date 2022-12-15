@@ -25,7 +25,7 @@ Left-click on a phoneme graph to listen to it from a specific position.
 
 Enable or disable playback looping.
 
-### Auto play
+### Auto Play
 
 Toggle whether or not the lines are automatically played after they are entered or adjusted in the condition controller/emotion controller/phoneme graph.
 

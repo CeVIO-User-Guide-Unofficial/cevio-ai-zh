@@ -2,7 +2,8 @@
 layout: home
 ---
 
-![header](intro/images/header_image_title.jpg)
+![header](intro/images/header_image_title.png#only-light)
+![header](intro/images/header_image_title_dark.png#only-dark)
 
 非官方的 CeVIO AI 用户指南中文版翻译。
 

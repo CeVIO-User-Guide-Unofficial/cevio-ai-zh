@@ -33,19 +33,17 @@ The Talk Track will not be displayed in the environment where only the Song func
 
 The environment where only one of Talk or Song function is activated will also have full functionality when you purchase and activate the other Starter Pack.
 
-!!! example "译者的举例"
+!!! example "Example from translator"
 
-    以 IA 和 OИE 的 CeVIO AI 系列为例。新手包包含声库和对应编辑器的激活码，例如， OИE Talk 新手包包含了 OИE 语音声库和 CeVIO 语音编辑器，共两个激活码。
+    Take the IA & ONE's CeVIO AI Series as an example. The starter pack contains the product keys of the Voice and the corresponding editor, for example, the OИE Talk Starter Pack includes the OИE Talk and the CeVIO Talk editor, a total of two product keys.
 
     ![IA & ONE's CeVIO Series](images/operation_2.png)
 
-    - 若只购入了 OИE Talk Voice 单体，由于缺少激活 CeVIO 编辑器的激活码，语音功能和歌唱功能均不可用。
-    - 若只购入了 OИE Talk 新手包，则语音功能可正常使用，歌唱功能不可用。在此基础上：
-        - 若想使用 IA 的语音声库，由于 CeVIO 的语音编辑器已激活，所以只需购买 IA 的 Talk Voice 声库单体。
-        - 若想使用 OИE 的歌唱声库，则需再购买 OИE 的 Song 新手包，将编辑器与声库一起激活。激活后，即使以后只使用 OИE 的语音声库创作，歌唱功能也处于可用状态。
-    - 若只购入了 IA Song 新手包，则歌唱功能可正常使用，语音功能不可用。在此基础上：
-        - 若想使用 OИE 的歌唱声库，同上，只需购买 OИE 的 Song Voice 声库单体。
-        - 若想使用 IA 的语音声库，同上，需再购买 IA 的 Talk 新手包。激活后，即使以后只使用 IA 的歌唱声库创作，语音功能也处于可用状态。
-        - 若想使用 IA 的英语歌唱声库，由于日语与英语共享一个编辑器，所以只需购买 IA English Voice 单体。（分开的话才出大问题吧……）
-
---8<-- "includes/abbreviations.md"
+    - If only the OИE Talk Voice is purchased, the Talk function and Song function are not available due to the lack of the product key for activating the CeVIO editor.
+    - If only the OИE Talk Starter Pack is purchased, the Talk function can be used normally, but the Song function is not available. on the basis of:
+        - If you want to use IA's Talk Voice, since CeVIO's Talk editor is already activated, you only need to purchase IA's Talk Voice alone.
+        - If you want to use OИE's Song Voice, you need to purchase OИE's Song Starter Pack and activate the editor together with the Song Voice. After activation, even if you only use OИE's Talk Voice to create in the future, the Song function will still be available.
+    - If only the IA Song Starter Pack is purchased, the Song function can be used normally, but the Talk function is not available. on the basis of:
+        - If you want to use OИE's Song Voice, same as above, just buy OИE's Song Voice.
+        - If you want to use IA's Talk Voice, same as above, you need to purchase IA's Talk Starter Pack. After activation, the Talk function will still be available even if you only use IA's Song Voice to compose in the future.
+        - If you want to use IA's English Song Voice, since Japanese and English share the same editor, you only need to purchase IA English Voice alone.
