@@ -17,7 +17,7 @@ CeVIO AI produces highly accurate Song Voices by learning recorded data labeled 
 
 | Cast | Full-width `※` `＄`<br>Half-width `$` | Full-width `＠`<br>Half-width `@` | Full-width `＾`<br>Half-width `^` | Full-width `％`<br>Half-width `%` |
 | ---  | --- | --- | --- | --- |
-| さとうささら<br>Satou Sasara | falsetto |  |  |  |
+| さとうささら<br>Sato Sasara | falsetto |  |  |  |
 | 可不 (KAFU) | falsetto | tremble |  | whisper |
 | 結月ゆかり 麗<br>Yuzuki Yukari Rei | falsetto |  |  |  |
 | 東北きりたん<br>Tohoku Kiritan | falsetto |  |  |  |
