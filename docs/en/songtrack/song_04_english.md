@@ -59,6 +59,8 @@ If the lyrics contain a `$`, the note will be sung in falsetto.
 
 \* Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 
+[Other Special Symbols](../song_symbol)
+
 ## Input Phoneme Symbols
 
 In phoneme input mode, vocalizations can be specified in phoneme units.

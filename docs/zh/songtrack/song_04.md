@@ -36,10 +36,10 @@ layout: post
 
 选择「1音符1音节」时，每个音符会分到一个字母，但如果像「しゃ」这样后面跟着一个小写字母（ぁぃぅぇぉっゃゅょ），则分配两个字母（音拍单位）。
 
-![continuly enter lyrics](images/song_04_2.png)
+![Enter Lyrics Collectively](images/song_04_2.png)
 
-!!! new "Improved "Enter Lyrics Collectively""
-    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
+!!! new "改进的「长段歌词输入」"
+    （「按空格分割」时）如果只选择了一个音符，所有后续的歌词都会显示出来。
 
 ## 元音脱落记号
 
@@ -57,7 +57,7 @@ layout: post
 
 但是，受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
 
-※对「結月ゆかり 麗（结月缘 丽）」比较有效，对「東北きりたん（东北切蒲英）」效果不佳。
+[其他特殊符号](../song_symbol)
 
 ## 输入音素记号
 

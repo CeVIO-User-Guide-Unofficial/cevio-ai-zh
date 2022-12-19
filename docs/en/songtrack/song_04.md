@@ -63,7 +63,7 @@ If the lyrics contain a `※`, the note will be sung in falsetto.
 
 Depending on the character and the pitch of the note (e.g., a note with a low pitch), it may not be falsetto.
 
-\* It is more effective against "Yuzuki Yukari Rei (結月ゆかり 麗)" and less effective against "Tohoku Kiritan (東北きりたん)".
+[Other Special Symbols](../song_symbol)
 
 ## Input Phoneme Symbols
 

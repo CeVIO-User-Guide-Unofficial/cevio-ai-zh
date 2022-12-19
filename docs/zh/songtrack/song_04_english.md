@@ -44,14 +44,16 @@ layout: post
 
 ![continuly enter lyrics](images/song_04_english_2.png)
 
-!!! new "Improved "Enter Lyrics Collectively""
-    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
+!!! new "改进的「长段歌词输入」"
+    （「按空格分割」时）如果只选择了一个音符，所有后续的歌词都会显示出来。
 
 ## 假声记号
 
 如果歌词中包含 `$`，那么该音符将发假声。
 
-※受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
+受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
+
+[其他特殊符号](../song_symbol)
 
 ## 输入音素记号
 

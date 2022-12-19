@@ -15,7 +15,7 @@ This page records the current Voices of CeVIO AI and their official pages.
 | さとうささら | JPN | JPN | [CeVIO公式サイト](https://cevio.jp/) | [さとうささら](https://twitter.com/sato_sasara) |
 | ONE -ARIA ON THE PLANETES- | JPN | JPN | [ONE -ARIA ON THE PLANETES-](https://one-aria.com/) | [OИE official](https://twitter.com/ONE_official_) |
 | IA -ARIA ON THE PLANETES- | JPN | JPN·ENG | [IA -ARIA ON THE PLANETES-](https://ia-aria.com/) | [IA 公式](https://twitter.com/IA_Official_) |
-| 結月ゆかり |  | JPN | [結月ゆかり 麗](https://vocalomakets.com/cevio-ai-yukari-rei) |  |
+| 結月ゆかり 麗 |  | JPN | [結月ゆかり 麗](https://vocalomakets.com/cevio-ai-yukari-rei) |  |
 | 東北きりたん |  | JPN | [東北きりたん](https://zunko.jp/con_voice.html#kiri_ai) |  |
 | 小春六花 | JPN |  | [小春六花](https://tokyo6.tokyo/koharurikka/) | [小春六花 公式Info](https://twitter.com/rikka_info) |
 | 弦巻マキ | JPN·ENG |  | [弦巻マキ](https://www.ah-soft.com/maki/) | [弦巻マキ公式](https://twitter.com/maki_gyungyun) |
@@ -31,13 +31,13 @@ This page records the current Voices of CeVIO AI and their official pages.
 | 花隈千冬 | JPN |  | [花隈千冬](https://tokyo6.tokyo/hanakumachifuyu/) | [花隈千冬(公式)](https://twitter.com/Chifuyu_Info) |
 | 裏命 (RIME) |  | JPN |  |  [音楽的同位体 公式【可不・星界・裏命・狐子・羽累】](https://twitter.com/musicalisotope) |
 | 双葉 湊音 |  | JPN | [CeVIO AI 青春系ソングボイス 双葉 湊音(ふたば みなと)](https://www.futabaminato.com/) |  [双葉 湊音（ふたばみなと）](https://twitter.com/futabaminato) |
+| POPY |  | JPN | [BanG Dream!（バンドリ！）公式サイト](https://bang-dream.com/) |  |
+| ROSE |  | JPN | [BanG Dream!（バンドリ！）公式サイト](https://bang-dream.com/) |  |
 
 ## Coming Soon
 
 | Cast | Talk | Song | Official Web | Twitter |
 | :---:  | --- | --- | --- | --- |
 | ロサ (ROSA) | ENG |  |  | [ロサ(ROSA) 公式！](https://twitter.com/ROSA_ROSA_15) |
-| POPY |  | JPN | [BanG Dream!（バンドリ！）公式サイト](https://bang-dream.com/) |  |
-| ROSE |  | JPN | [BanG Dream!（バンドリ！）公式サイト](https://bang-dream.com/) |  |
 | Ci flower |  | JPN |  | [Ci flower](https://twitter.com/Ci_flower_) |
 | タカハシ | JPN |  | [CeVIO公式サイト](https://cevio.jp/) |  |
