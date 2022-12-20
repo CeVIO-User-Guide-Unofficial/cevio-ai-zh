@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#oct12-2022-version-83170">
+<a class="md-skip" href="#dec20-2022-version-84-official-release-832208400">
           Skip to content
         </a>
 </div>
@@ -260,6 +260,11 @@
       Table of contents
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dec20-2022-version-84-official-release-832208400">
+    Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)
+  </a>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#oct12-2022-version-83170">
     Oct.12, 2022 Version 8.3.17.0
@@ -721,6 +726,11 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#dec20-2022-version-84-official-release-832208400">
+    Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#oct12-2022-version-83170">
     Oct.12, 2022 Version 8.3.17.0
   </a>
@@ -761,6 +771,83 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
 <h1>Change Log</h1>
+<hr/>
+<h2 id="dec20-2022-version-84-official-release-832208400">Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/CeVIO%20AI_banner_8.4.jpg"><img alt="8.4 banner" src="../images/CeVIO%20AI_banner_8.4.jpg"/></a></p>
+<p>Version 8.4 includes improvements to the song timing adjustment function and minor usability improvements such as the cast list.</p>
+<p>（Dec.15 version 8.3.22.0 pre-release. Dec.20 version 8.4.0.0 release.）</p>
+<p>▼Song related changes</p>
+<ul>
+<li>
+<p>Updated to Song Engine 6.2.0. Fixed a bug that the VOL sometimes became too large in empty bars at the beginning/end of a song.</p>
+<p>* It only reduces the noise in empty bars at the beginning/end and does not change other sounds.</p>
+</li>
+<li>
+<p>A new function "Vowel Timing Correction" was implemented.</p>
+<p>Vowel timing is automatically adjusted to the beginning of the note. * Version 8.4.0.0 updated (functional change)</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_vowel_ajust.png"><img alt="vowel_adjust" src="../images/V8.4_vowel_ajust.png"/></a></p>
+<ul>
+<li>You can choose it from the right-click menu of the note (or after selecting a range in the TIMING adjustment screen).</li>
+<li>Consonants are moved the same amount as vowels (if it can't, use ratio to adjust it; if there's no space for it, pass).</li>
+</ul>
+<p>* Please use it as a supplement as the mechanical correction may lose its original good listening feel..</p>
+</li>
+<li>
+<p>While adjusting the timing of notes in the Score Edit Screen, the line of phonemes contained in the notes is also displayed.</p>
+</li>
+<li>
+<p>In the Timing Adjustment Screen, the modes of phoneme/note unit adjustment are integrated.</p>
+<p>The lower black band allows note-by-note adjustment and the upper lines allow phoneme-by-phoneme adjustment without switching modes.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_score_timing_adjust.png"><img alt="timing adjust" src="../images/V8.4_score_timing_adjust.png"/></a></p>
+<p>* The shortcut key <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-p">P</kbd></span> for switching between phoneme/note modes has been removed.</p>
+</li>
+<li>
+<p>When the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key is held down on the timing adjustment screen, the temporary status line can be displayed or not displayed.</p>
+<p>* You can use <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to show/hide the persistent status line.</p>
+<p>* After displaying the status line, you can temporarily adjust it in note units by pressing the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key.</p>
+</li>
+<li>
+<p>The vowel of the previous note is not moved during note-by-note timing adjustment. * Version 8.4.0.0 updated</p>
+</li>
+<li>The special symbols <code>^</code> and <code>＾</code> in lyrics are now supported. * Version 8.4.0.0 updated</li>
+<li>Fixed a bug that an error message was displayed when dragging after collectively selection.</li>
+<li>"夢ノ結唱 POPY(ポピー)" Song Voice 1.0.0 is now supported.</li>
+<li>"夢ノ結唱 ROSE(ローズ)" Song Voice 1.0.0 is now supported.</li>
+</ul>
+<p>▼Talk related changes</p>
+<ul>
+<li>When pressing the left mouse button in the accent adjustment screen where there is no mora, it will be auditioned immediately.</li>
+<li>Fixed a bug that the check status of "Export Lines Text" or "Export Timing Data" in the dialog WAV export window is cleared when exporting song or line as WAV.</li>
+<li>
+<p>Fixed a bug that WAV files were not output if the output destination path contained double-byte characters when the specific API of the external linkage interface was used with English voices.</p>
+<p>.NET interface: Talker2.OutputWaveToFile()</p>
+<p>COM interface: ITalker2::OutputWaveToFile()　ITalker2V40::OutputWaveToFile()</p>
+<p>* Fixed a problem in which voice waveforms were not generated when "Tsurumaki Maki (EN)" was specified for "Speaker Name" in "Recotte Studio". We sincerely apologise for any inconvenience caused.</p>
+</li>
+</ul>
+<p>▼Other changes</p>
+<ul>
+<li>
+<p>The cast list displayed by "Add track" is folded back with 12 characters for easy viewing.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_cast_list.png"><img alt="cast list" src="../images/V8.4_cast_list.png"/></a></p>
+<p>* The function for sorting casts is in develop.</p>
+</li>
+<li>
+<p>The version check of the song engine/talk engine when opening a project has been relaxed to suppress warnings.</p>
+<p>* For example, between version 6.2.0 and 6.2.1, difference in the last digit (no change in waveform) do not display a warning message now, suppressing frequent warnings for each new voice support.</p>
+</li>
+<li>
+<p>Changed the default setting of the right-click menu "Automatic Audio Alignment" for audio tracks to off.</p>
+<p>* This is a change to the settings during installation. If you have been using CeVIO since before the update, it will not change.</p>
+<p>* Turn off if you want to overlay multiple audios, or on if you want to auto-align.</p>
+</li>
+<li>
+<p>Improved the final backup of projects when the application is closed due to an error while preparing for timeline playback.</p>
+</li>
+<li>When a 5-minute backup of a project is skipped (e.g. during WAV export), retry at 1-minute intervals.</li>
+<li>Fixed a problem in which the information message is hidden in the splash screen when the application is started in an environment where "vc_redist.x64.exe" is not yet installed.</li>
+<li>Other minor improvements and bug fixes.</li>
+</ul>
 <hr/>
 <h2 id="oct12-2022-version-83170">Oct.12, 2022 Version 8.3.17.0</h2>
 <p>▼Common to Songs and Talks</p>
@@ -1047,7 +1134,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 15, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 20, 2022</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 13, 2022</span>

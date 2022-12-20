@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#83">
+<a class="md-skip" href="#84">
           跳转至
         </a>
 </div>
@@ -261,16 +261,25 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#84">
+    8.4
+  </a>
+<nav aria-label="8.4" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#20221220-8400">
+    2022/12/20 更新（版本号 8.4.0.0）
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#83">
     8.3
   </a>
 <nav aria-label="8.3" class="md-nav">
 <ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#20221215-83220">
-    2022/12/15 更新（版本号 8.3.22.0）
-  </a>
-</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#20221012-83170">
     2022/10/12 更新（版本号 8.3.17.0）
@@ -779,16 +788,25 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#84">
+    8.4
+  </a>
+<nav aria-label="8.4" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#20221220-8400">
+    2022/12/20 更新（版本号 8.4.0.0）
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#83">
     8.3
   </a>
 <nav aria-label="8.3" class="md-nav">
 <ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#20221215-83220">
-    2022/12/15 更新（版本号 8.3.22.0）
-  </a>
-</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#20221012-83170">
     2022/10/12 更新（版本号 8.3.17.0）
@@ -877,15 +895,83 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
 <h1>更新日志</h1>
-<h2 id="83">8.3</h2>
-<h3 id="20221215-83220">2022/12/15 更新（版本号 8.3.22.0）</h3>
-<p>包含歌唱的 TIMING 调整、角色列表一览等可用性改进。</p>
-<p>CeVIO AI 8.4 将于近日公开。※正式公开时可以在启动时通过自动更新升级。</p>
-<p>※如果发现了问题和 bug，请使用<a href="https://docs.google.com/forms/d/1qGam3pOnz_XJ2dhxvGMPX8QeoBZPiaPrzMft6fOh-tY/viewform">这张表格</a>报告。</p>
+<h2 id="84">8.4</h2>
+<h3 id="20221220-8400">2022/12/20 更新（版本号 8.4.0.0）</h3>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/CeVIO%20AI_banner_8.4.jpg"><img alt="8.4 banner" src="../images/CeVIO%20AI_banner_8.4.jpg"/></a></p>
+<p>版本 8.4 改进了歌唱的 TIMING 调整页，同时对角色列表做了些使用性上的小改进。</p>
+<p>（12/15 版本 8.3.22.0 提前公开。12/20 版本 8.4.0.0 正式公开。）</p>
 <p>▼歌唱相关</p>
 <ul>
-<li>歌唱引擎更新到 6.2.0。</li>
+<li>
+<p>歌唱引擎更新到 6.2.0。修复了在歌曲开始 / 末尾的空白小节，VOL 有时会突然变得太大的错误。</p>
+<p>※减弱的仅是歌曲开始 / 末尾的空白小节的噪音，其他的声音没有变化。</p>
+</li>
+<li>
+<p>实装了新功能「元音时间修正」。</p>
+<p>将元音的发声时间自动调整到音符的起始处。※版本 8.4.0.0 更新（方法变更）</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_vowel_ajust.png"><img alt="vowel adjust" src="../images/V8.4_vowel_ajust.png"/></a></p>
+<ul>
+<li>选择音符（或在 TMG 调整页面选择范围）后，从右键菜单中选择。</li>
+<li>辅音会随元音移动相同的数值（如果辅音无法移动，请使用比率调整它。如果没有足够的空间则跳过）。</li>
 </ul>
+<p>※鉴于机械修正可能会失去原先良好的听感，请将其用作辅助手段。</p>
+</li>
+<li>
+<p>在音符编辑页面调整 TMG 时，也会同时显示音符内包含的音素的线条。</p>
+</li>
+<li>
+<p>在 TIMING 调整页面中，音符/音素单位的两个调整模式现已合并。</p>
+<p>下方的黑带以音符为单位调整，上方的线以音素为单位调整。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_score_timing_adjust.png"><img alt="timing adjust" src="../images/V8.4_score_timing_adjust.png"/></a></p>
+<p>※删除了切换音符 / 音素单位调整模式的快捷键 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-p">P</kbd></span>。</p>
+</li>
+<li>
+<p>在 TIMING 调整页面按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时显示或隐藏状态线。</p>
+<p>※<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> 可以永久显示或隐藏状态线。</p>
+<p>※切换状态线为显示时，按 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时以音符为单位调整。</p>
+</li>
+<li>
+<p>在以音符为单位调整时，不再移动前一个音符的元音。※版本 8.4.0.0 更新</p>
+</li>
+<li>现支持在歌词中输入特殊符号 <code>^</code> 和 <code>＾</code>。※版本 8.4.0.0 更新</li>
+<li>现支持「夢ノ結唱 POPY(ポピー)」歌唱声库 1.0.0。</li>
+<li>现支持「夢ノ結唱 ROSE(ローズ)」歌唱声库 1.0.0。</li>
+</ul>
+<p>▼语音相关</p>
+<ul>
+<li>在重音调整界面内，当在没有音拍的地方按下鼠标左键时，将立刻开始试听。</li>
+<li>修复了当导出歌曲、台词为 WAV 时，对话框内「导出文本台词」或「导出时间数据」的勾选状态被清空的错误。</li>
+<li>
+<p>修复了当导出路径包含双字节字符时，在外部链接界面使用特定 API 操作英语声库时，无法导出音频的错误。</p>
+<p>.NET 接口：Talker2.OutputWaveToFile()</p>
+<p>COM 接口：ITalker2::OutputWaveToFile()　ITalker2V40::OutputWaveToFile()</p>
+<p>※修复了在《Recotte Studio》中指定说话人为「弦巻マキ (英)」时无法生成音频波形的问题。给您带来的不便我们深感抱歉。</p>
+</li>
+</ul>
+<p>▼其他变化</p>
+<ul>
+<li>
+<p>「添加轨道」显示角色列表时，每隔 12 个角色会换一次行，以提升显示体验。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/V8.4_cast_list.png"><img alt="cast list" src="../images/V8.4_cast_list.png"/></a></p>
+<p>※变更角色排列顺序的功能现在正在开发中。</p>
+</li>
+<li>
+<p>放宽了打开项目时对歌曲引擎 / 语音引擎的版本检查，以减少警告。</p>
+<p>※比如说，版本 6.2.0 和 6.2.1 之间最后一位数字的差别（波形没有变化）现在不会再显示警告，从而减少在支持新声库时频繁出现的警告信息。</p>
+</li>
+<li>
+<p>将音频轨道右键菜单的「自动排列音频」的默认设定改为了“关闭”。</p>
+<p>※修改的是安装时的设置。如果在版本更新之前就已在使用 CeVIO，设置不会发生变化。</p>
+<p>※想让音轨重叠时请关闭；想自动排列音频时请开启。</p>
+</li>
+<li>
+<p>改进了在准备播放时间轴时因错误而导致应用程序终止时，项目的最终备份。</p>
+</li>
+<li>当 5 分钟一次的项目备份被跳过时（例如在导出 WAV 时），现在会以 1 分钟一次的间隔再次重试。</li>
+<li>修复了在未安装 vc_redist.x64.exe 的环境中启动应用时，启动画面不显示提示信息的错误。</li>
+<li>其他错误改进与修复。</li>
+</ul>
+<h2 id="83">8.3</h2>
 <h3 id="20221012-83170">2022/10/12 更新（版本号 8.3.17.0）</h3>
 <p>▼歌唱 / 语音共通</p>
 <p>在「选项」的「环境」中添加了「采样率」。</p>
@@ -1200,7 +1286,7 @@
 </ul>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/2022.5.12_V8.2_auto_audition.png"><img alt="auto_audition" src="../images/2022.5.12_V8.2_auto_audition.png"/></a></p>
 <ul>
-<li>修改的是安装时的设置。如果在版本更新之前就已在使用 CeVIO，请根据自己的喜好设置。</li>
+<li>修改的是安装时的设置。如果在版本更新之前就已在使用 CeVIO，设置不会发生变化。</li>
 </ul>
 </li>
 <li>
@@ -1323,7 +1409,7 @@
 <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月15日</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月20日</span>
 <br/>
         创建日期:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年5月13日</span>
