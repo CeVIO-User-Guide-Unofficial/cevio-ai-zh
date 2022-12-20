@@ -5,6 +5,90 @@ date: 2022-02-04
 category: Change Log
 layout: post
 ---
+------------------------------------------------------
+
+Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)
+------------------------------------------------------
+
+![8.4 banner](images/CeVIO%20AI_banner_8.4.jpg)
+
+Version 8.4 includes improvements to the song timing adjustment function and minor usability improvements such as the cast list.
+
+（Dec.15 version 8.3.22.0 pre-release. Dec.20 version 8.4.0.0 release.）
+
+▼Song related changes
+
+- Updated to Song Engine 6.2.0. Fixed a bug that the VOL sometimes became too large in empty bars at the beginning/end of a song.
+
+    \* It only reduces the noise in empty bars at the beginning/end and does not change other sounds.
+
+- A new function "Vowel Timing Correction" was implemented.
+
+    Vowel timing is automatically adjusted to the beginning of the note. \* Version 8.4.0.0 updated (functional change)
+
+    ![vowel_adjust](images/V8.4_vowel_ajust.png)
+
+    - You can choose it from the right-click menu of the note (or after selecting a range in the TIMING adjustment screen).
+    - Consonants are moved the same amount as vowels (if it can't, use ratio to adjust it; if there's no space for it, pass).
+
+    \* Please use it as a supplement as the mechanical correction may lose its original good listening feel..
+
+- While adjusting the timing of notes in the Score Edit Screen, the line of phonemes contained in the notes is also displayed.
+
+- In the Timing Adjustment Screen, the modes of phoneme/note unit adjustment are integrated.
+
+    The lower black band allows note-by-note adjustment and the upper lines allow phoneme-by-phoneme adjustment without switching modes.
+    
+    ![timing adjust](images/V8.4_score_timing_adjust.png)
+    
+    \* The shortcut key ++ctrl+shift+p++ for switching between phoneme/note modes has been removed.
+
+- When the ++alt++ key is held down on the timing adjustment screen, the temporary status line can be displayed or not displayed.
+
+    \* You can use ++ctrl+i++ to show/hide the persistent status line.
+
+    \* After displaying the status line, you can temporarily adjust it in note units by pressing the ++alt++ key.
+
+- The vowel of the previous note is not moved during note-by-note timing adjustment. \* Version 8.4.0.0 updated
+- The special symbols `^` and `＾` in lyrics are now supported. \* Version 8.4.0.0 updated
+- Fixed a bug that an error message was displayed when dragging after collectively selection.
+- "夢ノ結唱 POPY(ポピー)" Song Voice 1.0.0 is now supported.
+- "夢ノ結唱 ROSE(ローズ)" Song Voice 1.0.0 is now supported.
+
+▼Talk related changes
+
+- When pressing the left mouse button in the accent adjustment screen where there is no mora, it will be auditioned immediately.
+- Fixed a bug that the check status of "Export Lines Text" or "Export Timing Data" in the dialog WAV export window is cleared when exporting song or line as WAV.
+- Fixed a bug that WAV files were not output if the output destination path contained double-byte characters when the specific API of the external linkage interface was used with English voices.
+
+    .NET interface: Talker2.OutputWaveToFile()
+
+    COM interface: ITalker2::OutputWaveToFile()　ITalker2V40::OutputWaveToFile()
+
+    \* Fixed a problem in which voice waveforms were not generated when "Tsurumaki Maki (EN)" was specified for "Speaker Name" in "Recotte Studio". We sincerely apologise for any inconvenience caused.
+
+▼Other changes
+
+- The cast list displayed by "Add track" is folded back with 12 characters for easy viewing.
+
+    ![cast list](images/V8.4_cast_list.png)
+
+    \* The function for sorting casts is in develop.
+
+- The version check of the song engine/talk engine when opening a project has been relaxed to suppress warnings.
+
+    \* For example, between version 6.2.0 and 6.2.1, difference in the last digit (no change in waveform) do not display a warning message now, suppressing frequent warnings for each new voice support.
+
+- Changed the default setting of the right-click menu "Automatic Audio Alignment" for audio tracks to off.
+
+    \* This is a change to the settings during installation. If you have been using CeVIO since before the update, it will not change.
+
+    \* Turn off if you want to overlay multiple audios, or on if you want to auto-align.
+
+- Improved the final backup of projects when the application is closed due to an error while preparing for timeline playback.
+- When a 5-minute backup of a project is skipped (e.g. during WAV export), retry at 1-minute intervals.
+- Fixed a problem in which the information message is hidden in the splash screen when the application is started in an environment where "vc_redist.x64.exe" is not yet installed.
+- Other minor improvements and bug fixes.
 
 ------------------------------------------------------
 

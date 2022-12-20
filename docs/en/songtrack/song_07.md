@@ -49,6 +49,14 @@ When adjusting by note, the original length ratio of consonant and vowel is auto
 
 ![adjust in note units](images/song_07_4.png)
 
+!!! new "[Version 8.4.0.0](../intro/change-log/#dec20-2022-version-84-official-release-832208400)"
+
+    - In the Timing Adjustment Screen, the modes of phoneme/note unit adjustment are integrated.
+
+        The lower black band allows note-by-note adjustment and the upper lines allow phoneme-by-phoneme adjustment without switching modes.
+
+        \* The shortcut key ++ctrl+shift+p++ for switching between phoneme/note modes has been removed.
+
 ### Timing Status line
 
 Originally, timing consists of five lines for each phoneme in a lyric (e.g., "d" or "o" for "ド"), one reddish-purple **phoneme line** to indicate the beginning of the phoneme, and four light-purple **status lines** to indicate the change of sound within the phoneme.
@@ -56,6 +64,14 @@ Originally, timing consists of five lines for each phoneme in a lyric (e.g., "d"
 These status lines can be display by pressing the ++ctrl+i++ key or by turning on "Timing Status Lines" under "Line View" in the "Song" menu. Normally it is fine to hide them, but you can show or adjust them as needed.
 
 \* The default setting is hidden. When hidden, the status lines are automatically adjusted to maintain the ratio between the lines.
+
+!!! new "[Version 8.4.0.0](../intro/change-log/#dec20-2022-version-84-official-release-832208400)"
+
+    - When the ++alt++ key is held down on the timing adjustment screen, the temporary status line can be displayed or not displayed.
+
+        \* You can use ++ctrl+i++ to show/hide the persistent status line.
+
+        \* After displaying the status line, you can temporarily adjust it in note units by pressing the ++alt++ key.
 
 ![status line](images/song_07_5.png)
 
