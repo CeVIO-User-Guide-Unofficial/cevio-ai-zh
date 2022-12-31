@@ -99,6 +99,12 @@ You can also edit phoneme symbols by double-clicking on a note with "Enter lyric
 
 ## Simple TIMING Display
 
+When notes are entered, the lyrics' phoneme symbols and vocal timing are displayed in black bands at the bottom of the screen, which allow simple timing adjustments, etc.
+
+![timing adjust](images/song_02_7.png)
+
+\* Turn off "Timing Edit on Score" in "Song" under "Option" to hide it.
+
 ### Simple TIMING Adjustment
 
 Move the mouse cursor over the black bars with the Draw Tool to see the consonant and vowel timing lines, and drag them left or right to adjust the timing of the utterance.
