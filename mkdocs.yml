@@ -1,87 +1,24 @@
-site_name: CeVIO AI 用户指南中文版
+site_name: CeVIO AI 用户指南
 site_description: 非官方的 CeVIO AI 用户指南中文版翻译
-
-# Contents
-nav:
-  - 简介:
-    - Getting Started: index.md
-    - intro/change-log.md
-    - intro/change-log_website.md
-    - intro/contact.md
-    - intro/about.md
-  - 入门:
-    - firstguide/system_requirements.md
-    - firstguide/install.md
-    - firstguide/install_cn_patch.md
-  - 基本操作:
-    - operation/operation.md
-    - operation/menu.md
-    - operation/transport.md
-    - operation/infopanel.md
-    - operation/trackhead.md
-    - operation/edittool.md
-    - operation/adjusttool.md
-  - 语音轨道的操作:
-    - talktrack/tutorial_talk.md
-    - talktrack/talktrack.md
-    - talktrack/talk_01.md
-    - talktrack/longsentence.md
-    - talktrack/talk_02.md
-    - talktrack/talk_05.md
-    - talktrack/phoneme.md
-    - talktrack/phoneme_english.md
-    - talktrack/talk_06.md
-    - talktrack/talk_01_english.md
-    - talktrack/phrasececlip.md
-    - talktrack/search.md
-    - talktrack/talk_04.md
-  - 歌唱轨道的操作:
-    - songtrack/tutorial_song.md
-    - songtrack/songtrack.md
-    - songtrack/songtrack_copy.md
-    - songtrack/song_02.md
-    - songtrack/song_04.md
-    - songtrack/song_04_english.md
-    - songtrack/song_03.md
-    - songtrack/song_05.md
-    - songtrack/song_07.md
-    - songtrack/song_06.md
-    - songtrack/fileimport.md
-  - 音频轨道的操作:
-    - audio/audio.md
-  - 选项:
-    - option/option.md
-    - option/characterimage.md
-  - 快捷键:
-    - shortcutkey/shortcutkey.md
-  - 外部调用接口:
-    - interface/interface.md
-    - interface/com.md
-    - interface/dotnet.md
-  - FAQ和已知问题:
-    - faq/faq.md
-    - faq/known_bugs.md
-  - 其他:
-    - others/voices_and_official_websites.md
-    - others/third_party_websites.md
-    - others/emotion_in_song_editor.md
-    - others/revised_license_agreement.md
-    - others/suzuki_tsudumi_song_contest_result.md
-
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
+repo_name: CUGU/CeVIO-AI
 
 # Theme
 theme:
+  custom_dir: 'overrides/material'                  # This is where the customization of the theme lives
   name: material
   features:
     - content.tooltips
     - content.code.annotate
-    - header.autohide
+    - content.code.copy
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
-    - navigation.instant
     - navigation.top
+    - navigation.footer
   icon:
+    logo: fontawesome/solid/book
+    favicon: images/c-solid.png
     repo: fontawesome/brands/github
   language: zh
   palette:
@@ -104,13 +41,9 @@ extra:
       link: https://twitter.com/CeVIO_st
       name: CeVIO on Twitter
 
-
-repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
-repo_name: CUGU/CeVIO-AI
-
 # CSS
 extra_css:
-  - css/stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -120,7 +53,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - meta
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.highlight:
@@ -137,8 +69,105 @@ markdown_extensions:
       toc_depth: 6
 
 plugins:
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "zh"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      docs_structure: folder
+      languages:
+        zh:
+          name: 中文（简体）
+          build: true
+          site_name: "CeVIO AI 用户指南（非官方译文）"
+        en:
+          name: English
+          build: true
+          site_name: "CeVIO AI User Guide (Unofficial Translation)"
+      nav_translations:
+        zh:
+          Home: 首页
+          Introduction: 简介
+          First Guide: 入门
+          Operation: 基本操作
+          Talk Track: 语音轨道
+          Song Track: 歌唱轨道
+          Audio Track: 音频轨道
+          Options: 选项
+          Shortcut Key: 快捷键
+          External Interface: 外部调用接口
+          FAQ and Bugs: FAQ和已知问题
+          Others: 其他
+  - search
+  - glightbox
   - git-revision-date-localized:
       type: date
-      locale: zh
       enable_creation_date: true
-  - search
+  # - offline
+      # enabled: !ENV [OFFLINE, false]
+
+# Contents
+nav:
+  - Home: index.md
+  - Introduction:
+    - intro/change-log.md
+    - intro/change-log_website.md
+    - intro/contact.md
+    - intro/about.md
+  - First Guide:
+    - firstguide/system_requirements.md
+    - firstguide/install.md
+    - firstguide/install_cn_patch.md
+  - Operation:
+    - operation/operation.md
+    - operation/menu.md
+    - operation/transport.md
+    - operation/infopanel.md
+    - operation/trackhead.md
+    - operation/edittool.md
+    - operation/adjusttool.md
+  - Talk Track:
+    - talktrack/tutorial_talk.md
+    - talktrack/talktrack.md
+    - talktrack/talk_01.md
+    - talktrack/longsentence.md
+    - talktrack/talk_02.md
+    - talktrack/talk_05.md
+    - talktrack/phoneme.md
+    - talktrack/phoneme_english.md
+    - talktrack/talk_06.md
+    - talktrack/talk_01_english.md
+    - talktrack/phrasececlip.md
+    - talktrack/search.md
+    - talktrack/talk_04.md
+  - Song Track:
+    - songtrack/tutorial_song.md
+    - songtrack/songtrack.md
+    - songtrack/songtrack_copy.md
+    - songtrack/song_02.md
+    - songtrack/song_04.md
+    - songtrack/song_04_english.md
+    - songtrack/song_symbol.md
+    - songtrack/song_03.md
+    - songtrack/song_05.md
+    - songtrack/song_07.md
+    - songtrack/song_06.md
+    - songtrack/fileimport.md
+  - Audio Track:
+    - audio/audio.md
+  - Options:
+    - option/option.md
+    - option/characterimage.md
+  - Shortcut Key:
+    - shortcutkey/shortcutkey.md
+  - External Interface:
+    - interface/interface.md
+    - interface/com.md
+    - interface/dotnet.md
+  - FAQ and Bugs:
+    - faq/faq.md
+    - faq/known_bugs.md
+  - Others:
+    - others/voices_and_official_websites.md
+    - others/third_party_websites.md
+    - others/emotion_in_song_editor.md
+    - others/revised_license_agreement.md
+    - others/suzuki_tsudumi_song_contest_result.md
