@@ -518,7 +518,7 @@
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_4">
-    以音符为单位调整
+    音符 / 音素单位的调整
   </a>
 </li>
 <li class="md-nav__item">
@@ -526,26 +526,31 @@
     状态线
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    元音时间修正
+  </a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_6">
+<a class="md-nav__link" href="#_7">
     音量调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
+<a class="md-nav__link" href="#_8">
     音高调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
+<a class="md-nav__link" href="#_9">
     颤音的振幅调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_9">
+<a class="md-nav__link" href="#_10">
     颤音的周期调整
   </a>
 </li>
@@ -757,7 +762,7 @@
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_4">
-    以音符为单位调整
+    音符 / 音素单位的调整
   </a>
 </li>
 <li class="md-nav__item">
@@ -765,26 +770,31 @@
     状态线
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    元音时间修正
+  </a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_6">
+<a class="md-nav__link" href="#_7">
     音量调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
+<a class="md-nav__link" href="#_8">
     音高调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
+<a class="md-nav__link" href="#_9">
     颤音的振幅调整
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_9">
+<a class="md-nav__link" href="#_10">
     颤音的周期调整
   </a>
 </li>
@@ -817,40 +827,19 @@
 <p>在这里调整音素发声的时刻和时长。</p>
 <p>调整时间会自动重新计算音高、音量、颤音幅度和周期，以配合时间变化。所以先调整时间，再调整其他项目会更有效率。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_3.png"><img alt="Edit Timing" src="../images/song_07_3.png"/></a></p>
-<p>选择「画笔工具」，拖动线条来修改时间。</p>
+<h3 id="_4">音符 / 音素单位的调整</h3>
+<p>选择「画笔工具」，拖动下方黑带里的线条来以音符为单位修改时间。</p>
 <p>向前移动线条可以将时刻提前，向后移动可以将时刻延后。</p>
-<h3 id="_4">以音符为单位调整</h3>
-<p>按下 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-p">P</kbd></span> 可以在音素单位和音符单位之间切换。按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时切换。</p>
-<p>以音符为单位调整时，会自动保持辅音和元音的原始长度比例。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_4.png"><img alt="adjust in note unit" src="../images/song_07_4.png"/></a></p>
-<div class="admonition new">
-<p class="admonition-title"><a href="../intro/change-log/#20221220-8400">版本 8.4.0.0</a></p>
-<ul>
-<li>
-<p>在 TIMING 调整页面中，音符/音素单位的两个调整模式现已合并。</p>
-<p>下方的黑带以音符为单位调整，上方的线以音素为单位调整。</p>
-<p>※删除了切换音符 / 音素单位调整模式的快捷键 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-p">P</kbd></span>。</p>
-</li>
-</ul>
-</div>
+<p>拖动黑带上方的线，可以以音素为单位调整辅音或元音的长度。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_V8.4_timing_adjust2.png"><img alt="adjust in phoneme unit" src="../images/song_07_V8.4_timing_adjust2.png"/></a></p>
 <h3 id="_5">状态线</h3>
 <p>从本质上讲，时间由歌词中每个音素（例如「ド」的「d」或「o」）的五条线组成，一条红紫色的<strong>音素线</strong>表示该音素的开始，四条浅紫色的<strong>状态线</strong>表示该音素的声音变化。</p>
-<p>可以按 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> 键显示这些状态线，或者在「歌唱」菜单的「显示网格线」下打开「显示音素状态线」。通常情况下可以直接隐藏，有需要时再将它显示出来做调整。</p>
-<p>※默认设置为隐藏。在隐藏状态线的情况下，调整时会自动保证状态线之间的原始比率。</p>
-<div class="admonition new">
-<p class="admonition-title"><a href="../intro/change-log/#20221220-8400">版本 8.4.0.0</a></p>
-<ul>
-<li>
-<p>在 TIMING 调整页面按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时显示或隐藏状态线。</p>
-<p>※<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> 可以永久显示或隐藏状态线。</p>
-<p>※切换状态线为显示时，按 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时以音符为单位调整。</p>
-</li>
-</ul>
-</div>
+<p>可以按 <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> 键显示这些状态线，或者在「歌唱」菜单的「显示网格线」下打开「显示音素状态线」。按住 <span class="keys"><kbd class="key-alt">Alt</kbd></span> 键可以暂时切换。※通常情况下可以直接隐藏，有需要时再将它显示出来做调整。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_5.png"><img alt="status line" src="../images/song_07_5.png"/></a></p>
 <p>显示状态线时，可以以一条状态线为单位调整时间。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_6.png"><img alt="status line" src="../images/song_07_6.png"/></a></p>
-<p>显示状态线时，在钢琴卷帘下部显示音素的黑色区域内拖动音素线，可以方便地以音素单位（或音符单位）自动调整状态线。</p>
+<p>在显示状态线的状态下拖动黑带调整音素单位时，状态线也会自动调整。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_7.png"><img alt="status line" src="../images/song_07_7.png"/></a></p>
 <div class="admonition info">
 <p class="admonition-title">关于参数变化</p>
@@ -858,7 +847,13 @@
 <p>由于时间调整值是相对于原始值而言的，因此当参数发生变化时，调整值也会发生变化。在这种情况下，每条时间线内跨越了相邻线的线将会被重置。</p>
 <p>（除时间外，音高等其他调整值是绝对值。）</p>
 </div>
-<h2 id="_6">音量调整</h2>
+<h3 id="_6">元音时间修正</h3>
+<p><em>母音のタイミング補正 / Vowel Timing Correction</em></p>
+<p>选择音符（或在 TMG 调整页面选择范围）后，从右键菜单中选择「元音时间修正」，可以将元音的发声时间自动调整到音符的起始处。</p>
+<p>※辅音会随元音移动相同的数值（如果辅音无法移动，请使用比率调整它。如果没有足够的空间留给辅音则跳过）。</p>
+<p>※鉴于机械修正可能会失去原先良好的听感，请将其用作辅助手段。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_V8.4_vowel_adjust_tmg.png"><img alt="status line" src="../images/song_07_V8.4_vowel_adjust_tmg.png"/></a></p>
+<h2 id="_7">音量调整</h2>
 <p><em>ボリューム調整 / Edit Volume</em></p>
 <p>在这里编辑音符的音量。</p>
 <p>※也可以通过<a href="../songtrack">强弱记号</a>轻松调整音量。</p>
@@ -866,7 +861,7 @@
 <p>选择「画笔工具」，拖动线条来修改音量。</p>
 <p>音量的单位为 dB（分贝）。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_9.png"><img alt="edit volume" src="../images/song_07_9.png"/></a></p>
-<h2 id="_7">音高调整</h2>
+<h2 id="_8">音高调整</h2>
 <p><em>ピッチ調整 / Edit Pitch</em></p>
 <p>在这里调整音符的音高。仅调整基本音高，不包含颤音。</p>
 <p>在音高调整页面以外，当叠加显示音高时，颤音影响后的音高也会一同显示。</p>
@@ -876,7 +871,7 @@
 <p>音高的单位是 Hz（赫兹）。</p>
 <p>相对值的数值（括号内）的单位是 Cent，+100Cent 代表升高半个音。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_11.png"><img alt="edit pitch" src="../images/song_07_11.png"/></a></p>
-<h2 id="_8">颤音的振幅调整</h2>
+<h2 id="_9">颤音的振幅调整</h2>
 <p><em>ビブラートの振幅調整 / Edit Vibrato Amplitude</em></p>
 <p>颤音可以通过振幅和周期来调节，在这里调整颤音的振幅。</p>
 <p>重叠显示音高将显示带有颤音的音高，以便于调整。</p>
@@ -885,7 +880,7 @@
 <p>选择「画笔工具」，拖动线条来修改振幅。</p>
 <p>振幅的单位是 Cent，100Cent 代表向上或向下摆动半个音。</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_07_13.png"><img alt="edit amplitude" src="../images/song_07_13.png"/></a></p>
-<h2 id="_9">颤音的周期调整</h2>
+<h2 id="_10">颤音的周期调整</h2>
 <p><em>ビブラートの周期調整 / Edit Vibrato Frequency</em></p>
 <p>颤音可以通过振幅和周期来调节，在这里调整颤音的周期（频率）。</p>
 <p>重叠显示音高将显示带有颤音的音高，以便于调整。</p>
@@ -899,7 +894,7 @@
 <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月20日</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月31日</span>
 <br/>
         创建日期:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年5月18日</span>

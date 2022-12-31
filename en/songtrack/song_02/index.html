@@ -489,11 +489,53 @@
 <a class="md-nav__link" href="#move-note">
     Move Note
   </a>
+<nav aria-label="Move Note" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#move-note-with-parameters">
+    Move Note with Parameters
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#copy-and-paste-note">
     Copy and Paste Note
   </a>
+<nav aria-label="Copy and Paste Note" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#copy-and-paste-note-with-parameters">
+    Copy and Paste Note with Parameters
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paste-lyrics-only">
+    Paste Lyrics Only
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-timing-display">
+    Simple TIMING Display
+  </a>
+<nav aria-label="Simple TIMING Display" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-timing-adjustment">
+    Simple TIMING Adjustment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#specify-phoneme-symbols">
+    Specify phoneme symbols
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -734,11 +776,53 @@
 <a class="md-nav__link" href="#move-note">
     Move Note
   </a>
+<nav aria-label="Move Note" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#move-note-with-parameters">
+    Move Note with Parameters
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#copy-and-paste-note">
     Copy and Paste Note
   </a>
+<nav aria-label="Copy and Paste Note" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#copy-and-paste-note-with-parameters">
+    Copy and Paste Note with Parameters
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paste-lyrics-only">
+    Paste Lyrics Only
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-timing-display">
+    Simple TIMING Display
+  </a>
+<nav aria-label="Simple TIMING Display" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-timing-adjustment">
+    Simple TIMING Adjustment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#specify-phoneme-symbols">
+    Specify phoneme symbols
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -763,7 +847,7 @@
 <p>When a note is entered, the phoneme and vocal time of the lyrics are displayed below it. The timing can be adjusted here.</p>
 <p>Click on the scale and character assigned to this track will sing this key.</p>
 <div class="admonition tip">
-<p class="admonition-title">hint for note input</p>
+<p class="admonition-title">Hint for note input</p>
 <p>It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalization.</p>
 <p>Including the sokuon in the lyrics and adjusting the timing of the vocalization in the Timing adjustment screen will get a better song.</p>
 </div>
@@ -781,10 +865,11 @@
 <p>Alternatively, hold down <span class="keys"><kbd class="key-alt">Alt</kbd></span> while dragging to copy the selected note.</p>
 <p>Moving note to bar 0 is not allowed.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_02_4.png"><img alt="move note" src="../images/song_02_4.png"/></a></p>
-<div class="admonition tip">
-<p class="admonition-title">Move Note with Parameters</p>
+<h3 id="move-note-with-parameters">Move Note with Parameters</h3>
 <p>After selecting notes, drag with the mouse or move them with <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> or <span class="keys"><kbd class="key-arrow-down">Down</kbd></span> keys, and the pitch will automatically follow their change.</p>
 <p>Use the <a href="../song_05">Collectively Selection Tool</a> to specify the range, and then move them, the notes in the selection range will move together with their parameters.</p>
+<div class="admonition tip">
+<p class="admonition-title">Automatic collectively selection and how to evade</p>
 <p>If you move notes which have been adjusted parameters, they will automatically be collectively selected and the parameters will follow, even if you move them with a tool other than the collectively selection tool. At this time, if you hold down the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key and move a note vertically, this note will not be collectively selected, and the adjusted pitch will remain in the original place.</p>
 </div>
 <h2 id="copy-and-paste-note">Copy and Paste Note</h2>
@@ -794,16 +879,27 @@
 <p>After selecting the notes, select "Copy" from the context menu.</p>
 <p>Then, select "Paste" from the right-click menu to paste the notes at the cursor position.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_02_5.png"><img alt="copy and paste note" src="../images/song_02_5.png"/></a></p>
-<div class="admonition tip">
-<p class="admonition-title">Copy and Paste Note with Parameters</p>
+<h3 id="copy-and-paste-note-with-parameters">Copy and Paste Note with Parameters</h3>
 <p>By using the <a href="../song_05">Collectively Selection Tool</a> to specify the range and copy, you can also copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.</p>
-</div>
+<h3 id="paste-lyrics-only">Paste Lyrics Only</h3>
+<p>After copying a note, you can select "Paste Lyrics Only" from the right-click menu of the note you want to paste the lyrics to.</p>
+<p>The lyrics will be applied to the note whose relative time matches that of the source note. You can use this feature to create chorus tracks, etc.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_02_6.png"><img alt="score note paste lyrics" src="../images/song_02_6.png"/></a></p>
+<p>You can also edit phoneme symbols by double-clicking on a note with "Enter lyrics by phoneme" on, or from the note properties.</p>
+<h2 id="simple-timing-display">Simple TIMING Display</h2>
+<h3 id="simple-timing-adjustment">Simple TIMING Adjustment</h3>
+<p>Move the mouse cursor over the black bars with the Draw Tool to see the consonant and vowel timing lines, and drag them left or right to adjust the timing of the utterance.</p>
+<p>Normally, it is adjusted in note units, but when "Enter Lyrics with Phoneme" in the "Song" menu is turned on (or the <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-p">P</kbd></span> key is pressed), it is adjusted in phoneme units. You can also switch temporarily by pressing the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key.</p>
+<h3 id="specify-phoneme-symbols">Specify phoneme symbols</h3>
+<p>Double-click on the phoneme symbols displayed on TIMING to edit the phoneme.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/song_02_8.png"><img alt="timing adjust" src="../images/song_02_8.png"/></a></p>
+<p>* You can also edit phoneme symbols by turning on "Enter Lyrics with Phoneme" and then double-clicking on a note, or by using the note properties.</p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 14, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 31, 2022</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 18, 2022</span>
