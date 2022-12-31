@@ -44,9 +44,6 @@ layout: post
 
 ![continuly enter lyrics](images/song_04_english_2.png)
 
-!!! new "改进的「长段歌词输入」"
-    （「按空格分割」时）如果只选择了一个音符，所有后续的歌词都会显示出来。
-
 ## 假声记号
 
 如果歌词中包含 `$`，那么该音符将发假声。

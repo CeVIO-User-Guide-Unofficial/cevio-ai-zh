@@ -37,41 +37,25 @@ Adjusting the time will automatically recalculate pitch, volume, vibrato amplitu
 
 ![Edit Timing](images/song_07_3.png)
 
-Select draw tool and drag line to change timing.
+### Adjust in Note/Phoneme Unit
+
+Select Draw Tool and drag the line in the black band at the bottom to adjust the timing in note units.
 
 Move the line forward to advance the time, and move it backward to delay the time.
 
-### Adjust in Phoneme Units
-
-Press ++ctrl+shift+p++ to toggle between phoneme units and note units. Hold down the ++alt++ key to toggle temporarily.
-
-When adjusting by note, the original length ratio of consonant and vowel is automatically maintained.
-
 ![adjust in note units](images/song_07_4.png)
 
-!!! new "[Version 8.4.0.0](../intro/change-log/#dec20-2022-version-84-official-release-832208400)"
+Drag the line on the upper side of the black band to adjust the length of consonants and vowels in phoneme units.
 
-    - In the Timing Adjustment Screen, the modes of phoneme/note unit adjustment are integrated.
+![adjust in phoneme unit](images/song_07_V8.4_timing_adjust2.png)
 
-        The lower black band allows note-by-note adjustment and the upper lines allow phoneme-by-phoneme adjustment without switching modes.
-
-        \* The shortcut key ++ctrl+shift+p++ for switching between phoneme/note modes has been removed.
+When adjusting by note, the original length ratio of consonant and vowel is automatically maintained.
 
 ### Timing Status line
 
 Originally, timing consists of five lines for each phoneme in a lyric (e.g., "d" or "o" for "ド"), one reddish-purple **phoneme line** to indicate the beginning of the phoneme, and four light-purple **status lines** to indicate the change of sound within the phoneme.
 
-These status lines can be display by pressing the ++ctrl+i++ key or by turning on "Timing Status Lines" under "Line View" in the "Song" menu. Normally it is fine to hide them, but you can show or adjust them as needed.
-
-\* The default setting is hidden. When hidden, the status lines are automatically adjusted to maintain the ratio between the lines.
-
-!!! new "[Version 8.4.0.0](../intro/change-log/#dec20-2022-version-84-official-release-832208400)"
-
-    - When the ++alt++ key is held down on the timing adjustment screen, the temporary status line can be displayed or not displayed.
-
-        \* You can use ++ctrl+i++ to show/hide the persistent status line.
-
-        \* After displaying the status line, you can temporarily adjust it in note units by pressing the ++alt++ key.
+These status lines can be display by pressing the ++ctrl+i++ key or by turning on "Timing Status Lines" under "Line View" in the "Song" menu. Hold down ++alt++ to toggle temporarily. \* Normally it is fine to hide them, but you can show or adjust them as needed.
 
 ![status line](images/song_07_5.png)
 
@@ -79,7 +63,7 @@ When the status line is displayed, the timing can be adjusted in units of one st
 
 ![status line](images/song_07_6.png)
 
-When the status line is displayed, it is convenient to drag the phoneme line in the black area where the phonemes are displayed in the lower part of the piano roll to automatically adjust the status line in phoneme units (or note units).
+When dragging in the black area to adjust in phoneme units while the status line is displayed, the status lines will be adjusted automatically.
 
 ![status line](images/song_07_7.png)
 
@@ -89,6 +73,16 @@ When the status line is displayed, it is convenient to drag the phoneme line in 
     Since the timing adjustment value is relative to the original value, when the parameter changes, the adjustment value also changes. In this case, each timing line that crosses adjacent lines will be reset.
 
     (Adjustment values other than timing, such as pitch, are absolute values.)
+
+### Vowel Timing Correction
+
+Choose it from the right-click menu of the note (or after selecting a range in the TIMING adjustment screen) to adjust vowel timing automatically to the beginning of the note.
+
+\* Consonants are moved the same amount as vowels (if it can't, use ratio to adjust it; if there's no space for it, pass).
+
+\* Please use it as a supplement as the mechanical correction may lose its original good listening feel.
+
+![vowel_adjust](images/song_07_V8.4_vowel_adjust_tmg.png)
 
 ## Edit Volume
 

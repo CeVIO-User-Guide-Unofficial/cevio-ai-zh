@@ -21,18 +21,18 @@ CeVIO AI produces highly accurate Song Voices by learning recorded data labeled 
 | 可不 (KAFU) | falsetto | tremble |  | whisper |
 | 結月ゆかり 麗<br>Yuzuki Yukari Rei | falsetto |  |  |  |
 | 東北きりたん<br>Tohoku Kiritan | falsetto |  |  |  |
-| IA  | falsetto | rise up at the end |  | 抜き |
+| IA  | falsetto | pitch bend up at the end of a note |  | 抜き<br>singing in a more relax way |
 | IA (ENG) | falsetto |  |  |  |
 | ONE | falsetto |  |  |  |
-| 東北ずん子<br>Tohoku Zunko | falsetto | rise up at the end |  |  |
-| 東北イタコ<br>Tohoku Itako | falsetto | rise up at the end |  |  |
+| 東北ずん子<br>Tohoku Zunko | falsetto | pitch bend up at the end of a note |  |  |
+| 東北イタコ<br>Tohoku Itako | falsetto | pitch bend up at the end of a note |  |  |
 | すずきつづみ<br>Suzuki Tsudumi | falsetto |  |  |  |
-| 星界 (SEKAI) | falsetto | rise up at the end | tremble | いきり |
-| 裏命 (RIME) | falsetto | rise up at the end | tremble | いきり |
+| 星界 (SEKAI) | falsetto | pitch bend up at the end of a note | tremble | いきり<br>singing in a more intense way |
+| 裏命 (RIME) | falsetto | pitch bend up at the end of a note | tremble | いきり<br>singing in a more intense way |
 | #KZN | falsetto |  |  |  |
-| 双葉 湊音<br>Futaba Minato | falsetto | rise up at the end |  | いきり |
-| POPY | falsetto | rise up at the end | whisper | fall down at leading |
-| ROSE | falsetto | いきり | whisper |  |
+| 双葉 湊音<br>Futaba Minato | falsetto | pitch bend up at the end of a note |  | いきり<br>singing in a more intense way |
+| POPY | falsetto | pitch bend up at the end of a note | whisper | pitch bend down at the end of a note |
+| ROSE | falsetto | いきり<br>singing in a more intense way | whisper |  |
 
 \* Depending on the cast, lyrics, pitch, etc., the difficulty of showing the characteristics will vary.
 

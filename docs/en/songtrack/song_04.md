@@ -38,15 +38,6 @@ When "1 note with 1 mora" is selected, one letter will be assigned to one note. 
 
 ![continually enter lyrics](images/song_04_2.png)
 
-!!! new "Improved "Enter Lyrics Collectively""
-    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
-
-!!! new "Paste Lyrics Only"
-
-    Since version 8.3.13.0, after copying a note, you can select "Paste Lyrics Only" from the right-click menu of the note.
-
-    The lyrics will be applied to the note whose relative time matches that of the source note.
-
 ## Vowel Devoicing Symbol
 
 If the lyrics contain `’` (full-width quotation mark), the vowel in the mora (kana) before it will be dropped, and only the sound of the consonant will be pronounced.

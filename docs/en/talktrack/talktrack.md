@@ -34,3 +34,85 @@ If ["Partial replay with Phoneme Graph"](../../option/option/#partial-replay-wit
 !!! tip "Use of auto play"
 
     Pressing ++enter++ after entering a line will automatically play the text of that line, so that it can be used in combination with "Continuous Input": input scripts in advance and play them back in sequence; as a real-time speech synthesis tool for live broadcasts; and so on.
+
+## Right-click Menu
+
+Right-click (or hold down on the touchscreen) on the Speech List to open the menu.
+
+![right-click menu](images/talktrack_2.png)
+
+### Cut
+
+Cut the lines of the selected row.
+
+### Copy
+
+Copy the lines of the selected row.
+
+### Paste
+
+Paste the copied/cut lines of the selected row to the position of the position cursor.
+
+### Paste Parameters Only
+
+Paste only the parameters from the copied (cut) lines to the selected row. \* Only displayed after copying lines.
+
+### Insert Copied Contents
+
+Insert the copied lines at the selected line. \* Only displayed after copying lines.
+
+### Insert
+
+Inserts a blank row at the selected row.
+
+### Delete
+
+Delete the selected row.
+
+### Move
+
+Moves the lines of the selected row in the specified way.
+
+### Find Text
+
+Search lines by keywords.
+
+### Enter Text Collectively
+
+Insert text collectively into the selected line.
+
+### Continuous Input
+
+When this option is on, after editing a line, it will automatically move to the next line.
+
+### Automatic Line Alignment
+
+When this option is on, subsequent lines will automatically move backwards and forwards after the line is entered (to maintain spacing).
+
+### View
+
+#### Other Track Lines
+
+Select whether or not to display all lines of the talk track in the speech list.
+
+#### Cast / Start Time / End Time / Duration / Track
+
+Show/hide the columns in speech list.
+
+### Export Audio File
+
+Export the lines of the selected row to a file in monaural WAV format.
+
+\* Sampling rate and bit depth can be specified in [Option](../../option/option).
+
+### Insert Speech Clips
+
+Select a line from the already registered speech clips and insert it into the selected row.
+
+### Register Speech Clips
+
+Register the lines of the selected row to the speech clips.
+
+### Word Registration
+
+Register the word in the user dictionary.

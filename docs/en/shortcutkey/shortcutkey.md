@@ -392,16 +392,6 @@ Zoom in the piano roll vertically.
 
 Switch to phoneme input mode.
 
-### ++ctrl+shift+p++
-
-Switch the unit of timing adjustment screen to phoneme or note.
-
-\* Hold down ++alt++ to toggle temporarily.
-
-!!! new "[Version 8.4.0.0](../intro/change-log/#dec20-2022-version-84-official-release-832208400)"
-
-    The shortcut key ++ctrl+shift+p++ for switching between phoneme/note modes has been removed.
-
 ### ++ctrl+i++
 
 Display / Hide the timing status lines in timing adjustment screen.

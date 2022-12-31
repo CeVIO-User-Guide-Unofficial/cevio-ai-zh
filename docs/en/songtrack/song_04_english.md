@@ -44,15 +44,6 @@ When "1 note with 1 syllable" is selected, words separated by half spaces will b
 
 ![continually enter lyrics](images/song_04_english_2.png)
 
-!!! new "Improved "Enter Lyrics Collectively""
-    　All subsequent lyrics are displayed if only one note is selected (when Space-Separated).
-
-!!! new "Paste Lyrics Only"
-
-    Since version 8.3.13.0, after copying a note, you can select "Paste Lyrics Only" from the right-click menu of the note.
-
-    The lyrics will be applied to the note whose relative time matches that of the source note.
-
 ## Falsetto Symbol
 
 If the lyrics contain a `$`, the note will be sung in falsetto.
