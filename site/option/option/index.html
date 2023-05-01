@@ -1,0 +1,1567 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="非官方的 CeVIO AI 用户指南中文版翻译" name="description"/>
+<meta content="夜輪風超絶技巧変奏曲" name="author"/>
+<link href="../../audio/audio/" rel="prev"/>
+<link href="../characterimage/" rel="next"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.8" name="generator"/>
+<title>选项 - CeVIO AI 用户指南（非官方译文）</title>
+<link href="../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="indigo" data-md-color-primary="light-blue" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="CeVIO AI 用户指南（非官方译文）" class="md-header__button md-logo" data-md-component="logo" href="../.." title="CeVIO AI 用户指南（非官方译文）">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            CeVIO AI 用户指南（非官方译文）
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              选项
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="light-blue" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="light-blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"></path></svg>
+</label>
+</form>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="选择当前语言" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="./" hreflang="zh">
+                    中文（简体）
+                  </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../en/option/option/" hreflang="en">
+                    English
+                  </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    CUGU/CeVIO-AI
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      首页
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../intro/change-log/">
+        简介
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../firstguide/system_requirements/">
+        入门
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../operation/operation/">
+        基本操作
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../talktrack/tutorial_talk/">
+        语音轨道
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../songtrack/tutorial_song/">
+        歌唱轨道
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../audio/audio/">
+        音频轨道
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="./">
+        选项
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../shortcutkey/shortcutkey/">
+        快捷键
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../interface/interface/">
+        外部调用接口
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../faq/faq/">
+        FAQ和已知问题
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../others/voices_and_official_websites/">
+        其他
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="CeVIO AI 用户指南（非官方译文）" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="CeVIO AI 用户指南（非官方译文）">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
+</a>
+    CeVIO AI 用户指南（非官方译文）
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    CUGU/CeVIO-AI
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        首页
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          简介
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          简介
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/change-log/">
+        更新日志
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/change-log_website/">
+        更新日志（本网站）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/contact/">
+        联络
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/about/">
+        关于
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          入门
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          入门
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/system_requirements/">
+        操作环境
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/install/">
+        安装与激活
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/install_cn_patch/">
+        安装中文补丁
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          基本操作
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          基本操作
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/operation/">
+        各部分的名称
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/menu/">
+        菜单
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/transport/">
+        走带
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/infopanel/">
+        信息面板
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/trackhead/">
+        音频轨道
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/edittool/">
+        编辑工具（歌唱）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/adjusttool/">
+        调整工具（歌唱）
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          语音轨道
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          语音轨道
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/tutorial_talk/">
+        制作第一个语音作品
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talktrack/">
+        语音轨道的说明
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_01/">
+        台词的输入与编辑
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/longsentence/">
+        长段文本输入
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_02/">
+        发声时间的调整
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_05/">
+        台词的表情设置
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/phoneme/">
+        音素图（日语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/phoneme_english/">
+        音素图（英语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_06/">
+        注册单词与词典管理（日语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_01_english/">
+        注册单词与发音记号（英语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/phrasececlip/">
+        台词片段
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/search/">
+        台词的搜索
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../talktrack/talk_04/">
+        台词的导入
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          歌唱轨道
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          歌唱轨道
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/tutorial_song/">
+        制作第一个歌唱作品
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/songtrack/">
+        歌唱轨道的说明
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/songtrack_copy/">
+        曲速 / 拍子 / 调号 / 强弱记号
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_02/">
+        音符的输入与编辑
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_04/">
+        歌词的输入（日语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_04_english/">
+        歌词的输入（英语声库）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_symbol/">
+        其他特殊符号
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_03/">
+        音符的参数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_05/">
+        歌声的调整①（编辑工具）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_07/">
+        歌声的调整②（调整画面）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_06/">
+        歌声的调整③（音色）
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/fileimport/">
+        MIDI / MusicXML
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          音频轨道
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          音频轨道
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../audio/audio/">
+        音频轨道的操作
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          选项
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+          选项
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          选项
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        选项
+      </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    环境
+  </a>
+<nav aria-label="环境" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    画像
+  </a>
+<nav aria-label="画像" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    在音轨上显示角色画像
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    角色画像设置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+    在右侧显示画像
+  </a>
+<nav aria-label="在右侧显示画像" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    扩大显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_7">
+    显示当前音轨的角色画像
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_8">
+    选择右侧显示的画像
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_9">
+    默认音轨
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_10">
+    界面语言
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_11">
+    音频输出设备
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_12">
+    音频导出格式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_13">
+    音频缓存文件夹
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_14">
+    鼠标滚轮
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_15">
+    撤销次数限制
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_16">
+    启动时打开上次的工程
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_17">
+    显示启动画面
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_18">
+    显示升级提示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_19">
+    停止按钮不返回音轨开头
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_20">
+    不显示完毕通知对话框
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_21">
+    使用旧版参数显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_22">
+    将所有通知标记为已读
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_23">
+    语音设定
+  </a>
+<nav aria-label="语音设定" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_24">
+    预渲染合成
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_25">
+    台词过长时换行显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_26">
+    音素图调整部分自动试听
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_27">
+    多音轨自动排列
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_28">
+    旧版音素图
+  </a>
+<nav aria-label="旧版音素图" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#len">
+    长度（LEN）显示相对大小
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_29">
+    台词的字体
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_30">
+    台词角色的显示方式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_31">
+    台词列表的背景
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_32">
+    音素图数值的显示方式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_33">
+    台词间隔
+  </a>
+<nav aria-label="台词间隔" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wav">
+    输出WAV时末尾保留间隔
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_34">
+    对音频也应用
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_35">
+    停顿设置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_36">
+    默认的预设
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_37">
+    声库版本
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_38">
+    文本文件的编码
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_39">
+    歌唱设定
+  </a>
+<nav aria-label="歌唱设定" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_40">
+    调号主音高亮显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+    钢琴键盘的标号降低1个八度
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_41">
+    自动分割英语歌词的音节
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_42">
+    输入音符时不调整会重叠的音符
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_43">
+    单击输入音符
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_44">
+    点击标尺栏时以最近的量化线作为光标位置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tmg">
+    在乐谱编辑页面调整时间（TMG）
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_45">
+    歌词的字体
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_46">
+    钢琴卷帘配色
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_47">
+    参数调整界面的数值显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_48">
+    默认的歌词
+  </a>
+<nav aria-label="默认的歌词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_49">
+    默认歌词随调号改变
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_50">
+    默认音色
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_51">
+    声库版本
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../characterimage/">
+        显示自定义图像
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          快捷键
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+          快捷键
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../shortcutkey/shortcutkey/">
+        快捷键
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          外部调用接口
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+          外部调用接口
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/interface/">
+        外部调用接口
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/com/">
+        用作 COM 组件
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/dotnet/">
+        用作 .NET 程序集
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          FAQ和已知问题
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_11_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_11">
+<span class="md-nav__icon md-icon"></span>
+          FAQ和已知问题
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../faq/faq/">
+        FAQ
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../faq/known_bugs/">
+        已知问题
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          其他
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_12_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_12">
+<span class="md-nav__icon md-icon"></span>
+          其他
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/voices_and_official_websites/">
+        声库与官方页面列表
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/third_party_websites/">
+        第三方页面
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/emotion_in_song_editor/">
+        关于「CeVIO AI」歌曲编辑器的感情参数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/revised_license_agreement/">
+        CeVIO AI 更新（版本 8.3.13.0）和修订许可协议
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/suzuki_tsudumi_song_contest_result/">
+        「CeVIO AI すずきつづみ ソングコンテスト」結果発表！
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    环境
+  </a>
+<nav aria-label="环境" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    画像
+  </a>
+<nav aria-label="画像" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    在音轨上显示角色画像
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    角色画像设置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+    在右侧显示画像
+  </a>
+<nav aria-label="在右侧显示画像" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    扩大显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_7">
+    显示当前音轨的角色画像
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_8">
+    选择右侧显示的画像
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_9">
+    默认音轨
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_10">
+    界面语言
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_11">
+    音频输出设备
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_12">
+    音频导出格式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_13">
+    音频缓存文件夹
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_14">
+    鼠标滚轮
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_15">
+    撤销次数限制
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_16">
+    启动时打开上次的工程
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_17">
+    显示启动画面
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_18">
+    显示升级提示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_19">
+    停止按钮不返回音轨开头
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_20">
+    不显示完毕通知对话框
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_21">
+    使用旧版参数显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_22">
+    将所有通知标记为已读
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_23">
+    语音设定
+  </a>
+<nav aria-label="语音设定" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_24">
+    预渲染合成
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_25">
+    台词过长时换行显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_26">
+    音素图调整部分自动试听
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_27">
+    多音轨自动排列
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_28">
+    旧版音素图
+  </a>
+<nav aria-label="旧版音素图" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#len">
+    长度（LEN）显示相对大小
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_29">
+    台词的字体
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_30">
+    台词角色的显示方式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_31">
+    台词列表的背景
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_32">
+    音素图数值的显示方式
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_33">
+    台词间隔
+  </a>
+<nav aria-label="台词间隔" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wav">
+    输出WAV时末尾保留间隔
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_34">
+    对音频也应用
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_35">
+    停顿设置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_36">
+    默认的预设
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_37">
+    声库版本
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_38">
+    文本文件的编码
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_39">
+    歌唱设定
+  </a>
+<nav aria-label="歌唱设定" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_40">
+    调号主音高亮显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+    钢琴键盘的标号降低1个八度
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_41">
+    自动分割英语歌词的音节
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_42">
+    输入音符时不调整会重叠的音符
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_43">
+    单击输入音符
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_44">
+    点击标尺栏时以最近的量化线作为光标位置
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tmg">
+    在乐谱编辑页面调整时间（TMG）
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_45">
+    歌词的字体
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_46">
+    钢琴卷帘配色
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_47">
+    参数调整界面的数值显示
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_48">
+    默认的歌词
+  </a>
+<nav aria-label="默认的歌词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_49">
+    默认歌词随调号改变
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_50">
+    默认音色
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_51">
+    声库版本
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>选项</h1>
+<p>原文：<a href="https://cevio.jp/guide/cevio_ai/option/">CeVIO AI ユーザーズガイド ┃ オプション</a></p>
+<hr/>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>如果你不理解某个选项是做什么用的，试试将鼠标长时间停留在那个选项上。</p>
+</div>
+<p>「工具」菜单里的「选项」可以修改各种设定。</p>
+<h2 id="_1">环境</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/option_1.png"><img alt="environment" src="../images/option_1.png"/></a></p>
+<h3 id="_2">画像</h3>
+<h4 id="_3">在音轨上显示角色画像</h4>
+<p>选择是否要在音轨上显示角色的图片。</p>
+<h4 id="_4">角色画像设置</h4>
+<p>修改各个角色的显示画像。可以用用户画像替换。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/option_2.png"><img alt="set character image" src="../images/option_2.png"/></a></p>
+<p>※该例中用すずきつづみ（铃木梓梓弥）的用户图像替换掉了角色「OИE」的语音声库的图像。</p>
+<p><a href="../characterimage">显示自定义图像</a></p>
+<h4 id="_5">在右侧显示画像</h4>
+<p>开启后，主屏幕右上方会显示角色的图像。</p>
+<h5 id="_6">扩大显示</h5>
+<p>开启后，画像会扩展到窗口的顶部和底部。</p>
+<h5 id="_7">显示当前音轨的角色画像</h5>
+<p>开启后，角色画像会随着选择的轨道或选择的台词而切换。</p>
+<h4 id="_8">选择右侧显示的画像</h4>
+<p>可以设置显示在屏幕右侧的图像。在图像上单击，从列表中选择一张图片显示。也可以将自己的图片拖放到这里，将它们注册为用户图片并选择。</p>
+<p>※开启「显示当前音轨的角色画像」后，「选择右侧显示的画像」将显示未选择轨道时展示的图片。</p>
+<h3 id="_9">默认音轨</h3>
+<p>设置新项目的轨道名、类型与角色。</p>
+<p>在「选择」栏中选中的轨道将以选定状态启动。</p>
+<p>角色列表里最上方的角色将是创建轨道时的默认角色。</p>
+<h3 id="_10">界面语言</h3>
+<p>切换菜单等在用户界面显示的语言。</p>
+<h3 id="_11">音频输出设备</h3>
+<p>可以在这里选择默认音频设备以外的音频设备。</p>
+<h3 id="_12">音频导出格式</h3>
+<p>可以在这里指定导出的 WAV 文件的采样率和比特深度。</p>
+<p>※比特深度越高，音质越好。以 96kHz 采样率输出的音质与 48kHz 没有区别。</p>
+<p>※目前，「导出WAV音频文件」输出的音频格式固定为 48kHz 16bit。</p>
+<h3 id="_13">音频缓存文件夹</h3>
+<p>设置文件夹，用于存放冻结音轨或加载外部音频文件时生成的缓存文件。</p>
+<p>缓存文件不会自动删除。要减少硬盘空间使用量，请使用「清空」按钮清理它们。</p>
+<h3 id="_14">鼠标滚轮</h3>
+<p>修改时间轴等的默认滚动方向（垂直 / 水平）。</p>
+<h3 id="_15">撤销次数限制</h3>
+<p>最大可以设置为 100000。</p>
+<p>※次数越多，耗费的内存也越高。</p>
+<h3 id="_16">启动时打开上次的工程</h3>
+<p>启动时自动打开上次关闭软件时编辑的工程，并恢复到之前的编辑状态。</p>
+<h3 id="_17">显示启动画面</h3>
+<p>关闭后，启动时就不会显示 CeVIO 的闪屏，在启动 CeVIO 时就可以去操作别的软件。</p>
+<h3 id="_18">显示升级提示</h3>
+<p>例如为了与其他软件协作，或是想要保持特定的版本，请关闭该选项。</p>
+<h3 id="_19">停止按钮不返回音轨开头</h3>
+<p>停止时连续按下停止按钮（或 <span class="keys"><kbd class="key-num0">Num 0</kbd></span>），选择让光标返回音轨的开头，或是仅停留在播放开始的位置。</p>
+<h3 id="_20">不显示完毕通知对话框</h3>
+<p>WAV 导出结束后或文本导入完毕后，不显示完成的通知对话框。</p>
+<h3 id="_21">使用旧版参数显示</h3>
+<p>音量、语速、感情等参数用 0~100 的数值显示（CeVIO Creative Studio 风格）。</p>
+<h3 id="_22">将所有通知标记为已读</h3>
+<p>将启动时显示的通知全部标记为已读。在换 PC 或者纯不想看广告时很方便。</p>
+<h2 id="_23">语音设定</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/option_3.png"><img alt="talk setting" src="../images/option_3.png"/></a></p>
+<h3 id="_24">预渲染合成</h3>
+<p>在播放开始前合成声音，避免播放中的跳音或突然停顿。</p>
+<p>如果台词有很多行，第一次播放时需要更长的时间，但之后就只有编辑过的行会重新合成。这大大提高了合成速度。</p>
+<p>若关闭该选项，则仅在播放时进行合成。</p>
+<h3 id="_25">台词过长时换行显示</h3>
+<p>台词列表中，长文的右端会换行，以显示整句台词。</p>
+<h3 id="_26">音素图调整部分自动试听</h3>
+<p>音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。</p>
+<h3 id="_27">多音轨自动排列</h3>
+<p>从「语音」菜单或右键菜单的「台词的自动排列」开启自动排列时，来自显示别的音轨的台词会自动前后移动以避免重叠。</p>
+<p>开启「音频自动排列」时，音频元素也会自动前后移动以避免重叠。</p>
+<p>如果同时开启本设置和「音轨」菜单里的「设置音轨的内容为等间隔排列」，调整时其他轨道也会一并包括在内。如果不想移动台词（让它们重叠），请关闭该选项。</p>
+<h3 id="_28">旧版音素图</h3>
+<p>水平轴是等距的，垂直轴用于长度调节，长度调节最长可以达到 1 秒。</p>
+<p>※格式与『CeVIO Creative Studio』版本 5.2 相同。</p>
+<h4 id="len">长度（LEN）显示相对大小</h4>
+<p>旧式音素图里 LEN 值越小，显示的时间越长。关闭时，垂直轴是等距的。</p>
+<h3 id="_29">台词的字体</h3>
+<p>指定台词列表的字体和大小。</p>
+<h3 id="_30">台词角色的显示方式</h3>
+<p>从画像、名字、画像+名字里选择一种作为台词列表左端的角色显示方式。</p>
+<h3 id="_31">台词列表的背景</h3>
+<p>从 5 种背景中选择一种作为台词列表的背景。</p>
+<ul>
+<li>条纹</li>
+<li>浅蓝色</li>
+<li>深蓝色</li>
+<li>白色</li>
+<li>黑色</li>
+</ul>
+<h3 id="_32">音素图数值的显示方式</h3>
+<p>选择当鼠标光标悬停在音素图上时显示的数值。</p>
+<h3 id="_33">台词间隔</h3>
+<p>指定输入台词或排列台词时台词间的间隔。</p>
+<h4 id="wav">输出WAV时末尾保留间隔</h4>
+<p>导出时台词末尾会保留同样长度的静音时间。</p>
+<h4 id="_34">对音频也应用</h4>
+<p>应用「设置音轨的内容为等间隔排列」或开启「音频自动排列」并编辑时，音频元素会自动保持间隔。若再与「多音轨自动排列」相结合，便能更容易地创建与其他语音合成软件的对话。</p>
+<h3 id="_35">停顿设置</h3>
+<p>分别设置句読点或記号等符号的停顿时长。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/option_4.png"><img alt="pause setting" src="../images/option_4.png"/></a></p>
+<p>※也可以把全角空格设置为最短的 0.025 秒，然后输入「みなさん　こんにちは」这样的台词来分割重音短语。</p>
+<p>※当句子中有一连串诸如「・・・」的停顿字符时，停顿的长度会反映在停顿字符的数量上。</p>
+<p>※要将 WAV 末尾的无声段长度设置为零，请关闭「输出WAV时末尾保留间隔」。</p>
+<h3 id="_36">默认的预设</h3>
+<p>指定新建音轨，更改角色或外部调用时的预设。</p>
+<p>当用于外部调用时，在改变设置后请重新启动外部程序。</p>
+<div class="admonition tip">
+<p class="admonition-title">外部调用时的默认预设</p>
+<p>在 SAPI5 中，「语速」由链接方的设置决定，「音量」和「音高」由链接方和本软件的设置共同决定，其他设置由本软件决定。如果连接到 SAPI5 时声音很小，请试着将预设的音量调到 +8.00 / 100。</p>
+<p>在 COM 组件 / .NET 程序集中，状态和感情为默认值。</p>
+<p>※如果所有的参数由链接的应用程序控制，则不使用这些设置。</p>
+</div>
+<h3 id="_37">声库版本</h3>
+<p>一些角色可以选择声库的版本。</p>
+<h3 id="_38">文本文件的编码</h3>
+<p>指定读取文件和导出文件时的编码。</p>
+<p>请根据需要修改编码，以配合读取或导出文本文件的外部软件。</p>
+<h2 id="_39">歌唱设定</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/option_5.png"><img alt="song setting" src="../images/option_5.png"/></a></p>
+<h3 id="_40">调号主音高亮显示</h3>
+<p>在乐谱编辑页面高亮显示当前调号的主音。</p>
+<h3 id="1">钢琴键盘的标号降低1个八度</h3>
+<p>将 440Hz 的音用钢琴卷帘键盘上的 A3（原为 A4）表示。</p>
+<h3 id="_41">自动分割英语歌词的音节</h3>
+<p>输入英语歌词时，按 1 音符 1 音节的方式分割单词并分配给音符。</p>
+<p>※由于是自动推算，可能会有出错的情况。</p>
+<h3 id="_42">输入音符时不调整会重叠的音符</h3>
+<p>输入音符时，不删除已输入的音符，即使会导致重叠。</p>
+<h3 id="_43">单击输入音符</h3>
+<p>启用类似 DAW 的操作，单击就能直接输入音符，无需拖动。</p>
+<p>启用该设定时，仍然可以通过拖动来指定长度。不拖动时，长度会被量化。</p>
+<h3 id="_44">点击标尺栏时以最近的量化线作为光标位置</h3>
+<p>因为光标移动到了更左或右的位置，这个功能让钢琴卷帘标尺栏的量化更接近 DAW 的操作。</p>
+<h3 id="tmg">在乐谱编辑页面调整时间（TMG）</h3>
+<p>在乐谱编辑页面的下方可以对时间做简单的确认和调整。</p>
+<h3 id="_45">歌词的字体</h3>
+<p>指定歌词的字体和大小。</p>
+<h3 id="_46">钢琴卷帘配色</h3>
+<p>对于钢琴卷帘的背景，从 6 种背景中选择一种作为乐谱编辑页面的背景：</p>
+<ul>
+<li>彩虹</li>
+<li>蜡笔</li>
+<li>简约</li>
+<li>蓝色</li>
+<li>灰色</li>
+<li>黑色</li>
+</ul>
+<p>从 2 种背景中选择一种作为调整页面的背景：</p>
+<ul>
+<li>灰色</li>
+<li>黑色</li>
+</ul>
+<h3 id="_47">参数调整界面的数值显示</h3>
+<p>选择在调整界面里，当鼠标光标悬停在参数上时显示的数值。</p>
+<h3 id="_48">默认的歌词</h3>
+<p>修改输入音符时的默认歌词，比如改成「ら」。</p>
+<p>留空则为默认根据音阶分配的「ドレミファソラシ」（Do Re Mi Fa So La Ti）。</p>
+<h4 id="_49">默认歌词随调号改变</h4>
+<p>「默认的歌词」留空时，取消勾选将把「ドレミ……」固定为 C Major。</p>
+<h3 id="_50">默认音色</h3>
+<p>指定新建音轨或更改角色时音色初始值。</p>
+<h3 id="_51">声库版本</h3>
+<p>一些角色可以选择声库的版本。</p>
+<div class="admonition info">
+<p class="admonition-title">关于设定文件夹</p>
+<p>文件夹内存储了下列配置文件（除了选项设置，它是在使用该功能时生成的）。</p>
+<ul>
+<li>TalkDictionary3.dic（用户字典）</li>
+<li>PhraseClips.xml（台词片段）</li>
+<li>Personality.xml（预设）</li>
+<li>RuntimeSettings.xml（选项设置）</li>
+</ul>
+<p>如果你想把设置转移到另一台电脑上，请从菜单中选择「文件」→「导出」→「导出设置」，然后从另一台电脑上的「文件」→「导入」→「导入设置」中导入。</p>
+</div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      最后更新:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月31日</span>
+<br/>
+        创建日期:
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年11月21日</span>
+</small>
+</div>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            回到页面顶部
+          </button>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="上一页: 音频轨道的操作" class="md-footer__link md-footer__link--prev" href="../../audio/audio/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一页
+              </span>
+<div class="md-ellipsis">
+                音频轨道的操作
+              </div>
+</div>
+</a>
+<a aria-label="下一页: 显示自定义图像" class="md-footer__link md-footer__link--next" href="../characterimage/" rel="next">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                下一页
+              </span>
+<div class="md-ellipsis">
+                显示自定义图像
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://twitter.com/CeVIO_st" rel="noopener" target="_blank" title="CeVIO on Twitter">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

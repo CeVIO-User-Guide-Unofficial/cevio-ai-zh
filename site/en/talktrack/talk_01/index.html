@@ -1,0 +1,1088 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="非官方的 CeVIO AI 用户指南中文版翻译" name="description"/>
+<meta content="夜輪風超絶技巧変奏曲" name="author"/>
+<link href="../talktrack/" rel="prev"/>
+<link href="../longsentence/" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.8" name="generator"/>
+<title>Line Input and Editing - CeVIO AI User Guide (Unofficial Translation)</title>
+<link href="../../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="indigo" data-md-color-primary="light-blue" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#input-line">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="CeVIO AI User Guide (Unofficial Translation)" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="CeVIO AI User Guide (Unofficial Translation)">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            CeVIO AI User Guide (Unofficial Translation)
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Line Input and Editing
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="light-blue" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="light-blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"></path></svg>
+</label>
+</form>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Select language" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="../../../talktrack/talk_01/" hreflang="zh">
+                    中文（简体）
+                  </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="./" hreflang="en">
+                    English
+                  </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    CUGU/CeVIO-AI
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../">
+      Home
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../intro/change-log/">
+        Introduction
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../firstguide/system_requirements/">
+        First Guide
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../operation/operation/">
+        Operation
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../tutorial_talk/">
+        Talk Track
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../songtrack/tutorial_song/">
+        Song Track
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../audio/audio/">
+        Audio Track
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../option/option/">
+        Options
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../shortcutkey/shortcutkey/">
+        Shortcut Key
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../interface/interface/">
+        External Interface
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../faq/faq/">
+        FAQ and Bugs
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../others/voices_and_official_websites/">
+        Others
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="CeVIO AI User Guide (Unofficial Translation)" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="CeVIO AI User Guide (Unofficial Translation)">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>
+</a>
+    CeVIO AI User Guide (Unofficial Translation)
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    CUGU/CeVIO-AI
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../">
+        Home
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Introduction
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/change-log/">
+        Change Log
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/change-log_website/">
+        Change Log (This Website)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/contact/">
+        Contact
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/about/">
+        About
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          First Guide
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          First Guide
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/system_requirements/">
+        System Requirements
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/install/">
+        Install and Activate
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../firstguide/install_cn_patch/">
+        Install Chinese Patch
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Operation
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Operation
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/operation/">
+        Name of Each Part
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/menu/">
+        Menu
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/transport/">
+        Transport
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/infopanel/">
+        Info Panel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/trackhead/">
+        Track Head
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/edittool/">
+        Edit Tool (Song)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../operation/adjusttool/">
+        Adjustment Tool (Song)
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Talk Track
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Talk Track
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorial_talk/">
+        Make Your First Talk Work
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talktrack/">
+        Description of the Talk Track
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Line Input and Editing
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Line Input and Editing
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-line">
+    Input Line
+  </a>
+<nav aria-label="Input Line" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#insert-ruby-brackets">
+    Insert Ruby Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#continuous-input">
+    Continuous Input
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cast-setting-for-lines">
+    Cast Setting for Lines
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cutcopypaste">
+    Cut/Copy/Paste
+  </a>
+<nav aria-label="Cut/Copy/Paste" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paste-parameters-only">
+    Paste Parameters Only
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-rows-select">
+    Multiple Rows Select
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#delete-row">
+    Delete Row
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#insert-row">
+    Insert Row
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#add-blank-line">
+    Add Blank Line
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#change-display">
+    Change Display
+  </a>
+<nav aria-label="Change Display" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-track-lines">
+    Other Track Lines
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cast">
+    Cast
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#start-time">
+    Start time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#end-time">
+    End time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#duration">
+    Duration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#track">
+    Track
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../longsentence/">
+        Enter Text Collectively
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talk_02/">
+        Vocalization Timing Adjustment
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talk_05/">
+        Emotion Setting of the Line
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../phoneme/">
+        Phoneme Graph (Japanese Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../phoneme_english/">
+        Phoneme Graph (English Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talk_06/">
+        Word Registration and Dictionary Management (Japanese Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talk_01_english/">
+        Word Registration and Pronunciation Symbols (English Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../phrasececlip/">
+        Speech Clip
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../search/">
+        Finding Lines
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../talk_04/">
+        Lines Import
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Song Track
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Song Track
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/tutorial_song/">
+        Make Your First Song Work
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/songtrack/">
+        Description of the Song Track
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/songtrack_copy/">
+        Tempo / Time Signature / Key Signature / Dynamics Mark
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_02/">
+        Note Input and Editing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_04/">
+        Lyrics Input (Japanese Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_04_english/">
+        Lyrics Input (English Voice)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_symbol/">
+        Other Special Symbols
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_03/">
+        Note Properties
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_05/">
+        Vocal Adjustment① (Edit Tool)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_07/">
+        Vocal Adjustment② (Adjustment Screen)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/song_06/">
+        Vocal Adjustment③ (Alpha/Timbre)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../songtrack/fileimport/">
+        MIDI / MusicXML
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Audio Track
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          Audio Track
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../audio/audio/">
+        Operations of Audio Track
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Options
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+          Options
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../option/option/">
+        Options
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../option/characterimage/">
+        Display User Image
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Shortcut Key
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+          Shortcut Key
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../shortcutkey/shortcutkey/">
+        Shortcut Key
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          External Interface
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+          External Interface
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/interface/">
+        External Cooperation Interface
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/com/">
+        Used as a COM Component
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interface/dotnet/">
+        Used as a .NET Assembly
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          FAQ and Bugs
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_11_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_11">
+<span class="md-nav__icon md-icon"></span>
+          FAQ and Bugs
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../faq/faq/">
+        FAQ
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../faq/known_bugs/">
+        Known issues
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Others
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_12_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_12">
+<span class="md-nav__icon md-icon"></span>
+          Others
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/voices_and_official_websites/">
+        List of Voices and Official Pages
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/third_party_websites/">
+        Third Party Websites
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/emotion_in_song_editor/">
+        About the Emotion Parameter of the "CeVIO AI" Song Editor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/revised_license_agreement/">
+        CeVIO AI 更新（版本 8.3.13.0）和修订许可协议
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../others/suzuki_tsudumi_song_contest_result/">
+        「CeVIO AI すずきつづみ ソングコンテスト」結果発表！
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-line">
+    Input Line
+  </a>
+<nav aria-label="Input Line" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#insert-ruby-brackets">
+    Insert Ruby Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#continuous-input">
+    Continuous Input
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cast-setting-for-lines">
+    Cast Setting for Lines
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cutcopypaste">
+    Cut/Copy/Paste
+  </a>
+<nav aria-label="Cut/Copy/Paste" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paste-parameters-only">
+    Paste Parameters Only
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-rows-select">
+    Multiple Rows Select
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#delete-row">
+    Delete Row
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#insert-row">
+    Insert Row
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#add-blank-line">
+    Add Blank Line
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#change-display">
+    Change Display
+  </a>
+<nav aria-label="Change Display" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-track-lines">
+    Other Track Lines
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cast">
+    Cast
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#start-time">
+    Start time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#end-time">
+    End time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#duration">
+    Duration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#track">
+    Track
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Line Input and Editing</h1>
+<p>Original article: <a href="https://cevio.jp/guide/cevio_ai/talktrack/talk_01/">CeVIO AI ユーザーズガイド ┃ セリフの入力と編集</a></p>
+<hr/>
+<h2 id="input-line">Input Line</h2>
+<p>Click to select a row, then click on the row again to enter the text input state.</p>
+<p>After entering a line in the input state, press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to submit.</p>
+<p>You can also use the keyboard alone. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> or <span class="keys"><kbd class="key-arrow-down">Down</kbd></span> to move to the next line; press <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> to move to the previous line; press <span class="keys"><kbd class="key-f2">F2</kbd></span> to enter in the selected row.</p>
+<p>(Text can be entered directly without pressing <span class="keys"><kbd class="key-f2">F2</kbd></span> in non-input states.)</p>
+<p>The lines of the Japanese Voice can use natural sentences in full-width hiragana/katakana/kanji.</p>
+<p>The lines in the English Voice can use English in half-width letters and numbers.</p>
+<p>The text limit for each line is 200 for the Japanese Voice and 500 for the English Voice.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/tutorial_talk_2.png"><img alt="enter lines" src="../images/tutorial_talk_2.png"/></a></p>
+<div class="admonition tip">
+<p class="admonition-title">Tips for Japanese lines input</p>
+<p>Pronunciation is determined by the entire sentence of a line. The question mark (？, 疑問符) or exclamation mark (！, 感嘆符) at the end of a sentence is also added to the judgment of pronunciation.</p>
+<p>Long texts without commas (、, 読点) and sentences that were originally one sentence but are divided into multiple lines cannot be pronounced correctly.</p>
+<p>In sentences like "こんにちは。○○さん。", the period (。, 句点) in the middle will be replaced with a comma.</p>
+<p>Even if the pronunciation is the same, you can find the pronunciation you want by changing it to homophones, hiragana or katakana.</p>
+<p>You can use the <a href="../talk_06">Word Registration</a> function to register the correct pronunciation of the names of people or places that are easy to be mispronounced.</p>
+</div>
+<h3 id="insert-ruby-brackets">Insert Ruby Brackets</h3>
+<p>When inputting a line, the "Insert Ruby Brackets" in the right-click menu can insert a reading-specified brackets in this position.</p>
+<ul>
+<li>For Japanese Voice, <code>《》</code> is inserted at the cursor position. <br/>
+   If text is selected, an additional <code>|</code> will be inserted to indicate the start of reading specification.</li>
+<li>For English Voice, <code>[]</code> is inserted at the end of the word at the cursor position.</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_2.png"><img alt="insert ruby brackets" src="../images/talk_01_2.png"/></a></p>
+<div class="admonition info">
+<p class="admonition-title">Japanese ruby input (reading specification)</p>
+<p>Specify the reading by writing hiragana/katakana in the <code>《》</code>.</p>
+<p>(Example) 今朝｜四月一日《わたぬき》さんに会った。　* <code>|</code> indicates the object to be specified reading.</p>
+<p>(Example) こんにちは、四月一日《わたぬき》さん。　　* When <code>|</code> is omitted, the reading specification will be assumed to start from the beginning. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>Like registering a word, you can also use <code>'</code> in <code>《》</code> to devoice the vowel.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">English ruby input (phonetic symbol specification)</p>
+<p>Enter phonetic symbols in the <code>[]</code> following a word to specify the pronunciation.</p>
+<p>Use <code>|</code> to separate syllables; use <code>,</code> to separate phonemes within a syllable.</p>
+<p>The vowel should be followed by a number indicating stress (0 if omitted).</p>
+<p>0: no stress 1: primary stress 2: secondary stress</p>
+<p>(Example) Sasara[s,ah1|s,ah0|r,ah0]</p>
+<p>(Example) Ando[ah1,n|d,ow0]</p>
+<p>For a list of phonetic symbols, <a href="../talk_01_english">click here</a>.</p>
+</div>
+<h3 id="continuous-input">Continuous Input</h3>
+<p>Turn on "Continuous Input" from the right-click menu to enter continuous line input mode.</p>
+<p>Use this function if you want to continuously input and play lines.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_3.png"><img alt="Continuous Input" src="../images/talk_01_3.png"/></a></p>
+<ul>
+<li>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to end editing on this line, move to the next line and enter editing automatically.</p>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-enter">Enter</kbd></span> to end editing on this line, move to the last line and enter editing automatically.</p>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-enter">Enter</kbd></span> to end editing on this line, <span class="keys"><kbd class="key-escape">Esc</kbd></span> to cancel editing, <span class="keys"><kbd class="key-enter">Enter</kbd></span> on a blank line to end editing.</p>
+</li>
+</ul>
+<h2 id="cast-setting-for-lines">Cast Setting for Lines</h2>
+<p>Click in the Cast column to select the character who will speak the line in that row.</p>
+<p>You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/tutorial_talk_4.png"><img alt="select cast" src="../images/tutorial_talk_4.png"/></a></p>
+<h2 id="cutcopypaste">Cut/Copy/Paste</h2>
+<p>You can select a line for cutting or copying, and then paste it into another line.</p>
+<p>These operations can be performed via the right-click menu, or the shortcut keys <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-x">X</kbd></span> (cut), <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">C</kbd></span> (copy) and <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span> (paste).</p>
+<p>Condition, emotion and phoneme graph are also pasted along with it, allowing easy reuse of adjusted lines.</p>
+<p>* When "Other Tracks Lines" is turned on, only the selected line will be cut/copied.</p>
+<p>* Text from other software can also be pasted from the clipboard.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_4.png"><img alt="cut/copy/paste" src="../images/talk_01_4.png"/></a></p>
+<h3 id="paste-parameters-only">Paste Parameters Only</h3>
+<p>After cutting or copying lines, right-click on the line to which the parameter to be applied (multiple selections allowed) and select "Paste Parameters Only" to paste only the speed, pitch, emotion and other parameters without pasting the text of line.</p>
+<p>* Same with normal pasting. Parameters can be filled in even if the line field is empty.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_5.png"><img alt="Paste Parameters Only" src="../images/talk_01_5.png"/></a></p>
+<h3 id="multiple-rows-select">Multiple Rows Select</h3>
+<p>After selecting a row, hold down the <span class="keys"><kbd class="key-shift">Shift</kbd></span> key and click another row to select multiple rows.</p>
+<p>In addition, <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> can select all rows. <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>It can be used to cut or copy multiple rows, or to set presets for multiple rows at the same time.</p>
+<p>* Presets will only be applied to rows where the cast matches.</p>
+<h2 id="delete-row">Delete Row</h2>
+<p><span class="keys"><kbd class="key-delete">Del</kbd></span> or select "Delete" in the right-click menu to delete selected rows.</p>
+<h2 id="insert-row">Insert Row</h2>
+<p>"Insert" in the right-click menu can insert a new row at the position of the selected row.</p>
+<p>When cutting/copying, the row on which the operation was performed is inserted, otherwise a blank row is inserted.</p>
+<p>Text from the clipboard copied from another software can also be inserted.</p>
+<p>* If you want to insert a blank row, you can use the <span class="keys"><kbd class="key-escape">Esc</kbd></span> key to clear the clipboard first.</p>
+<h2 id="add-blank-line">Add Blank Line</h2>
+<p>"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the speech list.</p>
+<h2 id="change-display">Change Display</h2>
+<p>The "View" in the right-click menu allows you to change the display of the speech list.</p>
+<p>Check "Other Track Lines" to choose whether to display lines from all talk tracks in the speech list.</p>
+<p>Each column in "Cast, Start Time, End Time, Duration, Track" can be individually selected to be displayed or hidden.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_6.png"><img alt="view" src="../images/talk_01_6.png"/></a></p>
+<p>Here is an example where the cast and track are hidden and only the start time and length are shown.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/talk_01_7.png"><img alt="view setting example" src="../images/talk_01_7.png"/></a></p>
+<h3 id="other-track-lines">Other Track Lines</h3>
+<p>Displays lines other than the currently selected track together in the speech list.</p>
+<h3 id="cast">Cast</h3>
+<p>The character who speaks the line.</p>
+<h3 id="start-time">Start time</h3>
+<p>The time when the line starts (min:sec.microseconds). Enter the time directly to move the line.</p>
+<h3 id="end-time">End time</h3>
+<p>The time when the line ends (min:sec.microseconds). You can keep track of the elapsed time of a line.</p>
+<h3 id="duration">Duration</h3>
+<p>Length of the line (min:sec. microseconds).</p>
+<h3 id="track">Track</h3>
+<p>The talk track of the line. You can easily move the line to another track by entering it and then selecting another track.</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Translator's Note: The actual situation is to start from the previous pause (such as punctuation mark) of <code>《》</code>. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Translator's Note: Only lines within this track will be selected. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 14, 2022</span>
+<br/>
+        Created:
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 21, 2022</span>
+</small>
+</div>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </button>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Description of the Talk Track" class="md-footer__link md-footer__link--prev" href="../talktrack/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                Description of the Talk Track
+              </div>
+</div>
+</a>
+<a aria-label="Next: Enter Text Collectively" class="md-footer__link md-footer__link--next" href="../longsentence/" rel="next">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                Enter Text Collectively
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://twitter.com/CeVIO_st" rel="noopener" target="_blank" title="CeVIO on Twitter">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

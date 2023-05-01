@@ -6,10 +6,17 @@ category: Change Log
 layout: post
 ---
 
+## 2023.5.1
+
+- Material for MkDocs 更新到 9.1.8。
+- mkdocs-static-i18n 插件更新到 0.56。
+<!-- - 由于 mkdocs-static-i18n 的 bug 已修复，故将文档目录修改回 2022.6.7 的结构。
+    - > [Is folder based docs structure incompatible with static navigation? #168](https://github.com/ultrabug/mkdocs-static-i18n/issues/168) -->
+
 ## 2022.11.21
 
 - 新增英文翻译。
-- 为配合英文页面，语言切换功能已启用。
+- 为切换中文与英文页面，语言切换功能已启用。
     - 添加了 mkdocs-static-i18n 插件。
     - 由于语言切换与 `navigation.instant` 不兼容，现已停用该选项。
         - > mkdocs-material language switcher contextual link is not compatible with theme.features = navigation.instant
@@ -21,7 +28,6 @@ layout: post
 ## 2022.11.16
 
 - Material for MkDocs 更新到 8.5.10。
-    - `Successfully installed jinja2-3.1.2 mkdocs-material-8.5.10 mkdocs-material-extensions-1.1 requests-2.28.1`
     - Admonition 的样式变化发生于版本 8.5.6 中 。
 - 现在，每个页面的最下方将显示它的创建日期。
     - 对 git-revision-date-localized 插件做了如下设置：`enable_creation_date: true`。

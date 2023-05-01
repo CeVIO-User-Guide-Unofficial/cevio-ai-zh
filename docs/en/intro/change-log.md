@@ -5,6 +5,35 @@ date: 2022-02-04
 category: Change Log
 layout: post
 ---
+
+------------------------------------------------------
+Feb.14,2023 Version 8.4.5.0 Official Release
+------------------------------------------------------
+Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a song Mix Copy feature.
+
+▼Song related changes
+・Updated to Song Engine 6.2.1. No change in sound quality.
+
+・A new function "Mix Copy" is implemented. Parameters can be copied including the default part.
+　* After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key [Ctrl+Shift+C].
+
+・Improved pasting of detailed parameters for Voice Alpha. The result should be the same as the copy source.
+
+・Cast changes now maintain the values of the Voice Alpha and Emotion sliders before the change.
+
+・Undo/Redo support for cast changes in Song tracks.
+
+・Organized the right-click menu of the piano roll.
+
+▼Talk related changes
+・Updated to Japanese Talk Dictionary 3.0.17.
+
+▼Other changes
+・Support the Cast Display Order Settings.
+　* You can set it from "Environment" button in "Option".
+
+・Other minor improvements and bug fixes.
+
 ------------------------------------------------------
 
 Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)
