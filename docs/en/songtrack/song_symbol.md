@@ -9,33 +9,32 @@ Original article: [CeVIO AI ユーザーズガイド ┃ その他の特殊な�
 
 ---
 
-!!! warning
-
-    As some of the official descriptions are vague, their original Japanese text has been retained until more official clarification is given.
-
-CeVIO AI produces highly accurate Song Voices by learning recorded data labeled with the characteristic singing style of each voice provider. For some Song Voices, there is a possibility to bring out the characteristics of the voice by adding these labeling symbols to the lyrics in addition to falsetto.
+CeVIO AI produces highly accurate Song Voices by learning from recorded data that's been labelled with the characteristic singing style of each voice provider. For some Song Voices, adding labelling symbols to the lyrics can enhance the unique characteristics of the voice, in addition to using falsetto.
 
 | Cast | Full-width `※` `＄`<br>Half-width `$` | Full-width `＠`<br>Half-width `@` | Full-width `＾`<br>Half-width `^` | Full-width `％`<br>Half-width `%` |
 | ---  | :---: | :---: | :---: | :---: |
-| さとうささら<br>Sato Sasara | falsetto |  |  |  |
-| 可不 (KAFU) | falsetto | tremble |  | whisper |
-| 結月ゆかり 麗<br>Yuzuki Yukari Rei | falsetto |  |  |  |
-| 東北きりたん<br>Tohoku Kiritan | falsetto |  |  |  |
-| IA  | falsetto | pitch bend up at the end of a note |  | 抜き<br>singing in a more relax way |
-| IA (ENG) | falsetto |  |  |  |
-| ONE | falsetto |  |  |  |
-| 東北ずん子<br>Tohoku Zunko | falsetto | pitch bend up at the end of a note |  |  |
-| 東北イタコ<br>Tohoku Itako | falsetto | pitch bend up at the end of a note |  |  |
-| すずきつづみ<br>Suzuki Tsudumi | falsetto |  |  |  |
-| 星界 (SEKAI) | falsetto | pitch bend up at the end of a note | tremble | いきり<br>pitch bend down at the end of a note |
-| 裏命 (RIME) | falsetto | pitch bend up at the end of a note | tremble | いきり<br>pitch bend down at the end of a note |
-| #KZN | falsetto |  |  |  |
-| 双葉 湊音<br>Futaba Minato | falsetto | pitch bend up at the end of a note |  | いきり<br>pitch bend down at the end of a note |
-| POPY | falsetto | pitch bend up at the end of a note | whisper | pitch bend down at the end of a note |
-| ROSE | falsetto | いきり<br>pitch bend down at the end of a note | whisper |  |
+| Sato Sasara | Falsetto |  |  |  |
+| KAFU | Falsetto | Trembling |  | Whisper |
+| Yuzuki Yukari Rei | Falsetto |  |  |  |
+| Tohoku Kiritan | Falsetto |  |  |  |
+| IA  | Falsetto | Bounce-up pitch |  | Relax |
+| IA (ENG) | Falsetto |  |  |  |
+| ONE | Falsetto |  |  |  |
+| Tohoku Zunko | Falsetto | Bounce-up pitch |  |  |
+| Tohoku Itako | Falsetto | Bounce-up pitch |  |  |
+| Suzuki Tsudumi | Falsetto |  |  |  |
+| SEKAI | Falsetto | Bounce-up pitch | Trembling | Irritation |
+| RIME | Falsetto | Bounce-up pitch | Trembling | Irritation |
+| #kzn | Falsetto |  |  |  |
+| COKO | Falsetto | Bounce-up pitch | Roughness | Irritation |
+| Futaba Minato | Falsetto | Bounce-up pitch |  | Irritation |
+| Ci flower | Falsetto | Bounce-up pitch | Roughness |  |
+| POPY | Falsetto | Bounce-up pitch | Whisper | Head fall |
+| ROSE | Falsetto | Irritation | Whisper |  |
+| Kanato Mell | Falsetto | Roughness | Trembling |  |
 
-\* Depending on the cast, lyrics, pitch, etc., the difficulty of showing the characteristics will vary.
+\* The level of difficulty in showcasing certain characteristics can vary depending on factors such as the cast, lyrics, and pitch.
 
-\* Because it is a mechanism to improve the learning accuracy, there are cases where the characteristics do not appear.
+\* As the purpose of this mechanism is to enhance learning accuracy, there may be instances where the characteristics are not present.
 
-\* Even if the characteristics are not defined (the field is empty), the input of symbols may cause some changes in the synthesized voice.
+\* It's possible for inputting symbols to induce changes in the synthesized voice, even when the characteristics have not been defined (i.e. the field is empty).
