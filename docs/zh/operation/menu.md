@@ -79,7 +79,7 @@ layout: post
 
 *字幕の読み込み / Subtitle File*
 
-将 SubRip (.srt) 和 SubViewer (.sbv) 格式的字幕文件导入语音轨道。
+将 SubRip (`.srt`) 和 SubViewer (`.sbv`) 格式的字幕文件导入语音轨道。
 
 #### 导入MIDI音轨
 
@@ -135,7 +135,7 @@ layout: post
 
 将所选语音轨道以 WAV 格式导出每一行的内容。
 
-\* 可以在选项中指定采样率和位深度。
+\* 可以在[选项](../../option/option)中指定采样率和位深度。
 
 \* 如果在「详细」中关闭了「按音轨建立文件夹，按序号命名文件」，文件就不会被划分到文件夹中，文件名号就变成了所有轨道中所有行的序列号。
 
@@ -149,7 +149,7 @@ layout: post
 
 *字幕テキストの書き出し / Subtitle File*
 
-将所选语音轨道以 SubRip (.srt) 和 SubViewer (.sbv) 格式导出每一行的内容。可以用于 YouTube 等地方的字幕。
+将所选语音轨道以 SubRip (`.srt`) 和 SubViewer (`.sbv`) 格式导出每一行的内容。可以用于 YouTube 等地方的字幕。
 
 #### 导出歌唱部分为WAV文件
 
@@ -165,7 +165,7 @@ layout: post
 
 将所选歌唱轨道导出为 MIDI 文件。
 
-* 选择了多个音轨时，它们会被合并到一个文件中，而调号会反映在由选定的第一个音轨生成的「Conductor Track」中。
+\* 选择了多个音轨时，它们会被合并到一个文件中，而调号会反映在由选定的第一个音轨生成的「Conductor Track」中。
 
 #### 导出MusicXML
 
@@ -673,7 +673,7 @@ layout: post
 
 *オプション / Options*
 
-可以改变环境设置，比如角色显示，语音 / 歌唱的各种设置。
+可以修改环境设置和语音 / 歌唱的各种设置，比如角色显示。
 
 [选项](../../option/option)
 

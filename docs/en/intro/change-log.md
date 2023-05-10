@@ -7,32 +7,61 @@ layout: post
 ---
 
 ------------------------------------------------------
-Feb.14,2023 Version 8.4.5.0 Official Release
+Feb.14, 2023 Version 8.4.5.0 Official Release
 ------------------------------------------------------
 Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a song Mix Copy feature.
 
 ▼Song related changes
-・Updated to Song Engine 6.2.1. No change in sound quality.
 
-・A new function "Mix Copy" is implemented. Parameters can be copied including the default part.
-　* After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key [Ctrl+Shift+C].
+- Updated to Song Engine 6.2.1. No change in sound quality.
+- A new function "Mix Copy" is implemented. Parameters can be copied including the default part.
+    
+    ![mix copy](images/V8.4.5_mixcopy.png)
 
-・Improved pasting of detailed parameters for Voice Alpha. The result should be the same as the copy source.
+    - After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key ++ctrl+shift+c++.
+    - With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. You can even try to paste a song that you have adjusted in one cast to another cast to make it sing, for example.
+    - Due to reflecting adjustment value, there may be instances where applying parameters to a different cast may not sing well. The same cast will not sing exactly the same in another location as the copy source. Readjust as necessary.
 
-・Cast changes now maintain the values of the Voice Alpha and Emotion sliders before the change.
+- Improved pasting of detailed parameters for Voice Alpha. The result should be the same as the copy source.
 
-・Undo/Redo support for cast changes in Song tracks.
+    \* The Voice Alpha slider now is the same as the source, even when the slider values of the source and destination are different.
+    
+　　(Previously, this was reflected as the relative value, but now it is reflected as the absolute value.)
 
-・Organized the right-click menu of the piano roll.
+- Cast changes now maintain the values of the Voice Alpha and Emotion sliders before the change.
+
+- Undo/Redo support for cast changes in Song tracks.
+
+- Organized the right-click menu of the piano roll.
+
+    \* Organized for ease of use by not displaying "Cut," "Copy," and "Delete" when no notes are selected.
 
 ▼Talk related changes
-・Updated to Japanese Talk Dictionary 3.0.17.
+
+- Updated to Japanese Talk Dictionary 3.0.17.
+
+    \* The names "一拓", "異音" and "奥野香耶" can be read correctly.
+
+    \* Corrected the reading of "六花だけ" from "ろっかだけ" to "りっかだけ".
 
 ▼Other changes
-・Support the Cast Display Order Settings.
-　* You can set it from "Environment" button in "Option".
 
-・Other minor improvements and bug fixes.
+- Support the Cast Display Order Settings.
+    
+    ![option order setting button](images/V8.4.5_option_order_setting_button.png)
+
+    - You can set it from "Environment" button in "Option".
+    
+    ![option order setting window](images/V8.4.5_option_order_setting_window.png)
+
+    - The order can be customized according to "Default", "Name order", "Installation date order", or "Custom order".
+    - "Default"  is the same as before. If you change the order by drag & drop, it will become "Custom order".
+- Added a manual update button to the update information screen.
+　  
+    If automatic update fails repeatedly, please download from this page and update manually.
+    
+    \*This button will appear from the next update after this version is applied.
+- Other minor improvements and bug fixes.
 
 ------------------------------------------------------
 

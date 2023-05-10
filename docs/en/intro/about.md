@@ -6,9 +6,9 @@ layout: post
 
 ## About
 
-Translated from the official CeVIO website. Articles on this website are unofficial translations and are for reference only. Due to the translator's Japanese and English language skills, there may be mistakes in the translation of the text. Please correct me if you find any.
+This website's content is an unofficial translation of the official CeVIO website and is intended for reference only. Please note that there may be errors in the translation due to the translator's proficiency in Japanese and English. If you come across any such mistakes, please do not hesitate to bring them to our attention.
 
-The Chinese translation of the CeVIO GUI is from [the Chinese patch of VOICeVIO/Ulysses](https://github.com/VOICeVIO/CeVIO.CN). We would like to thank you for this.
+The Chinese version of the CeVIO GUI has been translated using the [the Chinese patch of VOICeVIO/Ulysses](https://github.com/VOICeVIO/CeVIO.CN), and we extend our thanks to them for this contribution.
 
 This site is hosted on GitHub, published using [GitHub Pages](https://pages.github.com/), and uses the theme [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 

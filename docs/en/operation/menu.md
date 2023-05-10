@@ -115,7 +115,7 @@ Export the lines of selected Talk Track(s) in SubRip (`.srt`) or SubViewer (`.sb
 
 Export selected Song Track(s) in monaural WAV format.
 
-\* Sample Rate and Bit Depth can be specified in Option.
+\* Sample Rate and Bit Depth can be specified in [Options](../../option/option).
 
 #### MIDI File {#midi-file-export}
 
@@ -473,7 +473,7 @@ Select the display position of the transport (toolbar) from the Left, Center, or
 
 ### Options
 
-You can modify environment settings, such as character display and various Talk/Song settings.
+You can modify environment settings and various Talk/Song settings, such as character display.
 
 [Options](../../option/option)
 
