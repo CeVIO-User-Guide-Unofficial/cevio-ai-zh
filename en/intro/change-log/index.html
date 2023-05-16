@@ -19,7 +19,7 @@
         <link rel="next" href="../change-log_website/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.12">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.ded33207.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.85bb2934.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a6bdf11c.min.css">
       
       
 
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#feb142023-version-8450-official-release" class="md-skip">
+        <a href="#feb14-2023-version-8450-official-release" class="md-skip">
           Skip to content
         </a>
       
@@ -560,8 +560,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#feb142023-version-8450-official-release" class="md-nav__link">
-    Feb.14,2023 Version 8.4.5.0 Official Release
+  <a href="#feb14-2023-version-8450-official-release" class="md-nav__link">
+    Feb.14, 2023 Version 8.4.5.0 Official Release
   </a>
   
 </li>
@@ -1753,8 +1753,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#feb142023-version-8450-official-release" class="md-nav__link">
-    Feb.14,2023 Version 8.4.5.0 Official Release
+  <a href="#feb14-2023-version-8450-official-release" class="md-nav__link">
+    Feb.14, 2023 Version 8.4.5.0 Official Release
   </a>
   
 </li>
@@ -1829,22 +1829,66 @@
   <h1>Change Log</h1>
 
 <hr />
-<h2 id="feb142023-version-8450-official-release">Feb.14,2023 Version 8.4.5.0 Official Release</h2>
+<h2 id="feb14-2023-version-8450-official-release">Feb.14, 2023 Version 8.4.5.0 Official Release</h2>
 <p>Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a song Mix Copy feature.</p>
-<p>▼Song related changes
-・Updated to Song Engine 6.2.1. No change in sound quality.</p>
-<p>・A new function "Mix Copy" is implemented. Parameters can be copied including the default part.
-　* After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key [Ctrl+Shift+C].</p>
-<p>・Improved pasting of detailed parameters for Voice Alpha. The result should be the same as the copy source.</p>
-<p>・Cast changes now maintain the values of the Voice Alpha and Emotion sliders before the change.</p>
-<p>・Undo/Redo support for cast changes in Song tracks.</p>
-<p>・Organized the right-click menu of the piano roll.</p>
-<p>▼Talk related changes
-・Updated to Japanese Talk Dictionary 3.0.17.</p>
-<p>▼Other changes
-・Support the Cast Display Order Settings.
-　* You can set it from "Environment" button in "Option".</p>
-<p>・Other minor improvements and bug fixes.</p>
+<p>▼Song related changes</p>
+<ul>
+<li>Updated to Song Engine 6.2.1. No change in sound quality.</li>
+<li>
+<p>A new function "Mix Copy" is implemented. Parameters can be copied including the default part.</p>
+<p><a class="glightbox" href="../images/V8.4.5_mixcopy.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mix copy" src="../images/V8.4.5_mixcopy.png" /></a></p>
+<ul>
+<li>After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-c">C</kbd></span>.</li>
+<li>With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. You can even try to paste a song that you have adjusted in one cast to another cast to make it sing, for example.</li>
+<li>Due to reflecting adjustment value, there may be instances where applying parameters to a different cast may not sing well. The same cast will not sing exactly the same in another location as the copy source. Readjust as necessary.</li>
+</ul>
+</li>
+<li>
+<p>Improved pasting of detailed parameters for Voice Alpha. The result should be the same as the copy source.</p>
+<p>* The Voice Alpha slider now is the same as the source, even when the slider values of the source and destination are different.</p>
+</li>
+</ul>
+<p>(Previously, this was reflected as the relative value, but now it is reflected as the absolute value.)</p>
+<ul>
+<li>
+<p>Cast changes now maintain the values of the Voice Alpha and Emotion sliders before the change.</p>
+</li>
+<li>
+<p>Undo/Redo support for cast changes in Song tracks.</p>
+</li>
+<li>
+<p>Organized the right-click menu of the piano roll.</p>
+<p>* Organized for ease of use by not displaying "Cut," "Copy," and "Delete" when no notes are selected.</p>
+</li>
+</ul>
+<p>▼Talk related changes</p>
+<ul>
+<li>
+<p>Updated to Japanese Talk Dictionary 3.0.17.</p>
+<p>* The names "一拓", "異音" and "奥野香耶" can be read correctly.</p>
+<p>* Corrected the reading of "六花だけ" from "ろっかだけ" to "りっかだけ".</p>
+</li>
+</ul>
+<p>▼Other changes</p>
+<ul>
+<li>
+<p>Support the Cast Display Order Settings.</p>
+<p><a class="glightbox" href="../images/V8.4.5_option_order_setting_button.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="option order setting button" src="../images/V8.4.5_option_order_setting_button.png" /></a></p>
+<ul>
+<li>You can set it from "Environment" button in "Option".</li>
+</ul>
+<p><a class="glightbox" href="../images/V8.4.5_option_order_setting_window.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="option order setting window" src="../images/V8.4.5_option_order_setting_window.png" /></a></p>
+<ul>
+<li>The order can be customized according to "Default", "Name order", "Installation date order", or "Custom order".</li>
+<li>"Default"  is the same as before. If you change the order by drag &amp; drop, it will become "Custom order".</li>
+<li>Added a manual update button to the update information screen.
+　<br />
+If automatic update fails repeatedly, please download from this page and update manually.</li>
+</ul>
+<p>*This button will appear from the next update after this version is applied.
+- Other minor improvements and bug fixes.</p>
+</li>
+</ul>
 <hr />
 <h2 id="dec20-2022-version-84-official-release-832208400">Dec.20, 2022 Version 8.4 Official Release (8.3.22.0～8.4.0.0)</h2>
 <p><a class="glightbox" href="../images/CeVIO%20AI_banner_8.4.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="8.4 banner" src="../images/CeVIO%20AI_banner_8.4.jpg" /></a></p>
@@ -2209,7 +2253,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 1, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 10, 2023</span>
       
         <br>
         Created:
@@ -2313,7 +2357,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.51198bba.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c2be25ad.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
