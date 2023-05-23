@@ -12,7 +12,9 @@ To use this product, connect to the Internet, then follow the steps below:
 
 1. Download the latest version from the "[New Features](https://cevio.jp/guide/cevio_ai/)" page;
 
-2. Double click the downloaded file to run it. The installation screen will pop up, follow the on-screen instructions to continue installing;
+2. Double click the downloaded file to run it. 
+   
+   The installation screen will pop up, follow the on-screen instructions to continue installing;
 
 3. Once the installation is completed, a CeVIO AI shortcut will be created on the desktop.
    
@@ -28,19 +30,25 @@ To use this product, connect to the Internet, then follow the steps below:
     
     \* You need to provide email address in some cases, for example, when the Product Key is missing. Please enter it accurately.
 
+    \* If you purchase only Talk Voice or Song Voice products that do not include 'Starter Pack' in their product names and do not have the necessary editor, please purchase one from the editor sales site listed on this [product information](https://cevio.jp/products_cevio_ai/) page.
+
+    !!! info "About Product Key"
+
+        For physical / boxed edition, the Product Key can be found on a manual, or on the card encased in a silver bag or a plastic bag.
+
+        For digital edition purchased from **Amazon**, please use the link in the "Order Confirmation" email to display the product page, and check in "ゲーム&PCソフトダウンロードライブラリ".
+
+        For **DLsite**, please see the download screen for this software in the Purchase History.
+
+        For **Vector PC Shop**, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
+
+        For **DMM**, please check in the "PCゲーム/ソフトウェア 購入済み商品" in your account.
+
+        For **animate GAMES**, please check the received email when purchased.
+
 5. Next, activate the Song or Talk Voice;
 
 6. If you want to add another Editor or more Voices, activate them from "Activate Product License" in "Help" menu.
-
-!!! info "About Product Key"
-
-    For physical / boxed edition, the Product Key for "Yuzuki Yukari Rei" is encased in a silver bag, and the others are encased in a plastic bag.
-
-    For digital edition purchased from Vector PC Shop, please access the received page from the link in "ライセンスキーのご案内" email, then click "ライセンスキーを表示" to check.
-
-    For digital edition purchased from DLsite, please see the download screen for this software in the Purchase History.
-
-    For digital edition purchased from Amazon, please use the link in the "Order Confirmation" email to display the product page, and check in "ゲーム&PCソフトダウンロードライブラリ".
 
 ## About Uninstallation
 
@@ -48,7 +56,7 @@ To uninstall, for Windows 11/10 users, select "CeVIO AI" from "Applications" in 
 
 To uninstall the Voice, follow the same steps. Select the Voice and then perform the uninstallation procedure.
 
-<span style="color: red">\* DO NOT directly delete the files in the installation directory. The software will not operate properly.</span>
+<span style="color: red">\* DO NOT delete the files directly from the installation directory. The software will not work properly.</span>
 
 ## If Wanted to Use in Another Computer
 

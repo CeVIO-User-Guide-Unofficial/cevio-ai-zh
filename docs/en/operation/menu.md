@@ -103,6 +103,8 @@ Export selected Talk Track(s) in monaural WAV format for each line.
 
 \* If "Separate folders and numbers for each track" is unchecked in "Details", files will not be divided into folders, and the file name numbers will be the serial numbers of all the lines in all the tracks.
 
+\* If the file name is unintentionally fixed, set the "File Name Pattern" to "$Serial Number$_$Cast Name$_$Serif$" to return to the default setting.
+
 #### Text File {#text-file-export}
 
 Export the lines of selected Talk Track(s) in comma-delimited text format (CSV).

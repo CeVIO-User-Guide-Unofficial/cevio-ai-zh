@@ -7,6 +7,71 @@ layout: post
 ---
 
 ------------------------------------------------------
+May.17,2023 Version 8.5 Official Release (8.5.2.0～8.5.4.0)
+------------------------------------------------------
+Version 8.5 includes many new features, such as a new slider that expands the range of expression in songs. Various improvements have also been made to both Song and Talk, making them even easier to use.
+
+▼Song related changes
+
+- Updated to Song Engine 6.3.0.
+
+　  Suppressed the rare sounding of notes at intervals of whole rests. Improved the accuracy of some calculations.
+
+- Three adjustment sliders for "Husky," "Tune," and "Pitch" were implemented.
+
+- Implemented "Common Key Signatures". The Key Signature can be synchronized on all song tracks.
+　This can be set from the "Song" menu or the right-click menu "Other Operations".
+
+- Implemented "Color Settings". The color of the line on the Adjustment Screen can be freely changed.
+　It can be set from the "Song" menu or the right-click menu "View".
+
+- Implemented "Special Symbols". You can input "@" etc. with casts corresponding to special symbols.
+　It is possible to execute it from "Special Symbols" of "Attributes" of the right-click menu of the note.
+
+- Implemented "Delete Special Symbols". Special symbols other than falsetto can be deleted all together.
+　When there are special symbols other than falsetto in the selected range, it can be executed from the right-click menu.
+
+- Implemented "Reset Adjustments". The adjustment values in the specified range can be deleted all together.
+　It can be executed from the right-click menu after specifying a range with the "Collectively Selection" tool.
+
+- "Auto Collectively Selection" can be turned on/off.
+　It can be set from the "Song" menu or the right-click menu "Other Operations".
+
+- Improved "Auto Collectively Selection".
+　Vertical movement is judged by pitch and horizontal movement is judged by other than timing.
+
+- "Song" menu has been reorganized.
+　"Auto Split English Lyrics" was moved to the menu and removed from the options.
+
+- Reset voice quality and emotion when changing cast.
+
+- When copying a group selection, timing is now copied as a Mix Copy (absolute value).
+
+- When copying an adjustment value in the adjustment screen, the deletion of the original value (white line) should also be copied.
+
+- When undoing/redoing, the selected area is not cleared.
+
+▼Talk related changes
+- Updated to Talk Engine 6.3.0.
+　Slight modifications to reading estimation. Improved accuracy of some calculations.
+
+- Updated to Japanese Talk Dictionary 3.0.18.
+
+- Added "Play From Here" to the right-click menu of the dialog list.
+　The shortcut key [F5] can be used in place of the space key, and the reading can be continued line by line.
+
+- Pre-rendering process can be canceled during playback.
+
+- "Talk" menu and the right-click menu of the dialogue list have been reorganized.
+
+- In English Talk Voice, "&" is automatically converted to "and", "<" to "(", and ">" to ")" when inputting lines.
+
+▼Other changes
+- WAV export, Track Freeze, and Talk Pre-rendering function are restricted in offline mode.
+
+- Other minor improvements and bug fixes.
+
+------------------------------------------------------
 Feb.14, 2023 Version 8.4.5.0 Official Release
 ------------------------------------------------------
 Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a song Mix Copy feature.

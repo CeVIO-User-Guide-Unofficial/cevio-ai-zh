@@ -13,13 +13,15 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 各部の名前](https:
 
 ## Ruler
 
-Click on the ruler to move the position Cursor to the position where you want to start playback.
+Click (or drag) on the ruler to move the position Cursor to the position where you want to start playback.
 
 Double-click on the ruler to start playback (or stop during playback) from the clicked position.
 
 ## Image Display
 
-You can choose to show a larger image or hide the image from ["Options"](../../option/option).
+Right-click and enable "View Large" to view the image in a larger vertical size.
+
+By selecting "Other Image Settings" from the right-click menu to display ["Options"](../../option/option), you can make more detailed settings, such as hiding the image.
 
 ## Audio Track
 
@@ -27,11 +29,11 @@ Audio tracks can be add using the [+] button or "Add Track" in the "Track" menu.
 
 ## Talk Track / Song Track
 
-The Song Track, adjustment tools and edit tools will not be displayed in the environment where only the Talk function is activated, such as the Talk Starter Pack.
+In environments where only the Talk function is activated, such as the Talk Starter Pack, the Song Track, adjustment tools, and edit tools will not be displayed.
 
-The Talk Track will not be displayed in the environment where only the Song function is activated, such as the Song Starter Pack.
+In environments where only the the Song function is activated, such as the Song Starter Pack, the Talk Track will not be displayed.
 
-The environment where only one of Talk or Song function is activated will also have full functionality when you purchase and activate the other Starter Pack.
+Environments where only one of Talk or Song is activated will also have full functionality once the other Starter Pack is purchased and activated.
 
 !!! example "Example from translator"
 
