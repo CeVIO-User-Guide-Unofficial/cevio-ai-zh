@@ -19,7 +19,7 @@
         <link rel="next" href="../change-log_website/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.12">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
     
     
       
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#feb14-2023-version-8450-official-release" class="md-skip">
+        <a href="#may172023-version-85-official-release-85208540" class="md-skip">
           Skip to content
         </a>
       
@@ -558,6 +558,13 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#may172023-version-85-official-release-85208540" class="md-nav__link">
+    May.17,2023 Version 8.5 Official Release (8.5.2.0～8.5.4.0)
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#feb14-2023-version-8450-official-release" class="md-nav__link">
@@ -1753,6 +1760,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#may172023-version-85-official-release-85208540" class="md-nav__link">
+    May.17,2023 Version 8.5 Official Release (8.5.2.0～8.5.4.0)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#feb14-2023-version-8450-official-release" class="md-nav__link">
     Feb.14, 2023 Version 8.4.5.0 Official Release
   </a>
@@ -1828,6 +1842,89 @@
 
   <h1>Change Log</h1>
 
+<hr />
+<h2 id="may172023-version-85-official-release-85208540">May.17,2023 Version 8.5 Official Release (8.5.2.0～8.5.4.0)</h2>
+<p>Version 8.5 includes many new features, such as a new slider that expands the range of expression in songs. Various improvements have also been made to both Song and Talk, making them even easier to use.</p>
+<p>▼Song related changes</p>
+<ul>
+<li>Updated to Song Engine 6.3.0.</li>
+</ul>
+<p>Suppressed the rare sounding of notes at intervals of whole rests. Improved the accuracy of some calculations.</p>
+<ul>
+<li>
+<p>Three adjustment sliders for "Husky," "Tune," and "Pitch" were implemented.</p>
+</li>
+<li>
+<p>Implemented "Common Key Signatures". The Key Signature can be synchronized on all song tracks.
+　This can be set from the "Song" menu or the right-click menu "Other Operations".</p>
+</li>
+<li>
+<p>Implemented "Color Settings". The color of the line on the Adjustment Screen can be freely changed.
+　It can be set from the "Song" menu or the right-click menu "View".</p>
+</li>
+<li>
+<p>Implemented "Special Symbols". You can input "@" etc. with casts corresponding to special symbols.
+　It is possible to execute it from "Special Symbols" of "Attributes" of the right-click menu of the note.</p>
+</li>
+<li>
+<p>Implemented "Delete Special Symbols". Special symbols other than falsetto can be deleted all together.
+　When there are special symbols other than falsetto in the selected range, it can be executed from the right-click menu.</p>
+</li>
+<li>
+<p>Implemented "Reset Adjustments". The adjustment values in the specified range can be deleted all together.
+　It can be executed from the right-click menu after specifying a range with the "Collectively Selection" tool.</p>
+</li>
+<li>
+<p>"Auto Collectively Selection" can be turned on/off.
+　It can be set from the "Song" menu or the right-click menu "Other Operations".</p>
+</li>
+<li>
+<p>Improved "Auto Collectively Selection".
+　Vertical movement is judged by pitch and horizontal movement is judged by other than timing.</p>
+</li>
+<li>
+<p>"Song" menu has been reorganized.
+　"Auto Split English Lyrics" was moved to the menu and removed from the options.</p>
+</li>
+<li>
+<p>Reset voice quality and emotion when changing cast.</p>
+</li>
+<li>
+<p>When copying a group selection, timing is now copied as a Mix Copy (absolute value).</p>
+</li>
+<li>
+<p>When copying an adjustment value in the adjustment screen, the deletion of the original value (white line) should also be copied.</p>
+</li>
+<li>
+<p>When undoing/redoing, the selected area is not cleared.</p>
+</li>
+</ul>
+<p>▼Talk related changes
+- Updated to Talk Engine 6.3.0.
+　Slight modifications to reading estimation. Improved accuracy of some calculations.</p>
+<ul>
+<li>
+<p>Updated to Japanese Talk Dictionary 3.0.18.</p>
+</li>
+<li>
+<p>Added "Play From Here" to the right-click menu of the dialog list.
+　The shortcut key [F5] can be used in place of the space key, and the reading can be continued line by line.</p>
+</li>
+<li>
+<p>Pre-rendering process can be canceled during playback.</p>
+</li>
+<li>
+<p>"Talk" menu and the right-click menu of the dialogue list have been reorganized.</p>
+</li>
+<li>
+<p>In English Talk Voice, "&amp;" is automatically converted to "and", "&lt;" to "(", and "&gt;" to ")" when inputting lines.</p>
+</li>
+</ul>
+<p>▼Other changes
+- WAV export, Track Freeze, and Talk Pre-rendering function are restricted in offline mode.</p>
+<ul>
+<li>Other minor improvements and bug fixes.</li>
+</ul>
 <hr />
 <h2 id="feb14-2023-version-8450-official-release">Feb.14, 2023 Version 8.4.5.0 Official Release</h2>
 <p>Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a song Mix Copy feature.</p>
@@ -2253,7 +2350,7 @@ If automatic update fails repeatedly, please download from this page and update 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2023</span>
       
         <br>
         Created:
@@ -2357,7 +2454,7 @@ If automatic update fails repeatedly, please download from this page and update 
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.c2be25ad.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.b4d07000.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
