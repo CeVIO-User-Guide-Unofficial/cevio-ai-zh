@@ -133,7 +133,7 @@ If this option is turned off, real-time speech synthesis will be used.
 
 ### Text wrap
 
-In speech list, wrap the long sentences at the right edge to display the whole sentence.
+In Speech List, wrap the long sentences at the right edge to display the whole sentence.
 
 ### Partial replay with Phoneme Graph
 
@@ -159,11 +159,11 @@ The smaller the LEN value, the longer it is displayed in old style Phoneme Graph
 
 ### Text Font
 
-Specify the font and size in speech list.
+Specify the font and size in Speech List.
 
 ### Cast View
 
-Choose one of Image, Name or Image + Name as the way to display the character on the left side of the speech list.
+Choose one of Image, Name or Image + Name as the way to display the character on the left side of the Speech List.
 
 ### Speech List Background
 
@@ -237,12 +237,6 @@ Highlight the tonic of the current key signature on the score editing page.
 ### Represent the keyboard by one octave lower (C3 for center)
 
 Represents the sound of 440Hz as A3 (was A4) on the Piano Roll keyboard.
-
-### Automatically split English lyric with syllables
-
-Automatically divide into one syllable per note when entering English lyrics.
-
-\* The division position in the notation may be incorrect due to automatic estimation.
 
 ### Do not erase existing notes when entering notes
 

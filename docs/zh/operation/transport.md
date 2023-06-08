@@ -13,13 +13,13 @@ layout: post
 
 ### 回开头
 
-先頭 / Goto Zero
+*先頭 / Goto Zero*
 
 将光标移至开头。如果设置了起点标记，则光标会先移至起点标记，再移至开头。
 
 ### 播放
 
-再生 / Start
+*再生 / Start*
 
 从当前光标位置播放所有音轨。
 
@@ -27,19 +27,19 @@ layout: post
 
 ### 停止
 
-停止 / Stop
+*停止 / Stop*
 
 停止播放。当多次按下停止按钮时，光标会先移至起点标记，再移至开头。
 
 ### 循环
 
-繰り返し / Circle
+*繰り返し / Circle*
 
 设置循环播放功能的开 / 关。
 
 ### 起点标记/终点标记
 
-始点マーカー／終点マーカー / Start Marker/End Marker
+*始点マーカー／終点マーカー / Start Marker/End Marker*
 
 设定 / 撤除循环的起点 / 终点。
 
@@ -47,13 +47,13 @@ layout: post
 
 ### 播放时自动滚动
 
-自動スクロール / Auto scroll
+*自動スクロール / Auto scroll*
 
 设置在播放时是自动滚动时间轴 / 台词列表 / 钢琴卷帘还是手动。
 
 ### 主音量
 
-マスターボリューム / Master Volume
+*マスターボリューム / Master Volume*
 
 在保持轨道间音量平衡的同时，可以调整整体音量。
 
@@ -69,7 +69,7 @@ layout: post
 
 ### 光标
 
-ポジションカーソル / Position Cursor
+*ポジションカーソル / Position Cursor*
 
 在标尺栏上点击能将光标移至当前位置。
 

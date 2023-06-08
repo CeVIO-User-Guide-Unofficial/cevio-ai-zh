@@ -70,9 +70,7 @@ The percentage can also be changed directly by dragging the knobs in the emotion
 
     - Sato Sasara (さとうささら) … 元気，普通，怒り，哀しみ
 
-    - IA … Bright, Normal, Strong, Dark
-
-    - Koharu Rikka (小春六花) … 嬉しい，普通，怒り，哀しみ，，落ち着き
+    - Suzuki Tsudumi（すずきつづみ） … クール，照れ，怒り，喜び，ひそひそ
 
 ## Preset
 

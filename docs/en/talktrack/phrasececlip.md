@@ -1,5 +1,5 @@
 ---
-title: Speech Clip
+title: Speech Clips
 author: 夜輪風超絶技巧変奏曲
 category: talktrack
 layout: post
@@ -8,7 +8,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ セリフクリップ](
 
 ---
 
-## Register Speech Clip
+## Register Speech Clips
 
 By registering the adjusted lines as speech clips, you can easily reuse them later.
 
@@ -32,7 +32,7 @@ The "Insert Speech Clip" in the right-click menu allows you to select a register
 
 You can insert a speech clip at the cursor position by right-clicking and selecting "Insert Speech Clip" from the menu, even if you are entering a line.
 
-\* The as condition and emotion values of the line will be changed to the value of the speech clip.
+\* The condition and emotion values of the line will be changed to the value of the speech clip.
 
 ![insert clip](images/phraseclip_2.png)
 

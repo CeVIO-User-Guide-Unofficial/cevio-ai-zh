@@ -12,11 +12,11 @@ You can use the Word Registration function to register the correct pronunciation
 
 ## Word Registration
 
-Select "Word Registration" from the "Talk" menu, the right-click menu of the speech list or by right-clicking while entering a line.
+Select "Word Registration" from the "Talk" menu, the right-click menu of the Speech List or by right-clicking while entering a line.
 
-(When multiple language Voices are in use, selecting an Japanese Voice in the speech list.)
+(When multiple language Voices are in use, selecting an Japanese Voice in the Speech List.)
 
-When a whole line is selected from the speech list, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
+When a whole line is selected from the Speech List, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
 
 ![register word](images/talk_06_1.png)
 
@@ -36,7 +36,9 @@ For example, enter "トオキョオ" as the pronunciation of "東京".
 
     Voiceless vowels are displayed in capital letters in the adjustment screen of the phoneme chart.
 
-    \* The actual effect depends on the mora to which `’` is attached. It has little effect on the a column (あ段), e column (え段) and o column (お段).
+    The actual effect depends on the mora to which `’` is attached. It has little effect on the a column (あ段), e column (え段) and o column (お段).
+
+    \* If you want to devoice vowels without registering words, please use [ruby input (reading specification)](../talk_01#insert-ruby-brackets).
 
 ### Accent
 
@@ -84,13 +86,15 @@ Conversely, if you register "一日 (ツイタチ)" and register "四月一日 (
 
 When it is on, click the "Register" button to move on to the next word. When it is off, registration ends when the button is pressed.
 
+![continue to register](images/talk_06_2.png)
+
 ## User Dictionary Management
 
 Select "Dictionary Management" from "Talk" menu allows you to edit or delete registered words.
 
 Click on a column heading (Spelling/Reading/Part of speech) to temporarily reorder it.
 
-![manage user dict](images/talk_06_2.png)
+![manage user dict](images/talk_06_3.png)
 
 ### Edit and Delete Word
 

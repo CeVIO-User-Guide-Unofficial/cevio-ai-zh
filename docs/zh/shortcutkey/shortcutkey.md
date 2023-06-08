@@ -270,7 +270,7 @@ layout: post
 
 ### ++ctrl+tab++
 
-显示下一个调整页面。++ctrl+shift+tab++显示上一个调整页面。
+显示下一个调整界面。++ctrl+shift+tab++显示上一个调整界面。
 
 ### ++ctrl+1++
 

@@ -11,11 +11,11 @@ You can use the Word Registration function to register the correct pronunciation
 
 ## Word Registration
 
-Select "Word Registration" from the "Talk" menu, the right-click menu of the speech list or by right-clicking while entering a line.
+Select "Word Registration" from the "Talk" menu, the right-click menu of the Speech List or by right-clicking while entering a line.
 
-(When multiple language Voices are in use, selecting an English Voice in the speech list.)
+(When multiple language Voices are in use, selecting an English Voice in the Speech List.)
 
-When a whole line is selected from the speech list, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
+When a whole line is selected from the Speech List, the selected sentence is used as the range for "Spelling"; when entering a line, the words within the range are selected.
 
 ![Word Registration](images/talk_01_english_1.png)
 

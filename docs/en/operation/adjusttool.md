@@ -15,7 +15,7 @@ Switch the edit mode of the Song Track.
 
 Click on the text above the button (e.g. "PIT") to display other screens superimposed on the current adjustment screen.
 
-(Cannot be used in Talk Track or Audio Track.)
+(It cannot be used in the Talk Track or Audio Track.)
 
 ![overlay item](images/adjusttool_2.png)
 

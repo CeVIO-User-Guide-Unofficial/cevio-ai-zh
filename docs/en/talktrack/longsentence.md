@@ -9,7 +9,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ 文のまとめ入力](
 ---
 The "Enter Text Collectively" option is convenient when you want to enter lines at once rather than one line at a time, or when you want to insert text on a selected row.
 
-It can be quickly called up via the right-click menu in the speech list or shortcut key ++f8++.
+It can be quickly called up via the right-click menu in the Speech List or shortcut key ++f8++.
 
 Text from external sources such as browsers can also be copied and pasted in, making it easier to import long text.
 
