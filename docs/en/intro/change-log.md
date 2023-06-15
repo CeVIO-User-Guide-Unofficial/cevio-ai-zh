@@ -152,7 +152,7 @@ Version 8.4 includes improvements to the song timing adjustment function and min
     ![vowel_adjust](images/V8.4_vowel_ajust.png)
 
     - You can choose it from the right-click menu of the note (or after selecting a range in the TIMING adjustment screen).
-    - Consonants are moved the same amount as vowels (if it can't, use ratio to adjust it; if there's no space for it, pass).
+    - Consonants are moved the same amount as vowels (if it can't move, using ratio to adjust instead; if there's no space for it, pass).
 
     \* Please use it as a supplement as the mechanical correction may lose its original good listening feel.
 
