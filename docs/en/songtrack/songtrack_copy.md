@@ -14,8 +14,6 @@ In a new project, there is a default setting for each, located at the beginning 
 
 You can switch between showing and hiding each of these from the right-click menu in the ruler header.
 
-<span style="color: red">\* Tempo and beat are hidden by default. Set to display if you want to change them in the middle of a song.</span>
-
 ![setting](images/songtrack_copy_1.png)
 
 ## Tempo Setting
@@ -72,13 +70,13 @@ You can also move the key (except for the first key) by dragging it left or righ
 
 Setting a dynamic mark can naturally strengthen or weaken the vocalization from this position.
 
-The effect becomes stronger in the order [mf] → [f] → [ff], weaker in the order [mp] → [p] → [pp], with [N] being normal.
+\* The effect becomes stronger in the order [mf] → [f] → [ff], weaker in the order [mp] → [p] → [pp], with [N] being normal.
 
 \* The effect continues from the specified position to the next dynamic mark. The volume will also change.
 
 !!! new
 
-    From version 8.3.2.0, you can set new dynamic marks "ffff" "ffff" "ppp" "pppp".
+    From version 8.3.2.0, you can set new dynamic marks "fff" "ffff" "ppp" "pppp".
 
     \* Depending on the character and score, the effect may not be as obvious compared to "ff" and "pp".
 

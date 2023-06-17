@@ -44,7 +44,7 @@ Click on the scale and character assigned to this track will sing this key.
 
 ### Simple TIMING Display
 
-Check and adjust the phonemes and vocalization timing of the lyrics. If the screen is narrow, you can hide them in the "Talk Settings" in the Options.
+Check and adjust the phonemes and vocalization timing of the lyrics. If the screen is narrow, you can hide it in the "Talk Settings" in the [Options](../../option/option).
 
 ### Scrollbar
 
