@@ -244,7 +244,7 @@ Freely customize the colour of the lines such as TIMING and pitch on the Adjustm
 
 ### Mix Copy
 
-After selecting a range using the Collectively Selection Tool (or the Selection Tool in the adjustment screen), you can copy the parameters, including the default values, by using the "Copy Mix" option in the right-click menu or by using the shortcut key ++ctrl+shift+c++.
+After selecting a range using the Collectively Selection Tool (or the Selection Tool in the adjustment screen), you can copy the parameters, including the default values, by using the "Mix Copy" option in the right-click menu or by using the shortcut key ++ctrl+shift+c++.
 
 With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. For example, you can adjust the singing of a song for one cast and then paste it onto another cast to let they sing.
 
