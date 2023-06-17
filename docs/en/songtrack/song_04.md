@@ -78,6 +78,10 @@ If the lyrics are entered in half-angle English characters, the phonemes of the 
 
 English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" in the "Song" menu is turned on.
 
+!!! new
+
+    From version 8.5.4.0, "Song" menu has been reorganized. "Auto Split English Lyrics" was moved to the menu and removed from the options.
+
 \* English syllables can be divided automatically even when "Space-Separated" is selected in "Enter Lyrics Collectively" and Japanese and English lyrics are mixed.
 
 \* The falsetto symbol `※` entered in English lyrics is automatically converted to `$` used in the English Voice.

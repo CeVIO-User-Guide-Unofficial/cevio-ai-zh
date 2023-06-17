@@ -24,7 +24,7 @@ If you press ++tab++ instead of ++enter++ after entering lyrics, you can continu
 
 The characters that can be input are half-angle English characters, `.`, `'`, `-` and `$` (falsetto symbol).
 
-\* Characters that cannot be sung out are shown in red.
+\* Characters that cannot be sung out are shown in red. Special symbols such as vowel devoicing symbol and falsetto are allowed.
 
 ![enter lyrics](images/song_04_english_1.png)
 
@@ -42,7 +42,7 @@ When "Space-Separated" is selected, the lyrics will be assigned to multiple note
 
 When "1 note with 1 syllable" is selected, words separated by half spaces will be automatically divided by syllables again, and one syllable will be assigned to one note.
 
-![continually enter lyrics](images/song_04_english_2.png)
+![enter lyrics collectively](images/song_04_english_2.png)
 
 ## Falsetto Symbol
 
