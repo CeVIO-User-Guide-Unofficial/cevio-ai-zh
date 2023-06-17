@@ -145,3 +145,7 @@ Select the Draw Tool and drag a line to modify the frequency.
 The unit of period is Hz (Hertz), which means the number of shakes per second.
 
 ![edit frequency](images/song_07_15.png)
+
+!!! info "Disable Vibrato"
+
+    Using "Disable Vibrato" in the "Edit Mode" of the "Song" menu, you can disable the vibrato amplitude and frequency for the selected track. This allows you to draw the vibrato on the Pitch Adjustment screen.
