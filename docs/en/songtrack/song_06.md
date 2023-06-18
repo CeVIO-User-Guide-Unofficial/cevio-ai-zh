@@ -1,22 +1,46 @@
 ---
-title: Vocal Adjustment③ (Alpha/Timbre)
+title: Vocal Adjustment③ (Alpha/Timbre etc.)
 author: 夜輪風超絶技巧変奏曲
 category: songtrack
 layout: post
 ---
-Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整③（声質）](https://cevio.jp/guide/cevio_ai/songtrack/song_06/)
+Original article: [CeVIO AI ユーザーズガイド ┃ 歌声の調整③（声質ほか）](https://cevio.jp/guide/cevio_ai/songtrack/song_06/)
 
 ---
 
-By adjusting the alpha, you can change the voice into a more adult-like or child-like voice.
+Drag (hold down the left mouse button and move) the sliders (knobs) to adjust the overall singing voice of the selected track. You can also adjust them by hovering the mouse cursor over the slider and using the mouse wheel to move it up or down, or double-clicking the number and directly inputting the desired value.
 
-Drag (hold down the left mouse button and move) the Alpha slider (knob) to change the timbre of the selected track.
+![alpha](images/song_06_V8.5_new3slider2.png)
 
-You can also hover the mouse cursor over the slider and adjust it by moving the mouse wheel up or down.
+### Alpha / Timbre
 
-\* The degree of voice change depends on the cast. For example, the change of "Kafu" is relatively small.
+Lower it to change the voice into a childish voice; raise it to an adult voice.
 
-![alpha](images/song_06_1.png)
+\* The degree of voice change depends on the cast. For example, "KAFU" "SEKAI" have less changes.
+
+### Husky
+
+The higher it is raised, the huskier the voice becomes. It won't affect the Adjustment Screen.
+
+### Tune
+
+The higher it is raised, the more faithfully (and more mechanically) character sings to the pitch of the score.
+
+### Pitch
+
+Shift the pitch of the output audio with 440 Hz reference. It won't affect the Adjustment Screen.
+
+### Emotion
+
+In "Suzuki Tsudumi", "SEKAI", and "COKO", there is an additional emotion slider available.
+
+!!! info "About Emotion"
+
+    The Song Voice of "CeVIO AI" uses AI technologies such as deep learning to realistically reproduce the timbre, habits and singing style of the original singer.
+
+    Normally, singing expressions are automatically reproduced according to the content of the song (as a result of learning), but in the case of singers with a wide range of singing expressions or have different singing expressions, they are specially learnt as two singing expressions, and it is possible to select the singing style with an Emotion slider.
+
+    ![emotion](images/song_06_song_emotion_slider.png)
 
 ## Fine-tune Timbre
 
