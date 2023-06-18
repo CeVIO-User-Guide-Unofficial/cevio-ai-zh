@@ -28,6 +28,8 @@ By dragging and dropping audio directly from the Explorer onto the audio track, 
 
 Once the audio file has been loaded, the audio element will be displayed as a waveform.
 
+![import audio element](images/audio_2.png)
+
 !!! info "About Audio File Formats"
     Only WAV format with 8bit or 16bit bit rate is supported.
 
