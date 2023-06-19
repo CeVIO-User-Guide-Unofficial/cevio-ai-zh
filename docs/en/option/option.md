@@ -19,20 +19,6 @@ Original article: [CeVIO AI ユーザーズガイド ┃ オプション](https:
 
 ### Image
 
-#### Show cast image of track
-
-Select whether or not to show the image of character in the track header.
-
-#### Image Settings
-
-Modify the display image of each character. This can be replaced by a user image.
-
-![set character image](images/option_2.png)
-
-\* In this example, the image of the the character "OИE"'s Talk voice has been replaced with the user image of Suzuki Tsudumi (すずきつづみ).
-
-[Display user image](../characterimage)
-
 #### Show image on the right side
 
 When this option is on, the character image will be displayed on the upper right of the main screen.
@@ -50,6 +36,28 @@ When this option is on, the character image will switch with the track or the li
 Set the image to be displayed on the right side of the screen. Click on the image to select an image from the list to display. You can also drag and drop your own image here to register them as a user image and select them.
 
 \* When "Linked to the cast of track" is turned on, "Right Side Image" will show the picture that is displayed when no track is selected.
+
+#### Show cast image of track
+
+Select whether or not to show the image of character in the track header.
+
+#### Image Settings
+
+Modify the display image of each character. This can be replaced by a user image.
+
+[Display user image](../characterimage)
+
+![set character image](images/option_2.png)
+
+\* In this example, the image of the the character "OИE"'s Talk voice has been replaced with the user image of Suzuki Tsudumi (すずきつづみ).
+
+### Display Order Setting
+
+Change the order of the cast list displayed when adding tracks or changing casts.
+
+![order setting window](images/option_V8.4.5_option_order_setting_window.png)
+
+\* If you change the order by drag & drop, it will become "Custom order".
 
 ### Default Track Configuration
 
@@ -79,7 +87,9 @@ Specify the sampling rate and bit depth of the exported WAV file.
 
 Set a folder for storing temporary files generated when freezing tracks or loading external audio files.
 
-Temporary files are not automatically deleted. To reduce the amount of space used on the hard drive, using the 'Clear' button clear them.
+\* Temporary files are not automatically deleted. To reduce the amount of space used on the hard drive, using the 'Clear' button clear them.
+
+<span style="color: #dd6f6c">\* Please DO NOT save user data in this folder and its subdirectories. There is a risk of data loss.</span>
 
 ### Mouse Wheel
 
@@ -199,8 +209,6 @@ Set individual pause lengths for punctuation marks and symbols.
 
 \* You can also set the shortest full-width space to 0.025 seconds and use it to break up accent phrases by entering lines like "みなさん　こんにちは".
 
-\* When there are consecutive pause characters such as `・・・` in a sentence, the pause length will be reflected in the number of pause characters.
-
 \* If you want the length of silence at the end of the WAV to be zero, turn off "Affects on Export Audio File".
 
 ### Default Preset
@@ -218,7 +226,7 @@ Please restart the external application after change during external cooperation
 
 ### Voice Version {#voice-version-talk}
 
-Some casts allow choose the voice version.
+Some casts allow choose the voice version. \* There are no voices available currently.
 
 ### Text File Character Code
 
@@ -256,6 +264,8 @@ Enables DAW-like operation to shift position correction by quantizing towards to
 
 Simply check and adjust Timing at the bottom of the score editing screen.
 
+\* When hidden, you can still enter phonemes from the "Enter Lyrics with Phoneme" in "Song" menu or from the Note Properties.
+
 ### Lyric Font
 
 Specify the font and size of lyrics.
@@ -275,6 +285,12 @@ Choose from 2 background theme for the Adjustment Screen.
 
 - Gray
 - Black
+
+### Adjustment Screen Color Settings
+
+Freely customize the color of the lines such as TIMING and pitch on the Adjustments Screen.
+
+![Color Settings](images/option_V8.5_color_settings2.png)
 
 ### Numerical Display
 
@@ -296,7 +312,7 @@ Specify the alpha value when creating a new track or changing a cast.
 
 ### Voice Version {#voice-version-song}
 
-Some casts allow choose the voice version.
+Some casts allow choose the voice version. \* There are no voices available currently.
 
 !!! info "About setting folder"
 

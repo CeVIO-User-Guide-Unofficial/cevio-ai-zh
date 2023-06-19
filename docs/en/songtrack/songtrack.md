@@ -236,7 +236,7 @@ Select whether or not to display the Quantize guide cursor.
 
 #### Color Settings
 
-Freely customize the colour of the lines such as TIMING and pitch on the Adjustments Screen.
+Freely customize the color of the lines such as TIMING and pitch on the Adjustments Screen.
 
 \* Menu in other situations:
 

@@ -234,7 +234,7 @@ layout: post
 
 #### 按音素输入歌词
 
-*音素で歌詞入力 / enter Lyrics with Phoneme*
+*音素で歌詞入力 / Enter Lyrics with Phoneme*
 
 按音素记号（发音记号）输入歌词。
 
@@ -306,7 +306,7 @@ layout: post
 
 \* 使用范围选择工具 / 画笔工具 / 直线工具时，该量化位置也会出现在乐谱编辑页面中。
 
-#### 设置颜色
+#### 颜色设定
 
 *色の設定 / Color Settings*
 
