@@ -19,7 +19,7 @@
         <link rel="next" href="../song_04_english/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -1269,7 +1269,7 @@
   
     <li class="md-nav__item">
       <a href="../song_06/" class="md-nav__link">
-        歌声的调整③（音色）
+        歌声的调整③（音色等）
       </a>
     </li>
   
@@ -1810,7 +1810,7 @@
 <p>也可以用 <span class="keys"><kbd class="key-f2">F2</kbd></span> 键进入选定音符的输入状态。在输入状态下输入歌词后，按 <span class="keys"><kbd class="key-enter">Enter</kbd></span> 键提交歌词。</p>
 <p>在输入歌词后如果按 <span class="keys"><kbd class="key-tab">Tab</kbd></span> 键而不是 <span class="keys"><kbd class="key-enter">Enter</kbd></span> 键，则可以继续为下一个音符输入歌词。</p>
 <p>允许输入全角平假名/片假名和半角英文字符，而且可以为一个音符输入多个字符。</p>
-<p>※无法发声的字符以红色显示。 </p>
+<p>※无法发声的字符以红色显示。允许输入元音脱落记号、假声符号等特殊记号。</p>
 <p><a class="glightbox" href="../images/song_04_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter lyrics" src="../images/song_04_1.png" /></a></p>
 <h2 id="_2">长段歌词输入</h2>
 <p>可以通过「歌唱」菜单、钢琴卷帘的右键菜单或者快捷键 <span class="keys"><kbd class="key-f8">F8</kbd></span> 快速调出该界面。</p>
@@ -1820,7 +1820,7 @@
 <h2 id="_3">元音脱落记号</h2>
 <p>如果歌词中包含 <code>’</code>（全角引号），那么它前面的音拍（假名）中的元音就会脱落，只发辅音的音。</p>
 <p>举例来说，输入 <code>いぇす</code> 会发「yesu」的音，最后的「す」的音非常明显；但输入 <code>いぇす’</code> 就会让元音「u」脱落，从而发出更自然的「yes」的音。</p>
-<p>※可以在末尾以外的地方输入 <code>’</code>，比如说 <code>す’ぺーす’</code>，但实际效果因 <code>’</code> 附着的音拍而异。对「あ行」无效。</p>
+<p>※可以在末尾以外的地方输入 <code>’</code>，比如说 <code>す’ぺーす’</code>，但实际效果因 <code>’</code> 附着的音拍而异。对「あ行」（あいうえお）无效。</p>
 <p><a class="glightbox" href="../images/song_04_3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="drop off Vowel" src="../images/song_04_3.png" /></a></p>
 <h2 id="_4">假声记号</h2>
 <p>如果歌词中包含 <code>※</code>，那么该音符将发假声。</p>
@@ -1834,10 +1834,14 @@
 <p><a class="glightbox" href="../images/song_04_4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter parameter" src="../images/song_04_4.png" /></a></p>
 <p>音素输入模式下会显示「音素面板」。单击面板上的字符输入音素符号，之后按 <span class="keys"><kbd class="key-enter">Enter</kbd></span> 键或关闭音素面板便可提交更改。</p>
 <p>音素间使用 1 字符宽的空格 <code></code> 或 1 字符宽的 <code>,</code> 分割。若音节间有混淆，可以使用 <code>|</code> 分割（例如 <code>y,e,s|a,i</code>）。</p>
-<p>若输入了音素面板上不存在的字符，则该字符将被视作错误的歌词（以红色显示），所在的音符将不会发声。<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>※若输入了音素面板上不存在的字符，则该字符将被视作错误的歌词（以红色显示），所在的音符将不会发声。<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h2 id="_6">英语歌词</h2>
 <p>若以半角英文字符输入了歌词，则日语声库的音素将分配给英语音素以歌唱。英语和日语能在同一首歌中混杂出现。</p>
-<p>在选项中打开<abbr title="英語の歌詞を音節で自動分割 / Automatically split English lyrics with syllables">「自动分割英语歌词的音节」</abbr>后，英文歌词也会自动按音节分割并分配给音符。</p>
+<p>在「歌唱」菜单中打开<abbr title="英語の歌詞を音節で自動分割 / Automatically split English lyrics with syllables">「自动分割英语歌词的音节」</abbr>后，英文歌词也会自动按音节分割并分配给音符。</p>
+<div class="admonition new">
+<p class="admonition-title">New</p>
+<p>从版本 8.5.4.0 起, 「自动分割英语歌词的音节」移动到了「歌唱」菜单下，同时选项中删除了该项。</p>
+</div>
 <p>※即使在「连续输入歌词」中选择「以空格划分」，并混合输入日语和英语歌词时，英语音节也可以自动划分。</p>
 <p>※英文歌词中输入的假声符号 <code>※</code> 会自动转换为英文声库使用的 <code>$</code>。</p>
 <p>※由于分配的是日语音素，发音会与原始的英语发音有所不同。</p>
@@ -1856,7 +1860,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2022年12月31日</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2023年6月19日</span>
       
         <br>
         创建日期:
@@ -1960,7 +1964,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a51614de.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

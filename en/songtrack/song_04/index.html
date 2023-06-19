@@ -19,7 +19,7 @@
         <link rel="next" href="../song_04_english/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -978,7 +978,7 @@
   
     <li class="md-nav__item">
       <a href="../../talktrack/phrasececlip/" class="md-nav__link">
-        Speech Clip
+        Speech Clips
       </a>
     </li>
   
@@ -1269,7 +1269,7 @@
   
     <li class="md-nav__item">
       <a href="../song_06/" class="md-nav__link">
-        Vocal Adjustment③ (Alpha/Timbre)
+        Vocal Adjustment③ (Alpha/Timbre etc.)
       </a>
     </li>
   
@@ -1810,7 +1810,7 @@
 <p>You can also use the <span class="keys"><kbd class="key-f2">F2</kbd></span> key to enter the selected note. After entering lyrics in the input state, press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to submit the lyrics.</p>
 <p>If you press <span class="keys"><kbd class="key-tab">Tab</kbd></span> instead of <span class="keys"><kbd class="key-enter">Enter</kbd></span> after entering lyrics, you can continue entering lyrics for the next note.</p>
 <p>The characters that can be input are full-angle hiragana/katakana and half-angle English characters, and multiple characters can be input to a single note.</p>
-<p>* Characters that cannot be sung out are shown in red.</p>
+<p>* Characters that cannot be sung out are shown in red. Special symbols such as vowel devoicing symbol and falsetto are allowed.</p>
 <p><a class="glightbox" href="../images/song_04_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter lyrics" src="../images/song_04_1.png" /></a></p>
 <h2 id="enter-lyrics-collectively">Enter Lyrics Collectively</h2>
 <p>This can be called from the "Song" menu, the right-click menu on the piano roll or the shortcut key <span class="keys"><kbd class="key-f8">F8</kbd></span> .</p>
@@ -1820,7 +1820,7 @@
 <h2 id="vowel-devoicing-symbol">Vowel Devoicing Symbol</h2>
 <p>If the lyrics contain <code>’</code> (full-width quotation mark), the vowel in the mora (kana) before it will be dropped, and only the sound of the consonant will be pronounced.</p>
 <p>For example, typing <code>いぇす</code> will pronounce "yesu", and the sound of the last "す" is very clear; but typing <code>いぇす'</code> will devoice the vowel "u" and pronounce a more natural "yes" sound.</p>
-<p>* You can enter <code>’</code> at places other than the end, such as <code>す’ぺーす’</code>, but the actual effect depends on the mora to which <code>’</code> is attached. Invalid for a row (あ行).</p>
+<p>* You can enter <code>’</code> at places other than the end, such as <code>す’ぺーす’</code>, but the actual effect depends on the mora to which <code>’</code> is attached. Invalid for a row (あいうえお).</p>
 <p><a class="glightbox" href="../images/song_04_3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="drop off Vowel" src="../images/song_04_3.png" /></a></p>
 <h2 id="falsetto-symbol">Falsetto Symbol</h2>
 <p>If the lyrics contain a <code>※</code>, the note will be sung in falsetto.</p>
@@ -1833,10 +1833,14 @@
 <p><a class="glightbox" href="../images/song_04_4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter parameter" src="../images/song_04_4.png" /></a></p>
 <p>The "English phonemes palette" is displayed in phoneme input mode. Click on a character in the palette to enter a phoneme symbol, then press <span class="keys"><kbd class="key-enter">Enter</kbd></span> or close the phoneme palette to commit the change.</p>
 <p>Phonemes are separated by a 1-character wide space <code></code> or a 1-character wide <code>,</code>. If there is confusion between syllables, use <code>|</code> to divide them (e.g. <code>y,e,s|a,i</code>).</p>
-<p>If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>* If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h2 id="english-lyrics">English Lyrics</h2>
 <p>If the lyrics are entered in half-angle English characters, the phonemes of the Japanese Voice will be assigned to the English phonemes for singing. English and Japanese can be mixed in the same song.</p>
-<p>English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" is turned on in the Options.</p>
+<p>English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" in the "Song" menu is turned on.</p>
+<div class="admonition new">
+<p class="admonition-title">New</p>
+<p>From version 8.5.4.0, "Song" menu has been reorganized. "Auto Split English Lyrics" was moved to the menu and removed from the options.</p>
+</div>
 <p>* English syllables can be divided automatically even when "Space-Separated" is selected in "Enter Lyrics Collectively" and Japanese and English lyrics are mixed.</p>
 <p>* The falsetto symbol <code>※</code> entered in English lyrics is automatically converted to <code>$</code> used in the English Voice.</p>
 <p>* Since Japanese phonemes are assigned, the pronunciation will be different from the original English pronunciation.</p>
@@ -1855,7 +1859,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 31, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 19, 2023</span>
       
         <br>
         Created:
@@ -1959,7 +1963,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a51614de.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

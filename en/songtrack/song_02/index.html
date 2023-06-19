@@ -19,7 +19,7 @@
         <link rel="next" href="../song_04/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -978,7 +978,7 @@
   
     <li class="md-nav__item">
       <a href="../../talktrack/phrasececlip/" class="md-nav__link">
-        Speech Clip
+        Speech Clips
       </a>
     </li>
   
@@ -1177,6 +1177,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#paste-lyrics-only" class="md-nav__link">
+    Paste Lyrics Only
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#copy-and-paste-note-with-parameters" class="md-nav__link">
     Copy and Paste Note with Parameters
   </a>
@@ -1184,8 +1191,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#paste-lyrics-only" class="md-nav__link">
-    Paste Lyrics Only
+  <a href="#mix-copy" class="md-nav__link">
+    Mix Copy
   </a>
   
 </li>
@@ -1322,7 +1329,7 @@
   
     <li class="md-nav__item">
       <a href="../song_06/" class="md-nav__link">
-        Vocal Adjustment③ (Alpha/Timbre)
+        Vocal Adjustment③ (Alpha/Timbre etc.)
       </a>
     </li>
   
@@ -1841,6 +1848,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#paste-lyrics-only" class="md-nav__link">
+    Paste Lyrics Only
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#copy-and-paste-note-with-parameters" class="md-nav__link">
     Copy and Paste Note with Parameters
   </a>
@@ -1848,8 +1862,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#paste-lyrics-only" class="md-nav__link">
-    Paste Lyrics Only
+  <a href="#mix-copy" class="md-nav__link">
+    Mix Copy
   </a>
   
 </li>
@@ -1912,11 +1926,12 @@
 <h2 id="input-note">Input Note</h2>
 <p>To input a note, select the draw tool from the edit tools.</p>
 <p>On the piano roll, move to the right from where you want to place the note (hold down the left mouse button) to determine the length of that note.</p>
-<p>When performing a note input, move or paste operation, if a note overlaps with another note on the same track, that note will be automatically shortened. (Optional. You can select "Do not erase existing notes when entering notes" in the options.)</p>
-<p>The very first bar (bar 0) does not allow notes input.</p>
-<p><a class="glightbox" href="../images/song_02_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter note" src="../images/song_02_1.png" /></a></p>
-<p>When a note is entered, the phoneme and vocal time of the lyrics are displayed below it. The timing can be adjusted here.</p>
 <p>Click on the scale and character assigned to this track will sing this key.</p>
+<p><a class="glightbox" href="../images/song_02_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="enter note" src="../images/song_02_1.png" /></a></p>
+<p>* The very first bar (bar 0) does not allow notes input.</p>
+<p>* When performing a note input, move or paste operation, if a note overlaps with another note on the same track, that note will be automatically shortened. (Optional. You can select "Do not erase existing notes when entering notes" in the options.)</p>
+<!-- When a note is entered, the phoneme and vocal time of the lyrics are displayed below it. The timing can be adjusted here. -->
+
 <div class="admonition tip">
 <p class="admonition-title">Hint for note input</p>
 <p>It is not recommended to use the tiny gaps between the notes to express the sokuon (っ, small tsu), or to use the position of the notes to express the timing of the vocalization.</p>
@@ -1932,16 +1947,19 @@
 <h2 id="move-note">Move Note</h2>
 <p>Select the selection tool or the draw tool from the edit tool and drag the note to move it.</p>
 <p>Hold down the <span class="keys"><kbd class="key-shift">Shift</kbd></span> key while dragging to move the note horizontally or vertically.</p>
-<p>When multiple notes are selected at the same time, you can move them together.</p>
+<!-- When multiple notes are selected at the same time, you can move them together. -->
+
 <p>Alternatively, hold down <span class="keys"><kbd class="key-alt">Alt</kbd></span> while dragging to copy the selected note.</p>
 <p>Moving note to bar 0 is not allowed.</p>
 <p><a class="glightbox" href="../images/song_02_4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="move note" src="../images/song_02_4.png" /></a></p>
 <h3 id="move-note-with-parameters">Move Note with Parameters</h3>
 <p>After selecting notes, drag with the mouse or move them with <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> or <span class="keys"><kbd class="key-arrow-down">Down</kbd></span> keys, and the pitch will automatically follow their change.</p>
 <p>Use the <a href="../song_05">Collectively Selection Tool</a> to specify the range, and then move them, the notes in the selection range will move together with their parameters.</p>
+<p>* Hold down the <span class="keys"><kbd class="key-shift">Shift</kbd></span> key while dragging to move the note horizontally or vertically.</p>
 <div class="admonition tip">
-<p class="admonition-title">Automatic collectively selection and how to evade</p>
-<p>If you move notes which have been adjusted parameters, they will automatically be collectively selected and the parameters will follow, even if you move them with a tool other than the collectively selection tool. At this time, if you hold down the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key and move a note vertically, this note will not be collectively selected, and the adjusted pitch will remain in the original place.</p>
+<p class="admonition-title">Auto Collectively Selection</p>
+<p>If you move notes which have been adjusted parameters, they will automatically be collectively selected and the parameters will follow, even if you move them with a tool other than the Collectively Selection Tool. At this time, if you hold down the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key and move a note vertically, this note will not be collectively selected, and the adjusted pitch will remain in the original place.</p>
+<p>* You can turn it off from the "Song" menu or the right-click menu "Other Operations".</p>
 </div>
 <h2 id="copy-and-paste-note">Copy and Paste Note</h2>
 <p>Choose the select tool or the draw tool from the edit tool and click on the note to be copied.</p>
@@ -1950,31 +1968,36 @@
 <p>After selecting the notes, select "Copy" from the context menu.</p>
 <p>Then, select "Paste" from the right-click menu to paste the notes at the cursor position.</p>
 <p><a class="glightbox" href="../images/song_02_5.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="copy and paste note" src="../images/song_02_5.png" /></a></p>
-<h3 id="copy-and-paste-note-with-parameters">Copy and Paste Note with Parameters</h3>
-<p>By using the <a href="../song_05">Collectively Selection Tool</a> to specify the range and copy, you can also copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.</p>
 <h3 id="paste-lyrics-only">Paste Lyrics Only</h3>
 <p>After copying a note, you can select "Paste Lyrics Only" from the right-click menu of the note you want to paste the lyrics to.</p>
 <p>The lyrics will be applied to the note whose relative time matches that of the source note. You can use this feature to create chorus tracks, etc.</p>
 <p><a class="glightbox" href="../images/song_02_6.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="score note paste lyrics" src="../images/song_02_6.png" /></a></p>
 <p>You can also edit phoneme symbols by double-clicking on a note with "Enter lyrics by phoneme" on, or from the note properties.</p>
+<h3 id="copy-and-paste-note-with-parameters">Copy and Paste Note with Parameters</h3>
+<p>By using the <a href="../song_05">Collectively Selection Tool</a> to specify the range and copy, you can also copy the note adjustment value, beat, dynamics marks and other parameters within the range. Afterwards, by specifying the position with the cursor and pasting, you can easily reproduce the original notes and adjustment values.</p>
+<h3 id="mix-copy">Mix Copy</h3>
+<p>After selecting a range using the Collectively Selection Tool (or the Selection Tool in the adjustment screen), you can copy the parameters, including the default values, by using the "Mix Copy" option in the right-click menu or by using the shortcut key <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-c">C</kbd></span>.</p>
+<p>With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. For example, you can adjust the singing of a song for one cast and then paste it onto another cast to let they sing.</p>
+<p>* Due to the reflected adjustment value, there may be instances where applying parameters to a different cast may result in suboptimal singing quality. Even the same cast may not perform identically in a different location as the original copy source. Therefore, it is recommended to readjust the parameters as necessary to achieve the desired outcome.</p>
+<p><a class="glightbox" href="../images/song_02_V8.4.5_mixcopy.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mix copy" src="../images/song_02_V8.4.5_mixcopy.png" /></a></p>
 <h2 id="simple-timing-display">Simple TIMING Display</h2>
 <p>When notes are entered, the lyrics' phoneme symbols and vocal timing are displayed in black bands at the bottom of the screen, which allow simple timing adjustments, etc.</p>
 <p><a class="glightbox" href="../images/song_02_7.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="timing adjust" src="../images/song_02_7.png" /></a></p>
-<p>* Turn off "Timing Edit on Score" in "Song" under "Option" to hide it.</p>
+<p>* If the screen is narrow, you can hide it by turning off "Timing Edit on Score" in "Song" under <a href="../../option/option">"Option"</a>.</p>
 <h3 id="simple-timing-adjustment">Simple TIMING Adjustment</h3>
 <p>Move the mouse cursor over the black bars with the Draw Tool to see the consonant and vowel timing lines, and drag them left or right to adjust the timing of the utterance.</p>
 <p>Normally, it is adjusted in note units, but when "Enter Lyrics with Phoneme" in the "Song" menu is turned on (or the <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-p">P</kbd></span> key is pressed), it is adjusted in phoneme units. You can also switch temporarily by pressing the <span class="keys"><kbd class="key-alt">Alt</kbd></span> key.</p>
 <h3 id="specify-phoneme-symbols">Specify phoneme symbols</h3>
 <p>Double-click on the phoneme symbols displayed on TIMING to edit the phoneme.</p>
 <p><a class="glightbox" href="../images/song_02_8.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="timing adjust" src="../images/song_02_8.png" /></a></p>
-<p>* You can also edit phoneme symbols by turning on "Enter Lyrics with Phoneme" and then double-clicking on a note, or by using the note properties.</p>
+<!-- \* You can also edit phoneme symbols by turning on "Enter Lyrics with Phoneme" and then double-clicking on a note, or by using the note properties. -->
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 31, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 19, 2023</span>
       
         <br>
         Created:
@@ -2078,7 +2101,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a51614de.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

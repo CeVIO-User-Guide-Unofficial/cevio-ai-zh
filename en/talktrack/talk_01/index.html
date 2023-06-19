@@ -19,7 +19,7 @@
         <link rel="next" href="../longsentence/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -1145,7 +1145,7 @@
   
     <li class="md-nav__item">
       <a href="../phrasececlip/" class="md-nav__link">
-        Speech Clip
+        Speech Clips
       </a>
     </li>
   
@@ -1364,7 +1364,7 @@
   
     <li class="md-nav__item">
       <a href="../../songtrack/song_06/" class="md-nav__link">
-        Vocal Adjustment③ (Alpha/Timbre)
+        Vocal Adjustment③ (Alpha/Timbre etc.)
       </a>
     </li>
   
@@ -2012,9 +2012,13 @@
 <h3 id="insert-ruby-brackets">Insert Ruby Brackets</h3>
 <p>When inputting a line, the "Insert Ruby Brackets" in the right-click menu can insert a reading-specified brackets in this position.</p>
 <ul>
-<li>For Japanese Voice, <code>《》</code> is inserted at the cursor position. <br>
-   If text is selected, an additional <code>|</code> will be inserted to indicate the start of reading specification.</li>
-<li>For English Voice, <code>[]</code> is inserted at the end of the word at the cursor position.</li>
+<li>
+<p>For Japanese Voice, <code>《》</code> is inserted at the cursor position. <br></p>
+<p>If text is selected, an additional <code>|</code> will be inserted to indicate the start of reading specification.</p>
+</li>
+<li>
+<p>For English Voice, <code>[]</code> is inserted at the end of the word at the cursor position.</p>
+</li>
 </ul>
 <p><a class="glightbox" href="../images/talk_01_2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="insert ruby brackets" src="../images/talk_01_2.png" /></a></p>
 <div class="admonition info">
@@ -2022,7 +2026,7 @@
 <p>Specify the reading by writing hiragana/katakana in the <code>《》</code>.</p>
 <p>(Example) 今朝｜四月一日《わたぬき》さんに会った。　* <code>|</code> indicates the object to be specified reading.</p>
 <p>(Example) こんにちは、四月一日《わたぬき》さん。　　* When <code>|</code> is omitted, the reading specification will be assumed to start from the beginning. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<p>Like registering a word, you can also use <code>'</code> in <code>《》</code> to devoice the vowel.</p>
+<p>Like <a href="../talk_06">Word Registration</a>, you can also use <code>'</code> in <code>《》</code> to devoice the vowel.</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">English ruby input (phonetic symbol specification)</p>
@@ -2032,7 +2036,7 @@
 <p>0: no stress 1: primary stress 2: secondary stress</p>
 <p>(Example) Sasara[s,ah1|s,ah0|r,ah0]</p>
 <p>(Example) Ando[ah1,n|d,ow0]</p>
-<p>For a list of phonetic symbols, <a href="../talk_01_english">click here</a>.</p>
+<p>To view the list of phonetic symbols, <a href="../talk_01_english">please see here</a>.</p>
 </div>
 <h3 id="continuous-input">Continuous Input</h3>
 <p>Turn on "Continuous Input" from the right-click menu to enter continuous line input mode.</p>
@@ -2051,7 +2055,7 @@
 </ul>
 <h2 id="cast-setting-for-lines">Cast Setting for Lines</h2>
 <p>Click in the Cast column to select the character who will speak the line in that row.</p>
-<p>You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.</p>
+<p>* You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.</p>
 <p><a class="glightbox" href="../images/tutorial_talk_4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="select cast" src="../images/tutorial_talk_4.png" /></a></p>
 <h2 id="cutcopypaste">Cut/Copy/Paste</h2>
 <p>You can select a line for cutting or copying, and then paste it into another line.</p>
@@ -2077,16 +2081,14 @@
 <p>Text from the clipboard copied from another software can also be inserted.</p>
 <p>* If you want to insert a blank row, you can use the <span class="keys"><kbd class="key-escape">Esc</kbd></span> key to clear the clipboard first.</p>
 <h2 id="add-blank-line">Add Blank Line</h2>
-<p>"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the speech list.</p>
+<p>"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the Speech List.</p>
 <h2 id="change-display">Change Display</h2>
-<p>The "View" in the right-click menu allows you to change the display of the speech list.</p>
-<p>Check "Other Track Lines" to choose whether to display lines from all talk tracks in the speech list.</p>
+<p>The "View" in the right-click menu allows you to change the display of the Speech List.</p>
+<p>Check "Other Track Lines" to choose whether to display lines from all talk tracks in the Speech List.</p>
 <p>Each column in "Cast, Start Time, End Time, Duration, Track" can be individually selected to be displayed or hidden.</p>
 <p><a class="glightbox" href="../images/talk_01_6.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="view" src="../images/talk_01_6.png" /></a></p>
-<p>Here is an example where the cast and track are hidden and only the start time and length are shown.</p>
-<p><a class="glightbox" href="../images/talk_01_7.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="view setting example" src="../images/talk_01_7.png" /></a></p>
 <h3 id="other-track-lines">Other Track Lines</h3>
-<p>Displays lines other than the currently selected track together in the speech list.</p>
+<p>Displays lines other than the currently selected track together in the Speech List.</p>
 <h3 id="cast">Cast</h3>
 <p>The character who speaks the line.</p>
 <h3 id="start-time">Start time</h3>
@@ -2097,6 +2099,8 @@
 <p>Length of the line (min:sec. microseconds).</p>
 <h3 id="track">Track</h3>
 <p>The talk track of the line. You can easily move the line to another track by entering it and then selecting another track.</p>
+<p>*Here is an example where the cast and track are hidden and only the start time and length are shown.</p>
+<p><a class="glightbox" href="../images/talk_01_7.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="view setting example" src="../images/talk_01_7.png" /></a></p>
 <div class="footnote">
 <hr />
 <ol>
@@ -2114,7 +2118,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 14, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 19, 2023</span>
       
         <br>
         Created:
@@ -2218,7 +2222,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "content.code.annotate", "content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a51614de.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
