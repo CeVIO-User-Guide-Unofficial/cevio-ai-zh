@@ -83,7 +83,7 @@ Version 8.4.5.0 is even easier to use with Casts Display Order Settings and a so
     
     ![mix copy](images/V8.4.5_mixcopy.png)
 
-    - After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Copy Mix" in the right-click menu or the shortcut key ++ctrl+shift+c++.
+    - After specifying a range with the Collectively Selection Tool (or the Selection Tool for the adjustment screen), copy the parameters, including the default values, by using "Mix Copy" in the right-click menu or the shortcut key ++ctrl+shift+c++.
     - With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. You can even try to paste a song that you have adjusted in one cast to another cast to make it sing, for example.
     - Due to reflecting adjustment value, there may be instances where applying parameters to a different cast may not sing well. The same cast will not sing exactly the same in another location as the copy source. Readjust as necessary.
 
@@ -152,7 +152,7 @@ Version 8.4 includes improvements to the song timing adjustment function and min
     ![vowel_adjust](images/V8.4_vowel_ajust.png)
 
     - You can choose it from the right-click menu of the note (or after selecting a range in the TIMING adjustment screen).
-    - Consonants are moved the same amount as vowels (if it can't, use ratio to adjust it; if there's no space for it, pass).
+    - Consonants are moved the same amount as vowels (if it can't move, using ratio to adjust instead; if there's no space for it, pass).
 
     \* Please use it as a supplement as the mechanical correction may lose its original good listening feel.
 

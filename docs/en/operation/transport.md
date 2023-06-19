@@ -37,7 +37,7 @@ The start/end point markers displayed in the ruler can be moved by dragging (hol
 
 ### Auto scroll
 
-Automatically or Manually scroll timeline, speech list, piano roll during playback.
+Automatically or Manually scroll timeline, Speech List, piano roll during playback.
 
 ### Master Volume
 

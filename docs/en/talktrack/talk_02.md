@@ -18,6 +18,8 @@ Hold down ++alt++ and drag to attach the left or right edge of the line element 
 
 Hold down ++shift++ and click on a line element to multi-select and move these lines at the same time.
 
+![change utterance time](images/tutorial_talk_3.png)
+
 ### Align Track Element
 
 After selecting "Align Track Element" from the "Track" menu or right-clicking on the talk track, all the lines in that track will automatically be spaced at equal intervals. (The position of the first line will not change.)
@@ -28,13 +30,13 @@ After selecting "Align Track Element" from the "Track" menu or right-clicking on
 
 ## Adjust in Speech List
 
-Double-click in the "Start time" column of the speech list to enter the time of the vocalization directly.
+Double-click in the "Start time" column of the Speech List to enter the time of the vocalization directly.
 
-You can set whether to display "Start time" in the "View" in the right-click menu of the speech list.
+You can set whether to display "Start time" in the "View" in the right-click menu of the Speech List.
 
 ![change start time](images/talk_02_1.png)
 
-"Move" in the right-click menu of the speech list can move the selected line in the specified method.
+"Move" in the right-click menu of the Speech List can move the selected line in the specified method.
 
 ![move](images/talk_02_2.png)
 

@@ -9,9 +9,9 @@ Original article: [2022.04.27 『CeVIO AI』ソングエディタの感情パラ
 
 Before the release of "MUSICAL ISOTOPE SEKAI", we would like to introduce the "Emotion" parameter that is on board for the first time.
 
-The Song Voice of "CeVIO AI" authentically reproduces the timbre, habit, singing style of the original singer through deep learning and other AI technologies.
+The Song Voice of "CeVIO AI" uses AI technologies such as deep learning to realistically reproduce the timbre, habits and singing style of the original singer.
 
-Normally, vocal expressions are automatically reproduced according to the content of the song (as a result of learning). However, this time, since the virtual singer ヰ世界感情, which is the vocal source provider of "MUSICAL ISOTOPE SEKAI", has a very wide range of vocal expressions, so we have learnt two vocal expressions and made them into "Emotion" parameters for creators to use.
+Normally, singing expressions are automatically reproduced according to the content of the song (as a result of learning). However, this time, since the virtual singer ヰ世界感情, which is the vocal source provider of "MUSICAL ISOTOPE SEKAI", has a very wide range of singing expressions, so we have learnt two vocal expressions and made them into "Emotion" parameters for creators to use.
 
 For the "MUSICAL ISOTOPE SEKAI", turning up the "Emotion" parameter gives a handsome feeling and turning down the "Emotion" parameter gives a cute feeling. Please try to find the right vocal style for your song.
 

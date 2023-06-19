@@ -28,6 +28,8 @@ layout: post
 
 音频文件加载完毕后，音频元素会以波形的形式显示。
 
+![import audio element](images/audio_2.png)
+
 !!! info "关于音频文件格式"
     只支持 8 位或 16 位比特率的 WAV 格式。
 
@@ -50,7 +52,7 @@ layout: post
 
 ※不会删除源文件。
 
-![delete audio element](images/audio_2.png)
+![delete audio element](images/audio_3.png)
 
 ## 调整播放时间
 
@@ -58,11 +60,11 @@ layout: post
 
 按住 ++alt++ 键并拖动音频元素，可以将元素的左或右边缘吸附到最接近的秒（或小节，取决于标尺栏的时间基准）上。
 
-![adjust audio playback time](images/audio_3.png)
+![adjust audio playback time](images/audio_4.png)
 
 元素右键菜单的「移动」可以将音频元素按指定的方式移动。
 
-![move audio element](images/audio_4.png)
+![move audio element](images/audio_5.png)
 
 ### 指定目标位置
 
@@ -82,7 +84,7 @@ layout: post
 
 通过右键菜单或选项的「语音设定」同时开启「多音轨自动排列」的设置时，来自其他轨道的台词也会自动前后移动以避免重叠。如果你想让音频与来自其他轨道的音频重叠，关闭其一（或都关掉）。
 
-![auto align audio](images/audio_5.png)
+![auto align audio](images/audio_6.png)
 
 !!! tip "与其他语音合成软件交叉使用"
     如果勾选「音频自动排列」，「语音设置」中的「多音轨自动排列」以及「台词间隔」中的「对音频也应用」，音频元素就会以与台词相同的方式自动对齐。如此一来，便能更容易地创建与其他语音合成软件的对话。

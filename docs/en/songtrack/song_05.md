@@ -25,25 +25,23 @@ After specifying the range, use the ++del++ key to delete the adjusted value wit
 
 ![delete adjustment in range](images/song_05_2.png)
 
-### Copy and Paste Timing Adjustment Values (TMG)
-
-When copying TMG, the number of the five lines of the phoneme is also stored.
-
-For example, if you copy the third line, when you paste it will be pasted on the third line after the position cursor.
-
-The quantize correction will be released when the ++alt++ is held down, making it easier to specify a detailed range.
-
 ### Move up and down the adjustment value
 
 In the adjustment screens other than timing, dragging the parameter value up or down after specifying the range will move the value in this range up or down as it is. It's useful when overall increasing or decreasing vibrato over a range.
 
-The quantize correction will be released when the ++alt++ is held down
+The quantize correction will be released when the ++alt++ is held down, making it easier to specify a detailed range.
 
 ![move the value within the range up or down](images/song_05_3.png)
 
-### Edit Score Screen{#edit-score-screen-selection}
+### Mix Copy
 
-After selecting the note (with selection tool or collectively selection tool), use mouse to drag or use ++up++ or ++down++ key to move it and its pitch adjustment value will automatically follow its change.
+After selecting a range using the Selection Tool in the adjustment screen, you can copy the parameters, including the default values, by using the "Mix Copy" option in the right-click menu or by using the shortcut key ++ctrl+shift+c++.
+
+### Copy and Paste Timing Adjustment Values (TMG)
+
+When copying TMG, the number of the phoneme lines is also stored. For example, if you copy the third line, when you paste it will be pasted on the third line after the position cursor.
+
+Timing adjustment values are relative to the original values, so they can be easily disturbed during pasting. However, using Mix Copy makes them less prone to disturbance.
 
 ## Collectively Selection Tool
 
@@ -63,11 +61,15 @@ If a measure is selected and pasted with the position cursor to the very first m
 
 All the song tracks share the same tempo and time signature settings. So if the tempo or time signature is changed by deleting/cutting/pasting after collectively selection, all song tracks in the project will be affected.
 
-### Edit Score Screen{#edit-score-screen-collectively-selection}
+### Mix Copy {#mix-copy-collectively-selection}
 
-On the edit score screen, specify the range and drag, the notes within the selected range will move along with their parameters.
+After selecting a range using the Collectively Selection Tool (or the Selection Tool in the adjustment screen), you can copy the parameters, including the default values, by using the "Mix Copy" option in the right-click menu or by using the shortcut key ++ctrl+shift+c++.
 
-\* Holding ++shift++ when dragging can move notes horizontally or vertically.
+With Collectively Selection + Mix Copy, you can easily duplicate some or all of the notes and parameters of a track to another position/track. For example, you can adjust the singing of a song for one cast and then paste it onto another cast to let they sing.
+
+\* Due to the reflected adjustment value, there may be instances where applying parameters to a different cast may result in suboptimal singing quality. Even the same cast may not perform identically in a different location as the original copy source. Therefore, it is recommended to readjust the parameters as necessary to achieve the desired outcome.
+
+![mix copy](images/song_02_V8.4.5_mixcopy.png)
 
 ## Draw Tool
 

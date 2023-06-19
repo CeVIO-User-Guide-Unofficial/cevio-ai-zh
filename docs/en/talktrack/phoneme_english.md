@@ -56,7 +56,7 @@ Dragging left and right from the text area above allows you to adjust the length
 
 In addition to dragging the vertical line, the length can also be adjusted by dragging the text area or by rolling the mouse wheel up and down on the text area.
 
-The word or phoneme to be adjusted turns orange when the mouse cursor is over it.
+When you hover your mouse cursor over a word or phoneme that is being adjusted, it will turn orange.
 
 When adjusting the length in word units, the ratio of consonants to vowels is automatically maintained.
 

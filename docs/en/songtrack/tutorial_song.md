@@ -15,9 +15,11 @@ With intuitive editing operations using the piano roll, you can also create mult
 
 After starting the application, the tracks will be displayed at the top of the screen.
 
-\* If there are multiple tracks, click on the track name (or timeline) labeled "Song 1" to display the piano roll at the bottom of the screen.
+If there are multiple tracks, click on the track name (or timeline) labeled "Song 1" to display the piano roll at the bottom of the screen.
 
 ![interface](images/tutorial_song_1.png)
+
+\* Right-click on the character image on the right and turn on "View Larger" to enlarge the image vertically.
 
 ## 2. Set the tempo and time signature
 
@@ -57,8 +59,8 @@ Playback will stop when it play to the end of all tracks or you press the Stop b
 
 ## 6. Output the audio file
 
-All tracks can be combined and output as a file by using File > Export > Audio Mixdown in the menu.
+From the menu, go to File > Export > Audio Mixdown to combine all tracks and export them as a single file in stereo WAV format (48kHz 16bit).
 
-You can also output the selected track in mono only by Audio File of Song.
+You can also output the selected track in mono only by Audio File of Song (Sample Rate and Bit Depth can be specified in [Option](../../option/option)). By using shortcut key ++ctrl+w++, you can easily export the selected track.
 
 ![output](images/tutorial_song_8.png)

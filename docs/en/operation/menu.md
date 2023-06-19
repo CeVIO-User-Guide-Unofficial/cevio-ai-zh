@@ -6,9 +6,9 @@ layout: post
 ---
 Original article: [CeVIO AI ユーザーズガイド ┃ メニュー](https://cevio.jp/guide/cevio_ai/operation/menu/)
 
----
-
 ![menu](images/menu_1.png)
+
+---
 
 !!! tip
     If you don't understand what an option does, try hovering the mouse over that option for a while.
@@ -75,7 +75,7 @@ Import a MusicXML file onto a Song Track.
 
 Load an external audio file onto a audio track which starts at the current cursor position.
 
-[About the format of audio files](../../songtrack/audio)
+[About the format of audio files](../../audio/audio)
 
 #### Track File {#track-file-import}
 
@@ -99,11 +99,17 @@ Export all the tracks to a stereo WAV (48kHz 16bit) file.
 
 Export selected Talk Track(s) in monaural WAV format for each line.
 
-\* Sample Rate and Bit Depth can be specified in Option.
+![menu](images/menu_2.png)
+
+\* Sample Rate and Bit Depth can be specified in [Option](../../option/option).
 
 \* If "Separate folders and numbers for each track" is unchecked in "Details", files will not be divided into folders, and the file name numbers will be the serial numbers of all the lines in all the tracks.
 
 \* If the file name is unintentionally fixed, set the "File Name Pattern" to "$Serial Number$_$Cast Name$_$Serif$" to return to the default setting.
+
+\* When "Export Lines Text" is on, the line contents are simultaneously output to a text file.
+
+\* When "Export Timing Data" is on, the timing of each phoneme is simultaneously output in Lab format (`.lab`). This feature allows for synchronization of mouth movements with compatible software.
 
 #### Text File {#text-file-export}
 
@@ -239,9 +245,9 @@ Place elements (lines and external audios) at equal intervals on the selected tr
 
 ### Freeze Track
 
-Output the audio of the currently selected track to a single file, reducing playback delays and mixing times for multiple tracks. It can also reduce the CPU and memory load during playback, which is useful when too many tracks cause the audio has gaps or when memory is low.
+Output the audio of the currently selected track to a temporary file to reduce the CPU and memory load during playback. This is particularly beneficial when working with multiple tracks that may cause audio gaps or when experiencing insufficient memory issues.
 
-\* It will unfreeze automatically once editing the track contents.
+\* The track will automatically unfreeze when editing the track contents.
 
 ### Mute Track
 
@@ -265,13 +271,13 @@ Register the reading and accent of the mispronounced word in the user dictionary
 
 View the registered words and edit or delete them.
 
+[Word Registration and Dictionary Management](../../talktrack/talk_06/)
+
 ### Speech Clips
 
 View the registered lines and insert them to a selected line, or delete them from the list.
 
-### Find Text
-
-Search lines by keywords. This is useful when you have lots of lines.
+[Speech Clips](../../talktrack/phrasececlip/)
 
 ### Enter Text Collectively
 
@@ -279,9 +285,15 @@ For those long sentences that are very time-consuming to type into one line at a
 
 You can also use it to split lines.
 
+### Find Text
+
+Search lines by keywords. This is useful when you have lots of lines.
+
+[Finding Lines](../../talktrack/search/)
+
 ### Continuous Input
 
-When this option is on, the following features will be enabled to assist in the continuous input of lines.
+When this option is enabled, the following features will be activated to facilitate the continuous input of lines.
 
 * Press ++enter++ to end editing on this line, move to the next line and enter editing automatically.
 
@@ -297,13 +309,13 @@ When this option is off, editing or moving a line does not change the position o
 
 ### Add Blank Line
 
-Add 10 blank lines to the end of speech list.
+Add 10 blank lines to the end of Speech List.
 
 ### Graph
 
 #### Edit Mode {#edit-mode-talk}
 
-Switch among accent, pitch and volume adjustment modes.
+Switch among accent (ACC), pitch (PIT) and volume (VOL) adjustment modes.
 
 #### Overlay Duration Lines
 
@@ -327,11 +339,11 @@ Change the display position of phoneme graph. You can also choose to hide it.
 
 ### Other Track Lines
 
-Select whether or not to display all lines of the talk track in the speech list.
+Select whether or not to display all lines of the talk track in the Speech List.
 
 ### Column
 
-Show/hide the columns in speech list.
+Show/hide the columns in Speech List.
 
 ## Song
 
@@ -353,15 +365,11 @@ Toggle between the Score editing mode for entering notes and lyrics, and the mod
 
 You can also disable the vibrato of the selected track.
 
+[Adjustment Screen](../../songtrack/song_07/)
+
 ### Enter Lyrics Collectively
 
 Input the lyrics at a time from the currently selected note (or from the beginning if it is not selected).
-
-### Enter Lyrics with Phoneme
-
-Enter lyrics with phonemic symbol.
-
-When this option is on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
 
 ### Remove Rests
 
@@ -377,6 +385,28 @@ You can also append measures to the end by pressing the right scroll button on t
 
 Delete measures at the specified position and length for the currently selected track or all song tracks.
 
+### Enter Lyrics with Phoneme
+
+Enter lyrics with phonemic symbol.
+
+When this option is on, the input mode switches to phoneme input mode, and the background of the lyrics input field changes to blue-grey.
+
+### Automatically Split English Lyrics
+
+Automatically divide into one syllable per note when entering English lyrics.
+
+\* The division position in the notation may be incorrect due to automatic estimation.
+
+### Auto Collectively Selection
+
+When dragging a note, if there are any adjustments within the range, they are automatically collectively selected.
+
+\* Vertical movement is triggered by pitch (PIT) and horizontal movement is triggered by parameters other than timing (TMG).
+
+### Common Key Signatures
+
+When this option is enabled, the Key Signature set on the selected track will be applied to all song tracks and will remain synchronized thereafter.
+
 ### Other Track Notes
 
 Select whether or not to display notes from other song tracks in the Score editing screen.
@@ -389,9 +419,18 @@ Select whether or not to display tempo, time signature (beat), key signature and
 
 ### Line View
 
+TODO: Check the English name
+#### Beat Line / Quantize line
+
 Select whether or not to display beat lines and quantize lines in piano roll.
 
-When "Line Display on Adjustment Screen" is turned on, the beat and quantize lines will also displayed on the Adjustment Screen.
+#### Line Display on Adjustment Screen
+
+The beat lines and quantize lines will also displayed on the Adjustment Screen.
+
+#### Timing Status Lines
+
+Display timing status lines on the TIMING Adjustment Screen. Press and hold the ++alt++ key to toggle temporarily.
 
 ### Guide Cursor
 
@@ -415,7 +454,7 @@ When playback is stopped, return the Cursor to the position where the playback s
 
 ### Auto scroll
 
-Automatically scroll timeline, speech list, piano roll during playback.
+Automatically scroll timeline, Speech List, piano roll during playback.
 
 When this option is off, manual scroll will be enable. It can be modified during playback.
 

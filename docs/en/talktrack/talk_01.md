@@ -43,7 +43,9 @@ The text limit for each line is 200 for the Japanese Voice and 500 for the Engli
 When inputting a line, the "Insert Ruby Brackets" in the right-click menu can insert a reading-specified brackets in this position.
 
 - For Japanese Voice, `《》` is inserted at the cursor position. <br>
-   If text is selected, an additional `|` will be inserted to indicate the start of reading specification.
+    
+    If text is selected, an additional `|` will be inserted to indicate the start of reading specification.
+
 - For English Voice, `[]` is inserted at the end of the word at the cursor position.
 
 ![insert ruby brackets](images/talk_01_2.png)
@@ -56,7 +58,7 @@ When inputting a line, the "Insert Ruby Brackets" in the right-click menu can in
 
     (Example) こんにちは、四月一日《わたぬき》さん。　　\* When `|` is omitted, the reading specification will be assumed to start from the beginning. [^1]
 
-    Like registering a word, you can also use `'` in `《》` to devoice the vowel.
+    Like [Word Registration](../talk_06), you can also use `'` in `《》` to devoice the vowel.
 
 !!! info "English ruby input (phonetic symbol specification)"
 
@@ -72,7 +74,7 @@ When inputting a line, the "Insert Ruby Brackets" in the right-click menu can in
 
     (Example) Ando[ah1,n\|d,ow0]
 
-    For a list of phonetic symbols, [click here](../talk_01_english).
+    To view the list of phonetic symbols, [please see here](../talk_01_english).
 
 ### Continuous Input
 
@@ -92,7 +94,7 @@ Use this function if you want to continuously input and play lines.
 
 Click in the Cast column to select the character who will speak the line in that row.
 
-You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.
+\* You can change the cast for all lines in a track at once by selecting "Cast" from the "Track" menu, or by changing the cast in the track header.
 
 ![select cast](images/tutorial_talk_4.png)
 
@@ -144,25 +146,21 @@ Text from the clipboard copied from another software can also be inserted.
 
 ## Add Blank Line
 
-"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the speech list.
+"Add Blank Line" in the "Talk" menu allows you to add 10 blank rows at the end of the Speech List.
 
 ## Change Display
 
-The "View" in the right-click menu allows you to change the display of the speech list.
+The "View" in the right-click menu allows you to change the display of the Speech List.
 
-Check "Other Track Lines" to choose whether to display lines from all talk tracks in the speech list.
+Check "Other Track Lines" to choose whether to display lines from all talk tracks in the Speech List.
 
 Each column in "Cast, Start Time, End Time, Duration, Track" can be individually selected to be displayed or hidden.
 
 ![view](images/talk_01_6.png)
 
-Here is an example where the cast and track are hidden and only the start time and length are shown.
-
-![view setting example](images/talk_01_7.png)
-
 ### Other Track Lines
 
-Displays lines other than the currently selected track together in the speech list.
+Displays lines other than the currently selected track together in the Speech List.
 
 ### Cast
 
@@ -183,6 +181,10 @@ Length of the line (min:sec. microseconds).
 ### Track
 
 The talk track of the line. You can easily move the line to another track by entering it and then selecting another track.
+
+\*Here is an example where the cast and track are hidden and only the start time and length are shown.
+
+![view setting example](images/talk_01_7.png)
 
 [^1]:Translator's Note: The actual situation is to start from the previous pause (such as punctuation mark) of `《》`.
 [^2]:Translator's Note: Only lines within this track will be selected.

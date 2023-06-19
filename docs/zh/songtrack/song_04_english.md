@@ -24,7 +24,7 @@ layout: post
 
 允许输入半角英文字符、`.`、`'`、`-` 和 `$`（假声记号）。
 
-※无法发声的字符以红色显示。
+※无法发声的字符以红色显示。允许输入元音脱落记号、假声符号等特殊记号。
 
 ![enter lyrics](images/song_04_english_1.png)
 
@@ -42,7 +42,7 @@ layout: post
 
 选择「1音符1音节」时，由半角空格分割的单词会自动再按音节分割，并为每个音符分配一个音节。
 
-![continuly enter lyrics](images/song_04_english_2.png)
+![enter lyrics collectively](images/song_04_english_2.png)
 
 ## 假声记号
 

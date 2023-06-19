@@ -18,9 +18,9 @@ You can also drag and drop a MIDI file from the Explorer onto a song track.
 
 The track structure of the MIDI file will then be displayed, select the track you want to import and press OK.
 
-Up to eight tracks can be loaded at once.
+\* Up to eight tracks can be loaded at once.
 
-If "Import Tempo and Time Signature" is also checked, the tempos and time signatures set in the MIDI file will be reflected in all the song tracks.
+\* If "Import Tempo and Time Signature" is also checked, the tempos and time signatures set in the MIDI file will be reflected in all the song tracks.
 
 ![import midi](images/fileimport_1.png)
 

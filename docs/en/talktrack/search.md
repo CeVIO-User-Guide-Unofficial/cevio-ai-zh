@@ -10,7 +10,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ セリフの検索](htt
 
 If you have a large number of lines, you can quickly find the line you need by keyword.
 
-The search window can be called up from the "Find Text" in the "Voice" menu, in the right-click menu of the speech list or using the shortcut key ++ctrl+f++.
+The search window can be called up from the "Find Text" in the "Voice" menu, in the right-click menu of the Speech List or using the shortcut key ++ctrl+f++.
 
 Press ++f3++ to continue searching for the next line ("Next") using the keyword and conditions of the previous search.
 
@@ -30,7 +30,7 @@ By default, the search results in rows containing the search text. It is also po
 
 Choose whether to search in all talk tracks or current track only.
 
-When "Other Track Lines" is turned on in the speech list, all talk tracks are the default search target; when it is turned off, the current track is the default search target.
+When "Other Track Lines" is turned on in the Speech List, all talk tracks are the default search target; when it is turned off, the current track is the default search target.
 
 #### Cast
 

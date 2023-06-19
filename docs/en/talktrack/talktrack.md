@@ -8,7 +8,7 @@ Original article: [CeVIO AI ユーザーズガイド ┃ トークトラック�
 
 ---
 
-Enter text in the speech list on the left, then adjust it in the condition and emotion controller on the right as well as in the phoneme graph.
+Enter text in the Speech List on the left, then adjust it in the condition and emotion controller on the right as well as in the phoneme graph.
 
 By selecting "Add Track" from "Track" menu or the right-clicking on a track, up to 32 talk tracks can be added.
 
@@ -17,7 +17,7 @@ By selecting "Add Track" from "Track" menu or the right-clicking on a track, up 
 
 ### Listen
 
-Listen to the currently selected line in the speech list. Press again to stop listening.
+Listen to the currently selected line in the Speech List. Press again to stop listening.
 
 Left-click on a phoneme graph to listen to it from a specific position.
 
@@ -73,13 +73,13 @@ Delete the selected row.
 
 Moves the lines of the selected row in the specified way.
 
-### Find Text
-
-Search lines by keywords.
-
 ### Enter Text Collectively
 
 Insert text collectively into the selected line.
+
+### Find Text
+
+Search lines by keywords.
 
 ### Continuous Input
 
@@ -93,11 +93,19 @@ When this option is on, subsequent lines will automatically move backwards and f
 
 #### Other Track Lines
 
-Select whether or not to display all lines of the talk track in the speech list.
+Select whether or not to display all lines of the talk track in the Speech List.
 
 #### Cast / Start Time / End Time / Duration / Track
 
-Show/hide the columns in speech list.
+Show/hide the columns in Speech List.
+
+### Play From Here
+
+Ignore the position of position cursor and play from the selected line.
+
+When usingthe shortcut key ++f5++ to stop the playback, the position cursor will automatically move to the beginning of the dialogue at the stop position and select it.
+
+The ++f5++ key can be used in place of the ++space++ key, and the reading can be continued line by line.
 
 ### Export Audio File
 

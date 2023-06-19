@@ -24,7 +24,7 @@ If you press ++tab++ instead of ++enter++ after entering lyrics, you can continu
 
 The characters that can be input are full-angle hiragana/katakana and half-angle English characters, and multiple characters can be input to a single note.
 
-\* Characters that cannot be sung out are shown in red.
+\* Characters that cannot be sung out are shown in red. Special symbols such as vowel devoicing symbol and falsetto are allowed.
 
 ![enter lyrics](images/song_04_1.png)
 
@@ -44,7 +44,7 @@ If the lyrics contain `’` (full-width quotation mark), the vowel in the mora (
 
 For example, typing `いぇす` will pronounce "yesu", and the sound of the last "す" is very clear; but typing `いぇす'` will devoice the vowel "u" and pronounce a more natural "yes" sound.
 
-\* You can enter `’` at places other than the end, such as `す’ぺーす’`, but the actual effect depends on the mora to which `’` is attached. Invalid for a row (あ行).
+\* You can enter `’` at places other than the end, such as `す’ぺーす’`, but the actual effect depends on the mora to which `’` is attached. Invalid for a row (あいうえお).
 
 ![drop off Vowel](images/song_04_3.png)
 
@@ -70,13 +70,17 @@ The "English phonemes palette" is displayed in phoneme input mode. Click on a ch
 
 Phonemes are separated by a 1-character wide space ` ` or a 1-character wide `,`. If there is confusion between syllables, use `|` to divide them (e.g. `y,e,s|a,i`).
 
-If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.[^1]
+\* If a character that does not exist in the phoneme palette is entered, the character will be treated as the wrong symbol (shown in red) and the note will not be sung.[^1]
 
 ## English Lyrics
 
 If the lyrics are entered in half-angle English characters, the phonemes of the Japanese Voice will be assigned to the English phonemes for singing. English and Japanese can be mixed in the same song.
 
-English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" is turned on in the Options.
+English lyrics will also be automatically divided by syllable and assigned to notes when "Automatically split English lyrics with syllables" in the "Song" menu is turned on.
+
+!!! new
+
+    From version 8.5.4.0, "Song" menu has been reorganized. "Auto Split English Lyrics" was moved to the menu and removed from the options.
 
 \* English syllables can be divided automatically even when "Space-Separated" is selected in "Enter Lyrics Collectively" and Japanese and English lyrics are mixed.
 
