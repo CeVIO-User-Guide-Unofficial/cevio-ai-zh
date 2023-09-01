@@ -70,32 +70,34 @@ markdown_extensions:
 
 plugins:
   - i18n:
-      default_language: !ENV [DEFAULT_LANGUAGE, "zh"]
-      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
       docs_structure: folder
+      fallback_to_default: true
       languages:
-        zh:
+        - build: true
+          default: true
+          locale: zh
           name: 中文（简体）
-          build: true
-          site_name: "CeVIO AI 用户指南（非官方译文）"
-        en:
+          nav_translations:
+            Audio Track: 音频轨道
+            External Interface: 外部调用接口
+            FAQ and Bugs: FAQ和已知问题
+            First Guide: 入门
+            Home: 首页
+            Introduction: 简介
+            Operation: 基本操作
+            Options: 选项
+            Others: 其他
+            Shortcut Key: 快捷键
+            Song Track: 歌唱轨道
+            Talk Track: 语音轨道
+          site_name: CeVIO AI 用户指南（非官方译文）
+        - build: true
+          default: false
+          locale: en
           name: English
-          build: true
-          site_name: "CeVIO AI User Guide (Unofficial Translation)"
-      nav_translations:
-        zh:
-          Home: 首页
-          Introduction: 简介
-          First Guide: 入门
-          Operation: 基本操作
-          Talk Track: 语音轨道
-          Song Track: 歌唱轨道
-          Audio Track: 音频轨道
-          Options: 选项
-          Shortcut Key: 快捷键
-          External Interface: 外部调用接口
-          FAQ and Bugs: FAQ和已知问题
-          Others: 其他
+          site_name: CeVIO AI User Guide (Unofficial Translation)
+      reconfigure_material: true
+      reconfigure_search: true
   - search
   - glightbox
   - git-revision-date-localized:
