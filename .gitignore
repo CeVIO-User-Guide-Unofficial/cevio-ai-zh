@@ -1,3 +1,7 @@
 _site/
 _draft/
 .jekyll-cache/
+
+site/
+
+*.psd

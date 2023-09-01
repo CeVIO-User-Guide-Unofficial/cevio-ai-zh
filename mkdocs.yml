@@ -152,7 +152,7 @@ nav:
     - songtrack/song_06.md
     - songtrack/fileimport.md
   - Audio Track:
-    - audio/audio.md
+    - audio\audio.md
   - Options:
     - option/option.md
     - option/characterimage.md
