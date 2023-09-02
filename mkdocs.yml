@@ -1,6 +1,6 @@
 site_name: CeVIO AI 用户指南
 site_description: 非官方的 CeVIO AI 用户指南中文版翻译
-repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/cevio-ai-zh
 repo_name: CUGU/CeVIO-AI
 
 # Theme
@@ -36,10 +36,20 @@ theme:
         name: Switch to light mode
 
 extra:
+  alternate:
+    - name: English
+      link: https://en.ceviodoc.uk
+      lang: en
+    - name: 中文（简体）
+      link: /
+      lang: zh
   social:
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/CeVIO_st
       name: CeVIO on Twitter
+    - icon: material/web
+      link: https://cevio.jp/guide/cevio_ai/
+      name: Original Japanese version of this User Manual 
 
 # CSS
 extra_css:
@@ -58,7 +68,9 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.keys
+  - pymdownx.keys:
+      key_map:
+        mouse-wheel: "Mouse wheel"
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde
@@ -69,35 +81,6 @@ markdown_extensions:
       toc_depth: 6
 
 plugins:
-  - i18n:
-      docs_structure: folder
-      fallback_to_default: true
-      languages:
-        - build: true
-          default: true
-          locale: zh
-          name: 中文（简体）
-          nav_translations:
-            Audio Track: 音频轨道
-            External Interface: 外部调用接口
-            FAQ and Bugs: FAQ和已知问题
-            First Guide: 入门
-            Home: 首页
-            Introduction: 简介
-            Operation: 基本操作
-            Options: 选项
-            Others: 其他
-            Shortcut Key: 快捷键
-            Song Track: 歌唱轨道
-            Talk Track: 语音轨道
-          site_name: CeVIO AI 用户指南（非官方译文）
-        - build: true
-          default: false
-          locale: en
-          name: English
-          site_name: CeVIO AI User Guide (Unofficial Translation)
-      reconfigure_material: true
-      reconfigure_search: true
   - search
   - glightbox
   - git-revision-date-localized:
@@ -108,27 +91,27 @@ plugins:
 
 # Contents
 nav:
-  - Home: index.md
-  - Introduction:
+  - 首页: 
+    - index.md
     - intro/change-log.md
     - intro/change-log_website.md
     - intro/contact.md
     - intro/about.md
-  - First Guide:
+  - 入门:
     - firstguide/system_requirements.md
     - firstguide/install.md
     - firstguide/install_cn_patch.md
-  - Operation:
-    - operation/operation.md
+  - 基本操作:
+    - operation/index.md
     - operation/menu.md
     - operation/transport.md
     - operation/infopanel.md
     - operation/trackhead.md
     - operation/edittool.md
     - operation/adjusttool.md
-  - Talk Track:
+  - 语音轨道:
     - talktrack/tutorial_talk.md
-    - talktrack/talktrack.md
+    - talktrack/index.md
     - talktrack/talk_01.md
     - talktrack/longsentence.md
     - talktrack/talk_02.md
@@ -140,10 +123,10 @@ nav:
     - talktrack/phrasececlip.md
     - talktrack/search.md
     - talktrack/talk_04.md
-  - Song Track:
+  - 歌唱轨道:
     - songtrack/tutorial_song.md
+    - songtrack/index.md
     - songtrack/songtrack.md
-    - songtrack/songtrack_copy.md
     - songtrack/song_02.md
     - songtrack/song_04.md
     - songtrack/song_04_english.md
@@ -153,21 +136,21 @@ nav:
     - songtrack/song_07.md
     - songtrack/song_06.md
     - songtrack/fileimport.md
-  - Audio Track:
-    - audio\audio.md
-  - Options:
-    - option/option.md
+  - 音频轨道:
+    - audio/index.md
+  - 选项:
+    - option/index.md
     - option/characterimage.md
-  - Shortcut Key:
-    - shortcutkey/shortcutkey.md
-  - External Interface:
-    - interface/interface.md
+  - 快捷键:
+    - shortcutkey/index.md
+  - 外部调用接口:
+    - interface/index.md
     - interface/com.md
     - interface/dotnet.md
-  - FAQ and Bugs:
-    - faq/faq.md
+  - FAQ和已知问题:
+    - faq/index.md
     - faq/known_bugs.md
-  - Others:
+  - 其他:
     - others/voices_and_official_websites.md
     - others/third_party_websites.md
     - others/emotion_in_song_editor.md
