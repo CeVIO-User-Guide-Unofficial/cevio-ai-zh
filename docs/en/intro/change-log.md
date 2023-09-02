@@ -6,6 +6,66 @@ category: Change Log
 layout: post
 ---
 
+## 8.6
+
+------------------------------------------------------
+Aug.3,2023 Version 8.6.6.0
+------------------------------------------------------
+▼Song related changes
+・Fixed a bug in Alpha/Husky Details Adjustment Screen where the parameters of the selected range did not move up and down correctly.
+
+・Fixed a bug that the Key Signature was not drawn correctly when it changed twice in the score editing screen.
+
+▼Talk related changes
+・Updated to Talk Engine 6.3.2. No change in sound quality.
+
+▼Common to Songs and Talks
+・The design of the number font on the toolbar was changed.
+
+・Other minor changes.
+
+------------------------------------------------------
+July.21,2023 Version 8.6 Official Release (v8.6.1.0 - v8.6.5.0)
+------------------------------------------------------
+Version 8.6 includes the implementation of husky detail adjustment for a wider range of song expression and various improvements.
+
+▼Song related changes
+・Updated to Song Engine 6.3.2. No change in sound quality.
+
+・Husky's detailed adjustment is implemented. The adjustment screen can be displayed by clicking the "HUS" button.
+
+・"Export Audio File" is added to the right-click menu.
+
+・Symbols such as "@ Whisper" are indicated for each item of "Special Symbols" in the right-click menu.
+
+・"Anti-aliasing" is added to "View" in the right-click menu (only when the display magnification is 100%).
+
+・The jagged lines on the adjustment screen are now smoother when the display magnification is not 100%.
+
+・Removed "Listen" from the right-click menu.
+
+・The timing reference range is now specified when using the normal selection tool on the timing adjustment screen.
+　*The quantize and timing criteria can be switched by pressing Shift in other screens as well.
+　*Clicking and dragging in the timing display area at the bottom of the screen can also be used to select a range by note or phoneme.
+
+・When using a Selection Tool on the Timing Adjustment Screen, the [Alt] key can only be used to specify a free range.
+
+・When the background of the score editing screen is rainbow or pastel, the background of the adjustment screen should also change according to the key signature.
+
+・The guide cursor is now displayed in the selection tool on the adjustment screen as well.
+
+・When moving a note up or down, an automatic collective selection is now made only if there is a pitch adjustment within the range.
+
+・Changed the default setting for new projects of "Common Key Signature" to ON.
+
+▼Talk related changes
+・Shortcut key [F4] for "Audio Files per Each Line" is now supported.
+
+▼Other changes
+・The shortcut key [F1] to display the help is now supported.
+
+・Other minor improvements and bug fixes.
+      
 ------------------------------------------------------
 May.17,2023 Version 8.5 Official Release (8.5.2.0～8.5.4.0)
 ------------------------------------------------------
