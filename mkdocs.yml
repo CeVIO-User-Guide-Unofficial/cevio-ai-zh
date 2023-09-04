@@ -1,6 +1,6 @@
 site_name: CeVIO AI 用户指南
 site_description: 非官方的 CeVIO AI 用户指南中文版翻译
-repo_url: https://github.com/CeVIO-User-Guide-Unofficial/cevio-ai-zh
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
 repo_name: CUGU/CeVIO-AI
 
 # Theme
@@ -49,7 +49,7 @@ extra:
       name: CeVIO on Twitter
     - icon: material/web
       link: https://cevio.jp/guide/cevio_ai/
-      name: Original Japanese version of this User Manual 
+      name: 用户指南的原始日语版本
 
 # CSS
 extra_css:
