@@ -6,6 +6,13 @@ category: Change Log
 layout: post
 ---
 
+原文：
+
+- [CeVIO AI ユーザーズガイド 最新情報](https://cevio.jp/guide/cevio_ai/)
+- [CeVIO AIアップデート情報 ┃ CeVIO Official Site](https://cevio.jp/archives/category/news/cevio-ai-update/)
+
+---
+
 ## 8.6
 
 ### 2023/9/5 更新（版本号 8.6.10.0）
