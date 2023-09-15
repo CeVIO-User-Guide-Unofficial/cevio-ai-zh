@@ -31,17 +31,19 @@ span {
 
 .footer {
     background: --md-footer-bg-color;
+    padding: 0, 8px;
+    margin: 12px;
 }
 
 .footer .alt {
     overflow: hidden;
-    padding: 20px 0;
-    width: 1160px;
+    padding: auto;
+    width: auto;
     margin: auto;
 }
 
 .footer .alt .foot {
-    width: 250px;
+    width: 25%;
     float: left;
 }
 
