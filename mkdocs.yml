@@ -93,7 +93,7 @@ nav:
   - 首页: 
     - index.md
     - intro/change-log.md
-    - intro/change-log_website.md
+    - intro/change-log-website.md
     - intro/contact.md
     - intro/about.md
   - 入门:

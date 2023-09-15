@@ -6,12 +6,18 @@ category: Change Log
 layout: post
 ---
 
-## 2023.5.1
+## 2023.9.15
 
-- Material for MkDocs 更新到 9.1.8。
-- mkdocs-static-i18n 插件更新到 0.56。
-<!-- - 由于 mkdocs-static-i18n 的 bug 已修复，故将文档目录修改回 2022.6.7 的结构。
-    - > [Is folder based docs structure incompatible with static navigation? #168](https://github.com/ultrabug/mkdocs-static-i18n/issues/168) -->
+- 添加中文搜索支持。
+- 修改底部导航栏样式。
+- 添加了域名迁移的告示。
+
+## 2023.9.1
+
+- 现在该文档也同时托管在 Cloudflare 上。
+- 中文与英文文档分割到了不同的 GitHub 仓库中。
+- 启用新域名 <zh.ceviodoc.uk>。
+- 移除 mkdocs-static-i18n 插件。
 
 ## 2022.11.21
 
@@ -23,7 +29,6 @@ layout: post
 - 由于文件夹结构发生变化，所有页面的创建日期均发生了改变。
 - 添加了图片缩放功能。
     - 添加了 mkdocs-glightbox 插件。
-- Material for MkDocs 更新到 9.0.0b3。
 
 ## 2022.11.16
 
