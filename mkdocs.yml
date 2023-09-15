@@ -8,6 +8,7 @@ theme:
   custom_dir: overrides                  # This is where the customization of the theme lives
   name: material
   features:
+    - announce.dismiss
     - content.tooltips
     - content.code.annotate
     - content.code.copy
