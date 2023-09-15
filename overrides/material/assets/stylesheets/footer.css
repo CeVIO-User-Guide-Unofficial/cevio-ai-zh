@@ -1,0 +1,67 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+} */
+
+/* a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+div {
+    font-size: 12px;
+}
+
+span {
+    font-size: 12px;
+} */
+/*通用结束*/
+
+.footer {
+    background: --md-footer-bg-color;
+}
+
+.footer .alt {
+    overflow: hidden;
+    padding: 20px 0;
+    width: 1160px;
+    margin: auto;
+}
+
+.footer .alt .foot {
+    width: 200px;
+    float: left;
+}
+
+.footer .alt .foot p {
+    color: #FFF;
+    line-height: 20px;
+}
+
+.footer .alt .foot a {
+    color: #999;
+    display: block;
+    line-height: 24px;
+    padding-top: 0px;
+    font-size: 75%;
+}
+
+.footer .alt .foot a:hover {
+    color: hsla(309.2, 65.5%, 72.7%, 1);
+}
+
+.footer .alt .foot img {
+    padding-top: 0px;
+}
