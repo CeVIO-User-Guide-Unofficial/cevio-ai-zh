@@ -8,6 +8,8 @@ layout: post
 
 译自 CeVIO 官网。本网站的文章为非官方译文，仅供参考。限于译者日语水平，文本翻译难有错漏。若有发现还请指正。
 
+本网站不隶属于 Techno-Speech。
+
 CeVIO 操作页面的中文翻译来源于 [VOICeVIO/Ulysses 的汉化补丁](https://github.com/VOICeVIO/CeVIO.CN)。在此感谢。
 
 本网站托管于 GitHub，使用 [GitHub Pages](https://pages.github.com/) 和 Cloudflare 发布，使用的主题为 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)。
