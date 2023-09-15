@@ -86,8 +86,11 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
-  # - offline
-      # enabled: !ENV [OFFLINE, false]
+  - offline:
+      enabled: !ENV [OFFLINE, false]
+  #- privacy:
+  #    links_attr_map:
+  #      target: _blank
 
 # Contents
 nav:

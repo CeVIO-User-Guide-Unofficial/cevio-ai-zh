@@ -44,7 +44,7 @@ layout: post
 
 ### 简易 TIMING 显示
 
-可以确认、调整歌词的音素和发声时机画面。画面过于狭窄时，可以通过[选项](../../option/option)的「歌唱设定」将其隐藏。
+可以确认、调整歌词的音素和发声时机画面。画面过于狭窄时，可以通过[选项](../../option/index.md)的「歌唱设定」将其隐藏。
 
 ### 滚动条
 
@@ -190,7 +190,7 @@ layout: post
 
 切换编辑工具。
 
-[编辑工具](../../operation/edittool)
+[编辑工具](../../operation/edittool.md)
 
 ### 量化
 
@@ -198,7 +198,7 @@ layout: post
 
 变更量化。
 
-[量化是](../../operation/infopanel#音符量化)
+[量化是](../../operation/infopanel.md#音符量化)
 
 ### 参数调整
 

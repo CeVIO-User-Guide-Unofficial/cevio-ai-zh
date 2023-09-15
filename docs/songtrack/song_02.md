@@ -116,7 +116,7 @@ layout: post
 
 ![timing adjust](images/song_02_7.png)
 
-※画面过于狭窄时，关闭[选项](../../option/option)中的「歌唱设定」下的「在乐谱编辑页面调整时间（TMG）」可以将其隐藏。
+※画面过于狭窄时，关闭[选项](../../option/index.md)中的「歌唱设定」下的「在乐谱编辑页面调整时间（TMG）」可以将其隐藏。
 
 ### 简易 TIMING 调整
 
