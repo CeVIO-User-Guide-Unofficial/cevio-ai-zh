@@ -76,7 +76,8 @@ markdown_extensions:
       toc_depth: 6
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - glightbox
   - git-revision-date-localized:
       type: date
