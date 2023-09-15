@@ -79,7 +79,7 @@ layout: post
 - 歌唱引擎更新到 6.3.2。音质没有变化。
 - 实装沙哑度的详细调整。点击工具栏的「HUS」按钮即可显示调整界面。
 
-    ![huskydetail](images\V8.6_huskydetail.png)
+    ![huskydetail](images/V8.6_huskydetail.png)
 
     \* 可以在时间轴上微调沙哑度。向上或向下移动沙哑度滑块也会向上或向下移动详细调整值。
 
@@ -87,7 +87,7 @@ layout: post
 - 为右键菜单「特殊符号」的每个项目添加了诸如「@ Whisper」的描述。
 - 在右键菜单的「显示」中添加了「抗锯齿」（仅限缩放率设为 100% 时）。
 
-    ![anti aliasing](images\V8.6_anti_aliasing.png)
+    ![anti aliasing](images/V8.6_anti_aliasing.png)
 
     \* 当缩放率设为 100% 时，启用抗锯齿可以使钢琴窗口的渲染更加平滑。
 
@@ -104,7 +104,7 @@ layout: post
 
     \* 在屏幕底部的 TIMING 显示区域点击并拖动，也可用于以音符或音素选择范围。
 
-    ![timing selection](images\V8.6_timing_selection.png)
+    ![timing selection](images/V8.6_timing_selection.png)
 
     \* 利用这一特性，便可以轻松地按音素单位重置调整；或是在音量调整屏幕上，通过选择休止符区间来降低呼吸音的音量。
 
