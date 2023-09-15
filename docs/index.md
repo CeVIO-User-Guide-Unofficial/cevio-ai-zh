@@ -8,7 +8,13 @@ layout: home
 
 非官方的 CeVIO AI 用户指南中文版翻译。
 
-※「Talk」的译名正在讨论中。文档内暂定用词为「语音」。欢迎前往[讨论页](https://github.com./VOICeVIO/CeVIO.CN/issues/6)发表意见。
+CeVIO AI 是由 Techno-Speech 开发，利用 AI 技术，精准再现人的音色、习惯、歌唱风格、说话风格的新一代声音创作软件。
+
+---
+
+本网站为 CeVIO AI 用户指南的非官方译文，因为[官方手册](https://cevio.jp/guide/cevio_ai/)虽然详尽，但仅提供了日语版本。
+
+本网站不隶属于 Techno-Speech。
 
 ## 快捷键
 

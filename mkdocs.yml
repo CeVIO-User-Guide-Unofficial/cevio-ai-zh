@@ -5,9 +5,10 @@ repo_name: CUGU/CeVIO-AI
 
 # Theme
 theme:
-  custom_dir: 'overrides/material'                  # This is where the customization of the theme lives
+  custom_dir: overrides                  # This is where the customization of the theme lives
   name: material
   features:
+    - announce.dismiss
     - content.tooltips
     - content.code.annotate
     - content.code.copy
@@ -43,17 +44,11 @@ extra:
     - name: 中文（简体）
       link: /
       lang: zh
-  social:
-    - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/CeVIO_st
-      name: CeVIO on Twitter
-    - icon: material/web
-      link: https://cevio.jp/guide/cevio_ai/
-      name: 用户指南的原始日语版本
 
 # CSS
 extra_css:
-  - assets/stylesheets/extra.css
+  - material/assets/stylesheets/extra.css
+  - material/assets/stylesheets/footer.css
 
 # Extensions
 markdown_extensions:
@@ -81,7 +76,8 @@ markdown_extensions:
       toc_depth: 6
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - glightbox
   - git-revision-date-localized:
       type: date
@@ -97,7 +93,7 @@ nav:
   - 首页: 
     - index.md
     - intro/change-log.md
-    - intro/change-log_website.md
+    - intro/change-log-website.md
     - intro/contact.md
     - intro/about.md
   - 入门:
