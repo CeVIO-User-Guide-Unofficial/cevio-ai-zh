@@ -1,4 +1,3 @@
+![header](docs/intro/images/header_image_title.png)
 
-![header](docs/en/intro/images/header_image_title.png)
-
-An unofficial CeVIO AI User Manual English translation.
+非官方的CeVIO AI中文文档翻译。
