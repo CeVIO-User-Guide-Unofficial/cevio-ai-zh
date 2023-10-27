@@ -17,6 +17,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.footer
+    - toc.follow
   icon:
     logo: fontawesome/solid/book
     favicon: images/c-solid.png
