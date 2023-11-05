@@ -35,7 +35,7 @@ layout: post
 
 切换输入台词后，或调整状态 / 感情 / 音素图后的自动试听与否。
 
-如果勾选了[「音素图调整部分自动试听」](../../option/option/.md#partial-replay-with-phoneme-graph)选项，则音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。
+如果勾选了[「音素图调整部分自动试听」](../option/index.md/#partial-replay-with-phoneme-graph)选项，则音素图将从调整点的前一个停顿处（如标点符号）开始自动播放，直到遇到调整点的后一个停顿处。
 
 !!! tip "活用自动试听"
 
@@ -153,7 +153,7 @@ layout: post
 
 将所选行以 WAV 格式导出。
 
-\* 可以在[选项](../../option/index.md)中指定采样率和位深度。
+\* 可以在[选项](../option/index.md)中指定采样率和位深度。
 
 ### 插入台词片段
 

@@ -1,6 +1,6 @@
 site_name: CeVIO AI 用户指南
 site_description: 非官方的 CeVIO AI 用户指南中文版翻译
-repo_url: https://github.com/CeVIO-User-Guide-Unofficial/CeVIO-AI
+repo_url: https://github.com/CeVIO-User-Guide-Unofficial/cevio-ai-zh
 repo_name: CUGU/CeVIO-AI
 
 # Theme
@@ -61,12 +61,15 @@ markdown_extensions:
   - md_in_html
   - pymdownx.caret
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.keys:
       key_map:
-        mouse-wheel: "Mouse wheel"
+        mouse-wheel-up-down: "Mouse wheel ↕"
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde
@@ -93,10 +96,6 @@ plugins:
 nav:
   - 首页: 
     - index.md
-    - intro/change-log.md
-    - intro/change-log-website.md
-    - intro/contact.md
-    - intro/about.md
   - 入门:
     - firstguide/system_requirements.md
     - firstguide/install.md
@@ -151,8 +150,8 @@ nav:
     - faq/index.md
     - faq/known_bugs.md
   - 其他:
-    - others/voices_and_official_websites.md
-    - others/third_party_websites.md
-    - others/emotion_in_song_editor.md
+    - intro/change-log.md
+    - intro/change-log-website.md
+    - intro/contact.md
+    - intro/about.md
     - others/revised_license_agreement.md
-    - others/suzuki_tsudumi_song_contest_result.md

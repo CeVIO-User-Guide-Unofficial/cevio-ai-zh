@@ -44,7 +44,7 @@ layout: post
 
 ### 简易 TIMING 显示
 
-可以确认、调整歌词的音素和发声时机画面。画面过于狭窄时，可以通过[选项](../../option/index.md)的「歌唱设定」将其隐藏。
+可以确认、调整歌词的音素和发声时机画面。画面过于狭窄时，可以通过[选项](../option/index.md)的「歌唱设定」将其隐藏。
 
 ### 滚动条
 
@@ -72,7 +72,7 @@ layout: post
 
 可以为音符指定重音 / 断音 / 呼吸记号 / 连音开始 / 连音结束 / 假声。
 
-支持[特殊符号](../song_symbol)的歌手，可以通过「属性」的「特殊符号」输入特殊符号。
+支持[特殊符号](song_symbol.md)的歌手，可以通过「属性」的「特殊符号」输入特殊符号。
 
 ### 元音时间修正
 
@@ -190,7 +190,7 @@ layout: post
 
 切换编辑工具。
 
-[编辑工具](../../operation/edittool.md)
+[编辑工具](../operation/edittool.md)
 
 ### 量化
 
@@ -198,7 +198,7 @@ layout: post
 
 变更量化。
 
-[量化是](../../operation/infopanel.md#音符量化)
+[量化是](../operation/infopanel.md#quantize)
 
 ### 参数调整
 

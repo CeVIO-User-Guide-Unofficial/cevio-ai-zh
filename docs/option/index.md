@@ -44,7 +44,7 @@ layout: post
 
 修改各个角色的显示画像。可以用用户画像替换。
 
-[显示自定义图像](../characterimage)
+[显示自定义图像](characterimage.md)
 
 ![set character image](images/option_2.png)
 

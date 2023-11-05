@@ -92,7 +92,7 @@ layout: post
 
 在这里编辑音符的音量。
 
-※也可以通过[强弱记号](../songtrack)轻松调整音量。
+※也可以通过[强弱记号](songtrack.md/#dynamic-mark-setting)轻松调整音量。
 
 ![volume](images/song_07_8.png)
 
