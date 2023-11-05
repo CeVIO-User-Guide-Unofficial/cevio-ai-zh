@@ -69,7 +69,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys:
       key_map:
-        mouse-wheel-up-down: "Mouse wheel ↕"
+        mouse-wheel-up-down: "鼠标滚轮↕"
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde

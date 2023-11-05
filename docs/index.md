@@ -1,5 +1,5 @@
 ---
-title: 欢迎来到 CeVIO AI 用户指南中文版！
+title: 欢迎来到 CeVIO AI 用户指南！
 layout: home
 ---
 
