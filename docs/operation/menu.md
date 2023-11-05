@@ -67,7 +67,7 @@ layout: post
 
 将文本文件的台词导入语音轨道。
 
-[台词的导入](../../talktrack/talk.md_04)
+[台词的导入](../talktrack/talk_04.md)
 
 #### 从青空文库导入
 
@@ -93,7 +93,7 @@ layout: post
 
 将 MusicXML 文件导入歌曲轨道。
 
-[MIDI／MusicXML的导入](../../songtrack/fileimport.md)
+[MIDI／MusicXML的导入](../songtrack/fileimport.md)
 
 #### 导入音频文件
 
@@ -101,7 +101,7 @@ layout: post
 
 将外部音频文件加载到以当前光标位置为起点的音频轨道上。
 
-[关于音频文件的格式](../../audio/audio.md)
+[关于音频文件的格式](../audio/index.md)
 
 #### 导入音轨单位文件
 
@@ -137,7 +137,7 @@ layout: post
 
 ![menu](images/menu_2.png)
 
-\* 可以在[选项](../../option/index.md)中指定采样率和位深度。
+\* 可以在[选项](../option/index.md)中指定采样率和位深度。
 
 \* 如果在「详细」中关闭了「按音轨建立文件夹，按序号命名文件」，文件就不会被划分到文件夹中，文件名号就变成了所有轨道中所有行的序列号。
 
@@ -165,7 +165,7 @@ layout: post
 
 将所选歌唱轨道以 WAV 格式导出。
 
-\* 可以在[选项](../../option/index.md)中指定采样率和位深度。
+\* 可以在[选项](../option/index.md)中指定采样率和位深度。
 
 #### 导出MIDI
 
@@ -379,7 +379,7 @@ layout: post
 
 可以浏览已注册的单词，并对其进行编辑或删除。
 
-[注册单词与词典管理](../../talktrack/talk.md_06/)
+[注册单词与词典管理](../talktrack/talk_06.md)
 
 ### 浏览台词片段
 
@@ -387,7 +387,7 @@ layout: post
 
 可以浏览已注册的台词，并将其插入到选定的行中，或从列表中删除。
 
-[注册单词与词典管理](../../talktrack/phrasececlip/.md)
+[注册单词与词典管理](../talktrack/phrasececlip.md)
 
 ### 长段文本输入
 
@@ -401,7 +401,7 @@ layout: post
 
 通过关键词搜索台词。这在台词行数很多的时候很有用。
 
-[台词的搜索](../../talktrack/search/.md)
+[台词的搜索](../talktrack/search.md)
 
 ### 连续输入台词
 
@@ -491,7 +491,7 @@ layout: post
 
 切换编辑工具。
 
-[编辑工具](../edittool)
+[编辑工具](edittool.md)
 
 ### 量化
 
@@ -499,7 +499,7 @@ layout: post
 
 变更量化。
 
-[量化是](../infopanel#音符量化)
+[量化是](infopanel.md#quantize)
 
 ### 参数调整
 
@@ -509,7 +509,7 @@ layout: post
 
 也可以禁用所选音轨的颤音。
 
-[调整画面](../../songtrack/song_07/)
+[调整画面](../songtrack/song_07.md)
 
 ### 输入歌词
 
@@ -727,7 +727,7 @@ layout: post
 
 可以修改环境设置和语音 / 歌唱的各种设置，比如角色显示。
 
-[选项](../../option/index.md)
+[选项](../option/index.md)
 
 ## 帮助
 

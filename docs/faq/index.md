@@ -20,7 +20,7 @@ Q：我安装完软件了，但是没看到「CeVIO AI」。
 
 A：要使用本软件，除了声库外，您还需要安装和授权「CeVIO AI」软件本体。
 
-请按照[本页的指示](../../firstguide/install.md)安装和验证本软件。
+请按照[本页的指示](../firstguide/install.md)安装和验证本软件。
 
 ---
 

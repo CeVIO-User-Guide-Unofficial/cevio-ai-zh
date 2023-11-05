@@ -54,7 +54,7 @@ layout: post
 
 但是，受角色和音符音高（比如说音高偏低的音符）的影响，发出的声音可能不是假声。
 
-[其他特殊符号](../song_symbol)
+[其他特殊符号](song_symbol.md)
 
 ## 输入音素记号
 
@@ -92,6 +92,6 @@ layout: post
 
 ![English lyrics](images/song_04_5.png)
 
-[^1]:译者注：从 8.2.8.0 起，在不存在于面板上的音素中，日语声库中大写的日语元音字符 (`A` , `I` , `U` , `E` , `O`) 现作为特例正常播放。详见[更新日志](../../intro/change.md-log#2022512-8280)。
+[^1]:译者注：从 8.2.8.0 起，在不存在于面板上的音素中，日语声库中大写的日语元音字符 (`A` , `I` , `U` , `E` , `O`) 现作为特例正常播放。详见[更新日志](../intro/change-log.md#2022512-8280)。
 
 *[「自动分割英语歌词的音节」]:英語の歌詞を音節で自動分割 / Automatically split English lyrics with syllables
