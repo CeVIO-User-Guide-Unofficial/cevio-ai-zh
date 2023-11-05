@@ -94,8 +94,7 @@ plugins:
 
 # Contents
 nav:
-  - 首页: 
-    - index.md
+  - index.md
   - 入门:
     - firstguide/system_requirements.md
     - firstguide/install.md

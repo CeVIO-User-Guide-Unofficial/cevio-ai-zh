@@ -1,5 +1,5 @@
 ---
-title: 欢迎来到 CeVIO AI 用户指南！
+title: 首页
 layout: home
 ---
 
