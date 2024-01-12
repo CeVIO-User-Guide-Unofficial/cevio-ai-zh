@@ -509,7 +509,7 @@ layout: post
 
 也可以禁用所选音轨的颤音。
 
-[调整画面](../songtrack/song_07.md)
+[调整界面](../songtrack/song_07.md)
 
 ### 输入歌词
 
