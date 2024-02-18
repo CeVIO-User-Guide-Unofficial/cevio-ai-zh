@@ -8,8 +8,8 @@ layout: post
 
 ---
 
-![adjust tool](images/adjusttool_1.png#only-light)
-![adjust tool](images/adjusttool_1_dark.png#only-dark)
+![adjust tool](images/ope_04a_w.png#only-light)
+![adjust tool](images/ope_04a_w_dark.png#only-dark)
 
 切换歌唱轨道的调整模式。
 
@@ -17,7 +17,7 @@ layout: post
 
 （无法在语音轨道或音频轨道中使用。）
 
-![overlay item](images/adjusttool_2.png)
+![overlay item](images/st05_20.png)
 
 ### 乐谱编辑
 
@@ -45,22 +45,22 @@ layout: post
 
 \* 在音高调整界面以外，当叠加显示音高时，颤音影响后的音高也会一同显示。
 
-*\ 在音高调整界面内，当叠加显示颤音的振幅或周期时，颤音影响后的音高也会一同显示。
+*\ 在音高调整界面内，当叠加显示颤音时，颤音影响后的音高也会一同显示。
 
-### 颤音的振幅调整
+### 颤音调整
 
-*ビブラートの振幅調整 / Edit Vibrato Amplitude*
+*ビブラート調整 / Edit Vibrato*
 
-在这里调整颤音的振幅。
-
-### 颤音的周期调整
-
-*ビブラートの周期調整 / Edit Vibrato Frequency*
-
-在这里调整颤音的周期。
+在这里调整颤音的振幅（AMP）和周期（FRQ）。
 
 ### 音色的详细调整
 
 *声質の詳細調整 / Edit Alpha Detail*
 
 调整轨道内音色更细节的变化。
+
+### 沙哑度的详细调整
+
+*ハスキーの詳細調整 / Edit Husky Detail*
+
+调整轨道内沙哑度更细节的变化。

@@ -18,9 +18,11 @@ layout: post
 
 接下来将显示 MIDI 文件的音轨结构，选择要导入的音轨并按 OK 键。
 
-※最多可以加载八个音轨。
+\* 最多可以加载八个音轨。
 
-※如果勾选「曲速和拍子也一并读取」，在 MIDI 文件中设置的曲速和拍子将反映在所有歌唱轨道中。
+\* 如果勾选「曲速和拍子也一并读取」，在 MIDI 文件中设置的曲速和拍子将反映在所有歌唱轨道中。
+
+\* 如果「歌词的文字编码」设置为「ANSI (Shift-JIS)」时歌词变为了乱码，请选择「UTF-8」。
 
 ![import midi](images/fileimport_1.png)
 
@@ -65,4 +67,4 @@ layout: post
 
 !!! info "关于文字编码"
 
-    MIDI 文件可以用「Shift-JIS」读取/写入；MusicXML 文件可以用「UTF-8」读取/写入。
+    MIDI 文件支持以「Shift-JIS」和「UTF-8」读取，「Shift-JIS」导出；MusicXML 文件支持以「UTF-8」读取/导出。
