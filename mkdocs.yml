@@ -29,14 +29,17 @@ theme:
       primary: light blue
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: 切换到深色主题
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       primary: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
-
+        name: 跟随系统
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换到浅色主题
 extra:
   alternate:
     - name: English
