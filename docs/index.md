@@ -20,6 +20,10 @@ CeVIO AI 是由 Techno-Speech 开发，利用 AI 技术，精准再现人的音�
 
 桌面端用户可以使用顶部菜单进行导航；移动用户可以点击左上角的三条横杠（:fontawesome-solid-bars:）图标来打开导航菜单。
 
+## 其他
+
+[VoiSona 用户指南](https://voisona.ceviodoc.uk)
+
 ## 快捷键
 
 `全局`
